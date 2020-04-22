@@ -239,6 +239,27 @@ h3 {
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
+/* Icons & Logos */
+#disney-logo {
+	padding-bottom: 5px;
+}
+
+#warner-logo {
+	height: 5.5rem;
+	padding-bottom: 5px;
+}
+
+#adult-swim-logo {
+	height: 5rem;
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+
+#king-logo {
+	height: 5rem;
+	padding-bottom: 20px;
+}
+
 .callout {
 	padding: 15rem 0;
 	background: linear-gradient(
