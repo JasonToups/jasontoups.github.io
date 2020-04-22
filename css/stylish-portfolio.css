@@ -241,12 +241,12 @@ h3 {
 
 /* Icons & Logos */
 #disney-logo {
-	padding-bottom: 5px;
+	padding-bottom: 10px;
 }
 
 #warner-logo {
-	height: 5.5rem;
-	padding-bottom: 5px;
+	height: 6rem;
+	padding-bottom: 10px;
 }
 
 #adult-swim-logo {
@@ -256,8 +256,32 @@ h3 {
 }
 
 #king-logo {
-	height: 5rem;
-	padding-bottom: 20px;
+	height: 5.5rem;
+	padding-bottom: 25px;
+}
+
+#zynga-logo {
+	height: 5.5rem;
+	padding-bottom: 10px;
+	padding-right: 5px;
+	fill: #d81c22;
+}
+
+#kixeye-logo {
+	height: 5.5rem;
+	padding-bottom: 15px;
+	padding-right: 15px;
+}
+
+#chartboost-logo {
+	height: 7.5rem;
+	padding-bottom: 30px;
+	padding-left: 10px;
+}
+
+#big-fish-logo {
+	height: 4.75rem;
+	padding-bottom: 15px;
 }
 
 .callout {
