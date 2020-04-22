@@ -361,8 +361,9 @@ h3 {
 }
 
 .portfolio-item .caption .caption-content h2 {
-	font-size: 0.8rem;
+	font-size: 1rem;
 	text-transform: uppercase;
+	text-shadow: 1px 1px #343a40;
 }
 
 .portfolio-item .caption .caption-content p {
