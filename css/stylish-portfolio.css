@@ -240,6 +240,38 @@ h3 {
 }
 
 /* Icons & Logos */
+#css {
+	color: #42a5f5;
+}
+
+#js {
+	color: #ffca28;
+}
+
+#html {
+	color: #e44d26;
+}
+
+#python {
+	color: #3c78aa;
+}
+
+#node {
+	color: #8bc34a;
+}
+
+#mongo {
+	color: #3c8f3d;
+}
+
+#sql {
+	color: #a01b1f;
+}
+
+#google {
+	color: #397af2;
+}
+
 #disney-logo {
 	padding-bottom: 13px;
 }
