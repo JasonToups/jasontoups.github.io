@@ -4,6 +4,13 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+/* CSS Variables */
+:root {
+	--primary-color: #1d809f;
+	--primary-color-dark: #155d74;
+	--secondary-color: #ecb807;
+}
+
 body,
 html {
 	width: 100%;
@@ -51,7 +58,6 @@ h6 {
 
 #profile-pic {
 	border-radius: 20px;
-	box-shadow: 1px 1px #1b7595;
 	width: 300px;
 }
 
@@ -144,7 +150,7 @@ h3 {
 	height: 100%;
 	transition: all 0.4s ease 0s;
 	transform: translateX(250px);
-	background: #1d809f;
+	background: var(--primary-color);
 	border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -224,7 +230,7 @@ h3 {
 
 .service-icon {
 	background-color: #fff;
-	color: #1d809f;
+	color: var(--primary-color);
 	height: 7rem;
 	width: 7rem;
 	display: block;
@@ -330,42 +336,42 @@ footer.footer .social-link {
 	width: 4rem;
 	line-height: 4.3rem;
 	font-size: 1.5rem;
-	background-color: #1d809f;
+	background-color: var(--primary-color);
 	transition: background-color 0.15s ease-in-out;
 	box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 footer.footer .social-link:hover {
-	background-color: #155d74;
+	background-color: var(--primary-color-dark);
 	text-decoration: none;
 }
 
 a {
-	color: #1d809f;
+	color: var(--primary-color);
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: #155d74;
+	color: var(--primary-color-dark);
 }
 
 .btn-primary {
-	background-color: #1d809f !important;
-	border-color: #1d809f !important;
+	background-color: var(--primary-color) !important;
+	border-color: var(--primary-color) !important;
 	color: #fff !important;
 }
 
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background-color: #155d74 !important;
-	border-color: #155d74 !important;
+	background-color: var(--primary-color-dark) !important;
+	border-color: var(--primary-color-dark) !important;
 }
 
 .btn-secondary {
-	background-color: #ecb807 !important;
-	border-color: #ecb807 !important;
+	background-color: var(--secondary-color) !important;
+	border-color: var(--secondary-color) !important;
 	color: #fff !important;
 }
 
@@ -386,13 +392,13 @@ a:active {
 }
 
 .bg-primary {
-	background-color: #1d809f !important;
+	background-color: var(--primary-color) !important;
 }
 
 .text-primary {
-	color: #1d809f !important;
+	color: var(--primary-color) !important;
 }
 
 .text-secondary {
-	color: #ecb807 !important;
+	color: var(--secondary-color) !important;
 }
