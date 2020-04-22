@@ -49,6 +49,12 @@ h6 {
 	color: rgba(255, 255, 255, 0.7);
 }
 
+#profile-pic {
+	border-radius: 20px;
+	box-shadow: 1px 1px #1b7595;
+	width: 300px;
+}
+
 /* Map */
 .map {
 	height: 30rem;
