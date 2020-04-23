@@ -6,9 +6,10 @@
 
 /* CSS Variables */
 :root {
-	--primary-color: #1d809f;
-	--primary-color-dark: #155d74;
-	--secondary-color: #ecb807;
+	--primary-color: #8673ac;
+	--primary-color-dark: #65587f;
+	--secondary-color: #70ce79;
+	--portfolio-hover: rgba(123, 104, 162, 0.9);
 }
 
 body,
@@ -399,7 +400,7 @@ h3 {
 		clip-path: inset(2rem);
 	}
 	.portfolio-item:hover .caption {
-		background-color: rgba(29, 128, 159, 0.9);
+		background-color: var(--portfolio-hover);
 		-webkit-clip-path: inset(2rem);
 		clip-path: inset(2rem);
 	}
