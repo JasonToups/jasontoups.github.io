@@ -345,7 +345,7 @@ h3 {
 }
 
 .portfolio-item .caption {
-	display: flex;
+	display: inline;
 	height: 100%;
 	width: 100%;
 	background-color: rgba(33, 37, 41, 0.2);
@@ -353,6 +353,7 @@ h3 {
 	top: 0;
 	bottom: 0;
 	z-index: 1;
+	padding: 180px 40px 0px 40px;
 }
 
 .portfolio-item .caption .caption-content {
@@ -380,6 +381,7 @@ h3 {
 		-webkit-transition: -webkit-clip-path 0.25s ease-out, background-color 0.7s;
 		-webkit-clip-path: inset(0px);
 		clip-path: inset(0px);
+		padding: 140px 40px 0px 40px;
 	}
 	.portfolio-item .caption .caption-content {
 		transition: opacity 0.25s;
