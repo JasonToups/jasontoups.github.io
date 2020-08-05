@@ -26,7 +26,7 @@ Built with React, MongoDB, Express, Node & Semantic UI. This project was self-de
 
 ## **Crush it!!!**
 
-_Mobile Block Crushing Game_ built with Javascript/JQuery/HTML5, with only CSS assets.
+_Mobile Block Crushing Game_ built with Javascript, JQuery, HTML5, with only CSS assets.
 
 Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
 
@@ -78,7 +78,7 @@ Tested Chartboost SDKs for iOS, Android & Unity for release, and maintained the 
 
 Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.
 
-- **Wrote mobile automation test scripts** in _Javascript_ with the _Monkeytalk_ platform.
+- **Wrote mobile automation test scripts** in _Javascript_ with the _Monkeytalk_ framework.
 - **Managed** testing responsibilities for internal and external testing teams.
 - **Standardized** Feature Progress Reporting and Feature Progress JIRA dashboards across the Quality team.
 - **Reported** testing and game feature progress to Product team and stakeholders.
