@@ -6,14 +6,27 @@ Thanks for visiting my portfolio. I’m a Full Stack Software Engineer, with 15 
 
 # PROJECTS
 
-**HUOA** - _Volunteer project for the Hawaii United Okinawa Association_. We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress backend. Currently working on the Container and Row component for layout.
+## **HUOA**
+
+_Volunteer project for the Hawaii United Okinawa Association_.
+We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress backend. Currently working on the Container and Row component for layout.
 
 - Original Site - [https://huoa.org/]
 - Github - [https://github.com/Hawaian-United-Okinawa-Association]
-  **Werk** - _Follow, Tip & Hire your favorite Drag Queens_, on Werk! Built with React, MongoDB, Express, Node & Semantic UI. This project was self-designed & engineered. It taught me the full-stack by improving my React skills & database planning.
+
+## **Werk**
+
+_Follow, Tip & Hire your favorite Drag Queens_, on Werk!
+Built with React, MongoDB, Express, Node & Semantic UI. This project was self-designed & engineered. It taught me the full-stack by improving my React skills & database planning.
+
 - View here - [https://jasontoups.github.io/werk/]
 - Github - [https://github.com/JasonToups/werk]
-  **Crush it!!!** - _Mobile Block Crushing Game_ built with Javascript/JQuery/HTML5, with only CSS assets. Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
+
+## **Crush it!!!**
+
+_Mobile Block Crushing Game_ built with Javascript/JQuery/HTML5, with only CSS assets.
+Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
+
 - Play here - [https://jasontoups.github.io/CrushIt-BlockCrusherGame/]
 - Github - [https://github.com/JasonToups/CrushIt-BlockCrusherGame]
 - Storyboard - [https://github.com/JasonToups/CrushIt-BlockCrusherGame/blob/master/design/CrushIt-Storyboard.pdf]
