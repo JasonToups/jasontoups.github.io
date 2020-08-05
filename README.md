@@ -9,6 +9,7 @@ Thanks for visiting my portfolio. I’m a Full Stack Software Engineer, with 15 
 ## **HUOA**
 
 _Volunteer project for the Hawaii United Okinawa Association_.
+
 We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress backend. Currently working on the Container and Row component for layout.
 
 - Original Site - [https://huoa.org/]
@@ -17,6 +18,7 @@ We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress b
 ## **Werk**
 
 _Follow, Tip & Hire your favorite Drag Queens_, on Werk!
+
 Built with React, MongoDB, Express, Node & Semantic UI. This project was self-designed & engineered. It taught me the full-stack by improving my React skills & database planning.
 
 - View here - [https://jasontoups.github.io/werk/]
@@ -25,6 +27,7 @@ Built with React, MongoDB, Express, Node & Semantic UI. This project was self-de
 ## **Crush it!!!**
 
 _Mobile Block Crushing Game_ built with Javascript/JQuery/HTML5, with only CSS assets.
+
 Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
 
 - Play here - [https://jasontoups.github.io/CrushIt-BlockCrusherGame/]
@@ -75,7 +78,7 @@ Tested Chartboost SDKs for iOS, Android & Unity for release, and maintained the 
 
 Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.
 
-- **Wrote mobile automation testing scripts in Javascript** with the _Monkeytalk_ platform.
+- **Wrote mobile automation test scripts** in _Javascript_ with the _Monkeytalk_ platform.
 - **Managed** testing responsibilities for internal and external testing teams.
 - **Standardized** Feature Progress Reporting and Feature Progress JIRA dashboards across the Quality team.
 - **Reported** testing and game feature progress to Product team and stakeholders.
