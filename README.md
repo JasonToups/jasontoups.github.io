@@ -1,68 +1,99 @@
-# [Start Bootstrap - Stylish Portfolio](https://startbootstrap.com/template-overviews/stylish-portfolio/)
+# Portfolio Readme
 
-[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.
+# Welcome
 
-## Preview
+Thanks for visiting my portfolio. I’m a Full Stack Software Engineer, with 15 years of software production experience; 4 years in Javascript, 12 years in QA, and 3 years in UI/UX Design. I’ve tested 47 SDKs on Unity, iOS & Android, and over 30 apps on the iOS App Store.
+[Email] | [LinkedIn] | [GitHub] | [Portfolio]
 
-[![Stylish Portfolio Preview](https://startbootstrap.com/assets/img/screenshots/themes/stylish-portfolio.png)](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)
+# PROJECTS
 
-**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/)**
+**HUOA** - _Volunteer project for the Hawaii United Okinawa Association_. We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress backend. Currently working on the Container and Row component for layout.
 
-## Status
+- Original Site - [https://huoa.org/]
+- Github - [https://github.com/Hawaian-United-Okinawa-Association]
+  **Werk** - _Follow, Tip & Hire your favorite Drag Queens_, on Werk! Built with React, MongoDB, Express, Node & Semantic UI. This project was self-designed & engineered. It taught me the full-stack by improving my React skills & database planning.
+- View here - [https://jasontoups.github.io/werk/]
+- Github - [https://github.com/JasonToups/werk]
+  **Crush it!!!** - _Mobile Block Crushing Game_ built with Javascript/JQuery/HTML5, with only CSS assets. Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
+- Play here - [https://jasontoups.github.io/CrushIt-BlockCrusherGame/]
+- Github - [https://github.com/JasonToups/CrushIt-BlockCrusherGame]
+- Storyboard - [https://github.com/JasonToups/CrushIt-BlockCrusherGame/blob/master/design/CrushIt-Storyboard.pdf]
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-stylish-portfolio/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-stylish-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-stylish-portfolio)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-stylish-portfolio?type=dev)
+# Skills
 
-## Download and Installation
+## Languages & Frameworks
 
-To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/stylish-portfolio/)
-* Install via npm: `npm i startbootstrap-stylish-portfolio`
-* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git`
-* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio)
+React | Javascript | JSX | HTML 5 | CSS3 | Python | JQuery | Bootstrap | MongoDB | Node | Express | Appium | Selenium
 
-## Usage
+## Methodologies
 
-### Basic Usage
+Charles Proxy Texting | Version-Controlled Development  | User Stories | Wireframing | Storyboarding | React Component Charts | Game Design | UI/UX Design | Responsive Design | A/B Testing
 
-After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+## Operations & Design
 
-### Advanced Usage
+Agile Development/Scrum Master | JIRA | Sketch | Zeplin | Adobe Creative Suite
 
-After installation, run `npm install` and then run `npm start` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+# Experience
 
-#### Gulp Tasks
+## Lifestreet: San Francisco / Sr. Product Designer : Sept 2017 - November 2019
 
-- `gulp` the default task that builds everything
-- `gulp watch` browserSync opens the project in your default browser and live reloads when changes are made
-- `gulp css` compiles SCSS files into CSS and minifies the compiled CSS
-- `gulp js` minifies the themes JS file
-- `gulp vendor` copies dependencies from node_modules to the vendor directory
+Designed mobile marketing materials for the engineering, creative, and marketing teams.
 
-You must have npm installed globally in order to use this build environment.
+- **Engineered** HTML playable ads in Javascript, with Adobe Animate for clients.
+- **Created** Sketch to Zeplin playable ad production workflow, to design mockups and storyboards for ad approval, and CSS for engineers.
+- **Upgraded** client assets with self-designed elements, that were approved by advertisers including Disney, Warner Brothers & King, for their Frozen, Harry Potter, and Candy Crush IPs.
 
-## Bugs and Issues
+## Chartboost: San Francisco / Product Designer : Feb 2017 - Aug 2017
 
-Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/stylish-portfolio/).
+Produced playable ads, while coordinating the production in JIRA, spanning three global regions, four outsourced development studios, and a team of internal engineers.
 
-## About
+- **Designed** UI/UX storyboards for free-to-play playable ads in Sketch, to send to advertisers for approval and engineering to build the ads.
+- **Scaled** the production of playables 170% in the first 2 months.
+- **Iterated** existing ads with A/B testing, tracked and reported design impact to all stakeholders through weekly  performance reports.
 
-Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+## Chartboost: San Francisco / Sr. Quality Assurance Lead : May 2015 - Jan 2017
 
-* https://startbootstrap.com
-* https://twitter.com/SBootstrap
+Tested Chartboost SDKs for iOS, Android & Unity for release, and maintained the release deployment scripts.
 
-Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+- **Wrote automation test scripts** in _Python_, using _PyTest_ and _Selenium_ with the _Appium_ framework.
+- **Ran & Maintained** _build scripts_ to _create release builds_, with _Jenkins_.
+- **Tested** _all features_ going into the SDKs, using _Charles Proxy_ testing to inject responses from the server to the SDK.
 
-* http://davidmiller.io
-* https://twitter.com/davidmillerskt
-* https://github.com/davidtmiller
+## Kixeye: San Francisco / Mobile Quality Assurance Lead: Feb 2016 - Jan 2015
 
-Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.
 
-## Copyright and License
+- **Wrote mobile automation testing scripts in Javascript** with the _Monkeytalk_ platform.
+- **Managed** testing responsibilities for internal and external testing teams.
+- **Standardized** Feature Progress Reporting and Feature Progress JIRA dashboards across the Quality team.
+- **Reported** testing and game feature progress to Product team and stakeholders.
 
-Copyright 2013-2019 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/gh-pages/LICENSE) license.
+## Turner Broadcasting - Adult Swim: Atlanta / Quality Assurance Lead: Jul 2009 - Jun 2012
+
+Wrote test suites for production & release of Mobile games for Facebook Games, iTunes App Store, Android Marketplace and Adult Swim Games page.
+
+- **Managed** outsourced quality testers and the prioritization of bugs in the production pipeline.
+- **Provided** creative direction feedback to a network of outsourced independent game developers by refining user experience and clarifying the core gameplay loops for Mobile and Web-based Games.
+- **Compiled** business metrics and community feedback in ongoing Mobile Analytic Reports from our titles on the iTunes and Android app store, as well as the sales and trends in iTunes Connect.
+
+## Turner Broadcasting - GameTap: Atlanta / Associate Content Producer Jan 2007 - Mar 2009
+
+Managed content production of daily promotional assets from creation to completion.
+
+- **Developed** Project Briefs detailing requirements for Editorial, Design, and Video teams.
+- **Aligned** promotional projects to the master production schedule, and coordinated them with the Marketing team.
+- **Produced** six 'What will you do today?' on-air ads for GameTap, which aired on Adult Swim.
+- **Scheduled** and produced 'Prize Arcade' daily programming including leaderboard tournaments, trivia, community events.
+- **Maintained** a daily schedule of the content, requested promotional assets, and programmed them into the GameTap Content Management System.\*\*
+
+## Turner Broadcasting - GameTap: Atlanta / Quality Assurance Analyst
+
+Deep tested video games in the GameTap client to assure proper functionality, including the GameTap Original Sam & Max Season 1: Episodes 1-4 and the Myst MMO, URU.
+
+- Provided detailed report on game issues and errors through quality control tools such as Test Director
+- Tracked the progress of error resolution through the Technology team until they had been fixed
+
+# Education
+
+- **General Assembly**: San Francisco - Full Stack Software Engineering Immersive
+- **University of New Orleans** : New Orleans - Bachelor of Arts: Philosophy
