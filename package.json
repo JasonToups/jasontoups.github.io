@@ -1,6 +1,6 @@
 {
-    "title": "Stylish Portfolio",
-    "name": "startbootstrap-stylish-portfolio",
+    "title": "Jason Toups Portfolio",
+    "name": "Jason Toups Portfolio",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"

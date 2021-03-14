@@ -1,6 +1,6 @@
 # Welcome
 
-Thanks for visiting my portfolio. I’m a Full Stack Software Engineer, with 15 years of software production experience; 4 years in Javascript, 12 years in QA, and 3 years in UI/UX Design. I’ve tested 47 SDKs on Unity, iOS & Android, and over 30 apps on the iOS App Store.
+Thanks for visiting my portfolio. I’m a Software Engineer, with 15 years of software production experience; 4 years in Javascript, 12 years in QA, and 3 years in UI/UX Design. I’ve tested 47 SDKs on Unity, iOS & Android, and over 30 apps on the iOS App Store.
 
 [Email](mailto:me@jasontoups.com) | [LinkedIn](https://www.linkedin.com/in/jasontoups/) | [GitHub](https://github.com/JasonToups) | [Portfolio](https://jasontoups.github.io/)
 
@@ -110,5 +110,4 @@ Deep tested video games in the GameTap client to assure proper functionality, in
 
 # Education
 
-- **General Assembly**: San Francisco - Full Stack Software Engineering Immersive
 - **University of New Orleans** : New Orleans - Bachelor of Arts: Philosophy
