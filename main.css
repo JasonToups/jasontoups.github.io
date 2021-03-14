@@ -1,0 +1,60 @@
+.profile-pic-custom {
+  max-width: 300px;
+}
+
+.tech-stack--section {
+  width: 100%;
+}
+
+.tech-stack--container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  max-width: 900px;
+  margin: auto;
+}
+
+.tech-stack--container-item {
+  width: 100%;
+  max-width: 200px;
+}
+
+#disney-logo {
+  width: 100%;
+}
+
+#warner-logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+#adult-swim-logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+#king-logo {
+  width: 95px;
+  margin-bottom: 20px;
+}
+
+#zynga-logo {
+  width: 70px;
+  margin-bottom: 10px;
+}
+
+#kixeye-logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
+
+#chartboost-logo {
+  width: 90px;
+  margin-bottom: 25px;
+}
+
+#big-fish-logo {
+  width: 80px;
+  margin-bottom: 15px;
+}
