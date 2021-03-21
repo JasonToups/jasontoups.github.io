@@ -33,6 +33,7 @@
         "bootstrap": "4.3.1",
         "jquery": "3.4.1",
         "jquery.easing": "^1.4.1",
+        "reload-css": "^1.0.2",
         "simple-line-icons": "^2.4.1"
     },
     "devDependencies": {

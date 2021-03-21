@@ -3,7 +3,7 @@
 }
 
 #portfolio-hr {
-  width: 50%;
+  width: 70%;
   border-top: 2px solid #bfbfbf;
 }
 
@@ -11,11 +11,11 @@
   width: 100%;
 }
 
-.professional-experience--section {
+.engineering-experience--section {
 
 }
 
-.professional-experience--container {
+.engineering-experience--container {
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
@@ -23,28 +23,28 @@
 }
 
 @media (max-width: 992px) {
-  .professional-experience--container {
+  .engineering-experience--container {
     flex-direction: column;
   }
 }
 
-.professional-experience--image-container {
+.engineering-experience--image-container {
   /* flex-grow: 1; */
   width: 40%;
   /* margin: 2rem; */
 }
 
 @media (max-width: 992px) {
-  .professional-experience--image-container {
+  .engineering-experience--image-container {
     width: 100%;
   }
 }
 
-.professional-experience--image {
+.engineering-experience--image {
   width: 100%;
 }
 
-.professional-experience--description {
+.engineering-experience--description {
   /* flex-grow: 1; */
   width: 60%;
   margin: 0 2rem;
@@ -55,10 +55,20 @@
 }
 
 @media (max-width: 992px) {
-  .professional-experience--description {
+  .engineering-experience--description {
     width: 100%;
     margin: 2rem 0;
   }
+}
+
+.storyboards--section {
+
+}
+
+
+.storyboards--container {
+  display: flex;
+  flex-direction: row;
 }
 
 .tech-stack--container {
