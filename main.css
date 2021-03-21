@@ -2,8 +2,63 @@
   max-width: 300px;
 }
 
+#portfolio-hr {
+  width: 50%;
+  border-top: 2px solid #bfbfbf;
+}
+
 .tech-stack--section {
   width: 100%;
+}
+
+.professional-experience--section {
+
+}
+
+.professional-experience--container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 992px) {
+  .professional-experience--container {
+    flex-direction: column;
+  }
+}
+
+.professional-experience--image-container {
+  /* flex-grow: 1; */
+  width: 40%;
+  /* margin: 2rem; */
+}
+
+@media (max-width: 992px) {
+  .professional-experience--image-container {
+    width: 100%;
+  }
+}
+
+.professional-experience--image {
+  width: 100%;
+}
+
+.professional-experience--description {
+  /* flex-grow: 1; */
+  width: 60%;
+  margin: 0 2rem;
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 992px) {
+  .professional-experience--description {
+    width: 100%;
+    margin: 2rem 0;
+  }
 }
 
 .tech-stack--container {
