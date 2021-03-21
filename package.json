@@ -1,6 +1,6 @@
 {
     "title": "Jason Toups Portfolio",
-    "name": "Jason Toups Portfolio",
+    "name": "jason-toups-portfolio",
     "version": "5.0.7",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
