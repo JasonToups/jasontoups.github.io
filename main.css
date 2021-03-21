@@ -62,14 +62,28 @@
 }
 
 .storyboards--section {
-
+  text-align: center;
 }
 
 
 .storyboards--container {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
+
+.storyboard--image-container {
+  width: 33.33%;
+}
+
+.storyboard--image {
+  width: 100%;
+}
+
+.storyboard--title {
+  text-align: center;
+}
+
 
 .tech-stack--container {
   display: flex;
