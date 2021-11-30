@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faJs, faHtml5, faSass, faNodeJs, faEnvira, faNode } from '@fortawesome/free-brands-svg-icons';
+import { faReact, faJs, faHtml5, faSass, faNodeJs, faEnvira } from '@fortawesome/free-brands-svg-icons';
 import React from 'react';
 
 const Tech = () => {
