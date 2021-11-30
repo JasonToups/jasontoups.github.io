@@ -4,12 +4,12 @@ import Logo from '../img/name/logo-jason-toups.svg'
 const Header = () => {
 
 	return (
-		<div className='header'>
+		<div className='header flex-container .flex-direction-column'>
       <div className='content-container'>
         <img className="header-logo" alt="jason toups logo" src={Logo} />
-        <p>
+        <h1>
           software engineer
-        </p>
+        </h1>
       </div>
 		</div>
 	);
