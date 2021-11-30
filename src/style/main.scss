@@ -1,4 +1,9 @@
+$root-background-color: $color-secondary;
 $header-background-color: $light-yellow;
+$about-background-color: $alice-blue;
+$tech-background-color: $carolina-blue;
+$tech-h1-color: $light-yellow;
+$tech-h2-color: $white;
 
 * {
   margin: 0;
@@ -28,9 +33,13 @@ p {
   font-size: $font-size-p;
 }
 
+section {
+  padding: 60px;
+}
+
 #root {
   height: 100vmax;
-  background-color: $color-secondary;
+  background-color: $root-background-color;
   font-family: $font-primary;
 }
 
@@ -45,12 +54,12 @@ p {
 
 #portfolio-hr {
   width: 70%;
-  border-top: 2px solid #bfbfbf;
+  border-top: $border-grey;
 }
 
 .flex-container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   text-align: center;
   align-self: center;
   justify-self: center;
@@ -83,65 +92,68 @@ p {
   }
 }
 
+
 .about {
   padding: 60px;
-  background-color: aliceblue;
+  background-color: $about-background-color;
   .content-container {
     img {
       width: 20vw;
-      margin: 20px;
+      margin: 0 20px;
     }
     .description {
       width: 40vw;
-      margin: 20px;
+      margin: 0 20px;
       h2 {
-        margin: 15px;
+        margin: 0 15px 15px 15px;
       }
       p {
         font-weight: 300;
       }
     }
   }
-
 }
 
-
-
-.hero {
-  h1 {
-
+.tech {
+  background-color: $tech-background-color;
+  .heading {
+    margin: 0 0 20px 0;
+    h1 {
+      color: $tech-h1-color;
+    }
+    h2 {
+      color: $tech-h2-color;
+      font-weight: 100;
+    }
   }
-  h3 {
-
-  }
-}
-
-.overlay {
-
-}
-
-.about-me {
-  .content-container {
-    .row {
+  .tech-items--container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    .tech-item {
+      align-items: center;
       display: flex;
-      flex-wrap: wrap;
-      img {
-
+      flex-direction: column;
+      width: 7rem;
+      margin: 10px;
+      .service-icon {
+        background-color: $white;
+        color: $tech-background-color;
+        height: 7rem;
+        width: 7rem;
+        display: block;
+        line-height: 7.5rem;
+        font-size: 2.25rem;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin: 0 0 10px 0;
       }
-      .description {
-        h2 {
-
-        }
-        p {
-
-        }
+      p {
+        font-weight: 400;
       }
     }
   }
-}
-
-.tech-stack {
-
 }
 
 .tech-stack--section {
@@ -176,6 +188,8 @@ p {
     }
   }
 }
+
+
 
 .engineering-experience--section {
 
