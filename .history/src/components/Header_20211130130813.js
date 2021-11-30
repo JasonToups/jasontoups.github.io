@@ -1,0 +1,19 @@
+import React from 'react';
+import Logo from '../img/name/logo-jason-toups.svg'
+
+const Header = () => {
+
+	return (
+		<div className='header'>
+      <img className="header-logo" alt="jason toups logo" src={Logo} />
+      <h3 className="mb-5">
+        <em
+          >Software Developer<br />
+          with over 15 years of software production experience.</em
+        >
+      </h3>
+		</div>
+	);
+};
+
+export default Header;
