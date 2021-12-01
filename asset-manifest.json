@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b1bccdf.chunk.css",
+    "main.js": "/static/js/main.7314ba58.chunk.js",
+    "main.js.map": "/static/js/main.7314ba58.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e77caf66.js.map",
+    "static/js/2.7d68c7ce.chunk.js": "/static/js/2.7d68c7ce.chunk.js",
+    "static/js/2.7d68c7ce.chunk.js.map": "/static/js/2.7d68c7ce.chunk.js.map",
+    "static/js/3.675f0040.chunk.js": "/static/js/3.675f0040.chunk.js",
+    "static/js/3.675f0040.chunk.js.map": "/static/js/3.675f0040.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.5b1bccdf.chunk.css.map": "/static/css/main.5b1bccdf.chunk.css.map",
+    "static/js/2.7d68c7ce.chunk.js.LICENSE.txt": "/static/js/2.7d68c7ce.chunk.js.LICENSE.txt",
+    "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
+    "static/media/experience-huoa.cccc966a.jpg": "/static/media/experience-huoa.cccc966a.jpg",
+    "static/media/experience-newlywords.61b9eb60.jpg": "/static/media/experience-newlywords.61b9eb60.jpg",
+    "static/media/foreverhomes-logo.cd2ce58e.svg": "/static/media/foreverhomes-logo.cd2ce58e.svg",
+    "static/media/geotask-logo.ba50ed02.svg": "/static/media/geotask-logo.ba50ed02.svg",
+    "static/media/logo-jason-toups.2239984a.svg": "/static/media/logo-jason-toups.2239984a.svg",
+    "static/media/profile-pic-jason-toups.ec9f7d17.png": "/static/media/profile-pic-jason-toups.ec9f7d17.png",
+    "static/media/rick-and-morty-portfolio.cd559434.png": "/static/media/rick-and-morty-portfolio.cd559434.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e77caf66.js",
+    "static/js/2.7d68c7ce.chunk.js",
+    "static/css/main.5b1bccdf.chunk.css",
+    "static/js/main.7314ba58.chunk.js"
+  ]
+}
