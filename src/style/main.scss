@@ -297,8 +297,10 @@ section {
 }
 
 .projects {
+  display: flex;
+  flex-direction: column;
   .heading {
-    
+    font-weight: bold
   }
   .projects-container {
     .project-1 {
@@ -315,38 +317,47 @@ section {
     }
 
     .project {
-        max-width: 500px;
-        min-height: 400px;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        align-self: center;
-        justify-self: center;
-        justify-content: space-evenly;
-        align-content: center;
-        flex-direction: column;
-        border-radius: $border-radius;
-        margin: 0 20px 40px 20px;
-        text-decoration: none;
+      max-width: 400px;
+      width: 100%;
+      min-height: 400px;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      align-self: center;
+      justify-self: center;
+      justify-content: space-evenly;
+      align-content: center;
+      flex-direction: column;
+      border-radius: $border-radius;
+      margin: 0 20px 40px 20px;
+      text-decoration: none;
 
-        @include respond-to($breakpoint-small) {
+      @include respond-to($breakpoint-medium) {
+        width: 90%;
+        max-width: 90%;
+      }
+
+      .project-image-container {
+        max-width: 300px;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        @include respond-to($breakpoint-medium) {
           width: 100%;
           max-width: 100%;
         }
-        
-        .project-image-container {
-          max-width: 300px;
-          width: 100%;
-          height: 200px;
-          display: flex;
 
-          img {
-          max-width: 300px;
+        img {
+        max-width: 300px;
+        width: 100%;
+        max-height: 150px;
+        margin: auto;
+        @include respond-to($breakpoint-medium) {
           width: 100%;
-          max-height: 150px;
-          margin: auto;
+          max-width: 80%;
         }
+      }
 
       }
       .project-description {

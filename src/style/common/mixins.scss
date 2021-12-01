@@ -29,3 +29,35 @@
     }
   }
 }
+
+@mixin respond-under($breakpoint) {
+  @if $breakpoint == "xx-small" {
+    @media (min-width: $xx-small) {
+      @content;
+    }
+  } @else if $breakpoint == "x-small" {
+    @media (min-width: $x-small) {
+      @content;
+    }
+  } @else if $breakpoint == "small" {
+    @media (min-width: $small) {
+      @content;
+    }
+  } @else if $breakpoint == "medium" {
+    @media (min-width: $medium) {
+      @content;
+    }
+  } @else if $breakpoint == "large" {
+    @media (min-width: $large) {
+      @content;
+    }
+  } @else if $breakpoint == "x-large" {
+    @media (min-width: $x-large) {
+      @content;
+    }
+  } @else if $breakpoint == "xx-large" {
+    @media (min-width: $xs-large) {
+      @content;
+    }
+  }
+}
