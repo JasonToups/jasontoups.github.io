@@ -100,7 +100,7 @@ section {
     img {
       width: 20vw;
       margin: 0 20px;
-      border-radius: 20px;
+      border-radius: $border-radius;
       box-shadow: $box-shadow;
     }
     .description {
@@ -214,13 +214,12 @@ section {
   .experience-cards--container {
     width: 100%;
     
-    $experience-card-border-radius: 15px;
     .experience-card {
       padding: 20px;
       margin: 20px 0;
       width: 100%;
       background-color: $white;
-      border-radius: $experience-card-border-radius;
+      border-radius: $border-radius;
       box-shadow: $box-shadow;
     
       @include respond-to($breakpoint-large) {
@@ -236,7 +235,7 @@ section {
         
         .experience-card--image {
           width: 100%;
-          border-radius: $experience-card-border-radius;
+          border-radius: $border-radius;
           box-shadow: $box-shadow-light;
         }
       }
