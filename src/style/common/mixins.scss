@@ -2,29 +2,50 @@
   @if $breakpoint == "xx-small" {
     @media (max-width: $xx-small) {
       @content;
+    };
+    @media (max-device-width: $xx-small) {
+      @content;
     }
   } @else if $breakpoint == "x-small" {
     @media (max-width: $x-small) {
+      @content;
+    };
+    @media (max-device-width: $x-small) {
       @content;
     }
   } @else if $breakpoint == "small" {
     @media (max-width: $small) {
       @content;
+    };
+    @media (max-device-width: $small) {
+      @content;
     }
   } @else if $breakpoint == "medium" {
     @media (max-width: $medium) {
+      @content;
+    };
+    @media (max-device-width: $medium) {
       @content;
     }
   } @else if $breakpoint == "large" {
     @media (max-width: $large) {
       @content;
+    };
+    @media (max-device-width: $large) {
+      @content;
     }
   } @else if $breakpoint == "x-large" {
-    @media (max-width: $x-large) {
+    @media (max-width: $x-large){
+      @content;
+    };
+    @media (max-device-width: $x-large){
       @content;
     }
   } @else if $breakpoint == "xx-large" {
-    @media (max-width: $xs-large) {
+    @media (max-width: $xx-large) {
+      @content;
+    };
+    @media (max-device-width: $xx-large){
       @content;
     }
   }
