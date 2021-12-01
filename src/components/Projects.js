@@ -20,13 +20,14 @@ const Projects = () => {
         > 
           <div className="project-image-container">
             <img
-            className="img-fluid"
+            className="project-image"
             src={RickAndMorty}
             alt="rick and morty database"
             />
           </div>
           <span className="project-description">
-            <h2>Rick & Morty Characteropedia</h2>
+            <h2>Rick & Morty</h2>
+            <h3>Database</h3>
             <p>
               This site uses the Rick and Morty API to render a database of characters, locations and episodes. 
             </p>
@@ -38,11 +39,13 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         > 
-          <img
-            className="img-fluid"
-            src={CrushIt}
-            alt="crush it game"
-          />
+          <div className="project-image-container">
+            <img
+              className="project-image"
+              src={CrushIt}
+              alt="crush it game"
+            />
+          </div>
           <span className="project-description">
             <span className="caption-content">
               <h2>Crush It!!!</h2>
@@ -58,12 +61,14 @@ const Projects = () => {
           href="https://forever-homes-app.herokuapp.com/"
           target="_blank"
           rel="noreferrer"
-        > 
-          <img
-            className="img-fluid"
-            src={ForeverHomes}
-            alt="forever homes project"
-          />
+        >
+          <div className="project-image-container"> 
+            <img
+              className="project-image"
+              src={ForeverHomes}
+              alt="forever homes project"
+            />
+          </div>
           <span className="project-description">
             <span className="caption-content">
               <h2>Forever Homes</h2>
@@ -80,11 +85,13 @@ const Projects = () => {
           target="_blank"
           rel="noreferrer"
         >
-          <img
-            className="img-fluid"
-            src={GeoTask}
-            alt="geotask project"
-          />   
+          <div className="project-image-container">
+            <img
+              className="project-image"
+              src={GeoTask}
+              alt="geotask project"
+            />   
+          </div>
           <span className="project-description">
             <span className="caption-content">
               <h2>Geotask</h2>

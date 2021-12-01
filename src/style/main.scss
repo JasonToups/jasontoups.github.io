@@ -21,15 +21,24 @@ $project-4-background-color: $color-base-3;
 
 h1 {
   font-size: $font-size-h1;
+  @include respond-to($breakpoint-small) {
+    font-size: $font-size-h2;
+  }
 }
 
 h2 {
   font-size: $font-size-h2;
   font-family: $font-secondary;
+  @include respond-to($breakpoint-small) {
+    font-size: $font-size-h3;
+  }
 }
 
 h3 {
   font-size: $font-size-h3;
+  @include respond-to($breakpoint-small) {
+    font-size: $font-size-h4;
+  }
 }
 
 h4 {
@@ -41,7 +50,11 @@ p {
 }
 
 section {
-  padding: 0 60px 60px 60px;
+  padding: 30px 60px 60px 60px;
+  @include respond-to($breakpoint-small) {
+    padding: 30px 10px 60px 10px;
+
+  }
 }
 
 #root {
@@ -71,6 +84,9 @@ section {
 
 .flex-direction-row {
   flex-direction: row;
+  @include respond-to ($breakpoint-small) {
+    flex-direction: column;
+  }
 }
 
 .flex-container {
@@ -108,10 +124,14 @@ section {
 }
 
 .about {
-  padding: 60px;
+  // padding: 60px;
   background-color: $about-background-color;
   .content-container {
     justify-content: center;
+    @include respond-to($breakpoint-small) {
+      align-content: center;
+      align-items: center;
+    }
 
     img {
       width: 20vw;
@@ -271,10 +291,11 @@ section {
     }
 
     .project {
-        width: 500px;
-        height: 400px;
+        max-width: 500px;
+        width: 100%;
+        min-height: 400px;
+        height: 100%;
         display: flex;
-        flex-wrap: wrap;
         align-items: center;
         text-align: center;
         align-self: center;
@@ -287,12 +308,15 @@ section {
         text-decoration: none;
         
         .project-image-container {
-          width: 300px;
+          max-width: 300px;
+          width: 100%;
           height: 200px;
           display: flex;
 
           img {
+          max-width: 300px;
           width: 100%;
+          max-height: 150px;
           margin: auto;
         }
 
@@ -309,13 +333,13 @@ section {
   height: 20rem;
   padding: 0;
   background-color: $light-green;
+  margin-bottom: 60px;
   .heading {
     color: $color-base-5;
   }
 }
 
 .contact {
-  margin-top: 85px;
   background-color: lightblue;
   padding: 5rem 0;
   .contact-items-container {
