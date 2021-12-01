@@ -1,6 +1,16 @@
 // Colors
 $white: #ffffff;
 
+// colors from Affinity Designer
+$golden-yellow: #FFC300;
+$bright-purple: #7539FC;
+$dark-purple: #6B4F8C;
+$bright-blue: #0288FE;
+$dark-blue: #002C51;
+$electric-red: #FA3565;
+$bright-green: #01C381;
+
+// general colors
 $light-yellow: #F2F0AA;
 
 $alice-blue: #f0f8ff;
@@ -18,13 +28,16 @@ $color-purple-light-2: #e6e6fa;
 $shadow-black: #22242626;
 
 // Color Scheme
-$color-primary: $react-blue;
-$color-secondary: $light-blue; 
-$color-tertiary: $carolina-blue; 
-$color-quaternary: $dark-blue;
+$color-base-1: $bright-green;
+$color-base-2: $bright-purple; 
+$color-base-3: $dark-purple; 
+$color-base-4: $bright-blue;
+$color-base-5: $dark-blue;
+$color-base-6: $electric-red;
+$color-base-7: $light-yellow;
 
 // Shadows & Borders
-$box-shadow: 0 .0625rem .125rem 0 $color-tertiary;
-$border-light: 1px solid $color-primary;
-$border-dark: 2px solid $color-tertiary;
-$border-grey: 2px solid $color-quaternary;
+$box-shadow: 0 .0625rem .125rem 0 $color-base-3;
+$border-light: 1px solid $color-base-1;
+$border-dark: 2px solid $color-base-3;
+$border-grey: 2px solid $color-base-4;
