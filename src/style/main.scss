@@ -51,9 +51,11 @@ p {
 
 section {
   padding: 30px 60px 60px 60px;
-  @include respond-to($breakpoint-small) {
+  @include respond-to($breakpoint-medium) {
     padding: 30px 10px 60px 10px;
-
+  }
+  @include respond-to($breakpoint-x-small) {
+    padding: 30px 5px 60px 5px;
   }
 }
 
