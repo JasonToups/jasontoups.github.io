@@ -109,13 +109,21 @@ section {
   background-color: $header-background-color;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   align-items: center;
   text-align: center;
+  padding: 10px;
+
   .content-container {
     margin: 60px 30px;
+    width: 100%;
+
     .header-logo {
       width: 65vw;
       margin: 0 0 10px 0;
+      @include respond-to($breakpoint-small) {
+        width: 100%;
+      }
     }
     h1 {
       font-weight: 100;
@@ -124,10 +132,10 @@ section {
 }
 
 .about {
-  // padding: 60px;
   background-color: $about-background-color;
   .content-container {
     justify-content: center;
+
     @include respond-to($breakpoint-small) {
       align-content: center;
       align-items: center;
@@ -138,10 +146,19 @@ section {
       margin: 0 20px;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
+
+      @include respond-to($breakpoint-small) {
+        width: 50vw;
+      }
     }
     .description {
       width: 40vw;
       margin: 0 20px;
+
+      @include respond-to($breakpoint-small) {
+        width: 100%;
+      }
+
       h2 {
         margin: 0 15px 15px 15px;
       }
@@ -168,6 +185,13 @@ section {
     }
   }
   .tech-items--container {
+    margin: auto;
+    @include respond-to($breakpoint-large) {
+      width: 65vw;
+    }
+    @include respond-to($breakpoint-x-small) {
+      width: 100%;
+    }
 
     .tech-item {
       align-items: center;
@@ -292,7 +316,6 @@ section {
 
     .project {
         max-width: 500px;
-        width: 100%;
         min-height: 400px;
         height: 100%;
         display: flex;
