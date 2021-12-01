@@ -334,6 +334,7 @@ section {
       text-decoration: none;
 
       @include respond-to($breakpoint-medium) {
+        // BUG - Mobile touch-enabled devices, this media query doesn't work. Seen on Safari & Chrome Mobile. Need to research fixes.
         width: 90%;
         max-width: 90%;
       }
