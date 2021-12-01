@@ -1,3 +1,4 @@
+// Variables
 $root-background-color: $color-base-2;
 $header-background-color: $light-yellow;
 $about-background-color: $alice-blue;
@@ -5,6 +6,12 @@ $tech-background-color: $carolina-blue;
 $tech-h1-color: $light-yellow;
 $tech-h2-color: $white;
 
+$project-1-background-color: $color-base-1;
+$project-2-background-color: $color-base-2;
+$project-3-background-color: $color-base-4;
+$project-4-background-color: $color-base-3;
+
+// Globals
 * {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -57,6 +64,14 @@ section {
   margin: 10px auto;
 }
 
+.flex-direction-column {
+  flex-direction: column;
+}
+
+.flex-direction-row {
+  flex-direction: row;
+}
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
@@ -64,15 +79,7 @@ section {
   text-align: center;
   align-self: center;
   justify-self: center;
-  justify-content: center;
-}
-
-.flex-direction-column {
-  flex-direction: column;
-}
-
-.flex-direction-row {
-  flex-direction: row;
+  justify-content: space-around;
 }
 
 .header {
@@ -93,11 +100,18 @@ section {
   }
 }
 
+.heading {
+  text-align: center;
+  margin: 0 0 30px 0;
+}
 
+//  Pages
 .about {
   padding: 60px;
   background-color: $about-background-color;
   .content-container {
+    justify-content: center;
+
     img {
       width: 20vw;
       margin: 0 20px;
@@ -122,21 +136,17 @@ section {
   text-align: center;
 
   .heading {
-    margin: 0 0 20px 0;
 
     h1 {
       color: $tech-h1-color;
     }
-    h2 {
+    p {
       color: $tech-h2-color;
       font-weight: 100;
+      font-size: 30px;
     }
   }
   .tech-items--container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: flex-start;
 
     .tech-item {
       align-items: center;
@@ -168,8 +178,6 @@ section {
   background-color: $sky-blue;
 
   .heading {
-    text-align: center;
-    margin: 0 0 25px 0;
 
     h2 {
       color: $black;
@@ -184,6 +192,7 @@ section {
       margin: 20px 0;
       width: 100%;
       background-color: $white;
+      justify-content: space-between;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
     
@@ -243,12 +252,53 @@ section {
 
 .projects {
   .heading {
-    text-align: center;
+    
   }
   .projects-container {
+    .project-1 {
+      background-color: $project-1-background-color;
+    }
+    .project-2 {
+      background-color: $project-2-background-color;  
+    }
+    .project-3 {
+      background-color: $project-3-background-color;  
+    }
+    .project-4 {
+      background-color: $project-4-background-color;  
+    }
 
     .project {
+        width: 500px;
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column;
+        border-radius: $border-radius;
+        margin: 0 20px 40px 20px;
+        text-decoration: none;
+        
+        .project-image-container {
+          width: 300px;
+          height: 200px;
+          display: flex;
 
+          img {
+          width: 100%;
+          margin: auto;
+        }
+
+      }
+      .project-description {
+        color: $white;
+        margin: 0 20px 30px 20px;
+      }
     }
   }
 }

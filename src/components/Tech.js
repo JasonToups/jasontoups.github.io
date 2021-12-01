@@ -8,9 +8,9 @@ const Tech = () => {
 		<section className='tech'>
       <div className="heading">
         <h1>Tech Stack</h1>
-        <h2>I work with these technologies:</h2>
+        <p>I work with these technologies:</p>
       </div>
-      <div className="tech-items--container">
+      <div className="tech-items--container flex-container">
         <div className="tech-item">
           <span className="service-icon">
             <FontAwesomeIcon icon={faReact} />
