@@ -329,6 +329,11 @@ section {
         border-radius: $border-radius;
         margin: 0 20px 40px 20px;
         text-decoration: none;
+
+        @include respond-to($breakpoint-small) {
+          width: 100%;
+          max-width: 100%;
+        }
         
         .project-image-container {
           max-width: 300px;
