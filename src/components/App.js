@@ -4,7 +4,7 @@ import About from './About';
 import Contact from './Contact';
 import Experience from './Experience';
 import Header from './Header';
-import Production from './Production';
+import Map from './Map';
 import Projects from './Projects';
 import Tech from './Tech';
 
@@ -17,7 +17,7 @@ const App = () => {
       <Tech />
       <Experience />
       <Projects />
-      <Production />
+      <Map />
 			<Contact />
 		</div>
 	);
