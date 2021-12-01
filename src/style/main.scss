@@ -7,10 +7,9 @@ $tech-h2-color: $white;
 
 * {
   margin: 0;
-  -webkit-box-sizing: inherit;
-  box-sizing: inherit;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
   font-size: 16px;
-  text-align: center;
 }
 
 h1 {
@@ -55,6 +54,7 @@ section {
 #portfolio-hr {
   width: 70%;
   border-top: $border-grey;
+  margin: 10px auto;
 }
 
 .flex-container {
@@ -101,6 +101,7 @@ section {
       width: 20vw;
       margin: 0 20px;
       border-radius: 20px;
+      box-shadow: $box-shadow;
     }
     .description {
       width: 40vw;
@@ -117,8 +118,11 @@ section {
 
 .tech {
   background-color: $tech-background-color;
+  text-align: center;
+
   .heading {
     margin: 0 0 20px 0;
+
     h1 {
       color: $tech-h1-color;
     }
@@ -132,12 +136,14 @@ section {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: flex-start;
+
     .tech-item {
       align-items: center;
       display: flex;
       flex-direction: column;
       width: 7rem;
       margin: 10px;
+
       .service-icon {
         background-color: $white;
         color: $tech-background-color;
@@ -146,7 +152,7 @@ section {
         display: block;
         line-height: 7.5rem;
         font-size: 2.25rem;
-        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: $box-shadow;
         border-radius: 50%;
         margin: 0 0 10px 0;
       }
@@ -159,6 +165,7 @@ section {
 
 .tech-stack--section {
   width: 100%;
+
   .content-section-heading {
     h1 {
 
@@ -192,121 +199,84 @@ section {
 
 
 
-.engineering-experience--section {
+.experience {
+  background-color: $sky-blue;
 
-}
+  .heading {
+    text-align: center;
+    margin: 0 0 25px 0;
 
-.engineering-experience--container {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 2rem;
-  width: 100%;
-}
-
-@media (max-width: 992px) {
-  .engineering-experience--container {
-    flex-direction: column;
+    h2 {
+      color: $black;
+    }
   }
-}
 
-.engineering-experience--image-container {
-  /* flex-grow: 1; */
-  width: 40%;
-  /* margin: 2rem; */
-}
-
-@media (max-width: 992px) {
-  .engineering-experience--image-container {
+  .experience-cards--container {
     width: 100%;
-  }
-}
+    
+    $experience-card-border-radius: 15px;
+    .experience-card {
+      padding: 20px;
+      margin: 20px 0;
+      width: 100%;
+      background-color: $white;
+      border-radius: $experience-card-border-radius;
+      box-shadow: $box-shadow;
+    
+      @include respond-to($breakpoint-large) {
+        flex-direction: column;
+      }
 
-.engineering-experience--image {
-  width: 100%;
-}
+      .experience-card--image-container {
+        width: 40%;
+      
+        @include respond-to($breakpoint-large) {
+          width: 100%;
+        }
+        
+        .experience-card--image {
+          width: 100%;
+          border-radius: $experience-card-border-radius;
+          box-shadow: $box-shadow-light;
+        }
+      }
+      
+      .experience-card--description {
+        text-align: left;
+        width: 60%;
+        margin: 0 2rem;
+      
+        @include respond-to($breakpoint-large) {
+          width: 100%;
+          margin: 2rem 0;
+        }
 
-.engineering-experience--description {
-  /* flex-grow: 1; */
-  width: 60%;
-  margin: 0 2rem;
-
-  p {
-    font-size: 1.5em;
-  }
-}
-
-@media (max-width: 992px) {
-  .engineering-experience--description {
-    width: 100%;
-    margin: 2rem 0;
-  }
-}
-
-.storyboards--section {
-  text-align: center;
-}
-
-
-.storyboards--container {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-
-.storyboard--image-card {
-  width: 33.33%;
-  margin: 0 2rem;
-  display: flex;
-  flex-direction: column;
-}
-
-.storyboard--image-container {
-  a {
-    img {
-
+        h3 {
+          color: $color-base-5;
+          font-weight: 400;
+          margin: 0 0 15px 0;
+        }
+        p {
+          margin: 0 0 15px 0;
+        }
+      }
+    }
+    .experience-card::after {
+      z-index: -1;
+      display: block;
+      position: absolute;
+      content: ' ';
+      -webkit-filter: url('#blur');
+      filter: url('#blur');
+      -webkit-filter: blur(5px);
+      filter: blur(5px);
+      background-size: cover;
+      opacity: 0.75;
+      background-color: $white;
     }
   }
 }
 
-.storyboard--image {
-  border-radius: 2rem;
-  margin-bottom: 1rem;
-  width: 100%;
-}
-
-.storyboard--title {
-  font-size: 1.5em;
-  font-weight: 500;
-  text-align: center;
-}
-
-@media (max-width: 992px) {
-  .storyboards--container {
-    flex-direction: column;
-  }
-  
-  .storyboard--image-card {
-    flex-direction: row;
-    margin: 0;
-    width: 100%;
-  }
-
-  .storyboard--image-container {
-    flex-shrink: 0;
-    width: 30%;
-  }
-
-  .storyboard--image {
-    
-  }
-
-  .storyboard--title {
-    align-self: center;
-    flex-shrink: 1;
-    margin-left: 2rem;
-    text-align: left;
-  }
-}
 
 .recent-projects--section {
   .content-section-heading {

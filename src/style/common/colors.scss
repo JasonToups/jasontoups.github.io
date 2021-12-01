@@ -1,5 +1,6 @@
 // Colors
 $white: #ffffff;
+$black: #000000;
 
 // colors from Affinity Designer
 $golden-yellow: #FFC300;
@@ -38,6 +39,9 @@ $color-base-7: $light-yellow;
 
 // Shadows & Borders
 $box-shadow: 0 .0625rem .125rem 0 $color-base-3;
+$box-shadow-light: 0 .0625rem .125rem 0 $color-base-3;
+$box-shadow-dark: 0 .0625rem .125rem 0 $color-base-3;
+
 $border-light: 1px solid $color-base-1;
 $border-dark: 2px solid $color-base-3;
 $border-grey: 2px solid $color-base-4;
