@@ -59,6 +59,7 @@ section {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
   text-align: center;
   align-self: center;
@@ -163,42 +164,6 @@ section {
   }
 }
 
-.tech-stack--section {
-  width: 100%;
-
-  .content-section-heading {
-    h1 {
-
-    }
-    h2 {
-
-    }
-  }
-  .tech-stack--container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  .tech-stack--container-item {
-    width: 100%;
-    max-width: 200px;
-    span {
-      i {
-  
-      }
-    }
-    h4 {
-
-    }
-  }
-}
-
-
-
 .experience {
   background-color: $sky-blue;
 
@@ -242,7 +207,7 @@ section {
       
       .experience-card--description {
         text-align: left;
-        width: 60%;
+        width: 50%;
         margin: 0 2rem;
       
         @include respond-to($breakpoint-large) {
@@ -276,6 +241,17 @@ section {
   }
 }
 
+.projects {
+  .heading {
+    text-align: center;
+  }
+  .projects-container {
+
+    .project {
+
+    }
+  }
+}
 
 .recent-projects--section {
   .content-section-heading {

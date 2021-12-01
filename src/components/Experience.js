@@ -5,7 +5,7 @@ import Huoa from '../img/experience/experience-huoa.jpg';
 const Experience = () => {
 
 	return (
-    <section className="experience" id="portfolio">
+    <section className="experience" id="experience">
       <div className="heading">
         <h2>Engineering Experience</h2>
       </div>
