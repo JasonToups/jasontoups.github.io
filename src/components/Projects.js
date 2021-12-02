@@ -9,7 +9,7 @@ const Projects = () => {
 	return (
 		<section className='projects' id="projects">
       <header className="header">
-        <h2>{"[ My Apps ]"}</h2>
+        <h2>{"[My Apps]"}</h2>
       </header>
       <div className="projects-container">
         <a

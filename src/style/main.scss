@@ -243,15 +243,20 @@ section {
       border-radius: $border-radius;
       box-shadow: $box-shadow;
     
-      @include respond-to($breakpoint-large) {
+      @include respond-to($breakpoint-medium) {
         flex-direction: column;
       }
 
       .experience-card--image-container {
-        width: 40%;
+        width: 45%;
       
-        @include respond-to($breakpoint-large) {
+        @include respond-to($breakpoint-medium) {
+          width: 60%;
+          margin: auto;
+        }
+        @include respond-to($breakpoint-x-small) {
           width: 100%;
+          margin: auto;
         }
         
         .experience-card--image {
@@ -264,9 +269,9 @@ section {
       .experience-card--description {
         text-align: left;
         width: 50%;
-        margin: 0 2rem;
+        margin: 0;
       
-        @include respond-to($breakpoint-large) {
+        @include respond-to($breakpoint-medium) {
           width: 100%;
           margin: 2rem 0;
         }
