@@ -62,7 +62,7 @@ section {
     padding: 30px 25px 60px 20px;
   }
   @include respond-to($breakpoint-x-small) {
-    padding: 30px 10px 30px 10px;
+    padding: 30px 50px;
   }
 }
 
@@ -233,10 +233,9 @@ section {
 .experience {
   background-color: $experience-background-color;
   background-image: $simple-background;
-  background-repeat: repeat;
-  background-size: 100%;
-  background-position: center;
-  background-blend-mode: saturation;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
 
   header {
 
@@ -321,11 +320,10 @@ section {
   display: flex;
   flex-direction: column;
   background-color: $projects-background-color;
-  background-image: url(../img/svg/groups/spotch-pattern.svg);
-  background-repeat: repeat;
-  background-size: 100%;
-  background-position: center;
-  background-blend-mode: saturation;
+  background-image: $splotch-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: soft-light;
   .heading {
     font-weight: bold
   }
@@ -369,7 +367,6 @@ section {
       text-decoration: none;
 
       @include respond-to($breakpoint-medium) {
-        // BUG - Mobile touch-enabled devices, this media query doesn't work. Seen on Safari & Chrome Mobile. Need to research fixes.
         width: 90%;
         max-width: 90%;
       }
