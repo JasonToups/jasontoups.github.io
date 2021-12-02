@@ -3,6 +3,7 @@ import RickAndMorty from '../img/projects/logo-RickAndMorty.svg';
 import CrushIt from '../img/projects/crush-it-logo.svg';
 import ForeverHomes from '../img/projects/foreverhomes-logo.svg';
 import ReactTube from '../img/projects/reacttube-logo.svg';
+import ReactUnsplash from '../img/projects/reactunsplash-logo.svg';
 
 const Projects = () => {
 
@@ -29,30 +30,29 @@ const Projects = () => {
             <span className="caption-content">
               <h2>ReactTube</h2>
               <p>
-              This application is built in React to search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.
+              Search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.
               </p>
             </span>
           </span>
         </a>
         <a
           className="project project-2"
-          href="https://forever-homes-app.herokuapp.com/"
+          href="https://jasontoups.github.io/Unsplash-React-Hooks/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="project-image-container"> 
             <img
               className="project-image"
-              src={ForeverHomes}
-              alt="forever homes project"
+              src={ReactUnsplash}
+              alt="React Unsplash App"
             />
           </div>
           <span className="project-description">
             <span className="caption-content">
-              <h2>Forever Homes</h2>
+              <h2>React Unsplash</h2>
               <p>
-                Adopt pets in an Instagram-style image feed, utilizing the
-                Petfinder API, Bootstrap, Django, SQL & Python.
+              Search the Unsplash API and return a list of images, utilizing Primitive Hooks & Custom Hooks to fetch data.
               </p>
             </span>
           </span>
