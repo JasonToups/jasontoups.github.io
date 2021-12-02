@@ -2,6 +2,8 @@
 $header-background-color: $light-yellow;
 $about-background-color: $alice-blue;
 $tech-background-color: $carolina-blue;
+$experience-background-color: $light-yellow;
+$projects-background-color: $sky-blue;
 $tech-h1-color: $light-yellow;
 $tech-h2-color: $white;
 
@@ -173,6 +175,11 @@ section {
 .tech {
   background-color: $tech-background-color;
   text-align: center;
+  background-image: $outlines-background;
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: saturation;
 
   header {
 
@@ -221,7 +228,12 @@ section {
 }
 
 .experience {
-  background-color: $sky-blue;
+  background-color: $experience-background-color;
+  background-image: $simple-background;
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: overlay;
 
   header {
 
@@ -305,6 +317,12 @@ section {
 .projects {
   display: flex;
   flex-direction: column;
+  background-color: $projects-background-color;
+  background-image: url(../img/svg/groups/spotch-pattern.svg);
+  background-repeat: repeat;
+  background-size: 100%;
+  background-position: center;
+  background-blend-mode: saturation;
   .heading {
     font-weight: bold
   }
@@ -394,6 +412,11 @@ section {
 
 .contact {
   background-color: lightblue;
+  background-image: url(../img/svg/groups/splash-all.svg);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: center;
+  background-blend-mode: soft-light;
   padding: 5rem 0;
   .contact-items-container {
     justify-content: center;
@@ -419,41 +442,43 @@ section {
 }
 
 // Logos
-#disney-logo {
-  width: 100%;
-}
+.production-logos {
+  #disney-logo {
+    width: 100%;
+  }
 
-#warner-logo {
-  width: 70px;
-  margin-bottom: 10px;
-}
+  #warner-logo {
+    width: 70px;
+    margin-bottom: 10px;
+  }
 
-#adult-swim-logo {
-  width: 80px;
-  margin-bottom: 15px;
-}
+  #adult-swim-logo {
+    width: 80px;
+    margin-bottom: 15px;
+  }
 
-#king-logo {
-  width: 95px;
-  margin-bottom: 20px;
-}
+  #king-logo {
+    width: 95px;
+    margin-bottom: 20px;
+  }
 
-#zynga-logo {
-  width: 70px;
-  margin-bottom: 10px;
-}
+  #zynga-logo {
+    width: 70px;
+    margin-bottom: 10px;
+  }
 
-#kixeye-logo {
-  width: 80px;
-  margin-bottom: 15px;
-}
+  #kixeye-logo {
+    width: 80px;
+    margin-bottom: 15px;
+  }
 
-#chartboost-logo {
-  width: 90px;
-  margin-bottom: 25px;
-}
+  #chartboost-logo {
+    width: 90px;
+    margin-bottom: 25px;
+  }
 
-#big-fish-logo {
-  width: 80px;
-  margin-bottom: 15px;
+  #big-fish-logo {
+    width: 80px;
+    margin-bottom: 15px;
+  }
 }
