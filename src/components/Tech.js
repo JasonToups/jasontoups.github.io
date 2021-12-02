@@ -6,10 +6,10 @@ const Tech = () => {
 
 	return (
 		<section className='tech'>
-      <div className="heading">
+      <header className="header">
         <h2>Tech Stack</h2>
         <p>I work with these technologies:</p>
-      </div>
+      </header>
       <div className="tech-items--container flex-container">
         <div className="tech-item">
           <span className="service-icon">
@@ -29,18 +29,18 @@ const Tech = () => {
         </div>
         <div className="tech-item">
           <span className="service-icon">
-            <FontAwesomeIcon icon={faHtml5} />
+            <FontAwesomeIcon icon={faSass} />
           </span>
           <p>
-            HTML 5
+            Sass & Mixins
           </p>
         </div>
         <div className="tech-item">
           <span className="service-icon">
-            <FontAwesomeIcon icon={faSass} />
+            <FontAwesomeIcon icon={faHtml5} />
           </span>
           <p>
-            CSS 3
+            HTML 5
           </p>
         </div>
         <div className="tech-item">

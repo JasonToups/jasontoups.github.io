@@ -8,10 +8,10 @@ const Projects = () => {
 
 	return (
 		<section className='projects' id="projects">
-      <div className="heading">
-        <h2>My Apps</h2>
-      </div>
-      <div className="projects-container flex-container flex-direction-row">
+      <header className="header">
+        <h2>{"[ My Apps ]"}</h2>
+      </header>
+      <div className="projects-container">
         <a
           className="project project-1"
           href="https://jasontoups.github.io/rick-and-morty/"

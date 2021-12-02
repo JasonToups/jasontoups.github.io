@@ -6,9 +6,9 @@ const Experience = () => {
 
 	return (
     <section className="experience" id="experience">
-      <div className="heading">
-        <h2>Engineering Experience</h2>
-      </div>
+      <header className="header">
+        <h2>{"{ Engineering Experience }"}</h2>
+      </header>
       <div className="experience-cards--container flex-container flex-direction-column" id="engineering-experience">
         <div className="experience-card flex-container flex-direction-row">
           <div className="experience-card--image-container">

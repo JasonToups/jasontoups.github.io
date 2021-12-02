@@ -1,5 +1,4 @@
 // Variables
-$root-background-color: $color-base-2;
 $header-background-color: $light-yellow;
 $about-background-color: $alice-blue;
 $tech-background-color: $carolina-blue;
@@ -17,6 +16,11 @@ $project-4-background-color: $color-base-3;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-size: 16px;
+}
+
+#root {
+  height: 100vmax;
+  font-family: $font-primary;
 }
 
 h1 {
@@ -47,22 +51,22 @@ h4 {
 
 p {
   font-size: $font-size-p;
+  line-height: 1.5em;
 }
 
 section {
   padding: 30px 60px 60px 60px;
   @include respond-to($breakpoint-medium) {
-    padding: 30px 10px 60px 10px;
+    padding: 30px 25px 60px 20px;
   }
   @include respond-to($breakpoint-x-small) {
-    padding: 30px 5px 60px 5px;
+    padding: 30px 10px 60px 5px;
   }
 }
 
-#root {
-  height: 100vmax;
-  background-color: $root-background-color;
-  font-family: $font-primary;
+.header {
+  text-align: center;
+  padding: 0 0 25px 0;
 }
 
 .background {
@@ -101,13 +105,8 @@ section {
   justify-content: space-around;
 }
 
-.heading {
-  text-align: center;
-  padding: 25px 0;
-}
-
 //  Components
-.header {
+.app-header {
   background-color: $header-background-color;
   display: flex;
   flex-direction: column;
@@ -175,7 +174,7 @@ section {
   background-color: $tech-background-color;
   text-align: center;
 
-  .heading {
+  header {
 
     h2 {
       color: $tech-h1-color;
@@ -208,8 +207,8 @@ section {
         height: 7rem;
         width: 7rem;
         display: block;
-        line-height: 7.5rem;
-        font-size: 2.25rem;
+        line-height: 110px;
+        font-size: 50px;
         box-shadow: $box-shadow;
         border-radius: 50%;
         margin: 0 0 10px 0;
@@ -223,9 +222,8 @@ section {
 
 .experience {
   background-color: $sky-blue;
-  padding: 0 50px 40px 50px;
 
-  .heading {
+  header {
 
     h2 {
       color: $color-base-5;
@@ -306,6 +304,15 @@ section {
     font-weight: bold
   }
   .projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+    margin: auto;
+    
+    @include respond-to($breakpoint-small) {
+      grid-template-columns: 1fr;
+    }
+
     .project-1 {
       background-color: $project-1-background-color;
     }
@@ -333,7 +340,6 @@ section {
       align-content: center;
       flex-direction: column;
       border-radius: $border-radius;
-      margin: 0 20px 40px 20px;
       text-decoration: none;
 
       @include respond-to($breakpoint-medium) {
@@ -374,9 +380,8 @@ section {
 
 .map {
   height: 20rem;
-  padding: 0;
+  padding: 30px 0 60px 0;
   background-color: $light-green;
-  margin-bottom: 60px;
   .heading {
     color: $color-base-5;
   }
