@@ -2,7 +2,7 @@ import React from 'react';
 import RickAndMorty from '../img/projects/logo-RickAndMorty.svg';
 import CrushIt from '../img/projects/crush-it-logo.svg';
 import ForeverHomes from '../img/projects/foreverhomes-logo.svg';
-import GeoTask from '../img/projects/geotask-logo.svg';
+import ReactTube from '../img/projects/reacttube-logo.svg';
 
 const Projects = () => {
 
@@ -14,23 +14,22 @@ const Projects = () => {
       <div className="projects-container">
         <a
           className="project project-1"
-          href="https://geo-task-app.herokuapp.com/"
+          href="https://jasontoups.github.io/YouTube-React-Hooks/"
           target="_blank"
           rel="noreferrer"
         >
           <div className="project-image-container">
             <img
               className="project-image"
-              src={GeoTask}
-              alt="geotask project"
+              src={ReactTube}
+              alt="React Tube App"
             />   
           </div>
           <span className="project-description">
             <span className="caption-content">
-              <h2>Geotask</h2>
+              <h2>ReactTube</h2>
               <p>
-                A productivity app with geolocation for todo lists. Built
-                with Google OAuth / Maps / Places API, NodeJS & MongoDB.
+              This application is built in React to search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.
               </p>
             </span>
           </span>
