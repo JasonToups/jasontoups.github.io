@@ -60,7 +60,7 @@ section {
     padding: 30px 25px 60px 20px;
   }
   @include respond-to($breakpoint-x-small) {
-    padding: 30px 10px 60px 5px;
+    padding: 30px 10px 30px 10px;
   }
 }
 
