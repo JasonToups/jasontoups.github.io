@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e31a729.chunk.css",
+    "main.css": "/static/css/main.b0611e3b.chunk.css",
     "main.js": "/static/js/main.9eb478cf.chunk.js",
     "main.js.map": "/static/js/main.9eb478cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
@@ -10,7 +10,7 @@
     "static/js/3.675f0040.chunk.js": "/static/js/3.675f0040.chunk.js",
     "static/js/3.675f0040.chunk.js.map": "/static/js/3.675f0040.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.0e31a729.chunk.css.map": "/static/css/main.0e31a729.chunk.css.map",
+    "static/css/main.b0611e3b.chunk.css.map": "/static/css/main.b0611e3b.chunk.css.map",
     "static/js/2.7d68c7ce.chunk.js.LICENSE.txt": "/static/js/2.7d68c7ce.chunk.js.LICENSE.txt",
     "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
     "static/media/experience-huoa.cccc966a.jpg": "/static/media/experience-huoa.cccc966a.jpg",
@@ -19,13 +19,13 @@
     "static/media/geotask-logo.ba50ed02.svg": "/static/media/geotask-logo.ba50ed02.svg",
     "static/media/logo-RickAndMorty.1bf564e5.svg": "/static/media/logo-RickAndMorty.1bf564e5.svg",
     "static/media/logo-jason-toups.2239984a.svg": "/static/media/logo-jason-toups.2239984a.svg",
-    "static/media/app.scss": "/static/media/spotch-pattern.8d10f6a9.svg",
+    "static/media/app.scss": "/static/media/spotch-pattern.559627e1.svg",
     "static/media/profile-pic-jason-toups.ec9f7d17.png": "/static/media/profile-pic-jason-toups.ec9f7d17.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e77caf66.js",
     "static/js/2.7d68c7ce.chunk.js",
-    "static/css/main.0e31a729.chunk.css",
+    "static/css/main.b0611e3b.chunk.css",
     "static/js/main.9eb478cf.chunk.js"
   ]
 }
