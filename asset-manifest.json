@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.bad4b87e.chunk.css",
-    "main.js": "/static/js/main.cc31d01c.chunk.js",
-    "main.js.map": "/static/js/main.cc31d01c.chunk.js.map",
+    "main.js": "/static/js/main.24f7d826.chunk.js",
+    "main.js.map": "/static/js/main.24f7d826.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
     "runtime-main.js.map": "/static/js/runtime-main.e77caf66.js.map",
     "static/js/2.7d68c7ce.chunk.js": "/static/js/2.7d68c7ce.chunk.js",
@@ -20,12 +20,13 @@
     "static/media/logo-jason-toups.3cf3f799.svg": "/static/media/logo-jason-toups.3cf3f799.svg",
     "static/media/app.scss": "/static/media/spotch-pattern.559627e1.svg",
     "static/media/profile-pic-jason-toups.ec9f7d17.png": "/static/media/profile-pic-jason-toups.ec9f7d17.png",
-    "static/media/reacttube-logo.e2b3cad2.svg": "/static/media/reacttube-logo.e2b3cad2.svg"
+    "static/media/reacttube-logo.e2b3cad2.svg": "/static/media/reacttube-logo.e2b3cad2.svg",
+    "static/media/reactunsplash-logo.2becdf28.svg": "/static/media/reactunsplash-logo.2becdf28.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.e77caf66.js",
     "static/js/2.7d68c7ce.chunk.js",
     "static/css/main.bad4b87e.chunk.css",
-    "static/js/main.cc31d01c.chunk.js"
+    "static/js/main.24f7d826.chunk.js"
   ]
 }
