@@ -176,10 +176,10 @@ section {
   background-color: $tech-background-color;
   text-align: center;
   background-image: $outlines-background;
-  background-repeat: repeat;
-  background-size: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  background-blend-mode: saturation;
+  background-blend-mode: lighten;
 
   header {
 
