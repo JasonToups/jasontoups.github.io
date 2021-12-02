@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b0611e3b.chunk.css",
-    "main.js": "/static/js/main.9eb478cf.chunk.js",
-    "main.js.map": "/static/js/main.9eb478cf.chunk.js.map",
+    "main.js": "/static/js/main.cd29545b.chunk.js",
+    "main.js.map": "/static/js/main.cd29545b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
     "runtime-main.js.map": "/static/js/runtime-main.e77caf66.js.map",
     "static/js/2.7d68c7ce.chunk.js": "/static/js/2.7d68c7ce.chunk.js",
@@ -18,7 +18,7 @@
     "static/media/foreverhomes-logo.cd2ce58e.svg": "/static/media/foreverhomes-logo.cd2ce58e.svg",
     "static/media/geotask-logo.ba50ed02.svg": "/static/media/geotask-logo.ba50ed02.svg",
     "static/media/logo-RickAndMorty.1bf564e5.svg": "/static/media/logo-RickAndMorty.1bf564e5.svg",
-    "static/media/logo-jason-toups.2239984a.svg": "/static/media/logo-jason-toups.2239984a.svg",
+    "static/media/logo-jason-toups.3cf3f799.svg": "/static/media/logo-jason-toups.3cf3f799.svg",
     "static/media/app.scss": "/static/media/spotch-pattern.559627e1.svg",
     "static/media/profile-pic-jason-toups.ec9f7d17.png": "/static/media/profile-pic-jason-toups.ec9f7d17.png"
   },
@@ -26,6 +26,6 @@
     "static/js/runtime-main.e77caf66.js",
     "static/js/2.7d68c7ce.chunk.js",
     "static/css/main.b0611e3b.chunk.css",
-    "static/js/main.9eb478cf.chunk.js"
+    "static/js/main.cd29545b.chunk.js"
   ]
 }
