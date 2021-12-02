@@ -1,5 +1,5 @@
 import React from 'react';
-import RickAndMorty from '../img/projects/rick-and-morty-portfolio.png';
+import RickAndMorty from '../img/projects/logo-RickAndMorty.svg';
 import CrushIt from '../img/projects/crush-it-logo.svg';
 import ForeverHomes from '../img/projects/foreverhomes-logo.svg';
 import GeoTask from '../img/projects/geotask-logo.svg';
