@@ -59,27 +59,6 @@ const Projects = () => {
         </a>
         <a
           className="project project-3"
-          href="https://jasontoups.github.io/rick-and-morty/"
-          target="_blank"
-          rel="noreferrer"
-        > 
-          <div className="project-image-container">
-            <img
-            className="project-image"
-            src={RickAndMorty}
-            alt="rick and morty database"
-            />
-          </div>
-          <span className="project-description">
-            <h2>Rick & Morty</h2>
-            <h3>Database</h3>
-            <p>
-              This site uses the Rick and Morty API to render a database of characters, locations and episodes. 
-            </p>
-          </span>
-        </a>
-        <a
-          className="project project-4"
           href="https://jasontoups.github.io/CrushIt"
           target="_blank"
           rel="noreferrer"
@@ -99,6 +78,27 @@ const Projects = () => {
                 only CSS assets. Styled after Candy Crush.
               </p>
             </span>
+          </span>
+        </a>
+        <a
+          className="project project-4"
+          href="https://jasontoups.github.io/rick-and-morty/"
+          target="_blank"
+          rel="noreferrer"
+        > 
+          <div className="project-image-container">
+            <img
+            className="project-image"
+            src={RickAndMorty}
+            alt="rick and morty database"
+            />
+          </div>
+          <span className="project-description">
+            <h2>Rick & Morty</h2>
+            <h3>Database</h3>
+            <p>
+              This site uses the Rick and Morty API to render a database of characters, locations and episodes. 
+            </p>
           </span>
         </a>
       </div>
