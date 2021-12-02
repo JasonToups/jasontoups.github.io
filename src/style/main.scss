@@ -189,6 +189,7 @@ section {
     p {
       color: $tech-h2-color;
       font-weight: 100;
+      line-height: 1em;
       font-size: 30px;
     }
   }
@@ -222,6 +223,8 @@ section {
       }
       p {
         font-weight: 400;
+        color: $tech-h2-color;
+        line-height: 1.25em;
       }
     }
   }
