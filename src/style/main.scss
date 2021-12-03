@@ -264,21 +264,22 @@ section {
       justify-content: space-between;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
+      text-align: left;
     
       @include respond-to($breakpoint-medium) {
         flex-direction: column;
       }
 
       .experience-card--image-container {
+        float: left;
         width: 45%;
+        margin: 0 20px 10px 0;
       
         @include respond-to($breakpoint-medium) {
           width: 60%;
-          margin: auto;
         }
         @include respond-to($breakpoint-x-small) {
           width: 100%;
-          margin: auto;
         }
         
         .experience-card--image {
@@ -290,12 +291,10 @@ section {
       
       .experience-card--description {
         text-align: left;
-        width: 50%;
         margin: 0;
       
         @include respond-to($breakpoint-medium) {
           width: 100%;
-          margin: 2rem 0;
         }
 
         h3 {
@@ -308,19 +307,6 @@ section {
         }
       }
     }
-    // .experience-card::after {
-    //   z-index: -1;
-    //   display: block;
-    //   position: absolute;
-    //   content: ' ';
-    //   -webkit-filter: url('#blur');
-    //   filter: url('#blur');
-    //   -webkit-filter: blur(5px);
-    //   filter: blur(5px);
-    //   background-size: cover;
-    //   opacity: 0.75;
-    //   background-color: $white;
-    // }
   }
 }
 
