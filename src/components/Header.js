@@ -7,9 +7,9 @@ const Header = () => {
 		<div className='app-header flex-container .flex-direction-column'>
       <div className='content-container'>
         <img className="header-logo" alt="jason toups logo" src={Logo} />
-        <h1>
-          software engineer
-        </h1>
+        <h1>software engineer</h1>
+        <h2>&</h2>
+        <h3>ui/ux designer</h3>
       </div>
 		</div>
 	);
