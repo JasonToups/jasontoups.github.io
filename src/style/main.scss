@@ -157,8 +157,9 @@ section {
       margin: 0 20px;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
-
+      
       @include respond-to($breakpoint-small) {
+        margin: 0 0 20px;
         width: 50vw;
       }
     }
