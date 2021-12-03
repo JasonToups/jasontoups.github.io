@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.40411463.chunk.css",
-    "main.js": "/static/js/main.bdc4b03e.chunk.js",
-    "main.js.map": "/static/js/main.bdc4b03e.chunk.js.map",
+    "main.css": "/static/css/main.407b520f.chunk.css",
+    "main.js": "/static/js/main.7a63dd5d.chunk.js",
+    "main.js.map": "/static/js/main.7a63dd5d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
     "runtime-main.js.map": "/static/js/runtime-main.e77caf66.js.map",
     "static/js/2.efecaab9.chunk.js": "/static/js/2.efecaab9.chunk.js",
@@ -10,11 +10,12 @@
     "static/js/3.675f0040.chunk.js": "/static/js/3.675f0040.chunk.js",
     "static/js/3.675f0040.chunk.js.map": "/static/js/3.675f0040.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.40411463.chunk.css.map": "/static/css/main.40411463.chunk.css.map",
+    "static/css/main.407b520f.chunk.css.map": "/static/css/main.407b520f.chunk.css.map",
     "static/js/2.efecaab9.chunk.js.LICENSE.txt": "/static/js/2.efecaab9.chunk.js.LICENSE.txt",
     "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
     "static/media/experience-huoa.cccc966a.jpg": "/static/media/experience-huoa.cccc966a.jpg",
     "static/media/experience-newlywords.61b9eb60.jpg": "/static/media/experience-newlywords.61b9eb60.jpg",
+    "static/media/experience-ws.0bee60b8.jpg": "/static/media/experience-ws.0bee60b8.jpg",
     "static/media/logo-RickAndMorty.1bf564e5.svg": "/static/media/logo-RickAndMorty.1bf564e5.svg",
     "static/media/logo-jason-toups.3cf3f799.svg": "/static/media/logo-jason-toups.3cf3f799.svg",
     "static/media/app.scss": "/static/media/spotch-pattern.559627e1.svg",
@@ -25,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.e77caf66.js",
     "static/js/2.efecaab9.chunk.js",
-    "static/css/main.40411463.chunk.css",
-    "static/js/main.bdc4b03e.chunk.js"
+    "static/css/main.407b520f.chunk.css",
+    "static/js/main.7a63dd5d.chunk.js"
   ]
 }
