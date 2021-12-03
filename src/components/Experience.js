@@ -28,6 +28,7 @@ const Experience = () => {
             <p>Managing & Migrating pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.</p>
           </div>
         </div>
+        <hr id="portfolio-hr" />
         <div className="experience-card flex-container flex-direction-row">
           <div className="experience-card--image-container">
             <a 
