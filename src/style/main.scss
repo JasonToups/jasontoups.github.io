@@ -273,13 +273,14 @@ section {
       .experience-card--image-container {
         float: left;
         width: 45%;
-        margin: 0 20px 10px 0;
-      
+        margin: 0 20px 20px 0;
+        
         @include respond-to($breakpoint-medium) {
           width: 60%;
         }
         @include respond-to($breakpoint-x-small) {
           width: 100%;
+          margin: 0 0 20px 0;
         }
         
         .experience-card--image {
