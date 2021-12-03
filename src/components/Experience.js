@@ -21,14 +21,11 @@ const Experience = () => {
           </div>
           <div className="experience-card--description">
             <h3>Newlywords</h3>
-            <p>Engineering new features like the memory book project dashboard, where project owners can view and edit pages submitted from their contributors, and view information about their book.</p>
-            <p>Engineering new memory book content types like the questionnaire, where project owners create a questionnaire for their contributors to answer for their memory book. This helps project owners work with contributors that need some help sharing, or providing them with a consistent theme for their book, like birthdays, retirements, or weddings.</p>
-            <p>Building responsive pages, in HTML CSS, JS, React and Ruby, implementing front-end best practices, to be visited by hundreds of users per day.</p>
-            <p>Developing a design guide with classNamees and partials, from the product design system, to build stylesheets which implements reusable classNamees and styles</p>
-            <p>Implementing Agile methodologies for the team by timeline task planning, with the Trello plugin Planyway, by scoping features to hit deadlines, and coordinating phases of testing from PR QA & Staging QA & Deployment.</p>
-            <p>Documenting our user feedback sessions where they provide feature requests, and we demo upcoming features, while capturing their feedback to tailor the features directly to the needs of our users.</p>
-            <p>Collaborating with product team to improve accessibility for customers, reviewing designs with our team before engineering begins, and suggesting improvements.</p>
-            <p>Mentoring a junior designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.</p>
+            <p>NewlyWords is a React & Ruby memory book platform where hundreds of users per day can invite their friends & family to collaborate on a commemorative digital or physical book.</p>
+            <p>I engineered the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book.</p>
+            <p>I built the Questionnaire as a the new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content.</p>
+            <p>I developed a design guide with classNamees and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.</p>
+            <p>I mentored a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.</p>
           </div>
         </div>
         <hr id="portfolio-hr" />

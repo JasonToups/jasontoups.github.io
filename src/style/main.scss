@@ -308,19 +308,19 @@ section {
         }
       }
     }
-    .experience-card::after {
-      z-index: -1;
-      display: block;
-      position: absolute;
-      content: ' ';
-      -webkit-filter: url('#blur');
-      filter: url('#blur');
-      -webkit-filter: blur(5px);
-      filter: blur(5px);
-      background-size: cover;
-      opacity: 0.75;
-      background-color: $white;
-    }
+    // .experience-card::after {
+    //   z-index: -1;
+    //   display: block;
+    //   position: absolute;
+    //   content: ' ';
+    //   -webkit-filter: url('#blur');
+    //   filter: url('#blur');
+    //   -webkit-filter: blur(5px);
+    //   filter: blur(5px);
+    //   background-size: cover;
+    //   opacity: 0.75;
+    //   background-color: $white;
+    // }
   }
 }
 
