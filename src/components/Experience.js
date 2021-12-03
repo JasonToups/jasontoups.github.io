@@ -40,11 +40,11 @@ const Experience = () => {
           </div>
           <div className="experience-card--description">
             <h3>Hawaii United Okinawa Association</h3>
-            <p>Rebuilding original static site to be in the JAMstack, improving speed, page weight, and security of the older version of the client's website. Built with: React, React-Redux, Hooks, with a Wordpress backend and mobile support.</p>
-            <p>Contributing to component library, creating dynamic components rendering images and content served up by the WordPress API.</p>
-            <p>Engineering the reusable React Container components to control all layouts (Web, Tablet, Mobile) in CSS Grid and Sass, along with reusable Card components that are used site-wide.</p>
-            <p>Onboarded new engineers by writing <a href="https://github.com/Hawaian-United-Okinawa-Association/huoa-react/blob/788a5a02ddf2f1f9b3da5c2897bc1196067b4d1b/onboarding.md">onboarding documentation</a> in markdown and including it in the repo.</p>
+            <p>Rebuilt original static site to be in the JAMstack, improving speed, page weight, and security of the older version of the client's website. Built with: React, React-Redux, Hooks, with a Wordpress backend and mobile support.</p>
+            <p>Contributed to component library, creating dynamic components rendering images and content served up by the WordPress API.</p>
+            <p>Engineered the reusable React Container components to control all layouts (Web, Tablet, Mobile) in CSS Grid and Sass, along with reusable Card components that are used site-wide.</p>
             <p>Added Docker to the project to keep all of our dev environments in sync with the latest dependencies.</p>
+            <p>Onboarded new engineers by writing onboarding documentation in markdown & included it in the repo.</p>
           </div>
         </div>
       </div>
