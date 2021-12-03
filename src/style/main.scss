@@ -56,6 +56,11 @@ p {
   line-height: 1.5em;
 }
 
+a {
+  text-decoration: none;
+  font-size: inherit;
+}
+
 section {
   padding: 30px 60px 60px 60px;
   @include respond-to($breakpoint-medium) {
