@@ -1,6 +1,7 @@
 import React from 'react';
-import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import Huoa from '../img/experience/experience-huoa.jpg';
+import NewlyWords from '../img/experience/experience-newlywords.jpg';
+import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 
 const Experience = () => {
 
@@ -10,6 +11,23 @@ const Experience = () => {
         <h2>{"{Engineering Experience}"}</h2>
       </header>
       <div className="experience-cards--container flex-container flex-direction-column" id="engineering-experience">
+      <div className="experience-card flex-container flex-direction-row">
+          <div className="experience-card--image-container">
+            <a 
+              className="experience-card--link" href="http://www.williams-sonomainc.com/" target="_blank"
+              rel="noreferrer"
+            >
+              <img className="experience-card--image" src={WilliamsSonoma} alt="Williams Sonoma Inc"/>
+            </a>
+          </div>
+          <div className="experience-card--description">
+            <h3>Williams Sonoma, Inc.</h3>
+            <p>Working on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project, with 6 brand configs.</p>
+            <p>Engineering styling & architectural updates to Vue components to all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.</p>
+            <p>Solved Local Environment Stability Issues across several teams with a self-directed Node & Shell project that automated repetitive engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches across each brand with an interactive Shell script, updating local branches to the latest release code, and pruning the Docker container.</p>
+            <p>Managing & Migrating pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.</p>
+          </div>
+        </div>
         <div className="experience-card flex-container flex-direction-row">
           <div className="experience-card--image-container">
             <a 
