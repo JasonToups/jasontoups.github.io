@@ -33,6 +33,7 @@ h1 {
 }
 
 h2 {
+  color: $color-base-5;
   font-size: $font-size-h2;
   font-family: $font-secondary;
   @include respond-to($breakpoint-small) {
@@ -247,13 +248,6 @@ section {
   background-size: cover;
   background-blend-mode: color;
 
-  header {
-
-    h2 {
-      color: $color-base-5;
-    }
-  }
-
   .experience-cards--container {
     width: 100%;
     margin-top: -15px;
@@ -319,9 +313,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: soft-light;
-  .heading {
-    font-weight: bold
-  }
+
   .projects-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
