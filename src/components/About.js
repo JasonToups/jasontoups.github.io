@@ -12,14 +12,13 @@ const About = () => {
             About Me
           </h2>
           <p>
-            Thanks for stopping by. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My speciality is working with React, Redux & Thunk.<p />
+            Thanks for stopping by. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My speciality is working with React, Redux & Thunk.</p>
           <p>
             I can design, engineer, and test new applications.</p>
           <p>
             I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.
           </p>
-          <p>If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 
-🦄👨‍💻✨</p>
+          <p>If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨</p>
         </div>
       </div>
 		</section>
