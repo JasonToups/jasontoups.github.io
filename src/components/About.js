@@ -14,7 +14,7 @@ const About = () => {
           <p>
             Thanks for stopping by. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with React, Redux & Thunk.</p>
           <p>
-            I can design, engineer, and test new applications.</p>
+            I can engineer, design, and test new applications.</p>
           <p>
             I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.
           </p>
