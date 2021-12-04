@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8056a4f9.chunk.css",
+    "main.css": "/static/css/main.cd096889.chunk.css",
     "main.js": "/static/js/main.b5874221.chunk.js",
     "main.js.map": "/static/js/main.b5874221.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.e77caf66.js",
@@ -10,7 +10,7 @@
     "static/js/3.675f0040.chunk.js": "/static/js/3.675f0040.chunk.js",
     "static/js/3.675f0040.chunk.js.map": "/static/js/3.675f0040.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8056a4f9.chunk.css.map": "/static/css/main.8056a4f9.chunk.css.map",
+    "static/css/main.cd096889.chunk.css.map": "/static/css/main.cd096889.chunk.css.map",
     "static/js/2.efecaab9.chunk.js.LICENSE.txt": "/static/js/2.efecaab9.chunk.js.LICENSE.txt",
     "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
     "static/media/experience-huoa.cccc966a.jpg": "/static/media/experience-huoa.cccc966a.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.e77caf66.js",
     "static/js/2.efecaab9.chunk.js",
-    "static/css/main.8056a4f9.chunk.css",
+    "static/css/main.cd096889.chunk.css",
     "static/js/main.b5874221.chunk.js"
   ]
 }
