@@ -148,32 +148,38 @@ section {
   .content-container {
     justify-content: center;
 
-    @include respond-to($breakpoint-small) {
+    @include respond-to($breakpoint-medium) {
       align-content: center;
       align-items: center;
     }
 
     img {
-      width: 20vw;
-      margin: 0 20px;
+      width: 30vw;
+      margin: 0 25px 20px 0;
       border-radius: $border-radius;
       box-shadow: $box-shadow;
+      float: left;
       
-      @include respond-to($breakpoint-small) {
-        margin: 0 0 20px;
-        width: 50vw;
+      @include respond-to($breakpoint-medium) {
+        width: 50%;
+        float: none;
+        left: 25%;
+        position: relative;
       }
     }
     .description {
-      width: 40vw;
-      margin: 0 20px;
+      width: 100%;
+      padding: 0 20px;
 
-      @include respond-to($breakpoint-small) {
+      @include respond-to($breakpoint-medium) {
         width: 100%;
       }
 
       h2 {
         margin: 0 15px 15px 15px;
+        @include respond-to($breakpoint-medium) {
+          text-align: center;
+        }
       }
       p {
         font-weight: 300;

@@ -5,7 +5,7 @@ const About = () => {
 
 	return (
 		<section className='about'>
-      <div className='content-container flex-container flex-direction-row'>
+      <div className='content-container'>
         <img src={ProfilePic} alt='jason toups profile pic'/>
         <div className='description'>
           <h2>
