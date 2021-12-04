@@ -33,7 +33,7 @@ const Experience = () => {
         <p>NewlyWords is a React & Ruby memory book platform where hundreds of users per day can invite their friends & family to collaborate on a commemorative digital or physical book.</p>
         <p>I engineered the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book.</p>
         <p>I built the Questionnaire as a the new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content.</p>
-        <p>I developed a design guide with classNamees and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.</p>
+        <p>I developed a design guide with classNames and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.</p>
         <p>I mentored a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.</p>
       </ExperienceCard>
       <hr id="portfolio-hr" />
