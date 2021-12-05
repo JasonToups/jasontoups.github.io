@@ -41,11 +41,11 @@ if [[ $EMAIL != *"@jasontoups.com"* ]]; then
 fi
 
 # check the branch name is valid or not
-if [[ "$BRANCH_NAME" =~ $VALID_BRANCH_REGEX ]]; then
+# if [[ "$BRANCH_NAME" =~ $VALID_BRANCH_REGEX ]]; then
 #   # if face any error in mac then run chmod u+x .git/hooks/prepare-commit-msg and restart your terminal
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_EXCLUDED -eq 1 ]] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then 
   sed -i.bak -e "1s/^/[$BRANCH_NAME] /" $1
-fi
+# fi
 else
   echo -e "\n${RED}Please correct the branch name${NOCOLOR}"
   printf "\nBranch Name not as per the defined rules like\n"
