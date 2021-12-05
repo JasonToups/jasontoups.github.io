@@ -18,7 +18,7 @@ const About = () => {
           <p>
             I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.
           </p>
-          <p>If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨</p>
+          <p>If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer.<br/>🦄👨‍💻✨</p>
         </div>
       </div>
 		</section>
