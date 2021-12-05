@@ -53,8 +53,7 @@ const Projects = () => {
           cardUrl="https://jasontoups.github.io/rick-and-morty/"
           projectNumber="4"
           >
-          <h3>Rick & Morty</h3>
-          <h3>Database</h3>
+          <h3>Rick & Morty <br/> Database</h3>
           <p>
             This site uses the Rick and Morty API to render a database of characters, locations and episodes. 
           </p>
