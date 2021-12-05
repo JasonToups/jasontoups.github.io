@@ -1,115 +1,57 @@
 # Welcome
-
-Thanks for visiting my portfolio repo. I’m a Software Engineer, with 15 years of software production experience; 4 years in Javascript, 12 years in QA, and 3 years in UI/UX Design. I’ve tested 47 SDKs on Unity, iOS & Android, and over 30 apps on the iOS App Store.
-
+Thanks for visiting my portfolio repo. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with React, Redux & Thunk.
 [Link to my Engineering Portfolio Site](https://jasontoups.github.io/)
 
-[Email](mailto:me@jasontoups.com) | [LinkedIn](https://www.linkedin.com/in/jasontoups/) | [GitHub](https://github.com/JasonToups) | [Portfolio](https://jasontoups.github.io/)
+[Email](mailto:me@jasontoups.com) | [LinkedIn](https://www.linkedin.com/in/jasontoups/) | [GitHub](https://github.com/JasonToups) | [Portfolio](https://jasontoups.github.io/) | [Twitter](https://twitter.com/jsontoups)
 
-# PROJECTS
+## Technical Skills
 
-## **HUOA**
+### **Languages & Frameworks**
 
-_Volunteer project for the Hawaii United Okinawa Association_.
+Javascript | Node | React | React-Redux | Thunk | Vue | Shell | HTML | CSS | Sass | JQuery | Docker | Appium | Selenium
 
-We are rebuilding their site using React, React-Redux, Hooks, with a Wordpress backend. Currently working on the Container and Row component for layout.
+### **Methodologies**
 
-- [Original Site](https://huoa.org/)
-- [Github](https://github.com/Hawaian-United-Okinawa-Association)
+Version-Controlled Development |
+Wireframing | UI/UX Design | Charles Proxy Testing | A/B Testing | User Stories | Mobile Design | Storyboarding | Game Design
 
-## **Werk**
+### **Operations & Design**
 
-_Follow, Tip & Hire your favorite Drag Queens_, on Werk!
+Agile Development/Scrum Master | JIRA | Affinity Designer | Sketch | Figma | Adobe Creative Suite
 
-Built with React, MongoDB, Express, Node & Semantic UI. This project was self-designed & engineered. It taught me the full-stack by improving my React skills & database planning.
 
-- [Visit Site](https://jasontoups.github.io/werk/)
-- [Github](https://github.com/JasonToups/werk)
+## Engineering Experience
 
-## **Crush it!!!**
+### **Williams Sonoma, Inc. | Front End Engineer**
+San Francisco | April-2021 - Present
 
-_Mobile Block Crushing Game_ built with Javascript, JQuery, HTML5, with only CSS assets.
+Working on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project, with 6 brand configs.
+- **Engineering** architectural & styling updates to Vue components for all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.
+- **Solved** Local Environment Stability Issues across several teams with a self-directed NodeJS & Shell project that automated repetitive engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches across each brand, updating local branches to the latest release code,
+- **Managing & Migrating** pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.
+- **Mentoring** junior engineers on my team with paired-programming sessions and sharing helpful resources.
 
-Styled after Candy Crush, players tap matching colored blocks to remove them from the board. This project was self-designed & engineered, improved my DOM manipulation with jQuery and writing recursive functions for the matching algorithm.
+### **NewlyWords | Front End Engineer**
+San Francisco | Oct 2020 - April-2021
 
-- [Play here](https://jasontoups.github.io/CrushIt-BlockCrusherGame/)
-- [Github](https://github.com/JasonToups/CrushIt-BlockCrusherGame)
-- [Storyboard as PDF](https://github.com/JasonToups/CrushIt-BlockCrusherGame/blob/master/design/CrushIt-Storyboard.pdf)
+NewlyWords is a React & Ruby memory book platform where hundreds of users per day can invite their friends & family to collaborate on a commemorative digital or physical book.
 
-# Skills
+- **Engineered** the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book..
+- Built the Questionnaire as a the new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content..
+- **Developed** a design guide with classNames and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.
+- **Mentored** a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.
 
-## Languages & Frameworks
+### **Hawaii United Okinawa Association | React Engineer**
+Remote | April 2020 - April-2021
 
-React | Javascript | JSX | HTML 5 | CSS3 | Python | JQuery | Bootstrap | MongoDB | Node | Express | Appium | Selenium
+Rebuilt original static site to be in the JAMstack, improving speed, page weight, and security of the older version of the client's website. Built with: React, React-Redux, Hooks, with a Wordpress backend and mobile support.
 
-## Methodologies
+- **Contributed** to component library, creating dynamic components rendering images and content served up by the WordPress API.
+- **Engineered** the reusable React Container components to control all layouts (Web, Tablet, Mobile) in CSS Grid and Sass, along with reusable Card components that are used site-wide.
+- **Added Docker** to the project to keep all of our dev environments in sync with the latest dependencies.
+- **Onboarded** new engineers by writing onboarding documentation in markdown & included it in the repo.
 
-Charles Proxy Texting | Version-Controlled Development  | User Stories | Wireframing | Storyboarding | React Component Charts | Game Design | UI/UX Design | Responsive Design | A/B Testing
 
-## Operations & Design
-
-Agile Development/Scrum Master | JIRA | Sketch | Zeplin | Adobe Creative Suite
-
-# Experience
-
-## Lifestreet: San Francisco / Sr. Product Designer : Sept 2017 - November 2019
-
-Designed mobile marketing materials for the engineering, creative, and marketing teams.
-
-- **Engineered** HTML playable ads in Javascript, with Adobe Animate for clients.
-- **Created** Sketch to Zeplin playable ad production workflow, to design mockups and storyboards for ad approval, and CSS for engineers.
-- **Upgraded** client assets with self-designed elements, that were approved by advertisers including Disney, Warner Brothers & King, for their Frozen, Harry Potter, and Candy Crush IPs.
-
-## Chartboost: San Francisco / Product Designer : Feb 2017 - Aug 2017
-
-Produced playable ads, while coordinating the production in JIRA, spanning three global regions, four outsourced development studios, and a team of internal engineers.
-
-- **Designed** UI/UX storyboards for free-to-play playable ads in Sketch, to send to advertisers for approval and engineering to build the ads.
-- **Scaled** the production of playables 170% in the first 2 months.
-- **Iterated** existing ads with A/B testing, tracked and reported design impact to all stakeholders through weekly  performance reports.
-
-## Chartboost: San Francisco / Sr. Quality Assurance Lead : May 2015 - Jan 2017
-
-Tested Chartboost SDKs for iOS, Android & Unity for release, and maintained the release deployment scripts.
-
-- **Wrote automation test scripts** in _Python_, using _PyTest_ and _Selenium_ with the _Appium_ framework.
-- **Ran & Maintained** _build scripts_ to _create release builds_, with _Jenkins_.
-- **Tested** _all features_ going into the SDKs, using _Charles Proxy_ testing to inject responses from the server to the SDK.
-
-## Kixeye: San Francisco / Mobile Quality Assurance Lead: Feb 2016 - Jan 2015
-
-Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.
-
-- **Wrote mobile automation test scripts** in _Javascript_ with the _Monkeytalk_ framework.
-- **Managed** testing responsibilities for internal and external testing teams.
-- **Standardized** Feature Progress Reporting and Feature Progress JIRA dashboards across the Quality team.
-- **Reported** testing and game feature progress to Product team and stakeholders.
-
-## Turner Broadcasting - Adult Swim: Atlanta / Quality Assurance Lead: Jul 2009 - Jun 2012
-
-Wrote test suites for production & release of Mobile games for Facebook Games, iTunes App Store, Android Marketplace and Adult Swim Games page.
-
-- **Managed** outsourced quality testers and the prioritization of bugs in the production pipeline.
-- **Provided** creative direction feedback to a network of outsourced independent game developers by refining user experience and clarifying the core gameplay loops for Mobile and Web-based Games.
-- **Compiled** business metrics and community feedback in ongoing Mobile Analytic Reports from our titles on the iTunes and Android app store, as well as the sales and trends in iTunes Connect.
-
-## Turner Broadcasting - GameTap: Atlanta / Associate Content Producer Jan 2007 - Mar 2009
-
-Managed content production of daily promotional assets from creation to completion.
-
-- **Developed** Project Briefs detailing requirements for Editorial, Design, and Video teams.
-- **Aligned** promotional projects to the master production schedule, and coordinated them with the Marketing team.
-- **Produced** six 'What will you do today?' on-air ads for GameTap, which aired on Adult Swim.
-- **Scheduled** and produced 'Prize Arcade' daily programming including leaderboard tournaments, trivia, community events.
-- **Maintained** a daily schedule of the content, requested promotional assets, and programmed them into the GameTap Content Management System.\*\*
-
-## Turner Broadcasting - GameTap: Atlanta / Quality Assurance Analyst
-
-Deep tested video games in the GameTap client to assure proper functionality, including the GameTap Original Sam & Max Season 1: Episodes 1-4 and the Myst MMO, URU.
-
-- **Provided** detailed report on game issues and errors through quality control tools such as Test Director.
-- **Tracked** the progress of error resolution through the Technology team until they had been fixed.
-
-# Education
+## Education
 
 - **University of New Orleans** : New Orleans - Bachelor of Arts: Philosophy

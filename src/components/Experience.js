@@ -19,9 +19,10 @@ const Experience = () => {
         >
         <h3>Williams Sonoma, Inc.</h3>
         <p>Working on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project, with 6 brand configs.</p>
-        <p>Engineering styling & architectural updates to Vue components to all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.</p>
+        <p>Engineering architectural & styling updates to Vue components for all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.</p>
         <p>Solved Local Environment Stability Issues across several teams with a self-directed Node & Shell project that automated repetitive engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches across each brand with an interactive Shell script, updating local branches to the latest release code, and pruning the Docker container.</p>
         <p>Managing & Migrating pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.</p>
+        <p>Mentoring junior engineers on my team with paired-programming sessions and sharing helpful resources.</p>
       </ExperienceCard>
       <hr id="portfolio-hr" />
       <ExperienceCard
