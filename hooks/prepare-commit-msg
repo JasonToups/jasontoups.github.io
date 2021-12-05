@@ -12,16 +12,15 @@ ORANGE="\033[0;33m"
 NOCOLOR="\033[0m"
 
 if [ -z "$BRANCHES_TO_SKIP" ]; then
-# BUG - This branch validation doesn't seem to work
-  BRANCHES_TO_SKIP=(main production staging)
+  BRANCHES_TO_SKIP=(production staging)
 fi
 
 AUTHORINFO=$(git var GIT_AUTHOR_IDENT) || exit 1
 NAME=$(printf '%s\n\n' "${AUTHORINFO}" | sed -n 's/^\(.*\) <.*$/\1/p')
 EMAIL=$(printf '%s\n\n' "${AUTHORINFO}" | sed -n 's/^.* <\(.*\)> .*$/\1/p')
 # Regex to check the valid branch name
-
-VALID_BRANCH_REGEX="(^(no branch|main|feature|hotfix|bugfix|release|dev|improvement)\-[a-z]+)|^([A-Z]+\-[0-9]+)$"
+# TODO - this check doesn't work for me, see if I can get this working in the future
+VALID_BRANCH_REGEX="(^(main|feature|hotfix|bugfix|release|dev|improvement)\-[a-z]+)|^([A-Z]+\-[0-9]+)$"
 
 # Get branch name and description
 BRANCH_NAME=$(git branch | grep '*' | sed 's/* //')
@@ -41,6 +40,7 @@ if [[ $EMAIL != *"@jasontoups.com"* ]]; then
 fi
 
 # check the branch name is valid or not
+# TODO - This branch name validation is not working
 # if [[ "$BRANCH_NAME" =~ $VALID_BRANCH_REGEX ]]; then
 #   # if face any error in mac then run chmod u+x .git/hooks/prepare-commit-msg and restart your terminal
 if [ -n "$BRANCH_NAME" ] && ! [[ $BRANCH_EXCLUDED -eq 1 ]] && ! [[ $BRANCH_IN_COMMIT -ge 1 ]]; then 
