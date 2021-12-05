@@ -20,7 +20,7 @@ NAME=$(printf '%s\n\n' "${AUTHORINFO}" | sed -n 's/^\(.*\) <.*$/\1/p')
 EMAIL=$(printf '%s\n\n' "${AUTHORINFO}" | sed -n 's/^.* <\(.*\)> .*$/\1/p')
 # Regex to check the valid branch name
 # TODO - this check doesn't work for me, see if I can get this working in the future
-VALID_BRANCH_REGEX="(^(main|feature|hotfix|bugfix|release|dev|improvement)\-[a-z]+)|^([A-Z]+\-[0-9]+)$"
+VALID_BRANCH_REGEX="(^(main|fixup|feature|hotfix|bugfix|release|dev|improvement)\-[a-z]+)|^([A-Z]+\-[0-9]+)$"
 
 # Get branch name and description
 BRANCH_NAME=$(git branch | grep '*' | sed 's/* //')
