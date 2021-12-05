@@ -19,7 +19,7 @@ const Projects = () => {
           cardUrl="https://jasontoups.github.io/YouTube-React-Hooks/"
           projectNumber="1"
           >
-          <h2>ReactTube</h2>
+          <h3>ReactTube</h3>
           <p>
             Search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.
           </p>
@@ -30,7 +30,7 @@ const Projects = () => {
           cardUrl="https://jasontoups.github.io/Unsplash-React-Hooks/"
           projectNumber="2"
           >
-          <h2>React Unsplash</h2>
+          <h3>React Unsplash</h3>
           <p>
             Search the Unsplash API and return a list of images, utilizing Primitive Hooks & Custom Hooks to fetch data.
           </p>
@@ -41,7 +41,7 @@ const Projects = () => {
           cardUrl="https://jasontoups.github.io/CrushIt"
           projectNumber="3"
           >
-          <h2>Crush It!!!</h2>
+          <h3>Crush It!!!</h3>
           <p>
             Mobile Block Crushing Game built with JS/JQuery/HTML5, with
             only CSS assets. Styled after Candy Crush.
@@ -53,7 +53,7 @@ const Projects = () => {
           cardUrl="https://jasontoups.github.io/rick-and-morty/"
           projectNumber="4"
           >
-          <h2>Rick & Morty</h2>
+          <h3>Rick & Morty</h3>
           <h3>Database</h3>
           <p>
             This site uses the Rick and Morty API to render a database of characters, locations and episodes. 
