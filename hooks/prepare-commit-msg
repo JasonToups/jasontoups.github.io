@@ -5,7 +5,7 @@
 if [ -z "$BRANCHES_TO_SKIP" ]; then
   BRANCHES_TO_SKIP=(main develop test)
 fi
-
+# BUG - when rebasing, this line will throw an error
 BRANCH_NAME=$(git symbolic-ref --short HEAD)
 
 BRANCH_EXCLUDED=$(printf "%s\n" "${BRANCHES_TO_SKIP[@]}" | grep -c "^$BRANCH_NAME$")
