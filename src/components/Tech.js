@@ -7,7 +7,7 @@ const Tech = () => {
 	return (
 		<section className='tech'>
       <header className="header">
-        <h2>Tech Stack</h2>
+        <h2>.Tech.Stack</h2>
         <p>I work with these technologies:</p>
       </header>
       <div className="tech-items--container flex-container">

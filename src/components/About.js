@@ -9,7 +9,7 @@ const About = () => {
         <img src={ProfilePic} alt='jason toups profile pic'/>
         <div className='description'>
           <h2>
-            About Me
+            About#Me
           </h2>
           <p>
             Thanks for stopping by. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with React, Redux & Thunk.</p>

@@ -5,7 +5,7 @@ const Map = () => {
 	return (
     <section className="map" id="map">
       <header className="header">
-        <h2>Home</h2>
+        <h2>@Home</h2>
       </header>
       <iframe
         title="my hometown - Oakland, CA"
