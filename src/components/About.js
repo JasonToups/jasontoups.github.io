@@ -12,7 +12,7 @@ const About = () => {
             About#Me
           </h2>
           <p>
-            Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with Hooks, Redux & Thunk, Designing Vector Graphics & Wireframing</p>
+            Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with Hooks, Redux & Thunk; Designing Vector Graphics & Wireframing</p>
           <p>
             I designed all of the vector graphics here in Affinity Designer, and styled my portfolio from scratch with Sass & Mixins
           </p>
