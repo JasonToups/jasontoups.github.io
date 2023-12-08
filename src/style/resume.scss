@@ -7,6 +7,7 @@
 /**
  * Correct `block` display not defined in IE 8/9.
  */
+
 .resume {
   article,
   aside,
@@ -457,8 +458,27 @@
         format('woff');
   }
 
+  $h1-font-size: 30px;
+  $h2-font-size: 24px;
+  $h3-font-size: 18px;
+  $h4-font-size: 16px;
+  $h5-font-size: 14px;
+  $h6-font-size: 14px;
+  $p-font-size: 14px;
+  $h1-font-size-mobile: 45px;
+  $h2-font-size-mobile: 33px;
+  $h3-font-size-mobile: 25px;
+  $h4-font-size-mobile: 23px;
+  $h5-font-size-mobile: 20px;
+  $h6-font-size-mobile: 20px;
+  $p-font-size-mobile: 20px;
+
   p {
     margin: 1em 0;
+    font-size: $p-font-size;
+    @include respond-to($breakpoint-small) {
+      font-size: $p-font-size-mobile;
+    }
   }
 
   a {
@@ -477,58 +497,81 @@
     font-weight: bold;
     -webkit-font-smoothing: subpixel-antialiased;
     cursor: text;
-    --h1-font-size: 30px;
-    --h2-font-size: 24px;
-    --h3-font-size: 18px;
-    --h4-font-size: 16px;
-    --h5-font-size: 14px;
-    --h6-font-size: 14px;
+    @include respond-to($breakpoint-small) {
+      padding: 0 0 25px 0;
+    }
   }
   h1 {
-    font-size: var(--h1-font-size);
-    line-height: var(--h1-font-size);
+    font-size: $h1-font-size;
+    line-height: $h1-font-size;
     color: #1e3a56;
     text-align: center;
+    @include respond-to($breakpoint-small) {
+      font-size: $h1-font-size-mobile;
+      line-height: $h1-font-size-mobile;
+    }
   }
 
   h2 {
-    font-size: var(--h2-font-size);
-    line-height: var(--h2-font-size);
+    font-size: $h2-font-size;
+    line-height: $h2-font-size;
     padding-bottom: 0;
     margin-bottom: 10px;
     border-bottom: 1px solid #ccc;
     color: #476d96;
+    @include respond-to($breakpoint-small) {
+      font-size: $h2-font-size-mobile;
+      line-height: $h2-font-size-mobile;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ccc;
+    }
   }
 
   h3 {
-    font-size: var(--h3-font-size);
-    line-height: var(--h3-font-size);
+    font-size: $h3-font-size;
+    line-height: $h3-font-size;
     color: #498265;
     -webkit-margin-before: 0.01em;
     -webkit-margin-after: 0.01em;
+    @include respond-to($breakpoint-small) {
+      font-size: $h3-font-size-mobile;
+      line-height: $h3-font-size-mobile;
+    }
   }
 
   h4 {
-    font-size: var(--h4-font-size);
-    line-height: var(--h4-font-size);
+    font-size: $h4-font-size;
+    line-height: $h4-font-size;
     color: #333;
     text-align: center;
     -webkit-margin-before: 0.02em;
     -webkit-margin-after: 0.02em;
+    @include respond-to($breakpoint-small) {
+      font-size: $h4-font-size-mobile;
+      line-height: $h4-font-size-mobile;
+    }
   }
 
   h5 {
-    font-size: var(--h5-font-size);
-    line-height: var(--h5-font-size);
+    font-size: $h5-font-size;
+    line-height: $h5-font-size;
     color: #1e3a56;
     text-align: center;
+    @include respond-to($breakpoint-small) {
+      font-size: $h5-font-size-mobile;
+      line-height: $h5-font-size-mobile;
+    }
   }
 
   h6 {
-    font-size: var(--h6-font-size);
-    line-height: var(--h6-font-size);
+    font-size: $h6-font-size;
+    line-height: $h6-font-size;
     color: #4b5b6b;
     text-align: center;
+    @include respond-to($breakpoint-small) {
+      font-size: $h6-font-size-mobile;
+      line-height: $h6-font-size-mobile;
+    }
   }
 
   p,
@@ -541,6 +584,13 @@
   ul {
     padding-left: 30px;
     margin: 0 0 10px 0;
+  }
+
+  li {
+    font-size: $p-font-size;
+    @include respond-to($breakpoint-small) {
+      font-size: $p-font-size-mobile;
+    }
   }
 
   ol {
