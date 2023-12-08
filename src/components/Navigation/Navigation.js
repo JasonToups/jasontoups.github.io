@@ -1,27 +1,30 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { useNavigation } from '../../contexts/NavigationContext';
 import ResumeIcon from '../../img/svg/resume.svg';
 import ProfileIcon from '../../img/svg/profile.svg';
 
 const Navigation = () => {
   const navigate = useNavigate();
-  const [currentIcon, setCurrentIcon] = useState(ResumeIcon); // Set default icon
+  const { currentPath, setPath } = useNavigation();
 
   const toggleRoutes = () => {
-    const currentPath = window.location.pathname;
-
     if (currentPath === '/') {
-      setCurrentIcon(ProfileIcon);
+      setPath('/resume');
       navigate('/resume');
     } else {
-      setCurrentIcon(ResumeIcon);
+      setPath('/');
       navigate('/');
     }
   };
 
   return (
     <div className='navigation'>
-      <img src={currentIcon} alt='nav icon' onClick={toggleRoutes}></img>
+      <img
+        src={currentPath === '/' ? ProfileIcon : ResumeIcon}
+        alt='nav icon'
+        onClick={toggleRoutes}
+      ></img>
     </div>
   );
 };
