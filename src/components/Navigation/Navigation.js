@@ -1,8 +1,7 @@
-// NavigationComponent.js
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const NavigationComponent = () => {
+const Navigation = () => {
   const navigate = useNavigate();
 
   const toggleRoutes = () => {
@@ -22,4 +21,4 @@ const NavigationComponent = () => {
   );
 };
 
-export default NavigationComponent;
+export default Navigation;

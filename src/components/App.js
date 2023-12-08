@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavigationComponent from './Navigation/NavigationComponent';
+import Navigation from './Navigation/Navigation';
 import Portfolio from './Portfolio/Portfolio';
 import Resume from './Resume/Resume';
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div>
-        <NavigationComponent />
+        <Navigation />
         <Routes>
           <Route path='/' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />
