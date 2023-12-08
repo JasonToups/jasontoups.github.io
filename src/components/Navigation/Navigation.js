@@ -21,7 +21,7 @@ const Navigation = () => {
 
   return (
     <div className='navigation'>
-      <img src={currentIcon} onClick={toggleRoutes}></img>
+      <img src={currentIcon} alt='nav icon' onClick={toggleRoutes}></img>
     </div>
   );
 };

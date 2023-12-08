@@ -1,57 +1,53 @@
 # Welcome
-Thanks for visiting my portfolio repo. I'm an engineer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design. My specialty is working with React, Redux & Thunk.
-[Link to my Engineering Portfolio Site](https://jasontoups.github.io/)
 
-[Email](mailto:me@jasontoups.com) | [LinkedIn](https://www.linkedin.com/in/jasontoups/) | [GitHub](https://github.com/JasonToups) | [Portfolio](https://jasontoups.github.io/) | [Twitter](https://twitter.com/jsontoups)
+##### me@jasontoups.com . [LinkedIn](https://www.linkedin.com/in/jasontoups/) . [Portfolio](https://jasontoups.github.io/) . [Github](https://github.com/JasonToups) . 404.625.6530
+
+##### Frontend Engineer, with over 15 years of Software Production experience, including Engineering, Testing & UI/UX Design
 
 ## Technical Skills
 
-### **Languages & Frameworks**
+|                  |                                                                                                                                                                           |
+| ---------------- | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| **Programming**: |                Javascript · Typescript · Angular · RxJS · Markdown · React · React-Redux · React-Thunk · Vue · Shell · HTML · CSS · Sass · JQuery · Docker                |
+| **Production**:  | Agile Development/Scrum Master · JIRA · Git · Software Releases · Affinity Designer · Figma · Adobe Creative Suite · Technical Documentation · UI/UX Design · A/B Testing |
 
-Javascript | Node | React | React-Redux | Thunk | Vue | Shell | HTML | CSS | Sass | JQuery | Docker | Appium | Selenium
+## Work Experience
 
-### **Methodologies**
+### Bill : Front End Engineer / Jul 2022 - Dec 2023 / San Jose / Remote
 
-Version-Controlled Development |
-Wireframing | UI/UX Design | Charles Proxy Testing | A/B Testing | User Stories | Mobile Design | Storyboarding | Game Design
+Worked with Angular & RxJS on the revenue-generating International Payments Team.
 
-### **Operations & Design**
+- **Retrofitted** existing Domestic payment flows with International options, to enable users to make International Payments with current exchange rates.
+- **Operated** across several teams to enable these features by working with the code owners to develop features and fix bugs.
+- **Wrote** package.json scripts to streamline repetitive engineering tasks.
+- **Created** training documentation in Markdown, on Confluence to onboard new engineers and standardize processes.
 
-Agile Development/Scrum Master | JIRA | Affinity Designer | Sketch | Figma | Adobe Creative Suite
+**Technologies used:** TypeScript · Angular · RxJS · Technical Documentation · Training · JavaScript
 
+### Williams Sonoma Inc : Front End Engineer / April 2021 - June 2022 / San Francisco / Remote
 
-## Engineering Experience
+Worked on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project.
 
-### **Williams Sonoma, Inc. | Front End Engineer**
-San Francisco | April-2021 - Present
+- **Engineered** styling & architectural updates to Vue components to all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.
+- **Solved** Local Environment Stability Issues with a self-directed NodeJS project that automated engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches, updating local branches to the latest release code,
+- **Managed** & Migrated pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.
+- **Mentored** junior engineers on my team with paired programming sessions and sharing my documentation.
 
-Working on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project, with 6 brand configs.
-- **Engineering** architectural & styling updates to Vue components for all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.
-- **Solved** Local Environment Stability Issues across several teams with a self-directed NodeJS & Shell project that automated repetitive engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches across each brand, updating local branches to the latest release code,
-- **Managing & Migrating** pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.
-- **Mentoring** junior engineers on my team with paired-programming sessions and sharing helpful resources.
+**Technologies used:** Javascript · Vue · SASS · NodeJS · Shell · Markdown · Adobe Experience Manager
 
-### **NewlyWords | Front End Engineer**
-San Francisco | Oct 2020 - April-2021
+### NewlyWords : Front End Engineer / San Francisco / Oct 2020 - April 2021 / Remote
 
 NewlyWords is a React & Ruby memory book platform where hundreds of users per day can invite their friends & family to collaborate on a commemorative digital or physical book.
 
-- **Engineered** the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book..
-- **Built** the Questionnaire as a new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content..
+- **Engineered** the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book.
+- **Built** the Questionnaire as a new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content.
 - **Developed** a design guide with classNames and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.
 - **Mentored** a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.
 
-### **Hawaii United Okinawa Association | React Engineer**
-Remote | April 2020 - April-2021
+**Technologies used:** Javascript · React · Ruby · Shell · Markdown · Adobe Experience Manager
 
-Rebuilt original static site to be in the JAMstack, improving speed, page weight, and security of the older version of the client's website. Built with: React, React-Redux, Hooks, with a Wordpress backend and mobile support.
-
-- **Contributed** to component library, creating dynamic components rendering images and content served up by the WordPress API.
-- **Engineered** the reusable React Container components to control all layouts (Web, Tablet, Mobile) in CSS Grid and Sass, along with reusable Card components that are used site-wide.
-- **Added Docker** to the project to keep all of our dev environments in sync with the latest dependencies.
-- **Onboarded** new engineers by writing onboarding documentation in markdown & included it in the repo.
-
+> Additional Work Experience Provided Upon Request & Linked In Profile
 
 ## Education
 
-- **University of New Orleans** : New Orleans - Bachelor of Arts: Philosophy
+_University of New Orleans / BA Philosophy_
