@@ -25,458 +25,458 @@ $project-4-background-color: $color-base-4;
   font-family: $font-primary;
 }
 
-h1 {
-  font-size: $font-size-h1;
-  @include respond-to($breakpoint-small) {
+.portfolio-site {
+  h1 {
+    font-size: $font-size-h1;
+    @include respond-to($breakpoint-small) {
+      font-size: $font-size-h2;
+    }
+  }
+
+  h2 {
+    color: $color-base-5;
     font-size: $font-size-h2;
+    font-family: $font-secondary;
+    @include respond-to($breakpoint-small) {
+      font-size: $font-size-h3;
+    }
   }
-}
 
-h2 {
-  color: $color-base-5;
-  font-size: $font-size-h2;
-  font-family: $font-secondary;
-  @include respond-to($breakpoint-small) {
+  h3 {
     font-size: $font-size-h3;
+    @include respond-to($breakpoint-small) {
+      font-size: $font-size-h4;
+    }
   }
-}
 
-h3 {
-  font-size: $font-size-h3;
-  @include respond-to($breakpoint-small) {
+  h4 {
     font-size: $font-size-h4;
   }
-}
 
-h4 {
-  font-size: $font-size-h4;
-}
-
-p {
-  font-size: $font-size-p;
-  line-height: 1.75em;
-  letter-spacing: 0.025em;
-}
-
-a {
-  text-decoration: none;
-  font-size: inherit;
-}
-
-section {
-  padding: 30px 60px 60px 60px;
-  @include respond-to($breakpoint-medium) {
-    padding: 30px 25px 60px 20px;
+  p {
+    font-size: $font-size-p;
+    line-height: 1.75em;
+    letter-spacing: 0.025em;
   }
-  @include respond-to($breakpoint-x-small) {
-    padding: 30px 50px;
+
+  a {
+    text-decoration: none;
+    font-size: inherit;
   }
-}
 
-.header {
-  text-align: center;
-  padding: 0 0 25px 0;
-}
-
-.background {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-#portfolio-hr {
-  width: 70%;
-  border-top: $border-grey;
-  margin: 10px auto;
-}
-
-.flex-direction-column {
-  flex-direction: column;
-}
-
-.flex-direction-row {
-  flex-direction: row;
-  @include respond-to ($breakpoint-small) {
-    flex-direction: column;
-  }
-}
-
-.flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  text-align: center;
-  align-self: center;
-  justify-self: center;
-  justify-content: space-around;
-}
-
-//  Components
-.app-header {
-  background-color: $header-background-color;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-items: center;
-  text-align: center;
-  padding: 10px;
-
-  .content-container {
-    margin: 60px 30px;
-    width: 100%;
-
-    .header-logo {
-      width: 65vw;
-      margin: 0 0 10px 0;
-      @include respond-to($breakpoint-small) {
-        width: 100%;
-      }
-    }
-    h1 {
-      font-weight: 100;
-    }
-    h3 {
-      font-weight: 100;
-    }
-  }
-}
-
-.about {
-  background-color: $about-background-color;
-  .content-container {
-    justify-content: center;
-
+  section {
+    padding: 30px 60px 60px 60px;
     @include respond-to($breakpoint-medium) {
-      align-content: center;
-      align-items: center;
-    }
-
-    img {
-      width: 30vw;
-      margin: 0 25px 20px 0;
-      border-radius: $border-radius;
-      box-shadow: $box-shadow;
-      float: left;
-      
-      @include respond-to($breakpoint-medium) {
-        width: 50%;
-        float: none;
-        left: 25%;
-        position: relative;
-      }
-    }
-    .description {
-      width: 100%;
-      padding: 0 20px;
-
-      @include respond-to($breakpoint-medium) {
-        width: 100%;
-      }
-
-      h2 {
-        margin: 0 15px 15px 15px;
-        @include respond-to($breakpoint-medium) {
-          text-align: center;
-        }
-      }
-      p {
-        margin: 0 0 15px;
-      }
-    }
-  }
-}
-
-.tech {
-  background-color: $tech-background-color;
-  text-align: center;
-  background-image: $outlines-background;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: lighten;
-
-  header {
-
-    h2 {
-      color: $tech-h1-color;
-    }
-    p {
-      color: $tech-h2-color;
-      line-height: 1em;
-      font-size: 30px;
-    }
-  }
-  .tech-items--container {
-    margin: auto;
-    @include respond-to($breakpoint-large) {
-      width: 65vw;
+      padding: 30px 25px 60px 20px;
     }
     @include respond-to($breakpoint-x-small) {
-      width: 100%;
+      padding: 30px 50px;
     }
+  }
 
-    .tech-item {
-      align-items: center;
-      display: flex;
+  .header {
+    text-align: center;
+    padding: 0 0 25px 0;
+  }
+
+  .background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  #portfolio-hr {
+    width: 70%;
+    border-top: $border-grey;
+    margin: 10px auto;
+  }
+
+  .flex-direction-column {
+    flex-direction: column;
+  }
+
+  .flex-direction-row {
+    flex-direction: row;
+    @include respond-to($breakpoint-small) {
       flex-direction: column;
-      width: 7rem;
-      margin: 10px;
+    }
+  }
 
-      .service-icon {
-        background-color: $alice-blue;
-        color: $tech-background-color;
-        height: 7rem;
-        width: 7rem;
-        display: block;
-        line-height: 110px;
-        font-size: 50px;
-        box-shadow: $box-shadow;
-        border-radius: 50%;
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    justify-content: space-around;
+  }
+
+  //  Components
+  .app-header {
+    background-color: $header-background-color;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+    .content-container {
+      margin: 60px 30px;
+      width: 100%;
+
+      .header-logo {
+        width: 65vw;
         margin: 0 0 10px 0;
+        @include respond-to($breakpoint-small) {
+          width: 100%;
+        }
       }
-      p {
-        font-weight: 400;
-        color: $tech-h2-color;
-        line-height: 1.25em;
+      h1 {
+        font-weight: 100;
+      }
+      h3 {
+        font-weight: 100;
       }
     }
   }
-}
 
-.experience {
-  background-color: $experience-background-color;
-  background-image: $simple-background;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: color;
+  .about {
+    background-color: $about-background-color;
+    .content-container {
+      justify-content: center;
 
-  .experience-cards--container {
-    width: 100%;
-    margin-top: -15px;
-    
-    .experience-card {
-      padding: 20px;
-      margin: 20px 0;
-      width: 100%;
-      background-color: $alice-blue;
-      justify-content: space-between;
-      border-radius: $border-radius;
-      box-shadow: $box-shadow;
-      text-align: left;
-    
       @include respond-to($breakpoint-medium) {
-        flex-direction: column;
+        align-content: center;
+        align-items: center;
       }
 
-      .experience-card--image-container {
+      img {
+        width: 30vw;
+        margin: 0 25px 20px 0;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
         float: left;
-        width: 45%;
-        margin: 0 20px 20px 0;
-        
+
         @include respond-to($breakpoint-medium) {
-          width: 60%;
-        }
-        @include respond-to($breakpoint-x-small) {
-          width: 100%;
-          margin: 0 0 20px 0;
-        }
-        
-        .experience-card--image {
-          width: 100%;
-          border-radius: $border-radius;
-          box-shadow: $box-shadow-light;
+          width: 50%;
+          float: none;
+          left: 25%;
+          position: relative;
         }
       }
-      
-      .experience-card--description {
-        text-align: left;
-        margin: 0;
-      
+      .description {
+        width: 100%;
+        padding: 0 20px;
+
         @include respond-to($breakpoint-medium) {
           width: 100%;
         }
 
-        h3 {
-          color: $color-base-5;
-          font-weight: 400;
-          margin: 0 0 15px 0;
+        h2 {
+          margin: 0 15px 15px 15px;
+          @include respond-to($breakpoint-medium) {
+            text-align: center;
+          }
         }
         p {
-          margin: 0 0 20px 0;
+          margin: 0 0 15px;
         }
       }
     }
   }
-}
 
-.projects {
-  background-color: $projects-background-color;
-  background-image: $splotch-background;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: soft-light;
-
-  .projects-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 30px;
-    margin: auto;
-    
-    @include respond-to($breakpoint-small) {
-      grid-template-columns: 1fr;
-    }
-
-    .project-1 {
-      background-color: $project-1-background-color;
-    }
-    .project-2 {
-      background-color: $project-2-background-color;  
-    }
-    .project-3 {
-      background-color: $project-3-background-color;  
-    }
-    .project-4 {
-      background-color: $project-4-background-color;  
-    }
-
-    .project {
-      padding: 20px 0;
-      max-width: 400px;
-      width: 100%;
-      min-height: 400px;
-      height: 100%;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      align-self: center;
-      justify-self: center;
-      justify-content: space-evenly;
-      align-content: center;
-      flex-direction: column;
-      border-radius: $border-radius;
-      text-decoration: none;
-
-      @include respond-to($breakpoint-medium) {
-        width: 90%;
-        max-width: 90%;
-      }
-
-      .project-image-container {
-        max-width: 300px;
-        width: 100%;
-        height: 140px;
-        display: flex;
-        @include respond-to($breakpoint-medium) {
-          width: 100%;
-          max-width: 100%;
-        }
-
-        img {
-        max-width: 300px;
-        width: 100%;
-        max-height: 150px;
-        margin: auto;
-        @include respond-to($breakpoint-medium) {
-          width: 100%;
-          max-width: 500px;
-        }
-      }
-
-      }
-      .project-description {
-        color: $alice-blue;
-        margin: 0 20px 30px 20px;
-
-        h3 {
-          margin: 15px 0;
-        }
-      }
-    }
-  }
-}
-
-.map {
-  height: 20rem;
-  padding: 30px 0;
-  margin: 0 0 50px;
-  background-color: $light-green;
-  .heading {
-    color: $color-base-5;
-  }
-}
-
-.contact {
-  background-color: lightblue;
-  background-image: url(../img/svg/groups/splash-all.svg);
-  background-repeat: no-repeat;
-  background-size: 60%;
-  background-position: center;
-  background-blend-mode: color-dodge;
-  padding: 5rem 0;
-  .contact-items-container {
-    justify-content: center;
-    margin: 0 0 30px 0;
-    .contact-item {
-      color: $white;
-      display: block;
-      height: 4rem;
-      width: 4rem;
-      line-height: 4.3rem;
-      font-size: 1.5rem;
-      background-color: $color-base-5;
-      transition: background-color 0.15s ease-in-out;
-      border-radius: 50%;
-      margin: 0 20px;
-      box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-    }
-  }
-  .footer {
+  .tech {
+    background-color: $tech-background-color;
     text-align: center;
-    color: $color-base-5;
-  }
-}
+    background-image: $outlines-background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: lighten;
 
-// Logos
-.production-logos {
-  #disney-logo {
-    width: 100%;
+    header {
+      h2 {
+        color: $tech-h1-color;
+      }
+      p {
+        color: $tech-h2-color;
+        line-height: 1em;
+        font-size: 30px;
+      }
+    }
+    .tech-items--container {
+      margin: auto;
+      @include respond-to($breakpoint-large) {
+        width: 65vw;
+      }
+      @include respond-to($breakpoint-x-small) {
+        width: 100%;
+      }
+
+      .tech-item {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 7rem;
+        margin: 10px;
+
+        .service-icon {
+          background-color: $alice-blue;
+          color: $tech-background-color;
+          height: 7rem;
+          width: 7rem;
+          display: block;
+          line-height: 110px;
+          font-size: 50px;
+          box-shadow: $box-shadow;
+          border-radius: 50%;
+          margin: 0 0 10px 0;
+        }
+        p {
+          font-weight: 400;
+          color: $tech-h2-color;
+          line-height: 1.25em;
+        }
+      }
+    }
   }
 
-  #warner-logo {
-    width: 70px;
-    margin-bottom: 10px;
+  .experience {
+    background-color: $experience-background-color;
+    background-image: $simple-background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: color;
+
+    .experience-cards--container {
+      width: 100%;
+      margin-top: -15px;
+
+      .experience-card {
+        padding: 20px;
+        margin: 20px 0;
+        width: 100%;
+        background-color: $alice-blue;
+        justify-content: space-between;
+        border-radius: $border-radius;
+        box-shadow: $box-shadow;
+        text-align: left;
+
+        @include respond-to($breakpoint-medium) {
+          flex-direction: column;
+        }
+
+        .experience-card--image-container {
+          float: left;
+          width: 45%;
+          margin: 0 20px 20px 0;
+
+          @include respond-to($breakpoint-medium) {
+            width: 60%;
+          }
+          @include respond-to($breakpoint-x-small) {
+            width: 100%;
+            margin: 0 0 20px 0;
+          }
+
+          .experience-card--image {
+            width: 100%;
+            border-radius: $border-radius;
+            box-shadow: $box-shadow-light;
+          }
+        }
+
+        .experience-card--description {
+          text-align: left;
+          margin: 0;
+
+          @include respond-to($breakpoint-medium) {
+            width: 100%;
+          }
+
+          h3 {
+            color: $color-base-5;
+            font-weight: 400;
+            margin: 0 0 15px 0;
+          }
+          p {
+            margin: 0 0 20px 0;
+          }
+        }
+      }
+    }
   }
 
-  #adult-swim-logo {
-    width: 80px;
-    margin-bottom: 15px;
+  .projects {
+    background-color: $projects-background-color;
+    background-image: $splotch-background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: soft-light;
+
+    .projects-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 30px;
+      margin: auto;
+
+      @include respond-to($breakpoint-small) {
+        grid-template-columns: 1fr;
+      }
+
+      .project-1 {
+        background-color: $project-1-background-color;
+      }
+      .project-2 {
+        background-color: $project-2-background-color;
+      }
+      .project-3 {
+        background-color: $project-3-background-color;
+      }
+      .project-4 {
+        background-color: $project-4-background-color;
+      }
+
+      .project {
+        padding: 20px 0;
+        max-width: 400px;
+        width: 100%;
+        min-height: 400px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-direction: column;
+        border-radius: $border-radius;
+        text-decoration: none;
+
+        @include respond-to($breakpoint-medium) {
+          width: 90%;
+          max-width: 90%;
+        }
+
+        .project-image-container {
+          max-width: 300px;
+          width: 100%;
+          height: 140px;
+          display: flex;
+          @include respond-to($breakpoint-medium) {
+            width: 100%;
+            max-width: 100%;
+          }
+
+          img {
+            max-width: 300px;
+            width: 100%;
+            max-height: 150px;
+            margin: auto;
+            @include respond-to($breakpoint-medium) {
+              width: 100%;
+              max-width: 500px;
+            }
+          }
+        }
+        .project-description {
+          color: $alice-blue;
+          margin: 0 20px 30px 20px;
+
+          h3 {
+            margin: 15px 0;
+          }
+        }
+      }
+    }
   }
 
-  #king-logo {
-    width: 95px;
-    margin-bottom: 20px;
+  .map {
+    height: 20rem;
+    padding: 30px 0;
+    margin: 0 0 50px;
+    background-color: $light-green;
+    .heading {
+      color: $color-base-5;
+    }
   }
 
-  #zynga-logo {
-    width: 70px;
-    margin-bottom: 10px;
+  .contact {
+    background-color: lightblue;
+    background-image: url(../img/svg/groups/splash-all.svg);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: center;
+    background-blend-mode: color-dodge;
+    padding: 5rem 0;
+    .contact-items-container {
+      justify-content: center;
+      margin: 0 0 30px 0;
+      .contact-item {
+        color: $white;
+        display: block;
+        height: 4rem;
+        width: 4rem;
+        line-height: 4.3rem;
+        font-size: 1.5rem;
+        background-color: $color-base-5;
+        transition: background-color 0.15s ease-in-out;
+        border-radius: 50%;
+        margin: 0 20px;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+      }
+    }
+    .footer {
+      text-align: center;
+      color: $color-base-5;
+    }
   }
 
-  #kixeye-logo {
-    width: 80px;
-    margin-bottom: 15px;
-  }
+  // Logos
+  .production-logos {
+    #disney-logo {
+      width: 100%;
+    }
 
-  #chartboost-logo {
-    width: 90px;
-    margin-bottom: 25px;
-  }
+    #warner-logo {
+      width: 70px;
+      margin-bottom: 10px;
+    }
 
-  #big-fish-logo {
-    width: 80px;
-    margin-bottom: 15px;
+    #adult-swim-logo {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    #king-logo {
+      width: 95px;
+      margin-bottom: 20px;
+    }
+
+    #zynga-logo {
+      width: 70px;
+      margin-bottom: 10px;
+    }
+
+    #kixeye-logo {
+      width: 80px;
+      margin-bottom: 15px;
+    }
+
+    #chartboost-logo {
+      width: 90px;
+      margin-bottom: 25px;
+    }
+
+    #big-fish-logo {
+      width: 80px;
+      margin-bottom: 15px;
+    }
   }
 }
