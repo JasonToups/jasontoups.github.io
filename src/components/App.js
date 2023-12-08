@@ -1,12 +1,14 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Portfolio from './Portfolio'; // Assuming you have a Portfolio component
-import Resume from './Resume'; // Assuming you have a Resume component
+import NavigationComponent from './Navigation/NavigationComponent';
+import Portfolio from './Portfolio/Portfolio';
+import Resume from './Resume/Resume';
 
 function App() {
   return (
     <Router>
       <div>
+        <NavigationComponent />
         <Routes>
           <Route path='/' element={<Portfolio />} />
           <Route path='/resume' element={<Resume />} />

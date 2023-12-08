@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/resume.scss';
 
 const Resume = () => (
   <div className='resume'>
