@@ -5,7 +5,7 @@ import ProfileIcon from '../../img/svg/profile.svg';
 
 const Navigation = () => {
   const navigate = useNavigate();
-  const [currentIcon, setCurrentIcon] = useState('defaultIcon.png'); // Set default icon
+  const [currentIcon, setCurrentIcon] = useState(ResumeIcon); // Set default icon
 
   const toggleRoutes = () => {
     const currentPath = window.location.pathname;
