@@ -139,7 +139,7 @@ const Resume = () => (
           <li>
             <strong>Developed</strong> a design guide with classNameNames and
             partials, from the product design system, to build stylesheets which
-            implemented reusable classNamenames and styles.
+            implemented reusable classNames and styles.
           </li>
           <li>
             <strong>Mentored</strong> a junior ui/ux designer by providing
