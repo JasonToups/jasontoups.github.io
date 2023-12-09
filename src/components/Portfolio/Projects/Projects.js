@@ -13,9 +13,9 @@ const Projects = () => {
       </header>
       <div className='projects-container'>
         <ProjectCard
-          cardImage={ReactTube}
-          cardImageAlt={'React Tube App'}
-          cardUrl='https://jasontoups.github.io/YouTube-React-Hooks/'
+          image={ReactTube}
+          imageAlt={'React Tube App'}
+          imageUrl='https://jasontoups.github.io/YouTube-React-Hooks/'
           projectNumber='1'
         >
           <h3>ReactTube</h3>
@@ -25,9 +25,9 @@ const Projects = () => {
           </p>
         </ProjectCard>
         <ProjectCard
-          cardImage={ReactUnsplash}
-          cardImageAlt={'React Unsplash App'}
-          cardUrl='https://jasontoups.github.io/Unsplash-React-Hooks/'
+          image={ReactUnsplash}
+          imageAlt={'React Unsplash App'}
+          imageUrl='https://jasontoups.github.io/Unsplash-React-Hooks/'
           projectNumber='2'
         >
           <h3>React Unsplash</h3>
@@ -37,9 +37,9 @@ const Projects = () => {
           </p>
         </ProjectCard>
         <ProjectCard
-          cardImage={CrushIt}
-          cardImageAlt={'crush it javascript game'}
-          cardUrl='https://jasontoups.github.io/CrushIt'
+          image={CrushIt}
+          imageAlt={'crush it javascript game'}
+          imageUrl='https://jasontoups.github.io/CrushIt'
           projectNumber='3'
         >
           <h3>Crush It!!!</h3>
@@ -49,9 +49,9 @@ const Projects = () => {
           </p>
         </ProjectCard>
         <ProjectCard
-          cardImage={RickAndMorty}
-          cardImageAlt={'rick and morty react character database'}
-          cardUrl='https://jasontoups.github.io/rick-and-morty/'
+          image={RickAndMorty}
+          imageAlt={'rick and morty react character database'}
+          imageUrl='https://jasontoups.github.io/rick-and-morty/'
           projectNumber='4'
         >
           <h3>

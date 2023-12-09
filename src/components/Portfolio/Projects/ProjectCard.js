@@ -1,28 +1,27 @@
 import React from 'react';
 
-const ProjectCard = ({cardImage, cardImageAlt, cardUrl, projectNumber, children}) => {
-
-	return (
+const ProjectCard = ({
+  image,
+  imageAlt,
+  imageUrl,
+  projectNumber,
+  children,
+}) => {
+  return (
     <a
-    className={`project project-${projectNumber}`}
-    href={cardUrl}
-    target="_blank"
-    rel="noreferrer"
-  >
-    <div className="project-image-container">
-      <img
-        className="project-image"
-        src={cardImage}
-        alt={cardImageAlt}
-      />   
-    </div>
-    <span className="project-description">
-      <span className="caption-content">
-        {children}
+      className={`project project-${projectNumber}`}
+      href={imageUrl}
+      target='_blank'
+      rel='noreferrer'
+    >
+      <div className='project-image-container'>
+        <img className='project-image' src={image} alt={imageAlt} />
+      </div>
+      <span className='project-description'>
+        <span className='caption-content'>{children}</span>
       </span>
-    </span>
-  </a>
-	);
+    </a>
+  );
 };
 
 export default ProjectCard;
