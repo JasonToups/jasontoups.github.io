@@ -23,7 +23,7 @@ jobs:
             node_modules
       - name: install npm
         run: |
-          npm i -g npm@10 --registry=https://registry.npmjs.org
+          npm i -g npm@8.19.4 --registry=https://registry.npmjs.org
       - name: Install and Build 🔧
         run: |
           npm ci
