@@ -1,21 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFile } from '@fortawesome/free-solid-svg-icons';
+
 import {
   faLinkedinIn,
   faGithubAlt,
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faBriefcase } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 import { useNavigation } from '../../../contexts/NavigationContext';
 
 const Contact = () => {
   const [date, setDate] = useState(null);
+  const navigate = useNavigate();
   const { setPath } = useNavigation();
 
-  const handleClick = () => {
+  const handleResumeClick = () => {
     setPath('/resume');
-    // Additional logic if needed
+    navigate('/resume');
   };
 
   useEffect(() => {
@@ -53,7 +56,7 @@ const Contact = () => {
           <FontAwesomeIcon icon={faTwitter} />
         </a>
         <div className='contact-item'>
-          <FontAwesomeIcon icon={faFile} onClick={handleClick} />
+          <FontAwesomeIcon icon={faBriefcase} onClick={handleResumeClick} />
         </div>
       </div>
       <p className='footer'>Copyright &copy; Jason Toups {date}</p>

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useNavigation } from '../../contexts/NavigationContext';
-import ResumeIcon from '../../img/svg/resume.svg';
-import ProfileIcon from '../../img/svg/profile.svg';
+import { faBriefcase, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navigation = () => {
   const navigate = useNavigate();
@@ -20,11 +20,12 @@ const Navigation = () => {
 
   return (
     <div className='navigation'>
-      <img
-        src={currentPath === '/' ? ResumeIcon : ProfileIcon}
+      <FontAwesomeIcon
+        size='3x'
+        icon={currentPath === '/' ? faBriefcase : faUserTie}
         alt='nav icon'
         onClick={toggleRoutes}
-      ></img>
+      ></FontAwesomeIcon>
     </div>
   );
 };
