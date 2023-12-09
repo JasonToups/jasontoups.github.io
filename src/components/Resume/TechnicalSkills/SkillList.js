@@ -1,9 +1,9 @@
 import React from 'react';
 
-const SkillList = ({ skills }) => {
+const SkillList = ({ data }) => {
   return (
     <div className='technical-skills-grid'>
-      {skills.map((skill, index) => (
+      {data.map((skill, index) => (
         <React.Fragment key={index}>
           <p className='col-1'>
             <strong>{skill.skillType}:</strong>
