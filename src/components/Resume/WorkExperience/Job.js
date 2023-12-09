@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Job = ({ jobData }) => {
+const Job = ({ data }) => {
   const {
     title,
     duration,
@@ -9,7 +9,7 @@ const Job = ({ jobData }) => {
     description,
     technologies,
     jobTasks,
-  } = jobData;
+  } = data;
 
   return (
     <div className='work-experience-section'>

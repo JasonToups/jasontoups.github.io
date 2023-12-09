@@ -27,7 +27,45 @@ export const headerData = {
     'Frontend Engineer, with over 15 years of Software Production experience, including Engineering, Testing & UI/UX Design',
 };
 
-export const jobData = [
+export const technicalSkillsData = [
+  {
+    skillType: 'Programming',
+    skillList: [
+      'Javascript',
+      'Typescript',
+      'Angular',
+      'RxJS',
+      'Markdown',
+      'React',
+      'React-Redux',
+      'React-Thunk',
+      'Vue',
+      'Shell',
+      'HTML',
+      'CSS',
+      'Sass',
+      'JQuery',
+      'Docker',
+    ],
+  },
+  {
+    skillType: 'Production',
+    skillList: [
+      'Agile Development/Scrum Master',
+      'JIRA',
+      'Git',
+      'Software Releases',
+      'Affinity Designer',
+      'Figma',
+      'Adobe Creative Suite',
+      'Technical Documentation',
+      'UI/UX Design',
+      'A/B Testing',
+    ],
+  },
+];
+
+export const workExperienceData = [
   {
     title: 'Bill : Front End Engineer',
     duration: 'Jul 2022 - Dec 2023',
@@ -97,6 +135,6 @@ export const jobData = [
   },
 ];
 
-const resumeData = { headerData, jobData };
+const resumeData = { headerData, workExperienceData, technicalSkillsData };
 
 export default resumeData;
