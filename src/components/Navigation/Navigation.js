@@ -21,7 +21,7 @@ const Navigation = () => {
   return (
     <div className='navigation'>
       <img
-        src={currentPath === '/' ? ProfileIcon : ResumeIcon}
+        src={currentPath === '/' ? ResumeIcon : ProfileIcon}
         alt='nav icon'
         onClick={toggleRoutes}
       ></img>
