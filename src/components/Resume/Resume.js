@@ -1,5 +1,5 @@
 import React from 'react';
-import resumeData from './resumeData.js';
+import resumeData from '../../data/resumeData.js';
 import { Education, Header, TechnicalSkills, WorkExperience } from './index';
 const Resume = () => {
   const { headerData, technicalSkillsData, workExperienceData, educationData } =
