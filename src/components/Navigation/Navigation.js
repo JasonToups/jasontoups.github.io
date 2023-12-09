@@ -1,27 +1,31 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import ResumeIcon from '../../img/svg/resume.svg';
-import ProfileIcon from '../../img/svg/profile.svg';
+import { useNavigation } from '../../contexts/NavigationContext';
+import { faBriefcase, faUserTie } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Navigation = () => {
   const navigate = useNavigate();
-  const [currentIcon, setCurrentIcon] = useState(ResumeIcon); // Set default icon
+  const { currentPath, setPath } = useNavigation();
 
   const toggleRoutes = () => {
-    const currentPath = window.location.pathname;
-
     if (currentPath === '/') {
-      setCurrentIcon(ProfileIcon);
+      setPath('/resume');
       navigate('/resume');
     } else {
-      setCurrentIcon(ResumeIcon);
+      setPath('/');
       navigate('/');
     }
   };
 
   return (
     <div className='navigation'>
-      <img src={currentIcon} alt='nav icon' onClick={toggleRoutes}></img>
+      <FontAwesomeIcon
+        size='3x'
+        icon={currentPath === '/' ? faBriefcase : faUserTie}
+        alt='nav icon'
+        onClick={toggleRoutes}
+      ></FontAwesomeIcon>
     </div>
   );
 };
