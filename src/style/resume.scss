@@ -127,38 +127,12 @@
     ========================================================================== */
 
   /**
-  * Address variable `h1` font-size and margin within `section` and `article`
-  * contexts in Firefox 4+, Safari 5, and Chrome.
-  */
-
-  h1 {
-    font-size: 2em;
-    margin: 0.67em 0;
-  }
-
-  /**
-  * Address styling not present in IE 8/9, Safari 5, and Chrome.
-  */
-
-  abbr[title] {
-    border-bottom: 1px dotted;
-  }
-
-  /**
   * Address style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
   */
 
   b,
   strong {
     font-weight: bold;
-  }
-
-  /**
-  * Address styling not present in Safari 5 and Chrome.
-  */
-
-  dfn {
-    font-style: italic;
   }
 
   /**
@@ -172,15 +146,6 @@
   }
 
   /**
-  * Address styling not present in IE 8/9.
-  */
-
-  mark {
-    background: #ff0;
-    color: #000;
-  }
-
-  /**
   * Correct font family set oddly in Safari 5 and Chrome.
   */
 
@@ -190,50 +155,6 @@
   samp {
     font-family: monospace, serif;
     font-size: 1em;
-  }
-
-  /**
-  * Improve readability of pre-formatted text in all browsers.
-  */
-
-  pre {
-    white-space: pre-wrap;
-  }
-
-  /**
-  * Set consistent quote types.
-  */
-
-  q {
-    quotes: '\201C''\201D''\2018''\2019';
-  }
-
-  /**
-  * Address inconsistent and variable font size in all browsers.
-  */
-
-  small {
-    font-size: 80%;
-  }
-
-  /**
-  * Prevent `sub` and `sup` affecting `line-height` in all browsers.
-  */
-
-  sub,
-  sup {
-    font-size: 75%;
-    line-height: 0;
-    position: relative;
-    vertical-align: baseline;
-  }
-
-  sup {
-    top: -0.5em;
-  }
-
-  sub {
-    bottom: -0.25em;
   }
 
   /* ==========================================================================
@@ -256,197 +177,6 @@
     overflow: hidden;
   }
 
-  /* ==========================================================================
-    Figures
-    ========================================================================== */
-
-  /**
-  * Address margin not present in IE 8/9 and Safari 5.
-  */
-
-  figure {
-    margin: 0;
-  }
-
-  /* ==========================================================================
-    Forms
-    ========================================================================== */
-
-  /**
-  * Define consistent border, margin, and padding.
-  */
-
-  fieldset {
-    border: 1px solid #c0c0c0;
-    margin: 0 2px;
-    padding: 0.35em 0.625em 0.75em;
-  }
-
-  /**
-  * 1. Correct `color` not being inherited in IE 8/9.
-  * 2. Remove padding so people aren't caught out if they zero out fieldsets.
-  */
-
-  legend {
-    border: 0;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-  }
-
-  /**
-  * 1. Correct font family not being inherited in all browsers.
-  * 2. Correct font size not being inherited in all browsers.
-  * 3. Address margins set differently in Firefox 4+, Safari 5, and Chrome.
-  */
-
-  button,
-  input,
-  select,
-  textarea {
-    font-family: inherit;
-    /* 1 */
-    font-size: 100%;
-    /* 2 */
-    margin: 0;
-    /* 3 */
-  }
-
-  /**
-  * Address Firefox 4+ setting `line-height` on `input` using `!important` in
-  * the UA stylesheet.
-  */
-
-  button,
-  input {
-    line-height: normal;
-  }
-
-  /**
-  * Address inconsistent `text-transform` inheritance for `button` and `select`.
-  * All other form control elements do not inherit `text-transform` values.
-  * Correct `button` style inheritance in Chrome, Safari 5+, and IE 8+.
-  * Correct `select` style inheritance in Firefox 4+ and Opera.
-  */
-
-  button,
-  select {
-    text-transform: none;
-  }
-
-  /**
-  * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
-  *    and `video` controls.
-  * 2. Correct inability to style clickable `input` types in iOS.
-  * 3. Improve usability and consistency of cursor style between image-type
-  *    `input` and others.
-  */
-
-  button,
- html input[type="button"],
- /* 1 */
- input[type="reset"],
- input[type="submit"] {
-    -webkit-appearance: button;
-    /* 2 */
-    cursor: pointer;
-    /* 3 */
-  }
-
-  /**
-  * Re-set default cursor for disabled elements.
-  */
-
-  button[disabled],
-  html input[disabled] {
-    cursor: default;
-  }
-
-  /**
-  * 1. Address box sizing set to `content-box` in IE 8/9/10.
-  * 2. Remove excess padding in IE 8/9/10.
-  */
-
-  input[type='checkbox'],
-  input[type='radio'] {
-    box-sizing: border-box;
-    /* 1 */
-    padding: 0;
-    /* 2 */
-  }
-
-  /**
-  * 1. Address `appearance` set to `searchfield` in Safari 5 and Chrome.
-  * 2. Address `box-sizing` set to `border-box` in Safari 5 and Chrome
-  *    (include `-moz` to future-proof).
-  */
-
-  input[type='search'] {
-    -webkit-appearance: textfield;
-    /* 1 */
-    -moz-box-sizing: content-box;
-    -webkit-box-sizing: content-box;
-    /* 2 */
-    box-sizing: content-box;
-  }
-
-  /**
-  * Remove inner padding and search cancel button in Safari 5 and Chrome
-  * on OS X.
-  */
-
-  input[type='search']::-webkit-search-cancel-button,
-  input[type='search']::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-
-  /**
-  * Remove inner padding and border in Firefox 4+.
-  */
-
-  button::-moz-focus-inner,
-  input::-moz-focus-inner {
-    border: 0;
-    padding: 0;
-  }
-
-  /**
-  * 1. Remove default vertical scrollbar in IE 8/9.
-  * 2. Improve readability and alignment in all browsers.
-  */
-
-  textarea {
-    overflow: auto;
-    /* 1 */
-    vertical-align: top;
-    /* 2 */
-  }
-
-  /* ==========================================================================
-    Tables
-    ========================================================================== */
-
-  /**
-  * Remove most spacing between table cells.
-  */
-
-  table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    border: none;
-  }
-
-  .go-top {
-    position: fixed;
-    bottom: 2em;
-    right: 2em;
-    text-decoration: none;
-    background-color: #e0e0e0;
-    font-size: 12px;
-    padding: 1em;
-    display: inline;
-  }
-
   /* Github css */
 
   @font-face {
@@ -466,14 +196,16 @@
   $h6-font-size: 14px;
   $p-font-size: 14px;
   $h1-font-size-mobile: 45px;
-  $h2-font-size-mobile: 33px;
-  $h3-font-size-mobile: 25px;
-  $h4-font-size-mobile: 23px;
-  $h5-font-size-mobile: 20px;
-  $h6-font-size-mobile: 20px;
-  $p-font-size-mobile: 20px;
+  $h2-font-size-mobile: 40px;
+  $h3-font-size-mobile: 37px;
+  $h4-font-size-mobile: 33px;
+  $h5-font-size-mobile: 23px;
+  $h6-font-size-mobile: 27px;
+  $p-font-size-mobile: 27px;
 
-  p {
+  p,
+  p strong,
+  p em {
     margin: 1em 0;
     font-size: $p-font-size;
     @include respond-to($breakpoint-small) {
@@ -484,6 +216,10 @@
   a {
     color: #4183c4;
     text-decoration: none;
+    font-size: $p-font-size;
+    @include respond-to($breakpoint-small) {
+      font-size: $p-font-size-mobile;
+    }
   }
 
   h1,
@@ -508,7 +244,7 @@
     text-align: center;
     @include respond-to($breakpoint-small) {
       font-size: $h1-font-size-mobile;
-      line-height: $h1-font-size-mobile;
+      line-height: calc($h1-font-size-mobile + 5px);
     }
   }
 
@@ -521,7 +257,7 @@
     color: #476d96;
     @include respond-to($breakpoint-small) {
       font-size: $h2-font-size-mobile;
-      line-height: $h2-font-size-mobile;
+      line-height: calc($h2-font-size-mobile + 5px);
       margin-bottom: 15px;
       border-bottom: 2px solid #ccc;
     }
@@ -535,7 +271,7 @@
     -webkit-margin-after: 0.01em;
     @include respond-to($breakpoint-small) {
       font-size: $h3-font-size-mobile;
-      line-height: $h3-font-size-mobile;
+      line-height: calc($h3-font-size-mobile + 5px);
     }
   }
 
@@ -548,7 +284,7 @@
     -webkit-margin-after: 0.02em;
     @include respond-to($breakpoint-small) {
       font-size: $h4-font-size-mobile;
-      line-height: $h4-font-size-mobile;
+      line-height: calc($h4-font-size-mobile + 5px);
     }
   }
 
@@ -559,7 +295,15 @@
     text-align: center;
     @include respond-to($breakpoint-small) {
       font-size: $h5-font-size-mobile;
-      line-height: $h5-font-size-mobile;
+      line-height: calc($h5-font-size-mobile + 5px);
+    }
+    a {
+      color: #4183c4;
+      text-decoration: none;
+      font-size: $h5-font-size;
+      @include respond-to($breakpoint-small) {
+        font-size: $h5-font-size-mobile;
+      }
     }
   }
 
@@ -570,7 +314,38 @@
     text-align: center;
     @include respond-to($breakpoint-small) {
       font-size: $h6-font-size-mobile;
-      line-height: $h6-font-size-mobile;
+      line-height: calc($h6-font-size-mobile + 5px);
+    }
+  }
+
+  .resume-section {
+    margin-bottom: 10px;
+    @include respond-to($breakpoint-small) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .work-experience-section {
+    margin-bottom: 10px;
+    @include respond-to($breakpoint-small) {
+      margin-bottom: 30px;
+    }
+  }
+
+  .technical-skills-grid {
+    display: grid;
+    grid-gap: 10px;
+    @include respond-to($breakpoint-small) {
+    }
+
+    .col-1 {
+      grid-column: 1;
+      width: 10%;
+    }
+    .col-2 {
+      grid-column: 2;
+      width: 90%;
+      text-align: center;
     }
   }
 
@@ -586,7 +361,8 @@
     margin: 0 0 10px 0;
   }
 
-  li {
+  li,
+  li strong {
     font-size: $p-font-size;
     @include respond-to($breakpoint-small) {
       font-size: $p-font-size-mobile;
@@ -696,6 +472,10 @@
     border-left: 4px solid #ddd;
     padding: 0 15px;
     color: #777;
+    @include respond-to($breakpoint-small) {
+      padding: 0 20px;
+      margin: 0 0 20px;
+    }
   }
 
   blockquote > :first-child {
