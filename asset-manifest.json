@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.2c4b2341.chunk.css",
-    "main.js": "/static/js/main.c4f9f720.chunk.js",
-    "main.js.map": "/static/js/main.c4f9f720.chunk.js.map",
+    "main.css": "/static/css/main.1abd68eb.chunk.css",
+    "main.js": "/static/js/main.a5f7c226.chunk.js",
+    "main.js.map": "/static/js/main.a5f7c226.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79be5d24.js",
     "runtime-main.js.map": "/static/js/runtime-main.79be5d24.js.map",
     "static/js/2.1cdbcd3a.chunk.js": "/static/js/2.1cdbcd3a.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.9d3d0421.chunk.js": "/static/js/3.9d3d0421.chunk.js",
     "static/js/3.9d3d0421.chunk.js.map": "/static/js/3.9d3d0421.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.2c4b2341.chunk.css.map": "/static/css/main.2c4b2341.chunk.css.map",
+    "static/css/main.1abd68eb.chunk.css.map": "/static/css/main.1abd68eb.chunk.css.map",
     "static/js/2.1cdbcd3a.chunk.js.LICENSE.txt": "/static/js/2.1cdbcd3a.chunk.js.LICENSE.txt",
     "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
     "static/media/experience-huoa.cccc966a.jpg": "/static/media/experience-huoa.cccc966a.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.79be5d24.js",
     "static/js/2.1cdbcd3a.chunk.js",
-    "static/css/main.2c4b2341.chunk.css",
-    "static/js/main.c4f9f720.chunk.js"
+    "static/css/main.1abd68eb.chunk.css",
+    "static/js/main.a5f7c226.chunk.js"
   ]
 }
