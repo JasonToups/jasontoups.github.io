@@ -1,23 +1,17 @@
 import React from 'react';
-
+import resumeData from './resumeData.js';
+import {
+  About,
+  Contact,
+  Experience,
+  Header,
+  Map,
+  Projects,
+  Tech,
+} from './index';
 const Resume = () => (
   <div className='resume'>
-    <div className='resume-section'>
-      <header id='title-block-header'>
-        <h1 className='title'>Jason Toups</h1>
-        <p className='author'>Jason Toups</p>
-      </header>
-      <h5 id='mejasontoups.com-.-linkedin-.-portfolio-.-github-.-404.625.6530'>
-        me@jasontoups.com .{' '}
-        <a href='https://www.linkedin.com/in/jasontoups/'>LinkedIn</a> .{' '}
-        <a href='https://jasontoups.github.io/'>Portfolio</a> .{' '}
-        <a href='https://github.com/JasonToups'>Github</a> . 404.625.6530
-      </h5>
-      <h5 id='frontend-engineer-with-over-15-years-of-software-production-experience-including-engineering-testing-uiux-design'>
-        Frontend Engineer, with over 15 years of Software Production experience,
-        including Engineering, Testing &amp; UI/UX Design
-      </h5>
-    </div>
+    <Header data={resumeData.headerData} />
     <div className='resume-section'>
       <h2 id='technical-skills'>Technical Skills</h2>
       <div className='technical-skills-grid'>
