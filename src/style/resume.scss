@@ -290,7 +290,7 @@
 
   h5 {
     font-size: $h5-font-size;
-    line-height: $h5-font-size;
+    line-height: calc($h5-font-size + 5px);
     color: #1e3a56;
     text-align: center;
     @include respond-to($breakpoint-small) {
