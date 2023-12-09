@@ -135,6 +135,17 @@ export const workExperienceData = [
   },
 ];
 
-const resumeData = { headerData, workExperienceData, technicalSkillsData };
+export const educationData = {
+  school: 'University of New Orleans',
+  degreeType: 'BA',
+  department: 'Philosophy',
+};
+
+const resumeData = {
+  headerData,
+  workExperienceData,
+  technicalSkillsData,
+  educationData,
+};
 
 export default resumeData;

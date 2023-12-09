@@ -1,11 +1,14 @@
 import React from 'react';
 
-const Education = () => {
+const Education = ({ data }) => {
+  const { school, degreeType, department } = data;
   return (
     <div className='resume-section'>
       <h2 id='education'>Education</h2>
       <p>
-        <em>University of New Orleans / BA Philosophy</em>
+        <em>
+          {school} / {degreeType} {department}
+        </em>
       </p>
     </div>
   );
