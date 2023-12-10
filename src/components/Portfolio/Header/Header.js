@@ -8,7 +8,6 @@ const Header = ({ data }) => {
       <div className='content-container'>
         <img className='header-logo' alt={imageAlt} src={image} />
         <h1>{title}</h1>
-        <h2>{subtitle}</h2>
       </div>
     </div>
   );

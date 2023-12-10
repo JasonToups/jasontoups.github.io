@@ -20,8 +20,7 @@ import Bill from '../img/experience/experience-bill.jpg';
 export const headerData = {
   image: PortfolioLogo,
   imageAlt: 'Jason Toups Portfolio Logo',
-  title: 'Jason Toups',
-  subtitle: 'design-oriented software ingineer',
+  title: 'design-oriented software engineer',
 };
 
 export const techStackData = [
