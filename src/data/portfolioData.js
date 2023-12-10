@@ -32,6 +32,7 @@ import {
   faTwitter,
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { MarkdownResume } from '../img/portfolio/projects/index.js';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -143,22 +144,22 @@ export const projectsData = {
   header: '[My Apps]',
   projects: [
     {
+      image: MarkdownResume,
+      imageAlt: 'Markdown Resume App',
+      imageUrl: 'https://github.com/JasonToups/markdown-resume',
+      projectNumber: '1',
+      title: 'MarkdownResume',
+      description:
+        'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
+    },
+    {
       image: ReactTube,
       imageAlt: 'React Tube App',
       imageUrl: 'https://jasontoups.github.io/YouTube-React-Hooks/',
-      projectNumber: '1',
+      projectNumber: '2',
       title: 'ReactTube',
       description:
         'Search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.',
-    },
-    {
-      image: ReactUnsplash,
-      imageAlt: 'React Unsplash App',
-      imageUrl: 'https://jasontoups.github.io/Unsplash-React-Hooks/',
-      projectNumber: '2',
-      title: 'React Unsplash',
-      description:
-        'Search the Unsplash API and return a list of images, utilizing Primitive Hooks & Custom Hooks to fetch data.',
     },
     {
       image: CrushIt,
