@@ -9,7 +9,7 @@ import {
   Projects,
   Tech,
 } from './index.js';
-import { experienceData } from '../../data/portfolioData.js';
+import { aboutData, experienceData } from '../../data/portfolioData.js';
 
 const Portfolio = () => {
   // I would like to create a nav button pinned in the upper right side of the window that will show my resume when clicked
@@ -17,7 +17,7 @@ const Portfolio = () => {
   return (
     <div className='portfolio-site'>
       <Header />
-      <About />
+      <About data={aboutData} />
       <Tech />
       <Experience data={experienceData} />
       <Projects />

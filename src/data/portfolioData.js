@@ -1,7 +1,21 @@
+import ProfilePic from '../img/about/profile-pic-jason-toups.png';
 import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
+
+export const aboutData = {
+  profilePic: ProfilePic,
+  header: 'About#Me',
+  paragraphs: [
+    "Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
+    'My specialty is working with React Hooks, Redux & Thunk; Designing Vector Graphics & Wireframing',
+    'I designed all of the vector graphics here in Affinity Designer, and styled my portfolio from scratch with Sass & Mixins',
+    'I can design, engineer, & test new applications.',
+    'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
+    'If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨',
+  ],
+};
 
 export const experienceData = {
   header: '{Engineering Experience}',
@@ -64,6 +78,7 @@ export const experienceData = {
 };
 
 const portfolioData = {
+  aboutData,
   experienceData,
 };
 
