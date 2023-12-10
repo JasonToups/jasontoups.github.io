@@ -1,7 +1,7 @@
 // Imports for the Header Section
-import PortfolioLogo from '../img/svg/logo-jason-toups.svg';
+import PortfolioLogo from '../img/portfolio/index';
 // Imports for the About Section
-import ProfilePic from '../img/about/profile-pic-jason-toups.png';
+import ProfilePic from '../img/portfolio/index';
 // Imports for the Tech Stack Section
 import {
   faReact,
@@ -10,24 +10,28 @@ import {
   faSass,
   faNodeJs,
   faEnvira,
-} from '@fortawesome/free-brands-svg-icons';
+} from '../img/portfolio/index';
 // Imports for the Experience Section
-import Huoa from '../img/experience/experience-huoa.jpg';
-import NewlyWords from '../img/experience/experience-newlywords.jpg';
-import WilliamsSonoma from '../img/experience/experience-ws.jpg';
-import Bill from '../img/experience/experience-bill.jpg';
+import {
+  Huoa,
+  NewlyWords,
+  WilliamsSonoma,
+  Bill,
+} from '../img/portfolio/experience/index';
 // Imports for the Projects Section
-import RickAndMorty from '../img/portfolio/projects/logo-RickAndMorty.svg';
-import CrushIt from '../img/portfolio/projects/crush-it-logo.svg';
-import ReactTube from '../img/portfolio/projects/reacttube-logo.svg';
-import ReactUnsplash from '../img/portfolio/projects/reactunsplash-logo.svg';
+import {
+  RickAndMorty,
+  CrushIt,
+  ReactTube,
+  ReactUnsplash,
+} from '../img/portfolio/index';
 // Imports for the Contact Section
 import {
   faLinkedinIn,
   faGithubAlt,
   faTwitter,
-} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+  faEnvelope,
+} from '../img/portfolio/index';
 
 export const headerData = {
   image: PortfolioLogo,

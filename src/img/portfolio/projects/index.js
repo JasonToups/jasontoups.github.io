@@ -1,0 +1,6 @@
+import RickAndMorty from './rickAndMorty-logo.svg';
+import CrushIt from './crush-it-logo.svg';
+import ReactTube from './reacttube-logo.svg';
+import ReactUnsplash from './reactunsplash-logo.svg';
+
+export { RickAndMorty, CrushIt, ReactTube, ReactUnsplash };
