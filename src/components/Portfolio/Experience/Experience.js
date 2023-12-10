@@ -1,6 +1,5 @@
 import React from 'react';
 import ExperienceCard from './ExperienceCard';
-import { experienceData } from '../../../data/portfolioData';
 
 const Experience = ({ data }) => {
   const { header, workExperience } = data;

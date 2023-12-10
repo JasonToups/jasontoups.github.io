@@ -1,8 +1,46 @@
+// Imports for the About Section
 import ProfilePic from '../img/about/profile-pic-jason-toups.png';
+// Imports for the Tech Stack Section
+import {
+  faReact,
+  faJs,
+  faHtml5,
+  faSass,
+  faNodeJs,
+  faEnvira,
+} from '@fortawesome/free-brands-svg-icons';
+// Imports for the Experience Section
 import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
+
+export const techStackData = [
+  {
+    icon: faReact,
+    text: 'React, Redux & Hooks',
+  },
+  {
+    icon: faJs,
+    text: 'Javascript ES6',
+  },
+  {
+    icon: faSass,
+    text: 'Sass & Mixins',
+  },
+  {
+    icon: faHtml5,
+    text: 'HTML 5',
+  },
+  {
+    icon: faNodeJs,
+    text: 'Node JS',
+  },
+  {
+    icon: faEnvira,
+    text: 'MongoDB',
+  },
+];
 
 export const aboutData = {
   profilePic: ProfilePic,
@@ -79,6 +117,7 @@ export const experienceData = {
 
 const portfolioData = {
   aboutData,
+  techStackData,
   experienceData,
 };
 
