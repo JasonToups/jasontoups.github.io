@@ -17,10 +17,12 @@ import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
 // Imports for the Projects Section
-import RickAndMorty from '../img/portfolio/projects/logo-RickAndMorty.svg';
-import CrushIt from '../img/portfolio/projects/crush-it-logo.svg';
-import ReactTube from '../img/portfolio/projects/reacttube-logo.svg';
-import ReactUnsplash from '../img/portfolio/projects/reactunsplash-logo.svg';
+import {
+  RickAndMorty,
+  CrushIt,
+  ReactTube,
+  ReactUnsplash,
+} from '../img/portfolio/index.js';
 // Imports for the Contact Section
 import {
   faLinkedinIn,
