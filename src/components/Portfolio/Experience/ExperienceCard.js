@@ -1,22 +1,29 @@
 import React from 'react';
 
-const ExperienceCard = ({cardImage, cardImageAlt, cardUrl, children}) => {
+const ExperienceCard = ({ data }) => {
+  const { image, imageAlt, imageUrl, title, description } = data;
 
-	return (
-    <div className="experience-card">
-        <div className="experience-card--image-container">
-          <a 
-            className="experience-card--link" href={cardUrl} target="_blank"
-            rel="noreferrer"
-          >
-            <img className="experience-card--image" src={cardImage} alt={cardImageAlt}/>
-          </a>
-        </div>
-        <div className="experience-card--description">
-          {children}
-        </div>
+  return (
+    <div className='experience-card'>
+      <div className='experience-card--image-container'>
+        <a
+          className='experience-card--link'
+          href={imageUrl}
+          target='_blank'
+          rel='noreferrer'
+        >
+          <img className='experience-card--image' src={image} alt={imageAlt} />
+        </a>
+      </div>
+      <div className='experience-card--description'>
+        <h3>{title}</h3>
+
+        {description.map((item, index) => (
+          <p key={index}>{item}</p>
+        ))}
+      </div>
     </div>
-	);
+  );
 };
 
 export default ExperienceCard;
