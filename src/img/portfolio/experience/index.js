@@ -1,7 +1,7 @@
-import Huoa from '../img/experience/experience-huoa.jpg';
-import NewlyWords from '../img/experience/experience-newlywords.jpg';
-import WilliamsSonoma from '../img/experience/experience-ws.jpg';
-import Bill from '../img/experience/experience-bill.jpg';
+import Huoa from './img/experience/experience-huoa.jpg';
+import NewlyWords from './img/experience/experience-newlywords.jpg';
+import WilliamsSonoma from './img/experience/experience-ws.jpg';
+import Bill from './img/experience/experience-bill.jpg';
 
 export const experienceImages = {
   Huoa,
@@ -10,4 +10,4 @@ export const experienceImages = {
   Bill,
 };
 
-export default experienceImages;
+export { Huoa, NewlyWords, WilliamsSonoma, Bill };

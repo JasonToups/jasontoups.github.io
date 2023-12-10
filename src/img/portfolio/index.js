@@ -1,4 +1,4 @@
-import PortfolioLogo from './header/portfolio-logo.png';
+import PortfolioLogo from './header/';
 import ProfilePic from './about/profile-pic-jason-toups.png';
 import {
   faReact,
@@ -14,7 +14,7 @@ import {
   ReactTube,
   ReactUnsplash,
 } from './projects/index';
-import { Huoa, NewlyWords, WilliamsSonoma, Bill } from './experience/index';
+import { Huoa, NewlyWords, WilliamsSonoma, Bill } from './experience/index.js';
 import {
   faLinkedinIn,
   faGithubAlt,
@@ -38,12 +38,12 @@ export const techStackImages = {
   faEnvira,
 };
 
-export const experienceImages = {
-  Huoa,
-  NewlyWords,
-  WilliamsSonoma,
-  Bill,
-};
+// export const experienceImages = {
+//   Huoa,
+//   NewlyWords,
+//   WilliamsSonoma,
+//   Bill,
+// };
 
 export const contactImages = {
   faLinkedinIn,
@@ -53,7 +53,6 @@ export const contactImages = {
 };
 
 const portfolioImages = {
-  PortfolioLogo,
   ProfilePic,
   techStackImages,
   projectsImages,
@@ -61,4 +60,14 @@ const portfolioImages = {
   contactImages,
 };
 
-export default portfolioImages;
+export {
+  Huoa,
+  NewlyWords,
+  WilliamsSonoma,
+  Bill,
+  RickAndMorty,
+  CrushIt,
+  ReactTube,
+  ReactUnsplash,
+  PortfolioLogo,
+};

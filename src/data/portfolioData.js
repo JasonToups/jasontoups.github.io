@@ -10,14 +10,14 @@ import {
   faSass,
   faNodeJs,
   faEnvira,
-} from '../img/portfolio/index';
+} from '../img/portfolio/index.js';
 // Imports for the Experience Section
 import {
   Huoa,
   NewlyWords,
   WilliamsSonoma,
   Bill,
-} from '../img/portfolio/experience/index';
+} from '../img/portfolio/index.js';
 // Imports for the Projects Section
 import {
   RickAndMorty,
