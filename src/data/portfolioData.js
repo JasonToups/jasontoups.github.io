@@ -1,7 +1,7 @@
 // Imports for the Header Section
-import PortfolioLogo from '../img/svg/logo-jason-toups.svg';
+import PortfolioLogo from '../img/portfolio/header/header-logo.svg';
 // Imports for the About Section
-import ProfilePic from '../img/about/profile-pic-jason-toups.png';
+import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups.png';
 // Imports for the Tech Stack Section
 import {
   faReact,
@@ -12,10 +12,12 @@ import {
   faEnvira,
 } from '@fortawesome/free-brands-svg-icons';
 // Imports for the Experience Section
-import Huoa from '../img/experience/experience-huoa.jpg';
-import NewlyWords from '../img/experience/experience-newlywords.jpg';
-import WilliamsSonoma from '../img/experience/experience-ws.jpg';
-import Bill from '../img/experience/experience-bill.jpg';
+import {
+  Huoa,
+  NewlyWords,
+  WilliamsSonoma,
+  Bill,
+} from '../img/portfolio/experience/index.js';
 // Imports for the Projects Section
 import {
   RickAndMorty,
