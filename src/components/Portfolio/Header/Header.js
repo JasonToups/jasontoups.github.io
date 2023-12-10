@@ -1,12 +1,14 @@
 import React from 'react';
-import Logo from '../../../img/svg/logo-jason-toups.svg';
 
-const Header = () => {
+const Header = ({ data }) => {
+  const { image, imageAlt, title, subtitle } = data;
+
   return (
     <div className='app-header flex-container .flex-direction-column'>
       <div className='content-container'>
-        <img className='header-logo' alt='jason toups logo' src={Logo} />
-        <h1>design-oriented software engineer</h1>
+        <img className='header-logo' alt={imageAlt} src={image} />
+        <h1>{title}</h1>
+        <h2>{subtitle}</h2>
       </div>
     </div>
   );

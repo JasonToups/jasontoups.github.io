@@ -1,3 +1,5 @@
+// Imports for the Header Section
+import PortfolioLogo from '../img/svg/logo-jason-toups.svg';
 // Imports for the About Section
 import ProfilePic from '../img/about/profile-pic-jason-toups.png';
 // Imports for the Tech Stack Section
@@ -14,6 +16,13 @@ import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
+
+export const headerData = {
+  image: PortfolioLogo,
+  imageAlt: 'Jason Toups Portfolio Logo',
+  title: 'Jason Toups',
+  subtitle: 'design-oriented software ingineer',
+};
 
 export const techStackData = [
   {
@@ -116,6 +125,7 @@ export const experienceData = {
 };
 
 const portfolioData = {
+  headerData,
   aboutData,
   techStackData,
   experienceData,

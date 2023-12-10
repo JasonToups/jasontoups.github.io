@@ -10,6 +10,7 @@ import {
   TechStack,
 } from './index.js';
 import {
+  headerData,
   aboutData,
   techStackData,
   experienceData,
@@ -20,7 +21,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio-site'>
-      <Header />
+      <Header data={headerData} />
       <About data={aboutData} />
       <TechStack data={techStackData} />
       <Experience data={experienceData} />
