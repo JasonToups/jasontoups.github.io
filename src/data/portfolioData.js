@@ -19,12 +19,7 @@ import {
   Bill,
 } from '../img/portfolio/experience/index.js';
 // Imports for the Projects Section
-import {
-  RickAndMorty,
-  CrushIt,
-  ReactTube,
-  ReactUnsplash,
-} from '../img/portfolio/index.js';
+import { RickAndMorty, CrushIt, ReactTube } from '../img/portfolio/index.js';
 // Imports for the Contact Section
 import {
   faLinkedinIn,
