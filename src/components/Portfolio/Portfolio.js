@@ -14,6 +14,7 @@ import {
   aboutData,
   techStackData,
   experienceData,
+  projectsData,
   contactData,
 } from '../../data/portfolioData.js';
 
@@ -26,7 +27,7 @@ const Portfolio = () => {
       <About data={aboutData} />
       <TechStack data={techStackData} />
       <Experience data={experienceData} />
-      <Projects />
+      <Projects data={projectsData} />
       <Map />
       <ContactList data={contactData} />
     </div>

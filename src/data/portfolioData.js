@@ -16,6 +16,11 @@ import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
+// Imports for the Projects Section
+import RickAndMorty from '../img/portfolio/projects/logo-RickAndMorty.svg';
+import CrushIt from '../img/portfolio/projects/crush-it-logo.svg';
+import ReactTube from '../img/portfolio/projects/reacttube-logo.svg';
+import ReactUnsplash from '../img/portfolio/projects/reactunsplash-logo.svg';
 // Imports for the Contact Section
 import {
   faLinkedinIn,
@@ -130,6 +135,48 @@ export const experienceData = {
   ],
 };
 
+export const projectsData = {
+  header: '[My Apps]',
+  projects: [
+    {
+      image: ReactTube,
+      imageAlt: 'React Tube App',
+      imageUrl: 'https://jasontoups.github.io/YouTube-React-Hooks/',
+      projectNumber: '1',
+      title: 'ReactTube',
+      description:
+        'Search the YouTube API and return a short list of 5 videos, utilizing Primitive Hooks & Custom Hooks to fetch data.',
+    },
+    {
+      image: ReactUnsplash,
+      imageAlt: 'React Unsplash App',
+      imageUrl: 'https://jasontoups.github.io/Unsplash-React-Hooks/',
+      projectNumber: '2',
+      title: 'React Unsplash',
+      description:
+        'Search the Unsplash API and return a list of images, utilizing Primitive Hooks & Custom Hooks to fetch data.',
+    },
+    {
+      image: CrushIt,
+      imageAlt: 'crush it javascript game',
+      imageUrl: 'https://jasontoups.github.io/CrushIt',
+      projectNumber: '3',
+      title: 'Crush It!!!',
+      description:
+        'Mobile Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets. Styled after Candy Crush.',
+    },
+    {
+      image: RickAndMorty,
+      imageAlt: 'rick and morty react character database',
+      imageUrl: 'https://jasontoups.github.io/rick-and-morty/',
+      projectNumber: '4',
+      title: 'Rick & Morty Database',
+      description:
+        'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
+    },
+  ],
+};
+
 export const contactData = [
   {
     icon: faLinkedinIn,
@@ -154,6 +201,7 @@ const portfolioData = {
   aboutData,
   techStackData,
   experienceData,
+  projectsData,
   contactData,
 };
 
