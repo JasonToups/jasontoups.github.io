@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Header = ({ data }) => {
-  const { image, imageAlt, title, subtitle } = data;
+  const { image, imageAlt, title } = data;
 
   return (
     <div className='app-header flex-container .flex-direction-column'>

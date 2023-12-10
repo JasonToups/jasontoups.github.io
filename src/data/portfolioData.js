@@ -16,6 +16,13 @@ import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
 import Bill from '../img/experience/experience-bill.jpg';
+// Imports for the Contact Section
+import {
+  faLinkedinIn,
+  faGithubAlt,
+  faTwitter,
+} from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -123,11 +130,31 @@ export const experienceData = {
   ],
 };
 
+export const contactData = [
+  {
+    icon: faLinkedinIn,
+    link: 'https://www.linkedin.com/in/jasontoups/',
+  },
+  {
+    icon: faGithubAlt,
+    link: 'https://github.com/JasonToups',
+  },
+  {
+    icon: faEnvelope,
+    link: 'mailto:me@jasontoups.com',
+  },
+  {
+    icon: faTwitter,
+    link: 'https://twitter.com/jsontoups',
+  },
+];
+
 const portfolioData = {
   headerData,
   aboutData,
   techStackData,
   experienceData,
+  contactData,
 };
 
 export default portfolioData;

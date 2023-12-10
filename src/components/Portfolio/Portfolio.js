@@ -2,7 +2,7 @@ import React from 'react';
 import '../../style/app.scss';
 import {
   About,
-  Contact,
+  ContactList,
   Experience,
   Header,
   Map,
@@ -14,6 +14,7 @@ import {
   aboutData,
   techStackData,
   experienceData,
+  contactData,
 } from '../../data/portfolioData.js';
 
 const Portfolio = () => {
@@ -27,7 +28,7 @@ const Portfolio = () => {
       <Experience data={experienceData} />
       <Projects />
       <Map />
-      <Contact />
+      <ContactList data={contactData} />
     </div>
   );
 };
