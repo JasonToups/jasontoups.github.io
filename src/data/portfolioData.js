@@ -1,10 +1,25 @@
 import Huoa from '../img/experience/experience-huoa.jpg';
 import NewlyWords from '../img/experience/experience-newlywords.jpg';
 import WilliamsSonoma from '../img/experience/experience-ws.jpg';
+import Bill from '../img/experience/experience-bill.jpg';
 
 export const experienceData = {
   header: '{Engineering Experience}',
   workExperience: [
+    {
+      image: Bill,
+      imageAlt: 'Bill.com',
+      imageUrl: 'http://www.bill.com/',
+      title: 'Bill',
+      description: [
+        'Worked with Angular & RxJS on the revenue-generating International Payments Team. We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
+        'Upgraded Domestic payment flows to include International options, enabling users to make International Payments with real-time exchange rates.',
+        'Worked seamlessly across teams, collaborating with code owners to implement new features and address bugs during the integration of International Payment functionality.',
+        'Developed custom package.json scripts to streamline repetitive engineering tasks, optimizing team productivity and reducing manual effort.',
+        'Created Markdown-based training documentation on Confluence, facilitating smooth onboarding for new engineers and standardizing processes, including creating the Merge Request templates for Releases & Feature/Bug tickets.',
+        'This Bill.com experience showcases my ability to deliver impactful solutions, contribute collaboratively, and optimize development processes in a dynamic environment.',
+      ],
+    },
     {
       image: WilliamsSonoma,
       imageAlt: 'Williams Sonoma, Inc.',
