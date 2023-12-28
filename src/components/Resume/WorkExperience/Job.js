@@ -2,6 +2,7 @@ import React from 'react';
 
 const Job = ({ data }) => {
   const {
+    company,
     title,
     duration,
     location,
@@ -14,11 +15,13 @@ const Job = ({ data }) => {
   return (
     <div className='work-experience-section'>
       <h3
-        id={`${title}-${duration}-${location}-${
+        id={`${company}-${title}-${location}-${
           remote ? 'remote' : 'in-office'
         }`}
       >
-        {title} / {duration} / {location} / {remote ? 'Remote' : 'In Office'}
+        {company} : {title} / {duration.start.month} {duration.start.year} -{' '}
+        {duration.end.month} {duration.end.year} / {location} /{' '}
+        {remote ? 'Remote' : 'In-Office'}
       </h3>
       <p>{description}</p>
       <ul>
