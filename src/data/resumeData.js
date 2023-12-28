@@ -184,7 +184,7 @@ export const workExperienceData = [
     description:
       'Produced playable ads, while coordinating the production in JIRA, spanning three global regions, four outsourced development studios, and a team of internal engineers.',
     jobTasks: [
-      'Designed UI/UX storyboards for free-to-play playable ads in Sketch, to send to advertisers for approval and engineering to build the ads.',
+      'Designed UI/UX storyboards for free-to-play playable ads in Figma, to send to advertisers for approval and engineering to build the ads.',
       'Scaled the production of playables 170% in the first 2 months.',
       'Iterated existing ads with A/B testing, tracked and reported results from Metamarkets data to all stakeholders.',
     ],
