@@ -122,7 +122,7 @@ export const workExperienceData = [
       'Engineered the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book.',
       'Built the Questionnaire as a new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content.',
       'Developed a design guide with classNameNames and partials, from the product design system, to build stylesheets which implemented reusable classNames and styles.',
-      'Mentored a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.',
+      'Mentored a junior UI/UX designer by providing design advice, Figma help, and to think about user experience from our user’s perspective.',
     ],
     technologies: [
       'Javascript',
@@ -141,7 +141,7 @@ export const workExperienceData = [
     description:
       'HUOA is a philanthropic organization dedicated to cultural exchange between Hawaii & Japan.',
     jobTasks: [
-      'Refactored existing static HUOA site to a dynamic React site, using Wordpress on the backend',
+      'Refactored existing static HUOA site to a dynamic React site, using Wordpress on the backend.',
       'Built reusable containers & components that were used across the site.',
       'Engineered custom Hooks to handle State between multiple components.',
     ],
