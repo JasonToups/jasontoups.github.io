@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/static/css/main.033bf6ea.chunk.css",
-    "main.js": "/static/js/main.6a0d4d8b.chunk.js",
-    "main.js.map": "/static/js/main.6a0d4d8b.chunk.js.map",
+    "main.js": "/static/js/main.94e08c8d.chunk.js",
+    "main.js.map": "/static/js/main.94e08c8d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.79be5d24.js",
     "runtime-main.js.map": "/static/js/runtime-main.79be5d24.js.map",
-    "static/js/2.1ce6d150.chunk.js": "/static/js/2.1ce6d150.chunk.js",
-    "static/js/2.1ce6d150.chunk.js.map": "/static/js/2.1ce6d150.chunk.js.map",
+    "static/js/2.d896f9a7.chunk.js": "/static/js/2.d896f9a7.chunk.js",
+    "static/js/2.d896f9a7.chunk.js.map": "/static/js/2.d896f9a7.chunk.js.map",
     "static/js/3.9d3d0421.chunk.js": "/static/js/3.9d3d0421.chunk.js",
     "static/js/3.9d3d0421.chunk.js.map": "/static/js/3.9d3d0421.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.033bf6ea.chunk.css.map": "/static/css/main.033bf6ea.chunk.css.map",
-    "static/js/2.1ce6d150.chunk.js.LICENSE.txt": "/static/js/2.1ce6d150.chunk.js.LICENSE.txt",
+    "static/js/2.d896f9a7.chunk.js.LICENSE.txt": "/static/js/2.d896f9a7.chunk.js.LICENSE.txt",
     "static/media/bill.cedca575.jpg": "/static/media/bill.cedca575.jpg",
     "static/media/crush-it-logo.8ada4550.svg": "/static/media/crush-it-logo.8ada4550.svg",
     "static/media/header-logo.da8bd13b.svg": "/static/media/header-logo.da8bd13b.svg",
     "static/media/huoa.cccc966a.jpg": "/static/media/huoa.cccc966a.jpg",
     "static/media/logo-RickAndMorty.1bf564e5.svg": "/static/media/logo-RickAndMorty.1bf564e5.svg",
-    "static/media/markdownresume-logo.fe07e2ae.svg": "/static/media/markdownresume-logo.fe07e2ae.svg",
+    "static/media/markdownresume-logo.0001096d.svg": "/static/media/markdownresume-logo.0001096d.svg",
     "static/media/newlywords.61b9eb60.jpg": "/static/media/newlywords.61b9eb60.jpg",
     "static/media/app.scss": "/static/media/spotch-pattern.559627e1.svg",
     "static/media/profile-pic-jason-toups.ec9f7d17.png": "/static/media/profile-pic-jason-toups.ec9f7d17.png",
@@ -27,8 +27,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.79be5d24.js",
-    "static/js/2.1ce6d150.chunk.js",
+    "static/js/2.d896f9a7.chunk.js",
     "static/css/main.033bf6ea.chunk.css",
-    "static/js/main.6a0d4d8b.chunk.js"
+    "static/js/main.94e08c8d.chunk.js"
   ]
 }
