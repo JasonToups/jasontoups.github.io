@@ -67,8 +67,19 @@ export const technicalSkillsData = [
 
 export const workExperienceData = [
   {
-    title: 'Bill : Sr. Front End Engineer',
-    duration: 'Jul 2022 - Dec 2023',
+    company: 'Bill',
+    title: 'Sr. Front End Engineer',
+    duration: {
+      start: {
+        month: 'Jul',
+        year: '2022',
+      },
+      end: {
+        month: 'Dec',
+        year: '2023',
+        present: false,
+      },
+    },
     location: 'San Jose',
     remote: true,
     description:
@@ -89,8 +100,19 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'Williams Sonoma Inc : Front End Engineer',
-    duration: 'April 2021 - June 2022',
+    company: 'Williams Sonoma Inc',
+    title: 'Front End Engineer',
+    duration: {
+      start: {
+        month: 'Apr',
+        year: '2021',
+      },
+      end: {
+        month: 'June',
+        year: '2022',
+        present: false,
+      },
+    },
     location: 'San Francisco',
     remote: true,
     description:
@@ -112,8 +134,19 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'NewlyWords : Front End Engineer',
-    duration: 'Oct 2020 - April 2021',
+    company: 'NewlyWords',
+    title: 'Front End Engineer',
+    duration: {
+      start: {
+        month: 'Oct',
+        year: '2020',
+      },
+      end: {
+        month: 'Apr',
+        year: '2021',
+        present: false,
+      },
+    },
     location: 'San Francisco',
     remote: true,
     description:
@@ -135,7 +168,17 @@ export const workExperienceData = [
   },
   {
     title: 'Hawaii United Okinawa Association : Front End Engineer',
-    duration: 'Apr 2020 - Oct 2020',
+    duration: {
+      start: {
+        month: 'Apr',
+        year: '2020',
+      },
+      end: {
+        month: 'Oct',
+        year: '2020',
+        present: false,
+      },
+    },
     location: 'San Francisco',
     remote: true,
     description:
@@ -155,10 +198,21 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'LifeStreet : Sr. Product Designer',
-    duration: 'Sep 2017 - Oct 2019',
+    company: 'LifeStreet',
+    title: 'Sr. Product Designer',
+    duration: {
+      start: {
+        month: 'Sept',
+        year: '2017',
+      },
+      end: {
+        month: 'Oct',
+        year: '2019',
+        present: false,
+      },
+    },
     location: 'San Francisco',
-    remote: true,
+    remote: false,
     description:
       'Engineered & Designed mobile marketing materials for  the programmatic marketing platform.',
     jobTasks: [
@@ -177,10 +231,21 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'Chartboost : Product Designer',
-    duration: 'Feb 2017 - Aug 2017',
+    company: 'Chartboost',
+    title: 'Product Designer',
+    duration: {
+      start: {
+        month: 'Feb',
+        year: '2017',
+      },
+      end: {
+        month: 'Aug',
+        year: '2017',
+        present: false,
+      },
+    },
     location: 'San Francisco',
-    remote: true,
+    remote: false,
     description:
       'Produced playable ads, while coordinating the production in JIRA, spanning three global regions, four outsourced development studios, and a team of internal engineers.',
     jobTasks: [
@@ -198,10 +263,21 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'Chartboost : Sr. Quality Engineering Lead',
-    duration: 'May 2015 - Jan 2016',
+    company: 'Chartboost',
+    title: 'Sr. Quality Engineering Lead',
+    duration: {
+      start: {
+        month: 'May',
+        year: '2015',
+      },
+      end: {
+        month: 'Jan',
+        year: '2016',
+        present: false,
+      },
+    },
     location: 'San Francisco',
-    remote: true,
+    remote: false,
     description: 'Tested Chartboost SDKs for iOS, Android & Unity for release.',
     jobTasks: [
       'Wrote automation test scripts in Python, using PyTest and Selenium with the Appium framework.',
@@ -219,10 +295,21 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'Kixeye : Mobile Quality Engineering Lead ',
-    duration: 'Feb 2013 - Jan 2015',
+    company: 'Kixeye',
+    title: 'Mobile Quality Engineering Lead',
+    duration: {
+      start: {
+        month: 'Feb',
+        year: '2013',
+      },
+      end: {
+        month: 'Jan',
+        year: '2015',
+        present: false,
+      },
+    },
     location: 'San Francisco',
-    remote: true,
+    remote: false,
     description:
       'Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.',
     jobTasks: [
