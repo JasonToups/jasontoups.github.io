@@ -67,7 +67,7 @@ export const technicalSkillsData = [
 
 export const workExperienceData = [
   {
-    title: 'Bill : Front End Engineer',
+    title: 'Bill : Sr. Front End Engineer',
     duration: 'Jul 2022 - Dec 2023',
     location: 'San Jose',
     remote: true,
