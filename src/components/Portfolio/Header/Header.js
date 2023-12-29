@@ -11,7 +11,7 @@ const Header = ({ data }) => {
           className='header-logo'
           alt={imageAlt}
           src={image}
-          whileHover={{ scale: 1.2 }}
+          whileHover={{ scale: 1.1 }}
         />
         <h1>{title}</h1>
       </div>
