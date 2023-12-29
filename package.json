@@ -1,6 +1,6 @@
 {
   "name": "jasontoups.github.io",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "homepage": "https://jasontoups.github.io/",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "framer-motion": "^10.16.16",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.20.1",
@@ -20,15 +21,15 @@
     "web-vitals": "^1.1.2"
   },
   "engines": {
-    "node": "16.x.x",
-    "npm": "8.x.x"
+    "node": "18.x.x",
+    "npm": "10.x.x"
   },
   "scripts": {
     "preinstall": "git config core.hooksPath hooks",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
+    "eject": "react-scripts --openssl-legacy-provider eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
