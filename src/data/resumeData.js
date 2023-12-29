@@ -167,7 +167,8 @@ export const workExperienceData = [
     ],
   },
   {
-    title: 'Hawaii United Okinawa Association : Front End Engineer',
+    company: 'Hawaii United Okinawa Association',
+    title: 'Front End Engineer',
     duration: {
       start: {
         month: 'Apr',
