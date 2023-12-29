@@ -56,7 +56,59 @@ NewlyWords is a React & Ruby memory book platform where hundreds of users per da
 - **Developed** a design guide with classNames and partials, from the product design system, to build stylesheets which implemented reusable classnames and styles.
 - **Mentored** a junior ui/ux designer by providing design advice to help him utilize Figma features more robustly, and to think about user experience from our user’s perspective, following a contextual flow of page elements.
 
-**Technologies used:** Javascript · React · Ruby · Shell · Markdown · Adobe Experience Manager
+**Technologies used:** Javascript · React · React-Hooks · Ruby · Shell · Markdown
+
+### Hawaii United Okinawa Association : Front End Engineer / San Francisco / Apr 2020 - Oct 2020
+
+HUOA is a philanthropic organization dedicated to cultural exchange between Hawaii & Japan.
+
+- **Refactored** existing static HUOA site to a dynamic React site, using Wordpress on the backend.
+- **Built** reusable containers & components that were used across the site.
+- **Engineered** custom Hooks to handle State between multiple components.
+
+**Skills:** JavaScript · React · React-Hooks · Sass · Technical Documentation · Training
+
+### LifeStreet : Sr. Product Designer / San Francisco / Sep 2017 - Oct 2019
+
+Engineered & Designed mobile marketing materials for the programmatic marketing platform.
+
+- **Engineered** HTML playable ads in Javascript, with Adobe Animate for clients.
+- **Implemented** Responsive Design solution that consistently generated lift across all existing playable ads, and became an engineering standard.
+- **Created** Playable Ad Production Workflow, to design mockups and storyboards for ad approval, and CSS for engineers.
+- **Upgraded** client assets with self-designed elements, that were approved by advertisers including Disney, Warner Brothers & King, for their Frozen, Harry Potter, and Candy Crush IPs.
+
+**Skills:** JavaScript · Figma · UI/UX · User Interface Design · Technical Documentation · Training
+
+### Chartboost : Product Designer / San Francisco / Feb 2017 - Aug 2017
+
+Produced playable ads, while coordinating the production in JIRA, spanning three global regions, four outsourced development studios, and a team of internal engineers.
+
+- **Designed** UI/UX storyboards for free-to-play playable ads in Figma, to send to advertisers for approval and engineering to build the ads.
+- **Scaled** the production of playables 170% in the first 2 months.
+- **Iterated** existing ads with A/B testing, tracked and reported results from Metamarkets data to all stakeholders.
+
+**Skills:** Figma · UI/UX · User Interface Design · Product Development · Technical Documentation · Training
+
+### Chartboost : Sr. Quality Engineering Lead / San Francisco / May 2015 - Jan 2016
+
+Tested Chartboost SDKs for iOS, Android & Unity for release.
+
+- **Wrote** automation test scripts in Python, using PyTest and Selenium with the Appium framework.
+- **Ran** & Maintained build scripts to create release builds, with Jenkins.
+- **Tested** the features going into the SDK, using Charles Proxy testing to inject responses from the server to the SDK.
+
+**Skills:** Python · PyTest · Selenium · Appium · Team Leadership · Technical Documentation · Training
+
+### Kixeye : Mobile Quality Engineering Lead / San Francisco / Feb 2013 - Jan 2015
+
+Prepared two mobile free-to-play games for App Store submission, from tentpole Kixeye IP, and contributed several level designs for War Commander Mobile in Unity.
+
+- **Wrote** Javascript mobile automation testing scripts with the Monkeytalk platform.
+- **Prepared** release builds by running build scripts, and uploading builds to TestFlight.
+- **Managed** testing responsibilities for internal and external testing teams.
+- **Standardized** Feature Progress Reporting and Feature Progress JIRA dashboards across the Quality team.
+
+**Skills:** Javascript · Monkeytalk · Team Leadership · Technical Documentation · Training
 
 > Additional Work Experience Provided Upon Request & Linked In Profile
 

@@ -38,6 +38,7 @@ export const technicalSkillsData = [
       'React-Redux',
       'React-Hooks',
       'Vue',
+      'NodeJS',
       'RxJS',
       'Markdown',
       'Shell',
@@ -160,10 +161,10 @@ export const workExperienceData = [
     technologies: [
       'Javascript',
       'React',
+      'React-Hooks',
       'Ruby',
       'Shell',
       'Markdown',
-      'Adobe Experience Manager',
     ],
   },
   {
@@ -192,7 +193,7 @@ export const workExperienceData = [
     technologies: [
       'Javascript',
       'React',
-      'Hooks',
+      'React-Hooks',
       'Sass',
       'Technical Documentation',
       'Training',
