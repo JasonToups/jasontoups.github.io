@@ -1,18 +1,21 @@
 import React from 'react';
-import { motion } from 'framer-motion/dist/framer-motion';
+import Spline from '@splinetool/react-spline';
+
+// import { motion } from 'framer-motion/dist/framer-motion';
+// https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode
+
+// import { Application } from '@splinetool/runtime';
 
 const Header = ({ data }) => {
   const { image, imageAlt, title } = data;
+  // const canvas = document.getElementById('canvas3d');
+  // const app = new Application(canvas);
+  // app.load('https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode');
 
   return (
     <div className='app-header flex-container .flex-direction-column'>
       <div className='content-container'>
-        <motion.img
-          className='header-logo'
-          alt={imageAlt}
-          src={image}
-          whileHover={{ scale: 1.1 }}
-        />
+        <Spline scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode' />
         <h1>{title}</h1>
       </div>
     </div>
