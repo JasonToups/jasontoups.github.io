@@ -6,7 +6,7 @@ import Spline from '@splinetool/react-spline';
 
 // import { Application } from '@splinetool/runtime';
 
-const Header = ({ data }) => {
+const Hero = ({ data }) => {
   const { title } = data;
   // const canvas = document.getElementById('canvas3d');
   // const app = new Application(canvas);
@@ -22,4 +22,4 @@ const Header = ({ data }) => {
   );
 };
 
-export default Header;
+export default Hero;

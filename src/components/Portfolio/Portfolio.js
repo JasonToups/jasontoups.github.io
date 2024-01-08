@@ -4,7 +4,7 @@ import {
   About,
   ContactList,
   Experience,
-  Header,
+  Hero,
   Map,
   Projects,
   TechStack,
@@ -23,7 +23,7 @@ const Portfolio = () => {
 
   return (
     <div className='portfolio-site'>
-      <Header data={headerData} />
+      <Hero data={headerData} />
       <About data={aboutData} />
       <TechStack data={techStackData} />
       <Experience data={experienceData} />

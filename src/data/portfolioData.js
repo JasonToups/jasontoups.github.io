@@ -1,4 +1,4 @@
-// Imports for the Header Section
+// Imports for the Hero Section
 import PortfolioLogo from '../img/portfolio/header/header-logo.svg';
 // Imports for the About Section
 import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups.png';
