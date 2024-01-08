@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 8220 1846" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+<svg width="100%" height="100%" viewBox="0 0 8220 1846" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlnsSerif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
     <g transform="matrix(1,0,0,1,21,-14967)">
         <g transform="matrix(-0.800457,0,0,0.55698,16465.6,11121.3)">
-            <g id="Foreground--Ground" serif:id="Foreground  Ground" transform="matrix(-1.24929,0,0,1.7954,20522.6,-19500.3)">
+            <g id="Foreground--Ground" serifId="Foreground  Ground" transform="matrix(-1.24929,0,0,1.7954,20522.6,-19500.3)">
                 <clipPath id="_clip1">
                     <path d="M8150.53,14778.3C8150.53,14778.3 7962.07,14745.2 7823.53,14742.3C7747.22,14740.7 7643.51,14710.7 7528.43,14738.7C7434.38,14761.6 7315.72,14795.4 7234.86,14774.6C7119.48,14745 6923.34,14753.7 6836.3,14753.2C6542.77,14751.5 6391.21,14718.1 6267.51,14717.5C6102.21,14716.8 5666.41,14752.7 5592.88,14760.2C5506.84,14768.9 5304.49,14783.6 5149.01,14778.2C4989.13,14772.6 4832.5,14744.8 4755.32,14744.8C4739.42,14744.8 4706.83,14734.2 4619.24,14734.4C4542.92,14734.6 4244.34,14753.6 4137.05,14767.7C4022.46,14782.7 3999.7,14779.4 3860.75,14789.4C3723.55,14799.2 3547.39,14761.4 3414.36,14773.3C3365.79,14777.6 3225.12,14807.8 3137.71,14810.4C3041.41,14813.3 2874.73,14807.8 2774.64,14798.7C2677.88,14789.9 2574.81,14799.1 2518.98,14790.9C2400.19,14773.5 2259.72,14772.7 2168.03,14763.4C2094.53,14755.9 1970.59,14758 1886.07,14776.4C1759.7,14803.9 1527.83,14742.3 1423.97,14775.4C1241.25,14833.6 1096.24,14786.6 1026.32,14801.3C952.647,14816.9 857.027,14807.4 802.687,14798.6C680.605,14778.6 474.73,14817.4 314.829,14812.7C252.747,14810.9 -48.617,14786.5 -48.617,14786.5L-48.617,16538.7L8146.11,16542.5L8150.53,14778.3Z"/>
                 </clipPath>

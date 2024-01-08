@@ -7,7 +7,7 @@ import Spline from '@splinetool/react-spline';
 // import { Application } from '@splinetool/runtime';
 
 const Header = ({ data }) => {
-  const { image, imageAlt, title } = data;
+  const { title } = data;
   // const canvas = document.getElementById('canvas3d');
   // const app = new Application(canvas);
   // app.load('https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode');
