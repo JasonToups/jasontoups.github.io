@@ -1,82 +1,103 @@
 @mixin respond-to($breakpoint) {
-  @if $breakpoint == "xx-small" {
+  @if $breakpoint == 'xx-small' {
     @media (max-width: $xx-small) {
       @content;
-    };
+    }
     @media (max-device-width: $xx-small) {
       @content;
     }
-  } @else if $breakpoint == "x-small" {
+  } @else if $breakpoint == 'x-small' {
     @media (max-width: $x-small) {
       @content;
-    };
+    }
     @media (max-device-width: $x-small) {
       @content;
     }
-  } @else if $breakpoint == "small" {
+  } @else if $breakpoint == 'small' {
     @media (max-width: $small) {
       @content;
-    };
+    }
     @media (max-device-width: $small) {
       @content;
     }
-  } @else if $breakpoint == "medium" {
+  } @else if $breakpoint == 'medium' {
     @media (max-width: $medium) {
       @content;
-    };
+    }
     @media (max-device-width: $medium) {
       @content;
     }
-  } @else if $breakpoint == "large" {
+  } @else if $breakpoint == 'large' {
     @media (max-width: $large) {
       @content;
-    };
+    }
     @media (max-device-width: $large) {
       @content;
     }
-  } @else if $breakpoint == "x-large" {
-    @media (max-width: $x-large){
-      @content;
-    };
-    @media (max-device-width: $x-large){
+  } @else if $breakpoint == 'x-large' {
+    @media (max-width: $x-large) {
       @content;
     }
-  } @else if $breakpoint == "xx-large" {
+    @media (max-device-width: $x-large) {
+      @content;
+    }
+  } @else if $breakpoint == 'xx-large' {
     @media (max-width: $xx-large) {
       @content;
-    };
-    @media (max-device-width: $xx-large){
+    }
+    @media (max-device-width: $xx-large) {
+      @content;
+    }
+  } @else if $breakpoint == 'heroSpline-large' {
+    @media (max-width: $heroSpline-large) {
+      @content;
+    }
+    @media (max-device-width: $heroSpline-large) {
+      @content;
+    }
+  } @else if $breakpoint == 'heroSpline-medium' {
+    @media (max-width: $heroSpline-medium) {
+      @content;
+    }
+    @media (max-device-width: $heroSpline-medium) {
+      @content;
+    }
+  } @else if $breakpoint == 'heroSpline-small' {
+    @media (max-width: $heroSpline-small) {
+      @content;
+    }
+    @media (max-device-width: $heroSpline-small) {
       @content;
     }
   }
 }
 
 @mixin respond-under($breakpoint) {
-  @if $breakpoint == "xx-small" {
+  @if $breakpoint == 'xx-small' {
     @media (min-width: $xx-small) {
       @content;
     }
-  } @else if $breakpoint == "x-small" {
+  } @else if $breakpoint == 'x-small' {
     @media (min-width: $x-small) {
       @content;
     }
-  } @else if $breakpoint == "small" {
+  } @else if $breakpoint == 'small' {
     @media (min-width: $small) {
       @content;
     }
-  } @else if $breakpoint == "medium" {
+  } @else if $breakpoint == 'medium' {
     @media (min-width: $medium) {
       @content;
     }
-  } @else if $breakpoint == "large" {
+  } @else if $breakpoint == 'large' {
     @media (min-width: $large) {
       @content;
     }
-  } @else if $breakpoint == "x-large" {
+  } @else if $breakpoint == 'x-large' {
     @media (min-width: $x-large) {
       @content;
     }
-  } @else if $breakpoint == "xx-large" {
+  } @else if $breakpoint == 'xx-large' {
     @media (min-width: $xs-large) {
       @content;
     }

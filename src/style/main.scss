@@ -140,11 +140,14 @@ $site-background: #423522;
       .spline-container {
         height: 500px;
         overflow: clip;
-        @include respond-to($breakpoint-medium) {
-          height: 520px;
+        @include respond-to($breakpoint-heroSpline-large) {
+          height: 350px;
         }
-        @include respond-to($breakpoint-small) {
-          height: 320px;
+        @include respond-to($breakpoint-heroSpline-medium) {
+          height: 300px;
+        }
+        @include respond-to($breakpoint-heroSpline-small) {
+          height: 245px;
         }
       }
     }
