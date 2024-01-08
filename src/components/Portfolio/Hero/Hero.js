@@ -13,9 +13,14 @@ const Hero = ({ data }) => {
   // app.load('https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode');
 
   return (
-    <div className='app-header flex-container .flex-direction-column'>
+    <div className='hero flex-container .flex-direction-column'>
       <div className='content-container'>
-        <Spline scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode' />
+        <div className='spline-container'>
+          <Spline
+            className='spline-canvas'
+            scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode'
+          />
+        </div>
         <h1>{title}</h1>
       </div>
     </div>

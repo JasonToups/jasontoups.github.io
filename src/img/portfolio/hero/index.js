@@ -1,4 +1,4 @@
-import PortfolioLogo from './header-logo.svg';
+import PortfolioLogo from './hero-logo.svg';
 
 const defaultExport = { PortfolioLogo };
 
