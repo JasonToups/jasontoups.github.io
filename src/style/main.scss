@@ -1,5 +1,5 @@
 // Variables
-$header-background-color: $light-yellow;
+$header-background-color: $black;
 $about-background-color: $alice-blue;
 $tech-background-color: $carolina-blue;
 $experience-background-color: $light-yellow;
@@ -18,6 +18,7 @@ $background: #fff7eb;
 $primary: #6b6a7c;
 $secondary: #d07932;
 $accent: #839e59;
+$site-background: #423522;
 
 // Globals
 * {
@@ -34,7 +35,13 @@ $accent: #839e59;
 
 .portfolio-site {
   h1 {
-    font-size: $font-size-h1;
+    color: $h1-color;
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    line-height: $h1-line-height;
+    letter-spacing: $h1-letter-spacing;
+    margin-bottom: $h1-margin-bottom;
+    margin-top: $h1-margin-top;
     @include respond-to($breakpoint-small) {
       font-size: $font-size-h2;
     }
@@ -81,11 +88,6 @@ $accent: #839e59;
     }
   }
 
-  .header {
-    text-align: center;
-    padding: 0 0 25px 0;
-  }
-
   .background {
     position: fixed;
     width: 100%;
@@ -123,31 +125,27 @@ $accent: #839e59;
   }
 
   //  Components
-  .app-header {
+  .hero {
     background-color: $header-background-color;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
     text-align: center;
-    padding: 10px;
+    padding: 0 0 25px 0;
 
     .content-container {
-      margin: 60px 30px;
+      margin: 60px 0px;
       width: 100%;
 
-      .header-logo {
-        width: 65vw;
-        margin: 0 0 10px 0;
-        @include respond-to($breakpoint-small) {
-          width: 100%;
-        }
-      }
       h1 {
-        font-weight: 100;
+        margin: auto;
       }
-      h3 {
-        font-weight: 100;
+      .spline-container {
+        height: 500px;
+        overflow: clip;
+        @include respond-to($breakpoint-medium) {
+          height: 520px;
+        }
+        @include respond-to($breakpoint-small) {
+          height: 320px;
+        }
       }
     }
   }

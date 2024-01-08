@@ -1,5 +1,5 @@
 // Imports for the Hero Section
-import PortfolioLogo from '../img/portfolio/header/header-logo.svg';
+import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
 import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups.png';
 // Imports for the Tech Stack Section
@@ -32,7 +32,7 @@ import { MarkdownResume } from '../img/portfolio/projects/index.js';
 export const headerData = {
   image: PortfolioLogo,
   imageAlt: 'Jason Toups Portfolio Logo',
-  title: 'design-oriented software engineer',
+  title: 'Web Developer',
 };
 
 export const techStackData = [
