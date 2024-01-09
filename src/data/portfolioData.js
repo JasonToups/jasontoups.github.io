@@ -33,6 +33,7 @@ import {
 // Imports for the Projects Section
 import { RickAndMorty, CrushIt, ReactTube } from '../img/portfolio/index.js';
 // Imports for the Contact Section
+import Connect from '../img/portfolio/contact/connect.png';
 import {
   faLinkedinIn,
   faGithubAlt,
@@ -40,6 +41,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { MarkdownResume } from '../img/portfolio/projects/index.js';
+import { GitHub, LinkedIn, Twitter } from '../img/portfolio/social/index.js';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -263,24 +265,60 @@ export const projectsData = {
   ],
 };
 
-export const contactData = [
-  {
-    icon: faLinkedinIn,
-    link: 'https://www.linkedin.com/in/jasontoups/',
+export const contactData = {
+  form: {
+    name: {
+      field: 'name',
+      type: 'text',
+      label: 'your name',
+    },
+    email: {
+      field: 'email',
+      type: 'email',
+      label: 'your email',
+    },
+    message: {
+      field: 'message',
+      type: 'textarea',
+      label: 'your message',
+    },
+    button: {
+      text: 'submit',
+      type: 'submit',
+    },
   },
-  {
-    icon: faGithubAlt,
-    link: 'https://github.com/JasonToups',
+  connect: {
+    header: {
+      source: Connect,
+      alt: 'Connect',
+    },
+    icons: [
+      {
+        source: LinkedIn,
+        class: 'linkedin',
+        alt: 'linked in',
+        url: 'https://www.linkedin.com/in/jasontoups/',
+      },
+      {
+        source: GitHub,
+        class: 'github',
+        alt: 'git hub',
+        url: '',
+      },
+      {
+        source: Twitter,
+        class: 'twitter',
+        alt: 'twitter',
+        url: '',
+      },
+    ],
+    button: {
+      text: 'download resume',
+      type: 'button',
+      onClick: 'handleResumeClick',
+    },
   },
-  {
-    icon: faEnvelope,
-    link: 'mailto:me@jasontoups.com',
-  },
-  {
-    icon: faTwitter,
-    link: 'https://twitter.com/jsontoups',
-  },
-];
+};
 
 const portfolioData = {
   headerData,

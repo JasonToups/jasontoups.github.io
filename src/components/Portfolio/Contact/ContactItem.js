@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const Contact = ({ icon, link }) => {
+const ContactItem = ({ icon, link }) => {
   return (
     <a className='contact-item' href={link} target='_blank' rel='noreferrer'>
       <FontAwesomeIcon icon={icon} />
@@ -9,4 +9,4 @@ const Contact = ({ icon, link }) => {
   );
 };
 
-export default Contact;
+export default ContactItem;
