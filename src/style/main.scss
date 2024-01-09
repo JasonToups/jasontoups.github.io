@@ -42,8 +42,14 @@ $site-background: #423522;
     letter-spacing: $h1-letter-spacing;
     margin-bottom: $h1-margin-bottom;
     margin-top: $h1-margin-top;
+    @include respond-to($breakpoint-medium) {
+      font-size: 75px;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h2;
+      font-size: 60px;
+    }
+    @include respond-to($breakpoint-x-small) {
+      font-size: 45px;
     }
   }
 
@@ -127,31 +133,21 @@ $site-background: #423522;
   //  Components
   .hero {
     background-color: $header-background-color;
-    // text-align: center;
     padding: 0;
 
     .content-container {
-      min-height: 500px;
       margin: 60px 0px;
       width: 100%;
       display: flex;
       align-items: center;
       justify-content: flex-end;
       flex-direction: column;
-      @include respond-to($breakpoint-heroSpline-large) {
-        min-height: 400px;
-      }
-      @include respond-to($breakpoint-heroSpline-medium) {
-        min-height: 400px;
-      }
-      @include respond-to($breakpoint-heroSpline-small) {
-        min-height: 300px;
-      }
 
-      h1 {
-        // position: sticky;
-        // margin: auto;
-        // bottom: 0;
+      .loading {
+        min-height: 500px;
+        color: #6b6a7c;
+        display: flex;
+        align-items: center;
       }
     }
   }
