@@ -30,11 +30,13 @@ $site-background: #423522;
 
 #root {
   height: 100vmax;
-  font-family: $font-primary;
-  color: $white;
 }
 
 .portfolio-site {
+  font-family: $font-primary;
+  color: $white;
+  background-color: $black;
+
   h1 {
     color: $h1-color;
     font-size: $h1-font-size;
@@ -54,10 +56,16 @@ $site-background: #423522;
   }
 
   h2 {
-    font-size: 122px;
+    font-size: 7rem;
     color: $white;
+    @include respond-to($breakpoint-large) {
+      font-size: 6rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      font-size: 5rem;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h2-mobile;
+      font-size: 4rem;
     }
   }
 
@@ -84,12 +92,12 @@ $site-background: #423522;
   }
 
   section {
-    padding: 30px 60px 60px 60px;
+    padding: 2rem 2.5rem;
     @include respond-to($breakpoint-medium) {
-      padding: 30px 25px 60px 20px;
+      padding: 1.5rem 2rem;
     }
     @include respond-to($breakpoint-x-small) {
-      padding: 30px 50px;
+      padding: 1rem;
     }
   }
 
@@ -104,6 +112,35 @@ $site-background: #423522;
     -webkit-background-clip: text;
     background-clip: text;
     width: fit-content;
+  }
+
+  .glass-background {
+    background-image: linear-gradient(
+      121deg,
+      rgba(238, 238, 238, 0.4) 0%,
+      rgba(216, 216, 216, 0.1) 78%
+    );
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+  }
+
+  .glass-foreground {
+    background-image: linear-gradient(
+      122deg,
+      rgba(238, 238, 238, 0.6) 0%,
+      rgba(216, 216, 216, 0.25) 78%
+    );
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .debossed {
+    background: #d8d8d8;
+    /* TODO: Add the transparent gradient borders to this */
+    box-shadow: inset 11px 13px 31px 5px rgba(0, 0, 0, 0.5);
+    color: $black;
   }
 
   .background {
@@ -205,19 +242,21 @@ $site-background: #423522;
           float: none;
           left: 25%;
           position: relative;
+          margin: 0;
         }
       }
       .description {
         width: 100%;
-        padding: 0 20px;
+        padding: 0;
 
         @include respond-to($breakpoint-medium) {
           width: 100%;
         }
 
         h2 {
-          margin: 0 15px 15px 15px;
+          margin: 0;
           @include respond-to($breakpoint-medium) {
+            margin: 0 0 1rem 0;
             text-align: center;
           }
         }
@@ -228,104 +267,145 @@ $site-background: #423522;
     }
   }
 
-  .tech {
-    background-color: $tech-background-color;
-    text-align: center;
-    background-image: $outlines-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: lighten;
-
-    header {
-      h2 {
-        color: $tech-h1-color;
-      }
-      p {
-        color: $tech-h2-color;
-        line-height: 1em;
-        font-size: 30px;
-      }
-    }
-    .tech-items--container {
-      margin: auto;
-      @include respond-to($breakpoint-large) {
-        width: 65vw;
-      }
-      @include respond-to($breakpoint-x-small) {
-        width: 100%;
-      }
-
-      .tech-item {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        width: 7rem;
-        margin: 10px;
-
-        .service-icon {
-          background-color: $alice-blue;
-          color: $tech-background-color;
-          height: 7rem;
-          width: 7rem;
-          display: block;
-          line-height: 110px;
-          font-size: 50px;
-          box-shadow: $box-shadow;
-          border-radius: 50%;
-          margin: 0 0 10px 0;
-        }
-        p {
-          font-weight: 400;
-          color: $tech-h2-color;
-          line-height: 1.25em;
-        }
-      }
-    }
-  }
-
   .experience {
-    background-color: $experience-background-color;
-    background-image: $simple-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: color;
+    // background-color: $experience-background-color;
+    // background-image: $simple-background;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-blend-mode: color;
 
     .experience-cards--container {
       width: 100%;
-      margin-top: -15px;
 
       .experience-card {
-        padding: 20px;
-        margin: 20px 0;
-        width: 100%;
-        background-color: $alice-blue;
-        justify-content: space-between;
-        border-radius: $border-radius;
-        box-shadow: $box-shadow;
-        text-align: left;
-
+        display: grid;
+        // grid-template-columns: 1fr 1fr;
+        // grid-template-rows: 1fr;
+        grid-template-areas:
+          'company image technologies'
+          'description image technologies'
+          'description title technologies'
+          'description title technologies';
+        grid-gap: 2rem;
+        margin-bottom: 80px;
+        @include respond-to($breakpoint-large) {
+          grid-template-areas:
+            'company image'
+            'description image'
+            'description title'
+            'description title'
+            'technologies technologies';
+          grid-gap: 1.5rem;
+        }
         @include respond-to($breakpoint-medium) {
+          grid-template-areas:
+            'company company'
+            'image image'
+            'title title'
+            'description description'
+            'technologies technologies';
+          grid-gap: 1rem;
+        }
+        section {
+          padding: 1.5rem 2.25rem;
+          display: flex;
+          justify-content: space-evenly;
+          align-content: center;
           flex-direction: column;
         }
 
+        .glass-foreground,
+        .glass-background,
+        .debossed {
+          border-radius: 2.25rem;
+          @include respond-to($breakpoint-large) {
+            border-radius: 1.5rem;
+          }
+          @include respond-to($breakpoint-medium) {
+            border-radius: 1rem;
+          }
+        }
+
+        .company {
+          grid-area: company;
+          text-align: left;
+
+          h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+          }
+          aside {
+            font-size: 1.5rem;
+          }
+        }
+        .description {
+          grid-area: description;
+          text-align: left;
+          flex-direction: column;
+
+          p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+        }
+        .image {
+          grid-area: image;
+          img {
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .title {
+          grid-area: title;
+
+          h4 {
+            font-size: 2rem;
+            text-align: left;
+            margin-bottom: 1.5rem;
+          }
+          aside {
+            font-size: 1.5rem;
+            text-align: right;
+          }
+        }
+        .technologies {
+          grid-area: technologies;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          @include respond-to($breakpoint-large) {
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+          img {
+            width: 100%;
+            max-width: 75px;
+            height: 100%;
+            max-height: 75px;
+          }
+        }
+
         .experience-card--image-container {
-          float: left;
-          width: 45%;
-          margin: 0 20px 20px 0;
+          // float: left;
+          // width: 45%;
+          // margin: 0 20px 20px 0;
 
           @include respond-to($breakpoint-medium) {
-            width: 60%;
+            // width: 60%;
           }
           @include respond-to($breakpoint-x-small) {
-            width: 100%;
-            margin: 0 0 20px 0;
+            // width: 100%;
+            // margin: 0 0 20px 0;
           }
 
           .experience-card--image {
-            width: 100%;
-            border-radius: $border-radius;
-            box-shadow: $box-shadow-light;
+            // width: 100%;
+            // border-radius: $border-radius;
+            // box-shadow: $box-shadow-light;
           }
         }
 
@@ -446,36 +526,89 @@ $site-background: #423522;
   }
 
   .contact {
-    background-color: lightblue;
-    background-image: url(../img/svg/groups/splash-all.svg);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-    background-blend-mode: color-dodge;
-    padding: 5rem 0;
-    .contact-items-container {
-      justify-content: center;
-      margin: 0 0 30px 0;
-      .contact-item {
-        color: $white;
-        display: block;
-        height: 4rem;
-        width: 4rem;
-        line-height: 4.3rem;
-        font-size: 1.5rem;
-        background-color: $color-base-5;
-        transition: background-color 0.15s ease-in-out;
-        border-radius: 50%;
-        margin: 0 20px;
-        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-      }
+    display: flex;
+    flex-direction: row;
+    form {
+      display: flex;
+      flex-direction: column;
     }
-    .footer {
-      text-align: center;
-      color: $color-base-5;
+    label {
+      font-size: 30px;
+      color: #b7b5b5;
+    }
+    input,
+    textarea {
+      background-color: #b7b5b5;
+    }
+    button {
+      color: $white;
+      font-size: 1.5rem;
+      margin: 1rem 0 0;
+      background-image: linear-gradient(
+        -84deg,
+        #32c5ff 0%,
+        #b620e0 51%,
+        #f7b500 100%
+      );
+      /* Sketch doesnt export gradient borders at this point */
+      box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
+        inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
+      border-radius: 38px;
+    }
+
+    .connect {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      .connect-image {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: auto;
+      }
+      img {
+        max-width: 70px;
+      }
+      .connect-icons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        max-width: 300px;
+        margin: 20px 0 auto;
+        img {
+          max-width: 5rem;
+          justify-self: center;
+        }
+        .linkedin {
+          align-self: flex-start;
+        }
+        .github {
+          align-self: center;
+        }
+        .twitter {
+          align-self: flex-end;
+        }
+      }
+      button {
+        width: 80%;
+        background-image: linear-gradient(101deg, #3e8bca 4%, #684db1 100%);
+        /* Sketch doesnt export gradient borders at this point */
+        box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
+          inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
+        border-radius: 38px;
+      }
     }
   }
 
+  .footer {
+    text-align: center;
+    color: $white;
+  }
   // Logos
   .production-logos {
     #disney-logo {

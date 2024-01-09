@@ -2,17 +2,16 @@ import React from 'react';
 import '../../style/app.scss';
 import {
   About,
-  ContactList,
+  Contact,
   Experience,
+  Footer,
   Hero,
   Map,
   Projects,
-  TechStack,
 } from './index.js';
 import {
   headerData,
   aboutData,
-  techStackData,
   experienceData,
   projectsData,
   contactData,
@@ -25,11 +24,11 @@ const Portfolio = () => {
     <div className='portfolio-site'>
       <Hero data={headerData} />
       <About data={aboutData} />
-      <TechStack data={techStackData} />
       <Experience data={experienceData} />
       <Projects data={projectsData} />
       <Map />
-      <ContactList data={contactData} />
+      <Contact data={contactData} />
+      <Footer />
     </div>
   );
 };
