@@ -120,6 +120,26 @@ $site-background: #423522;
     /* TODO: Add the noise fill to this */
   }
 
+  .glass-foreground {
+    background-image: linear-gradient(
+      122deg,
+      rgba(238, 238, 238, 0.6) 0%,
+      rgba(216, 216, 216, 0.25) 78%
+    );
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 37px;
+  }
+
+  .debossed {
+    background: #d8d8d8;
+    /* TODO: Add the transparent gradient borders to this */
+    box-shadow: inset 11px 13px 31px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 37px;
+    color: $black;
+  }
+
   .background {
     position: fixed;
     width: 100%;
@@ -253,36 +273,84 @@ $site-background: #423522;
       width: 100%;
 
       .experience-card {
-        // padding: 20px;
-        // margin: 20px 0;
-        // width: 100%;
-        // // background-color: $alice-blue;
-        // justify-content: space-between;
-        // border-radius: $border-radius;
-        // box-shadow: $box-shadow;
-        // text-align: left;
-
+        display: grid;
+        // grid-template-columns: 1fr 1fr;
+        // grid-template-rows: 1fr;
+        grid-template-areas:
+          'company image technologies'
+          'description title technologies';
+        grid-gap: 30px;
+        margin-bottom: 75px;
         @include respond-to($breakpoint-medium) {
           // flex-direction: column;
         }
+        section {
+          display: flex;
+          justify-content: space-evenly;
+          align-content: center;
+          flex-direction: column;
+        }
+
+        .company {
+          grid-area: company;
+          text-align: left;
+
+          h3 {
+            font-size: 50px;
+          }
+          aside {
+            font-size: 30px;
+          }
+        }
+        .description {
+          grid-area: description;
+          text-align: left;
+          flex-direction: column;
+        }
+        .image {
+          grid-area: image;
+          img {
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            max-height: 390px;
+          }
+        }
+        .title {
+          grid-area: title;
+        }
+        .technologies {
+          grid-area: technologies;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          img {
+            width: 100%;
+            max-width: 75px;
+            height: 100%;
+            max-height: 75px;
+          }
+        }
 
         .experience-card--image-container {
-          float: left;
-          width: 45%;
-          margin: 0 20px 20px 0;
+          // float: left;
+          // width: 45%;
+          // margin: 0 20px 20px 0;
 
           @include respond-to($breakpoint-medium) {
-            width: 60%;
+            // width: 60%;
           }
           @include respond-to($breakpoint-x-small) {
-            width: 100%;
-            margin: 0 0 20px 0;
+            // width: 100%;
+            // margin: 0 0 20px 0;
           }
 
           .experience-card--image {
-            width: 100%;
-            border-radius: $border-radius;
-            box-shadow: $box-shadow-light;
+            // width: 100%;
+            // border-radius: $border-radius;
+            // box-shadow: $box-shadow-light;
           }
         }
 
