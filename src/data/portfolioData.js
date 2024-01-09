@@ -2,15 +2,6 @@
 import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
 import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups-masked.png';
-// Imports for the Tech Stack Section
-import {
-  faReact,
-  faJs,
-  faHtml5,
-  faSass,
-  faNodeJs,
-  faEnvira,
-} from '@fortawesome/free-brands-svg-icons';
 // Imports for the Experience Section
 import {
   Huoa,
@@ -35,42 +26,9 @@ export const headerData = {
   title: 'Web Developer',
 };
 
-export const techStackData = [
-  {
-    icon: faReact,
-    text: 'React, Redux & Hooks',
-  },
-  {
-    icon: faJs,
-    text: 'Javascript ES6',
-  },
-  {
-    icon: faSass,
-    text: 'Sass & Mixins',
-  },
-  {
-    icon: faHtml5,
-    text: 'HTML 5',
-  },
-  {
-    icon: faNodeJs,
-    text: 'Node JS',
-  },
-  {
-    icon: faEnvira,
-    text: 'MongoDB',
-  },
-];
-
 export const aboutData = {
   profilePic: ProfilePic,
   header: 'About Me',
-  paragraphs: [
-    "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
-    'I can engineer, design, & test new applications.',
-    'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
-    'If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨',
-  ],
   introduction:
     "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
   summary: 'I can engineer, design, & test new applications.',
@@ -81,7 +39,7 @@ export const aboutData = {
 };
 
 export const experienceData = {
-  header: '{Engineering Experience}',
+  header: 'Experience',
   workExperience: [
     {
       image: Bill,
@@ -204,7 +162,6 @@ export const contactData = [
 const portfolioData = {
   headerData,
   aboutData,
-  techStackData,
   experienceData,
   projectsData,
   contactData,
