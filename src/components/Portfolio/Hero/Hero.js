@@ -15,12 +15,10 @@ const Hero = ({ data }) => {
   return (
     <div className='hero flex-container .flex-direction-column'>
       <div className='content-container'>
-        <div className='spline-container'>
-          <Spline
-            className='spline-canvas'
-            scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode'
-          />
-        </div>
+        <Spline
+          className='spline-canvas'
+          scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode'
+        />
         <h1>{title}</h1>
       </div>
     </div>
