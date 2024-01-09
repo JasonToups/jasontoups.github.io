@@ -8,14 +8,14 @@ const Experience = ({ data }) => {
       <header className='header'>
         <h2>{header}</h2>
       </header>
-      <div
+      <section
         className='experience-cards--container flex-container flex-direction-column'
         id='engineering-experience'
       >
         {workExperience.map((experience, index) => (
           <ExperienceCard key={index} data={experience} />
         ))}
-      </div>
+      </section>
     </section>
   );
 };

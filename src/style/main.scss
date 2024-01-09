@@ -108,6 +108,18 @@ $site-background: #423522;
     width: fit-content;
   }
 
+  .glass-background {
+    background-image: linear-gradient(
+      121deg,
+      rgba(238, 238, 238, 0.4) 0%,
+      rgba(216, 216, 216, 0.1) 78%
+    );
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 27px;
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+  }
+
   .background {
     position: fixed;
     width: 100%;
@@ -239,20 +251,19 @@ $site-background: #423522;
 
     .experience-cards--container {
       width: 100%;
-      margin-top: -15px;
 
       .experience-card {
-        padding: 20px;
-        margin: 20px 0;
-        width: 100%;
-        // background-color: $alice-blue;
-        justify-content: space-between;
-        border-radius: $border-radius;
-        box-shadow: $box-shadow;
-        text-align: left;
+        // padding: 20px;
+        // margin: 20px 0;
+        // width: 100%;
+        // // background-color: $alice-blue;
+        // justify-content: space-between;
+        // border-radius: $border-radius;
+        // box-shadow: $box-shadow;
+        // text-align: left;
 
         @include respond-to($breakpoint-medium) {
-          flex-direction: column;
+          // flex-direction: column;
         }
 
         .experience-card--image-container {
