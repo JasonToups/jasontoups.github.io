@@ -228,62 +228,6 @@ $site-background: #423522;
     }
   }
 
-  .tech {
-    background-color: $tech-background-color;
-    text-align: center;
-    background-image: $outlines-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: lighten;
-
-    header {
-      h2 {
-        color: $tech-h1-color;
-      }
-      p {
-        color: $tech-h2-color;
-        line-height: 1em;
-        font-size: 30px;
-      }
-    }
-    .tech-items--container {
-      margin: auto;
-      @include respond-to($breakpoint-large) {
-        width: 65vw;
-      }
-      @include respond-to($breakpoint-x-small) {
-        width: 100%;
-      }
-
-      .tech-item {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        width: 7rem;
-        margin: 10px;
-
-        .service-icon {
-          background-color: $alice-blue;
-          color: $tech-background-color;
-          height: 7rem;
-          width: 7rem;
-          display: block;
-          line-height: 110px;
-          font-size: 50px;
-          box-shadow: $box-shadow;
-          border-radius: 50%;
-          margin: 0 0 10px 0;
-        }
-        p {
-          font-weight: 400;
-          color: $tech-h2-color;
-          line-height: 1.25em;
-        }
-      }
-    }
-  }
-
   .experience {
     background-color: $experience-background-color;
     background-image: $simple-background;

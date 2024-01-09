@@ -7,12 +7,10 @@ import {
   Hero,
   Map,
   Projects,
-  TechStack,
 } from './index.js';
 import {
   headerData,
   aboutData,
-  techStackData,
   experienceData,
   projectsData,
   contactData,
@@ -25,7 +23,6 @@ const Portfolio = () => {
     <div className='portfolio-site'>
       <Hero data={headerData} />
       <About data={aboutData} />
-      <TechStack data={techStackData} />
       <Experience data={experienceData} />
       <Projects data={projectsData} />
       <Map />
