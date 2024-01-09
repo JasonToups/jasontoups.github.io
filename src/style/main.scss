@@ -56,10 +56,16 @@ $site-background: #423522;
   }
 
   h2 {
-    font-size: 122px;
+    font-size: 7rem;
     color: $white;
+    @include respond-to($breakpoint-large) {
+      font-size: 6rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      font-size: 5rem;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h2-mobile;
+      font-size: 4rem;
     }
   }
 
@@ -115,7 +121,6 @@ $site-background: #423522;
       rgba(216, 216, 216, 0.1) 78%
     );
     box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 27px;
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
   }
@@ -129,14 +134,12 @@ $site-background: #423522;
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
     box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
-    border-radius: 37px;
   }
 
   .debossed {
     background: #d8d8d8;
     /* TODO: Add the transparent gradient borders to this */
     box-shadow: inset 11px 13px 31px 5px rgba(0, 0, 0, 0.5);
-    border-radius: 37px;
     color: $black;
   }
 
@@ -253,6 +256,7 @@ $site-background: #423522;
         h2 {
           margin: 0;
           @include respond-to($breakpoint-medium) {
+            margin: 0 0 1rem 0;
             text-align: center;
           }
         }
@@ -308,6 +312,18 @@ $site-background: #423522;
           justify-content: space-evenly;
           align-content: center;
           flex-direction: column;
+        }
+
+        .glass-foreground,
+        .glass-background,
+        .debossed {
+          border-radius: 2.25rem;
+          @include respond-to($breakpoint-large) {
+            border-radius: 1.5rem;
+          }
+          @include respond-to($breakpoint-medium) {
+            border-radius: 1rem;
+          }
         }
 
         .company {
