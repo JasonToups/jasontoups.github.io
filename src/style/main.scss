@@ -244,14 +244,14 @@ $site-background: #423522;
       }
       .description {
         width: 100%;
-        padding: 0 20px;
+        padding: 0;
 
         @include respond-to($breakpoint-medium) {
           width: 100%;
         }
 
         h2 {
-          margin: 0 15px 15px 15px;
+          margin: 0;
           @include respond-to($breakpoint-medium) {
             text-align: center;
           }
