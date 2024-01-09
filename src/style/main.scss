@@ -1,5 +1,5 @@
 // Variables
-$header-background-color: $light-yellow;
+$header-background-color: $black;
 $about-background-color: $alice-blue;
 $tech-background-color: $carolina-blue;
 $experience-background-color: $light-yellow;
@@ -18,6 +18,7 @@ $background: #fff7eb;
 $primary: #6b6a7c;
 $secondary: #d07932;
 $accent: #839e59;
+$site-background: #423522;
 
 // Globals
 * {
@@ -30,22 +31,33 @@ $accent: #839e59;
 #root {
   height: 100vmax;
   font-family: $font-primary;
+  color: $white;
 }
 
 .portfolio-site {
   h1 {
-    font-size: $font-size-h1;
+    color: $h1-color;
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    line-height: $h1-line-height;
+    letter-spacing: $h1-letter-spacing;
+    margin: $h1-margin;
+    @include respond-to($breakpoint-medium) {
+      font-size: 70px;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h2;
+      font-size: 55px;
+    }
+    @include respond-to($breakpoint-x-small) {
+      font-size: 35px;
     }
   }
 
   h2 {
-    color: $color-base-5;
-    font-size: $font-size-h2;
-    font-family: $font-secondary;
+    font-size: 122px;
+    color: $white;
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h3;
+      font-size: $font-size-h2-mobile;
     }
   }
 
@@ -62,7 +74,7 @@ $accent: #839e59;
 
   p {
     font-size: $font-size-p;
-    line-height: 1.75em;
+    line-height: 1.25em;
     letter-spacing: 0.025em;
   }
 
@@ -81,9 +93,17 @@ $accent: #839e59;
     }
   }
 
-  .header {
-    text-align: center;
-    padding: 0 0 25px 0;
+  .text-gradient {
+    background-image: linear-gradient(
+      265deg,
+      #32c5ff 0%,
+      #b620e0 51%,
+      #f7b500 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: fit-content;
   }
 
   .background {
@@ -123,37 +143,39 @@ $accent: #839e59;
   }
 
   //  Components
-  .app-header {
+  .hero {
     background-color: $header-background-color;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+    padding: 0;
 
     .content-container {
-      margin: 60px 30px;
+      margin: 60px 0px;
       width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: column;
 
-      .header-logo {
-        width: 65vw;
-        margin: 0 0 10px 0;
-        @include respond-to($breakpoint-small) {
-          width: 100%;
+      .loading {
+        min-height: 500px;
+        color: #6b6a7c;
+        display: flex;
+        align-items: center;
+        @include respond-to($breakpoint-medium) {
+          min-height: 500px;
         }
-      }
-      h1 {
-        font-weight: 100;
-      }
-      h3 {
-        font-weight: 100;
+        @include respond-to($breakpoint-small) {
+          min-height: 300px;
+        }
+        @include respond-to($breakpoint-x-small) {
+          min-height: 200px;
+        }
       }
     }
   }
 
   .about {
-    background-color: $about-background-color;
+    background-color: $black;
+
     .content-container {
       justify-content: center;
 
@@ -164,10 +186,19 @@ $accent: #839e59;
 
       img {
         width: 30vw;
-        margin: 0 25px 20px 0;
+        margin: 0 0 20px 25px;
         border-radius: $border-radius;
         box-shadow: $box-shadow;
-        float: left;
+        float: right;
+        border-radius: 100px 100px 20px 20px;
+
+        background-image: linear-gradient(
+          -43deg,
+          rgba(50, 197, 255, 0.6) 0%,
+          rgba(182, 32, 224, 0.6) 51%,
+          rgba(247, 181, 0, 0.6) 100%
+        );
+        box-shadow: 30px 5px 60px 0 rgba(255, 255, 255, 0.3);
 
         @include respond-to($breakpoint-medium) {
           width: 50%;
@@ -191,7 +222,7 @@ $accent: #839e59;
           }
         }
         p {
-          margin: 0 0 15px;
+          margin: 0 0 30px;
         }
       }
     }

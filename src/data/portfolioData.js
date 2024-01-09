@@ -1,7 +1,7 @@
 // Imports for the Hero Section
-import PortfolioLogo from '../img/portfolio/header/header-logo.svg';
+import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
-import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups.png';
+import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups-masked.png';
 // Imports for the Tech Stack Section
 import {
   faReact,
@@ -32,7 +32,7 @@ import { MarkdownResume } from '../img/portfolio/projects/index.js';
 export const headerData = {
   image: PortfolioLogo,
   imageAlt: 'Jason Toups Portfolio Logo',
-  title: 'design-oriented software engineer',
+  title: 'Web Developer',
 };
 
 export const techStackData = [
@@ -64,12 +64,17 @@ export const techStackData = [
 
 export const aboutData = {
   profilePic: ProfilePic,
-  header: 'About#Me',
+  header: 'About Me',
   paragraphs: [
-    "Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
-    'My specialty is working with React Hooks, Redux & Thunk; Designing Vector Graphics & Wireframing',
-    'I designed all of the vector graphics here in Affinity Designer, and styled my portfolio from scratch with Sass & Mixins',
+    "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
     'I can engineer, design, & test new applications.',
+    'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
+    'If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨',
+  ],
+  introduction:
+    "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
+  summary: 'I can engineer, design, & test new applications.',
+  closer: [
     'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
     'If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨',
   ],

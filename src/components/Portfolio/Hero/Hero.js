@@ -1,21 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Spline from '@splinetool/react-spline';
-
-// import { motion } from 'framer-motion/dist/framer-motion';
-// https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode
-
-// import { Application } from '@splinetool/runtime';
 
 const Hero = ({ data }) => {
   const { title } = data;
-  // const canvas = document.getElementById('canvas3d');
-  // const app = new Application(canvas);
-  // app.load('https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode');
+  const [isLoading, setIsLoading] = useState(true);
 
   return (
-    <div className='app-header flex-container .flex-direction-column'>
+    <div className='hero flex-container .flex-direction-column'>
       <div className='content-container'>
-        <Spline scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode' />
+        {isLoading && <h2 className='loading'>Loading...</h2>}
+        <Spline
+          onLoad={() => setIsLoading(false)}
+          className='spline-canvas'
+          scene='https://prod.spline.design/R-LxSjd0SI8iYVTd/scene.splinecode'
+        />
         <h1>{title}</h1>
       </div>
     </div>

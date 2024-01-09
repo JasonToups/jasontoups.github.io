@@ -1,10 +1,13 @@
-$breakpoint-xx-large: "xx-large";// 1400px
-$breakpoint-x-large: "x-large";// 1200px
-$breakpoint-large: "large";// 1000px
-$breakpoint-medium: "medium";// 800px
-$breakpoint-small: "small";// 700px
-$breakpoint-x-small: "x-small";// 550px
-$breakpoint-xx-small: "xx-small";// 550px
+$breakpoint-xx-large: 'xx-large'; // 1400px
+$breakpoint-x-large: 'x-large'; // 1200px
+$breakpoint-large: 'large'; // 1000px
+$breakpoint-medium: 'medium'; // 800px
+$breakpoint-small: 'small'; // 700px
+$breakpoint-x-small: 'x-small'; // 550px
+$breakpoint-xx-small: 'xx-small'; // 550px
+$breakpoint-heroSpline-large: 'heroSpline-large';
+$breakpoint-heroSpline-medium: 'heroSpline-medium';
+$breakpoint-heroSpline-small: 'heroSpline-small';
 
 $xx-large: 1400px; // 1400px
 $x-large: 1200px; // 1200px
@@ -13,3 +16,6 @@ $medium: 800px; // 800px
 $small: 700px; // 700px
 $x-small: 550px; // 550px
 $xx-small: 321px; // 321px
+$heroSpline-large: 768px; // 768px
+$heroSpline-medium: 600px; // 600px
+$heroSpline-small: 480px; // 480px
