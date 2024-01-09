@@ -86,12 +86,12 @@ $site-background: #423522;
   }
 
   section {
-    padding: 30px 50px;
+    padding: 2rem 2.5rem;
     @include respond-to($breakpoint-medium) {
-      padding: 30px 25px 60px 20px;
+      padding: 1.5rem 2rem;
     }
     @include respond-to($breakpoint-x-small) {
-      padding: 30px 50px;
+      padding: 1rem;
     }
   }
 
@@ -239,6 +239,7 @@ $site-background: #423522;
           float: none;
           left: 25%;
           position: relative;
+          margin: 0;
         }
       }
       .description {
@@ -281,7 +282,7 @@ $site-background: #423522;
           'description image technologies'
           'description title technologies'
           'description title technologies';
-        grid-gap: 30px;
+        grid-gap: 2rem;
         margin-bottom: 80px;
         @include respond-to($breakpoint-large) {
           grid-template-areas:
@@ -290,6 +291,7 @@ $site-background: #423522;
             'description title'
             'description title'
             'technologies technologies';
+          grid-gap: 1.5rem;
         }
         @include respond-to($breakpoint-medium) {
           grid-template-areas:
@@ -298,8 +300,10 @@ $site-background: #423522;
             'title title'
             'description description'
             'technologies technologies';
+          grid-gap: 1rem;
         }
         section {
+          padding: 1.5rem 2.25rem;
           display: flex;
           justify-content: space-evenly;
           align-content: center;
@@ -334,7 +338,7 @@ $site-background: #423522;
             width: 100%;
             max-width: 600px;
             height: 100%;
-            max-height: 390px;
+            border-radius: 0.5rem;
           }
         }
         .title {
