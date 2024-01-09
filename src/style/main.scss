@@ -268,19 +268,11 @@ $site-background: #423522;
   }
 
   .experience {
-    // background-color: $experience-background-color;
-    // background-image: $simple-background;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-blend-mode: color;
-
     .experience-cards--container {
       width: 100%;
 
       .experience-card {
         display: grid;
-        // grid-template-columns: 1fr 1fr;
-        // grid-template-rows: 1fr;
         grid-template-areas:
           'company image technologies'
           'description image technologies'
@@ -431,15 +423,15 @@ $site-background: #423522;
   }
 
   .projects {
-    background-color: $projects-background-color;
-    background-image: $splotch-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: soft-light;
+    // background-color: $projects-background-color;
+    // background-image: $splotch-background;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-blend-mode: soft-light;
 
     .projects-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       grid-gap: 30px;
       margin: auto;
 
@@ -448,19 +440,20 @@ $site-background: #423522;
       }
 
       .project-1 {
-        background-color: $project-1-background-color;
+        // background-color: $project-1-background-color;
       }
       .project-2 {
-        background-color: $project-2-background-color;
+        // background-color: $project-2-background-color;
       }
       .project-3 {
-        background-color: $project-3-background-color;
+        // background-color: $project-3-background-color;
       }
       .project-4 {
-        background-color: $project-4-background-color;
+        // background-color: $project-4-background-color;
       }
 
       .project {
+        background-color: grey;
         padding: 20px 0;
         max-width: 400px;
         width: 100%;

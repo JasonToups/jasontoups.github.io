@@ -20,6 +20,7 @@ import {
   Javascript,
   Jest,
   JQuery,
+  Markdown,
   Metamarkets,
   RxJS,
   React,
@@ -31,16 +32,15 @@ import {
   Wordpress,
 } from '../img/portfolio/technologies/index.js';
 // Imports for the Projects Section
-import { RickAndMorty, CrushIt, ReactTube } from '../img/portfolio/index.js';
+import {
+  RickAndMorty,
+  CrushIt,
+  ReactTube,
+  MarkdownResume,
+} from '../img/portfolio/projects/index.js';
 // Imports for the Contact Section
 import Connect from '../img/portfolio/contact/connect.png';
-import {
-  faLinkedinIn,
-  faGithubAlt,
-  faTwitter,
-} from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { MarkdownResume } from '../img/portfolio/projects/index.js';
+// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { GitHub, LinkedIn, Twitter } from '../img/portfolio/social/index.js';
 
 export const headerData = {
@@ -224,43 +224,60 @@ export const experienceData = {
 };
 
 export const projectsData = {
-  header: '[My Apps]',
+  header: 'Projects',
   projects: [
     {
       image: MarkdownResume,
       imageAlt: 'Markdown Resume App',
       imageUrl: 'https://github.com/JasonToups/markdown-resume',
       projectNumber: '1',
-      title: 'MarkdownResume',
+      title: 'Markdown Resume',
       description:
         'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
-    },
-    {
-      image: ReactTube,
-      imageAlt: 'React Tube App',
-      imageUrl: 'https://jasontoups.github.io/YouTube-React-Hooks/',
-      projectNumber: '2',
-      title: 'ReactTube',
-      description:
-        'Search the YouTube API and return a short list of 5 videos, utilizing Primitive & Custom Hooks to fetch data.',
+      technologies: [
+        { source: Markdown, alt: 'markdown' },
+        { source: Css, alt: 'css' },
+      ],
     },
     {
       image: CrushIt,
       imageAlt: 'crush it javascript game',
       imageUrl: 'https://jasontoups.github.io/CrushIt',
-      projectNumber: '3',
+      projectNumber: '2',
       title: 'Crush It!!!',
       description:
-        'Mobile Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets. Styled after Candy Crush.',
+        'Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets.',
+      technologies: [
+        { source: Javascript, alt: 'javascript' },
+        { source: JQuery, alt: 'jquery' },
+        { source: Css, alt: 'css' },
+      ],
     },
     {
       image: RickAndMorty,
       imageAlt: 'rick and morty react character database',
       imageUrl: 'https://jasontoups.github.io/rick-and-morty/',
-      projectNumber: '4',
-      title: 'Rick & Morty Database',
+      projectNumber: '3',
+      title: 'Rick & Morty Characteropedia',
       description:
         'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
+      technologies: [
+        { source: React, alt: 'react' },
+        { source: Css, alt: 'css' },
+      ],
+    },
+    {
+      image: ReactTube,
+      imageAlt: 'React Tube App',
+      imageUrl: 'https://jasontoups.github.io/YouTube-React-Hooks/',
+      projectNumber: '4',
+      title: 'ReactTube',
+      description:
+        'Using the YouTube API to return a short list of 5 videos, utilizing Primitive & Custom Hooks to fetch data.',
+      technologies: [
+        { source: React, alt: 'react' },
+        { source: Css, alt: 'css' },
+      ],
     },
   ],
 };

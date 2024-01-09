@@ -1,4 +1,8 @@
 import React from 'react';
+import {
+  TechnologiesContainer,
+  Technology,
+} from '../../Common/Technology/index';
 
 const ProjectCard = ({
   image,
