@@ -31,6 +31,7 @@ $site-background: #423522;
 #root {
   height: 100vmax;
   font-family: $font-primary;
+  color: $white;
 }
 
 .portfolio-site {
@@ -53,11 +54,10 @@ $site-background: #423522;
   }
 
   h2 {
-    color: $color-base-5;
-    font-size: $font-size-h2;
-    font-family: $font-secondary;
+    font-size: 122px;
+    color: $white;
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h3;
+      font-size: $font-size-h2-mobile;
     }
   }
 
@@ -74,7 +74,7 @@ $site-background: #423522;
 
   p {
     font-size: $font-size-p;
-    line-height: 1.75em;
+    line-height: 1.25em;
     letter-spacing: 0.025em;
   }
 
@@ -91,6 +91,19 @@ $site-background: #423522;
     @include respond-to($breakpoint-x-small) {
       padding: 30px 50px;
     }
+  }
+
+  .text-gradient {
+    background-image: linear-gradient(
+      265deg,
+      #32c5ff 0%,
+      #b620e0 51%,
+      #f7b500 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: fit-content;
   }
 
   .background {
@@ -161,7 +174,8 @@ $site-background: #423522;
   }
 
   .about {
-    background-color: $about-background-color;
+    background-color: $black;
+
     .content-container {
       justify-content: center;
 
@@ -172,10 +186,19 @@ $site-background: #423522;
 
       img {
         width: 30vw;
-        margin: 0 25px 20px 0;
+        margin: 0 0 20px 25px;
         border-radius: $border-radius;
         box-shadow: $box-shadow;
-        float: left;
+        float: right;
+        border-radius: 100px 100px 20px 20px;
+
+        background-image: linear-gradient(
+          -43deg,
+          rgba(50, 197, 255, 0.6) 0%,
+          rgba(182, 32, 224, 0.6) 51%,
+          rgba(247, 181, 0, 0.6) 100%
+        );
+        box-shadow: 30px 5px 60px 0 rgba(255, 255, 255, 0.3);
 
         @include respond-to($breakpoint-medium) {
           width: 50%;
@@ -199,7 +222,7 @@ $site-background: #423522;
           }
         }
         p {
-          margin: 0 0 15px;
+          margin: 0 0 30px;
         }
       }
     }
