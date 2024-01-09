@@ -30,11 +30,13 @@ $site-background: #423522;
 
 #root {
   height: 100vmax;
-  font-family: $font-primary;
-  color: $white;
 }
 
 .portfolio-site {
+  font-family: $font-primary;
+  color: $white;
+  background-color: $black;
+
   h1 {
     color: $h1-color;
     font-size: $h1-font-size;
@@ -229,11 +231,11 @@ $site-background: #423522;
   }
 
   .experience {
-    background-color: $experience-background-color;
-    background-image: $simple-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: color;
+    // background-color: $experience-background-color;
+    // background-image: $simple-background;
+    // background-repeat: no-repeat;
+    // background-size: cover;
+    // background-blend-mode: color;
 
     .experience-cards--container {
       width: 100%;
@@ -243,7 +245,7 @@ $site-background: #423522;
         padding: 20px;
         margin: 20px 0;
         width: 100%;
-        background-color: $alice-blue;
+        // background-color: $alice-blue;
         justify-content: space-between;
         border-radius: $border-radius;
         box-shadow: $box-shadow;

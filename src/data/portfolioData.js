@@ -9,6 +9,17 @@ import {
   WilliamsSonoma,
   Bill,
 } from '../img/portfolio/experience/index.js';
+// Technologies Imports
+import {
+  AEM,
+  Angular,
+  Jest,
+  JQuery,
+  RxJS,
+  React,
+  Sass,
+  TypeScript,
+} from '../img/portfolio/technologies/index.js';
 // Imports for the Projects Section
 import { RickAndMorty, CrushIt, ReactTube } from '../img/portfolio/index.js';
 // Imports for the Contact Section
@@ -42,10 +53,23 @@ export const experienceData = {
   header: 'Experience',
   workExperience: [
     {
+      title: 'Bill',
       image: Bill,
       imageAlt: 'Bill.com',
       imageUrl: 'http://www.bill.com/',
-      title: 'Bill',
+      imageTemp: {
+        source: Bill,
+        alt: 'Bill.com',
+      },
+      company: {
+        name: 'Bill',
+        description: 'Financial Operations Platform',
+        url: 'http://www.bill.com/',
+      },
+      job: {
+        title: 'Sr. Software Engineer',
+        Duration: 'Jul 2022 - Dec 2023',
+      },
       description: [
         'Worked with Angular & RxJS on the revenue-generating International Payments Team. We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
         'Upgraded Domestic payment flows to include International options, enabling users to make International Payments with real-time exchange rates.',
@@ -54,6 +78,7 @@ export const experienceData = {
         'Created Markdown-based training documentation on Confluence, facilitating smooth onboarding for new engineers and standardizing processes, including creating the Merge Request templates for Releases & Feature/Bug tickets.',
         'This Bill.com experience showcases my ability to deliver impactful solutions, contribute collaboratively, and optimize development processes in a dynamic environment.',
       ],
+      tech: [Angular, TypeScript, RxJS, Sass, Jest],
     },
     {
       image: WilliamsSonoma,
