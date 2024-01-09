@@ -5,6 +5,7 @@ import Css from './css.svg';
 import Javascript from './javascript.svg';
 import Jest from './jest.svg';
 import JQuery from './jquery.svg';
+import Markdown from './markdown.svg';
 import Metamarkets from './metamarkets.svg';
 import RxJS from './rxjs.svg';
 import React from './react.svg';
@@ -23,6 +24,7 @@ export {
   Javascript,
   Jest,
   JQuery,
+  Markdown,
   Metamarkets,
   RxJS,
   React,
