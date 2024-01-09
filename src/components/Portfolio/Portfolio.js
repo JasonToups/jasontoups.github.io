@@ -2,8 +2,9 @@ import React from 'react';
 import '../../style/app.scss';
 import {
   About,
-  ContactList,
+  Contact,
   Experience,
+  Footer,
   Hero,
   Map,
   Projects,
@@ -26,7 +27,8 @@ const Portfolio = () => {
       <Experience data={experienceData} />
       <Projects data={projectsData} />
       <Map />
-      <ContactList data={contactData} />
+      <Contact data={contactData} />
+      <Footer />
     </div>
   );
 };
