@@ -436,7 +436,7 @@ $site-background: #423522;
     .projects-container {
       display: grid;
       grid-template-columns: 1fr;
-      grid-gap: 30px;
+      grid-gap: 4rem;
       margin: auto;
 
       @include respond-to($breakpoint-small) {
