@@ -1,21 +1,10 @@
 import React from 'react';
 
-const Technology = ({ item, index }) => {
-  // I don't think this data needs to be desctructured.
-  // const {
-  //   image,
-  //   imageAlt,
-  //   imageUrl,
-  //   title,
-  //   imageTemp,
-  //   company,
-  //   job,
-  //   tech,
-  //   description,
-  // } = data;
+const Technology = ({ data, index }) => {
+  // console.log(data);
 
   return (
-    <img key={index} className='technology' src={item.source} alt={item.alt} />
+    <img key={index} className='technology' src={data.source} alt={data.alt} />
   );
 };
 

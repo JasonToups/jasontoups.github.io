@@ -1,26 +1,20 @@
 import React from 'react';
-import Technology from './Technology';
+// import Technology from './Technology';
 
 const TechnologiesContainer = ({ data }) => {
-  // I don't think this data needs to be desctructured.
-  // const {
-  //   image,
-  //   imageAlt,
-  //   imageUrl,
-  //   title,
-  //   imageTemp,
-  //   company,
-  //   job,
-  //   tech,
-  //   description,
-  // } = data;
+  // console.log(data);
 
   return (
-    <section className='technologies-container'>
-      {data.map((item, index) => (
-        <Technology data={(item, index)} />
+    <div className='technologies-container glass-foreground'>
+      {data.map((data, index) => (
+        <img
+          key={index}
+          className='technology'
+          src={data.source}
+          alt={data.alt}
+        />
       ))}
-    </section>
+    </div>
   );
 };
 
