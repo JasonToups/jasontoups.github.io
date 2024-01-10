@@ -620,10 +620,13 @@ $site-background: #423522;
   }
 
   .footer {
-    text-align: left;
+    text-align: center;
     color: $white;
     width: 100%;
     padding: 3rem;
+    @include respond-to($breakpoint-small) {
+      text-align: left;
+    }
     a {
       color: $white;
       text-decoration: underline;
