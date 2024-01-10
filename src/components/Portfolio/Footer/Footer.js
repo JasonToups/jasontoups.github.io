@@ -10,8 +10,12 @@ const Contact = ({ data }) => {
   return (
     <section className='footer'>
       <footer>
-        <p>All assets lovingly crafted by hand, by yours truly.</p>
-        <p>No AI assistance was used in designing this site.</p>
+        <p>
+          <b>All assets</b> lovingly <i>crafted by hand</i>, by yours truly.
+        </p>
+        <p>
+          <i>No AI assistance</i> was used in designing this site.
+        </p>
         <p>
           Checkout my{' '}
           <a href='https://github.com/JasonToups/jasontoups.github.io'>
