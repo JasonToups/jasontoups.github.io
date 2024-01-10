@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import Apple from '../../../img/logos/apple-2001.png';
 
 const Contact = ({ data }) => {
   const [date, setDate] = useState(null);
@@ -28,7 +29,14 @@ const Contact = ({ data }) => {
           .<br /> Where I planned the <b>design</b>, <b>development</b> &{' '}
           <b>deployment</b>.
         </p>
-        <aside>Copyright &copy; Jason Toups {date}</aside>
+        <div className='apple-container'>
+          <img className='apple' src={Apple} alt='apple circa 2001' />
+          <p>since 2001.</p>
+        </div>
+        <aside>
+          Copyright &copy; Jason Toups {date}
+          <br />
+        </aside>
       </footer>
     </section>
   );
