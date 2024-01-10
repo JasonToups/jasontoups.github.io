@@ -1,14 +1,6 @@
 import React from 'react';
 import '../../style/app.scss';
-import {
-  About,
-  Contact,
-  Experience,
-  Footer,
-  Hero,
-  Map,
-  Projects,
-} from './index.js';
+import { About, Contact, Experience, Footer, Hero, Projects } from './index.js';
 import {
   headerData,
   aboutData,
@@ -26,7 +18,6 @@ const Portfolio = () => {
       <About data={aboutData} />
       <Experience data={experienceData} />
       <Projects data={projectsData} />
-      <Map />
       <Contact data={contactData} />
       <Footer />
     </div>
