@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  TechnologiesContainer,
-  Technology,
-} from '../../Common/Technology/index';
+import { TechnologiesContainer } from '../../Common/Technology/index';
 
 const ProjectCard = ({ data }) => {
   return (

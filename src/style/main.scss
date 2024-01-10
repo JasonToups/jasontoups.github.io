@@ -436,7 +436,7 @@ $site-background: #423522;
     .projects-container {
       display: grid;
       grid-template-columns: 1fr;
-      grid-gap: 30px;
+      grid-gap: 4rem;
       margin: auto;
 
       @include respond-to($breakpoint-small) {
@@ -479,9 +479,9 @@ $site-background: #423522;
           }
 
           img {
-            max-width: 15rem;
+            max-width: 10rem;
             width: 100%;
-            max-height: 15rem;
+            max-height: 10rem;
             @include respond-to($breakpoint-medium) {
               width: 100%;
               max-width: 500px;
@@ -509,8 +509,8 @@ $site-background: #423522;
           align-items: center;
           padding: 1rem;
           img {
-            max-width: 85px;
-            min-height: 85px;
+            max-width: 75px;
+            min-height: 75px;
             display: flex;
             align-self: center;
             margin: 0.5rem;
@@ -522,16 +522,6 @@ $site-background: #423522;
           }
         }
       }
-    }
-  }
-
-  .map {
-    height: 20rem;
-    padding: 30px 0;
-    margin: 0 0 50px;
-    background-color: $light-green;
-    .heading {
-      color: $color-base-5;
     }
   }
 
@@ -573,6 +563,8 @@ $site-background: #423522;
       justify-content: space-evenly;
       align-items: center;
       width: 100%;
+      height: 500px;
+      margin: auto;
       .connect-image {
         max-width: 300px;
         width: 100%;
@@ -590,9 +582,13 @@ $site-background: #423522;
         height: 50%;
         max-width: 300px;
         margin: 20px 0 auto;
-        img {
+        .connect-icon {
           max-width: 5rem;
+          width: 100%;
           justify-self: center;
+        }
+        a {
+          color: $white;
         }
         .linkedin {
           align-self: flex-start;
@@ -600,13 +596,21 @@ $site-background: #423522;
         .github {
           align-self: center;
         }
-        .twitter {
+        .email {
           align-self: flex-end;
         }
       }
       button {
-        width: 80%;
-        background-image: linear-gradient(101deg, #3e8bca 4%, #684db1 100%);
+        color: $white;
+        font-size: 1.5rem;
+        margin: 1rem 0 0;
+        padding: 0.75rem 3rem;
+        background-image: linear-gradient(
+          -84deg,
+          #32c5ff 0%,
+          #b620e0 51%,
+          #f7b500 100%
+        );
         /* Sketch doesnt export gradient borders at this point */
         box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
           inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
@@ -618,46 +622,28 @@ $site-background: #423522;
   .footer {
     text-align: center;
     color: $white;
-  }
-  // Logos
-  .production-logos {
-    #disney-logo {
-      width: 100%;
+    width: 100%;
+    padding: 3rem;
+    @include respond-to($breakpoint-small) {
+      text-align: left;
     }
-
-    #warner-logo {
-      width: 70px;
-      margin-bottom: 10px;
+    a {
+      color: $white;
+      text-decoration: underline;
     }
-
-    #adult-swim-logo {
-      width: 80px;
-      margin-bottom: 15px;
+    p,
+    a,
+    b,
+    i,
+    code {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      margin: 0;
     }
-
-    #king-logo {
-      width: 95px;
-      margin-bottom: 20px;
-    }
-
-    #zynga-logo {
-      width: 70px;
-      margin-bottom: 10px;
-    }
-
-    #kixeye-logo {
-      width: 80px;
-      margin-bottom: 15px;
-    }
-
-    #chartboost-logo {
-      width: 90px;
-      margin-bottom: 25px;
-    }
-
-    #big-fish-logo {
-      width: 80px;
-      margin-bottom: 15px;
+    aside {
+      padding: 2rem;
+      font-size: 1rem;
+      text-align: center;
     }
   }
 }

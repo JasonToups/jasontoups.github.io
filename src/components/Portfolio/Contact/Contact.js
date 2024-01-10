@@ -1,7 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useNavigation } from '../../../contexts/NavigationContext';
-import ContactItem from './ContactItem';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 
 const Contact = ({ data }) => {
   const navigate = useNavigate();
@@ -14,7 +15,7 @@ const Contact = ({ data }) => {
 
   return (
     <section className='contact'>
-      <div>
+      {/* <div>
         <h2>Contact</h2>
         <form>
           <label htmlFor={data.form.name.field}>{data.form.name.label}</label>
@@ -32,7 +33,7 @@ const Contact = ({ data }) => {
           ></textarea>
           <button type={data.form.button.type}>{data.form.button.text}</button>
         </form>
-      </div>
+      </div> */}
       <div className='connect'>
         <img
           className='connect-image'
@@ -41,15 +42,34 @@ const Contact = ({ data }) => {
         />
         <div className='connect-icons-container'>
           {data.connect.icons.map((contact, index) => (
-            <img
-              key={index}
+            <a
+              href={contact.url}
+              target='_blank'
+              rel='noreferrer'
               className={contact.class}
-              src={contact.source}
-              alt={contact.alt}
-            />
+            >
+              <img
+                key={index}
+                className='connect-icon'
+                src={contact.source}
+                alt={contact.alt}
+              />
+            </a>
           ))}
+          <a
+            href='mailto:me@jasontoups.com'
+            target='_blank'
+            rel='noreferrer'
+            className='email'
+          >
+            <FontAwesomeIcon
+              className='connect-icon fa-4x'
+              icon={faEnvelope}
+              alt='email jason toups'
+            />
+          </a>
         </div>
-        <button type={data.connect.button.type}>
+        <button type={data.connect.button.type} onClick={handleResumeClick}>
           {data.connect.button.text}
         </button>
       </div>
