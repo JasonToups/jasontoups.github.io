@@ -1,8 +1,6 @@
 $font-primary: system-ui, sans-serif;
 $font-secondary: 'Nimbus Mono PS', 'Courier New', monospace;
 
-$primary-color: $white;
-
 $h1-color: $primary-color;
 $h1-font-size: 81px;
 $h1-font-weight: 600;
@@ -112,3 +110,5 @@ $p-line-height-mobile: 1.5;
 $p-letter-spacing-mobile: 0em;
 $p-margin-mobile: 0 0.5em 0.5em;
 $p-padding-mobile: 0.5em 0.5em 0.5em 0;
+
+$b-font-color: $secondary-color;
