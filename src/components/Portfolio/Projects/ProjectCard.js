@@ -6,21 +6,19 @@ import {
 
 const ProjectCard = ({ data }) => {
   return (
-    <div className='glass-background border-radius'>
-      <a
-        className={`project project-${data.projectNumber}`}
-        href={data.imageUrl}
-        target='_blank'
-        rel='noreferrer'
-      >
-        <div className='project-image-container'>
-          <img className='project-image' src={data.image} alt={data.imageAlt} />
-        </div>
-        <h3 className='project-title'>{data.title}</h3>
-        <p className='project-description'>{data.description}</p>
-        <TechnologiesContainer data={data.technologies} />
-      </a>
-    </div>
+    <a
+      className={`project project-${data.projectNumber} glass-background border-radius`}
+      href={data.imageUrl}
+      target='_blank'
+      rel='noreferrer'
+    >
+      <div className='project-image-container'>
+        <img className='project-image' src={data.image} alt={data.imageAlt} />
+      </div>
+      <h3 className='project-title'>{data.title}</h3>
+      <p className='project-description'>{data.description}</p>
+      <TechnologiesContainer data={data.technologies} />
+    </a>
   );
 };
 
