@@ -500,12 +500,12 @@ $site-background: #423522;
           grid-area: technologies;
           display: flex;
           flex-direction: column;
-          justify-content: end;
-          align-items: end;
+          justify-content: flex-end;
+          align-items: flex-end;
           height: 100%;
           @include respond-to($breakpoint-medium) {
             align-items: center;
-            justify-content: end;
+            justify-content: flex-end;
           }
           @include respond-to($breakpoint-small) {
             justify-content: center;

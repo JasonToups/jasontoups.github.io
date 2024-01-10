@@ -1,17 +1,7 @@
 import React from 'react';
 
 const ExperienceCard = ({ data }) => {
-  const {
-    image,
-    imageAlt,
-    imageUrl,
-    title,
-    imageTemp,
-    company,
-    job,
-    tech,
-    description,
-  } = data;
+  const { company, job } = data;
 
   return (
     <main className='experience-card'>
