@@ -622,46 +622,22 @@ $site-background: #423522;
   .footer {
     text-align: center;
     color: $white;
-  }
-  // Logos
-  .production-logos {
-    #disney-logo {
-      width: 100%;
+    width: 100%;
+    padding: 3rem;
+    a {
+      color: $white;
+      text-decoration: underline;
     }
-
-    #warner-logo {
-      width: 70px;
-      margin-bottom: 10px;
+    p,
+    a,
+    code {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      margin: 0;
     }
-
-    #adult-swim-logo {
-      width: 80px;
-      margin-bottom: 15px;
-    }
-
-    #king-logo {
-      width: 95px;
-      margin-bottom: 20px;
-    }
-
-    #zynga-logo {
-      width: 70px;
-      margin-bottom: 10px;
-    }
-
-    #kixeye-logo {
-      width: 80px;
-      margin-bottom: 15px;
-    }
-
-    #chartboost-logo {
-      width: 90px;
-      margin-bottom: 25px;
-    }
-
-    #big-fish-logo {
-      width: 80px;
-      margin-bottom: 15px;
+    aside {
+      padding: 2rem;
+      font-size: 1rem;
     }
   }
 }
