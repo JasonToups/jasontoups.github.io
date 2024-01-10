@@ -258,7 +258,7 @@ export const projectsData = {
       imageAlt: 'rick and morty react character database',
       imageUrl: 'https://jasontoups.github.io/rick-and-morty/',
       projectNumber: '3',
-      title: 'Rick & Morty Characteropedia',
+      title: 'Rick & Morty',
       description:
         'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
       technologies: [

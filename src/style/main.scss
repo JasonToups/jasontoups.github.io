@@ -443,15 +443,6 @@ $site-background: #423522;
         grid-template-columns: 1fr;
       }
 
-      .project-1 {
-      }
-      .project-2 {
-      }
-      .project-3 {
-      }
-      .project-4 {
-      }
-
       .project {
         color: $white;
         display: grid;
@@ -468,8 +459,10 @@ $site-background: #423522;
         text-decoration: none;
 
         @include respond-to($breakpoint-medium) {
-          width: 90%;
-          max-width: 90%;
+          grid-template-areas:
+            'image title'
+            'description description'
+            'technologies technologies';
         }
 
         .project-image-container {
@@ -521,6 +514,11 @@ $site-background: #423522;
             display: flex;
             align-self: center;
             margin: 0.5rem;
+            @include respond-to($breakpoint-medium) {
+              max-width: 60px;
+              min-height: 60px;
+              margin: 0.25rem;
+            }
           }
         }
       }
