@@ -143,6 +143,28 @@ $site-background: #423522;
     color: $black;
   }
 
+  .glass-foreground,
+  .glass-background,
+  .debossed {
+    border-radius: 2.25rem;
+    @include respond-to($breakpoint-large) {
+      border-radius: 1.5rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      border-radius: 1rem;
+    }
+  }
+
+  .border-radius {
+    border-radius: 2.25rem;
+    @include respond-to($breakpoint-large) {
+      border-radius: 1.5rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      border-radius: 1rem;
+    }
+  }
+
   .background {
     position: fixed;
     width: 100%;
@@ -306,18 +328,6 @@ $site-background: #423522;
           flex-direction: column;
         }
 
-        .glass-foreground,
-        .glass-background,
-        .debossed {
-          border-radius: 2.25rem;
-          @include respond-to($breakpoint-large) {
-            border-radius: 1.5rem;
-          }
-          @include respond-to($breakpoint-medium) {
-            border-radius: 1rem;
-          }
-        }
-
         .company {
           grid-area: company;
           text-align: left;
@@ -423,12 +433,6 @@ $site-background: #423522;
   }
 
   .projects {
-    // background-color: $projects-background-color;
-    // background-image: $splotch-background;
-    // background-repeat: no-repeat;
-    // background-size: cover;
-    // background-blend-mode: soft-light;
-
     .projects-container {
       display: grid;
       grid-template-columns: 1fr;
@@ -440,33 +444,30 @@ $site-background: #423522;
       }
 
       .project-1 {
-        // background-color: $project-1-background-color;
       }
       .project-2 {
-        // background-color: $project-2-background-color;
       }
       .project-3 {
-        // background-color: $project-3-background-color;
       }
       .project-4 {
-        // background-color: $project-4-background-color;
       }
 
       .project {
-        background-color: grey;
-        padding: 20px 0;
-        max-width: 400px;
+        color: $white;
+        display: grid;
+        grid-template-areas:
+          'image title'
+          'technologies description';
+        max-width: 600px;
         width: 100%;
         min-height: 400px;
         height: 100%;
-        display: flex;
         align-items: center;
-        text-align: center;
+        text-align: left;
         align-self: center;
         justify-self: center;
         justify-content: space-evenly;
         align-content: center;
-        flex-direction: column;
         border-radius: $border-radius;
         text-decoration: none;
 
@@ -476,10 +477,11 @@ $site-background: #423522;
         }
 
         .project-image-container {
+          grid-area: image;
           max-width: 300px;
           width: 100%;
-          height: 140px;
-          display: flex;
+          height: 100%;
+          padding: 1rem;
           @include respond-to($breakpoint-medium) {
             width: 100%;
             max-width: 100%;
@@ -488,7 +490,7 @@ $site-background: #423522;
           img {
             max-width: 300px;
             width: 100%;
-            max-height: 150px;
+            max-height: 100px;
             margin: auto;
             @include respond-to($breakpoint-medium) {
               width: 100%;
@@ -496,12 +498,30 @@ $site-background: #423522;
             }
           }
         }
-        .project-description {
-          color: $alice-blue;
-          margin: 0 20px 30px 20px;
-
-          h3 {
-            margin: 15px 0;
+        h3 {
+          grid-area: title;
+          font-size: 3rem;
+          margin: 0 2rem;
+        }
+        p {
+          grid-area: description;
+          margin: 0 2rem;
+          text-align: left;
+          display: flex;
+          align-self: flex-start;
+        }
+        .technologies-container {
+          grid-area: technologies;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          padding: 1rem;
+          img {
+            max-width: 75px;
+            margin: 0 10px;
+            margin: 1rem;
           }
         }
       }
