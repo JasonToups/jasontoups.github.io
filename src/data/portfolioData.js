@@ -41,7 +41,7 @@ import {
 // Imports for the Contact Section
 import Connect from '../img/portfolio/contact/connect.png';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { GitHub, LinkedIn, Twitter } from '../img/portfolio/social/index.js';
+import { GitHub, LinkedIn } from '../img/portfolio/social/index.js';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -322,12 +322,6 @@ export const contactData = {
         alt: 'git hub',
         url: 'https://github.com/JasonToups',
       },
-      // {
-      //   source: Twitter,
-      //   class: 'twitter',
-      //   alt: 'twitter',
-      //   url: '',
-      // },
     ],
     button: {
       text: 'view resume',
