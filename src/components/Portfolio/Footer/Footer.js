@@ -30,7 +30,13 @@ const Contact = ({ data }) => {
           <b>deployment</b>.
         </p>
         <div className='apple-container'>
-          <img className='apple' src={Apple} alt='apple circa 2001' />
+          <a
+            href='http://apple-history.com/g4_quicksilver'
+            target='_blank'
+            rel='noreferrer'
+          >
+            <img className='apple' src={Apple} alt='apple circa 2001' />
+          </a>
           <p>since 2001.</p>
         </div>
         <aside>
