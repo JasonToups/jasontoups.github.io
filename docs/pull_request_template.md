@@ -11,3 +11,4 @@
 - [ ] pull latest changes
 - [ ] test locally
 - [ ] deploy code to gh-pages
+- [ ] test on Production
