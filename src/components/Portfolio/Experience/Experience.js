@@ -9,7 +9,7 @@ const Experience = ({ data }) => {
         <h2>{header}</h2>
       </header>
       <section
-        className='experience-cards--container flex-container flex-direction-column'
+        className='experience-cards--container'
         id='engineering-experience'
       >
         {workExperience.map((experience, index) => (
