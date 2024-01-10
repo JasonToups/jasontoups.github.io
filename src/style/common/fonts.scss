@@ -1,5 +1,5 @@
 $font-primary: system-ui, sans-serif;
-$font-secondary: 'Nimbus Mono PS', 'Courier New', monospace;
+$font-secondary: monospace;
 
 $h1-color: $primary-color;
 $h1-font-size: 81px;
@@ -112,3 +112,23 @@ $p-margin-mobile: 0 0.5em 0.5em;
 $p-padding-mobile: 0.5em 0.5em 0.5em 0;
 
 $b-font-color: $secondary-color;
+$b-font-weight: 600;
+
+$i-font-color: $tertiary-color;
+$i-font-weight: 400;
+
+$u-font-color: $alert-color;
+$u-font-weight: 400;
+
+$aside-font-color: $primary-color;
+$aside-font-weight: 400;
+
+$code-font-color: $primary-color;
+$code-font-weight: 400;
+$code-font-family: $font-secondary;
+
+$blockquote-font-color: $primary-color;
+$blockquote-font-weight: 400;
+
+$footer-font-color: $primary-color;
+$footer-font-weight: 400;
