@@ -21,8 +21,8 @@ const Contact = ({ data }) => {
           <a href='https://github.com/users/JasonToups/projects/2'>
             <code>github project</code>
           </a>
-          ,
-          <br /> where I planned the design, development & deployment.
+          , where I planned the <b>design</b>, <b>development</b> &{' '}
+          <b>deployment</b>.
         </p>
         <aside>Copyright &copy; Jason Toups {date}</aside>
       </footer>

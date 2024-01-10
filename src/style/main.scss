@@ -620,7 +620,7 @@ $site-background: #423522;
   }
 
   .footer {
-    text-align: center;
+    text-align: left;
     color: $white;
     width: 100%;
     padding: 3rem;
@@ -630,6 +630,7 @@ $site-background: #423522;
     }
     p,
     a,
+    b,
     code {
       font-size: 1.25rem;
       line-height: 2rem;
@@ -638,6 +639,7 @@ $site-background: #423522;
     aside {
       padding: 2rem;
       font-size: 1rem;
+      text-align: center;
     }
   }
 }
