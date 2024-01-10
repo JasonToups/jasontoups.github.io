@@ -58,6 +58,7 @@ $site-background: #423522;
   h2 {
     font-size: 7rem;
     color: $white;
+    margin-bottom: 1.25rem;
     @include respond-to($breakpoint-large) {
       font-size: 6rem;
     }
@@ -81,8 +82,8 @@ $site-background: #423522;
   }
 
   p {
-    font-size: $font-size-p;
-    line-height: 1.25em;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
     letter-spacing: 0.025em;
   }
 
@@ -276,14 +277,12 @@ $site-background: #423522;
         }
 
         h2 {
-          margin: 0;
           @include respond-to($breakpoint-medium) {
-            margin: 0 0 1rem 0;
             text-align: center;
           }
         }
         p {
-          margin: 0 0 30px;
+          margin: 0 1rem 2rem;
         }
       }
     }
@@ -458,13 +457,6 @@ $site-background: #423522;
         align-content: center;
         text-decoration: none;
 
-        @include respond-to($breakpoint-medium) {
-          grid-template-areas:
-            'image title'
-            'description description'
-            'technologies technologies';
-        }
-
         .project-image-container {
           grid-area: image;
           width: 100%;
@@ -484,7 +476,7 @@ $site-background: #423522;
             max-height: 10rem;
             @include respond-to($breakpoint-medium) {
               width: 100%;
-              max-width: 500px;
+              max-width: 156px;
             }
           }
         }
@@ -498,16 +490,36 @@ $site-background: #423522;
           grid-area: description;
           margin: 0 1.5rem 1.5rem;
           text-align: left;
+          font-size: 1.5rem;
+          line-height: 2.25rem;
+        }
+        .project-title {
+          color: $white;
         }
         .technologies-container {
           grid-area: technologies;
+          display: flex;
+          flex-direction: column;
+          justify-content: end;
+          align-items: end;
           height: 100%;
-          width: 100%;
+          @include respond-to($breakpoint-medium) {
+            align-items: center;
+            justify-content: end;
+          }
+          @include respond-to($breakpoint-small) {
+            justify-content: center;
+          }
+        }
+        .technologies-list {
           display: flex;
           flex-direction: row;
           justify-content: space-evenly;
           align-items: center;
           padding: 1rem;
+          @include respond-to($breakpoint-medium) {
+            flex-direction: column;
+          }
           img {
             max-width: 75px;
             min-height: 75px;
