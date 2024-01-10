@@ -1,5 +1,5 @@
 // Variables
-$header-background-color: $light-yellow;
+$header-background-color: $black;
 $about-background-color: $alice-blue;
 $tech-background-color: $carolina-blue;
 $experience-background-color: $light-yellow;
@@ -18,6 +18,7 @@ $background: #fff7eb;
 $primary: #6b6a7c;
 $secondary: #d07932;
 $accent: #839e59;
+$site-background: #423522;
 
 // Globals
 * {
@@ -29,23 +30,43 @@ $accent: #839e59;
 
 #root {
   height: 100vmax;
-  font-family: $font-primary;
 }
 
 .portfolio-site {
+  font-family: $font-primary;
+  color: $white;
+  background-color: $black;
+
   h1 {
-    font-size: $font-size-h1;
+    color: $h1-color;
+    font-size: $h1-font-size;
+    font-weight: $h1-font-weight;
+    line-height: $h1-line-height;
+    letter-spacing: $h1-letter-spacing;
+    margin: $h1-margin;
+    @include respond-to($breakpoint-medium) {
+      font-size: 70px;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h2;
+      font-size: 55px;
+    }
+    @include respond-to($breakpoint-x-small) {
+      font-size: 35px;
     }
   }
 
   h2 {
-    color: $color-base-5;
-    font-size: $font-size-h2;
-    font-family: $font-secondary;
+    font-size: 7rem;
+    color: $white;
+    margin-bottom: 1.25rem;
+    @include respond-to($breakpoint-large) {
+      font-size: 6rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      font-size: 5rem;
+    }
     @include respond-to($breakpoint-small) {
-      font-size: $font-size-h3;
+      font-size: 4rem;
     }
   }
 
@@ -61,8 +82,8 @@ $accent: #839e59;
   }
 
   p {
-    font-size: $font-size-p;
-    line-height: 1.75em;
+    font-size: 1.75rem;
+    line-height: 2.5rem;
     letter-spacing: 0.025em;
   }
 
@@ -72,18 +93,77 @@ $accent: #839e59;
   }
 
   section {
-    padding: 30px 60px 60px 60px;
+    padding: 2rem 2.5rem;
     @include respond-to($breakpoint-medium) {
-      padding: 30px 25px 60px 20px;
+      padding: 1.5rem 2rem;
     }
     @include respond-to($breakpoint-x-small) {
-      padding: 30px 50px;
+      padding: 1rem;
     }
   }
 
-  .header {
-    text-align: center;
-    padding: 0 0 25px 0;
+  .text-gradient {
+    background-image: linear-gradient(
+      265deg,
+      #32c5ff 0%,
+      #b620e0 51%,
+      #f7b500 100%
+    );
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: fit-content;
+  }
+
+  .glass-background {
+    background-image: linear-gradient(
+      121deg,
+      rgba(238, 238, 238, 0.4) 0%,
+      rgba(216, 216, 216, 0.1) 78%
+    );
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+  }
+
+  .glass-foreground {
+    background-image: linear-gradient(
+      122deg,
+      rgba(238, 238, 238, 0.6) 0%,
+      rgba(216, 216, 216, 0.25) 78%
+    );
+    /* TODO: Add the transparent gradient borders to this */
+    /* TODO: Add the noise fill to this */
+    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+  }
+
+  .debossed {
+    background: #d8d8d8;
+    /* TODO: Add the transparent gradient borders to this */
+    box-shadow: inset 11px 13px 31px 5px rgba(0, 0, 0, 0.5);
+    color: $black;
+  }
+
+  .glass-foreground,
+  .glass-background,
+  .debossed {
+    border-radius: 2.25rem;
+    @include respond-to($breakpoint-large) {
+      border-radius: 1.5rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      border-radius: 1rem;
+    }
+  }
+
+  .border-radius {
+    border-radius: 2.25rem;
+    @include respond-to($breakpoint-large) {
+      border-radius: 1.5rem;
+    }
+    @include respond-to($breakpoint-medium) {
+      border-radius: 1rem;
+    }
   }
 
   .background {
@@ -123,37 +203,39 @@ $accent: #839e59;
   }
 
   //  Components
-  .app-header {
+  .hero {
     background-color: $header-background-color;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
+    padding: 0;
 
     .content-container {
-      margin: 60px 30px;
+      margin: 60px 0px;
       width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: column;
 
-      .header-logo {
-        width: 65vw;
-        margin: 0 0 10px 0;
-        @include respond-to($breakpoint-small) {
-          width: 100%;
+      .loading {
+        min-height: 500px;
+        color: #6b6a7c;
+        display: flex;
+        align-items: center;
+        @include respond-to($breakpoint-medium) {
+          min-height: 500px;
         }
-      }
-      h1 {
-        font-weight: 100;
-      }
-      h3 {
-        font-weight: 100;
+        @include respond-to($breakpoint-small) {
+          min-height: 300px;
+        }
+        @include respond-to($breakpoint-x-small) {
+          min-height: 200px;
+        }
       }
     }
   }
 
   .about {
-    background-color: $about-background-color;
+    background-color: $black;
+
     .content-container {
       justify-content: center;
 
@@ -164,137 +246,167 @@ $accent: #839e59;
 
       img {
         width: 30vw;
-        margin: 0 25px 20px 0;
+        margin: 0 0 20px 25px;
         border-radius: $border-radius;
         box-shadow: $box-shadow;
-        float: left;
+        float: right;
+        border-radius: 100px 100px 20px 20px;
+
+        background-image: linear-gradient(
+          -43deg,
+          rgba(50, 197, 255, 0.6) 0%,
+          rgba(182, 32, 224, 0.6) 51%,
+          rgba(247, 181, 0, 0.6) 100%
+        );
+        box-shadow: 30px 5px 60px 0 rgba(255, 255, 255, 0.3);
 
         @include respond-to($breakpoint-medium) {
           width: 50%;
           float: none;
           left: 25%;
           position: relative;
+          margin: 0;
         }
       }
       .description {
         width: 100%;
-        padding: 0 20px;
+        padding: 0;
 
         @include respond-to($breakpoint-medium) {
           width: 100%;
         }
 
         h2 {
-          margin: 0 15px 15px 15px;
           @include respond-to($breakpoint-medium) {
             text-align: center;
           }
         }
         p {
-          margin: 0 0 15px;
-        }
-      }
-    }
-  }
-
-  .tech {
-    background-color: $tech-background-color;
-    text-align: center;
-    background-image: $outlines-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-blend-mode: lighten;
-
-    header {
-      h2 {
-        color: $tech-h1-color;
-      }
-      p {
-        color: $tech-h2-color;
-        line-height: 1em;
-        font-size: 30px;
-      }
-    }
-    .tech-items--container {
-      margin: auto;
-      @include respond-to($breakpoint-large) {
-        width: 65vw;
-      }
-      @include respond-to($breakpoint-x-small) {
-        width: 100%;
-      }
-
-      .tech-item {
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        width: 7rem;
-        margin: 10px;
-
-        .service-icon {
-          background-color: $alice-blue;
-          color: $tech-background-color;
-          height: 7rem;
-          width: 7rem;
-          display: block;
-          line-height: 110px;
-          font-size: 50px;
-          box-shadow: $box-shadow;
-          border-radius: 50%;
-          margin: 0 0 10px 0;
-        }
-        p {
-          font-weight: 400;
-          color: $tech-h2-color;
-          line-height: 1.25em;
+          margin: 0 1rem 2rem;
         }
       }
     }
   }
 
   .experience {
-    background-color: $experience-background-color;
-    background-image: $simple-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: color;
-
     .experience-cards--container {
       width: 100%;
-      margin-top: -15px;
 
       .experience-card {
-        padding: 20px;
-        margin: 20px 0;
-        width: 100%;
-        background-color: $alice-blue;
-        justify-content: space-between;
-        border-radius: $border-radius;
-        box-shadow: $box-shadow;
-        text-align: left;
-
+        display: grid;
+        grid-template-areas:
+          'company image technologies'
+          'description image technologies'
+          'description title technologies'
+          'description title technologies';
+        grid-gap: 2rem;
+        margin-bottom: 80px;
+        @include respond-to($breakpoint-large) {
+          grid-template-areas:
+            'company image'
+            'description image'
+            'description title'
+            'description title'
+            'technologies technologies';
+          grid-gap: 1.5rem;
+        }
         @include respond-to($breakpoint-medium) {
+          grid-template-areas:
+            'company company'
+            'image image'
+            'title title'
+            'description description'
+            'technologies technologies';
+          grid-gap: 1rem;
+        }
+        section {
+          padding: 1.5rem 2.25rem;
+          display: flex;
+          justify-content: space-evenly;
+          align-content: center;
           flex-direction: column;
         }
 
+        .company {
+          grid-area: company;
+          text-align: left;
+
+          h3 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+          }
+          aside {
+            font-size: 1.5rem;
+          }
+        }
+        .description {
+          grid-area: description;
+          text-align: left;
+          flex-direction: column;
+
+          p {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+          }
+        }
+        .image {
+          grid-area: image;
+          img {
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            border-radius: 0.5rem;
+          }
+        }
+        .title {
+          grid-area: title;
+
+          h4 {
+            font-size: 2rem;
+            text-align: left;
+            margin-bottom: 1.5rem;
+          }
+          aside {
+            font-size: 1.5rem;
+            text-align: right;
+          }
+        }
+        .technologies {
+          grid-area: technologies;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          @include respond-to($breakpoint-large) {
+            flex-direction: row;
+            flex-wrap: wrap;
+          }
+          img {
+            width: 100%;
+            max-width: 75px;
+            height: 100%;
+            max-height: 75px;
+          }
+        }
+
         .experience-card--image-container {
-          float: left;
-          width: 45%;
-          margin: 0 20px 20px 0;
+          // float: left;
+          // width: 45%;
+          // margin: 0 20px 20px 0;
 
           @include respond-to($breakpoint-medium) {
-            width: 60%;
+            // width: 60%;
           }
           @include respond-to($breakpoint-x-small) {
-            width: 100%;
-            margin: 0 0 20px 0;
+            // width: 100%;
+            // margin: 0 0 20px 0;
           }
 
           .experience-card--image {
-            width: 100%;
-            border-radius: $border-radius;
-            box-shadow: $box-shadow-light;
+            // width: 100%;
+            // border-radius: $border-radius;
+            // box-shadow: $box-shadow-light;
           }
         }
 
@@ -320,170 +432,247 @@ $accent: #839e59;
   }
 
   .projects {
-    background-color: $projects-background-color;
-    background-image: $splotch-background;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: soft-light;
-
     .projects-container {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-gap: 30px;
+      grid-template-columns: 1fr;
+      grid-gap: 4rem;
       margin: auto;
 
       @include respond-to($breakpoint-small) {
         grid-template-columns: 1fr;
       }
 
-      .project-1 {
-        background-color: $project-1-background-color;
-      }
-      .project-2 {
-        background-color: $project-2-background-color;
-      }
-      .project-3 {
-        background-color: $project-3-background-color;
-      }
-      .project-4 {
-        background-color: $project-4-background-color;
-      }
-
       .project {
-        padding: 20px 0;
-        max-width: 400px;
-        width: 100%;
-        min-height: 400px;
+        color: $white;
+        display: grid;
+        grid-template-areas:
+          'image title'
+          'technologies description';
+        max-width: 800px;
         height: 100%;
-        display: flex;
         align-items: center;
-        text-align: center;
         align-self: center;
         justify-self: center;
         justify-content: space-evenly;
         align-content: center;
-        flex-direction: column;
-        border-radius: $border-radius;
         text-decoration: none;
 
-        @include respond-to($breakpoint-medium) {
-          width: 90%;
-          max-width: 90%;
-        }
-
         .project-image-container {
-          max-width: 300px;
+          grid-area: image;
           width: 100%;
-          height: 140px;
+          height: 100%;
+          padding: 1rem;
           display: flex;
+          align-items: center;
+          justify-content: center;
           @include respond-to($breakpoint-medium) {
             width: 100%;
             max-width: 100%;
           }
 
           img {
-            max-width: 300px;
+            max-width: 10rem;
             width: 100%;
-            max-height: 150px;
-            margin: auto;
+            max-height: 10rem;
             @include respond-to($breakpoint-medium) {
               width: 100%;
-              max-width: 500px;
+              max-width: 156px;
             }
           }
         }
-        .project-description {
-          color: $alice-blue;
-          margin: 0 20px 30px 20px;
-
-          h3 {
-            margin: 15px 0;
+        h3 {
+          grid-area: title;
+          font-size: 3rem;
+          text-align: center;
+          margin: 1rem;
+        }
+        p {
+          grid-area: description;
+          margin: 0 1.5rem 1.5rem;
+          text-align: left;
+          font-size: 1.5rem;
+          line-height: 2.25rem;
+        }
+        .project-title {
+          color: $white;
+        }
+        .technologies-container {
+          grid-area: technologies;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end;
+          height: 100%;
+          @include respond-to($breakpoint-medium) {
+            align-items: center;
+            justify-content: flex-end;
+          }
+          @include respond-to($breakpoint-small) {
+            justify-content: center;
+          }
+        }
+        .technologies-list {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+          align-items: center;
+          padding: 1rem;
+          @include respond-to($breakpoint-medium) {
+            flex-direction: column;
+          }
+          img {
+            max-width: 75px;
+            min-height: 75px;
+            display: flex;
+            align-self: center;
+            margin: 0.5rem;
+            @include respond-to($breakpoint-medium) {
+              max-width: 60px;
+              min-height: 60px;
+              margin: 0.25rem;
+            }
           }
         }
       }
-    }
-  }
-
-  .map {
-    height: 20rem;
-    padding: 30px 0;
-    margin: 0 0 50px;
-    background-color: $light-green;
-    .heading {
-      color: $color-base-5;
     }
   }
 
   .contact {
-    background-color: lightblue;
-    background-image: url(../img/svg/groups/splash-all.svg);
-    background-repeat: no-repeat;
-    background-size: 60%;
-    background-position: center;
-    background-blend-mode: color-dodge;
-    padding: 5rem 0;
-    .contact-items-container {
-      justify-content: center;
-      margin: 0 0 30px 0;
-      .contact-item {
-        color: $white;
-        display: block;
-        height: 4rem;
-        width: 4rem;
-        line-height: 4.3rem;
-        font-size: 1.5rem;
-        background-color: $color-base-5;
-        transition: background-color 0.15s ease-in-out;
-        border-radius: 50%;
-        margin: 0 20px;
-        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-      }
+    display: flex;
+    flex-direction: row;
+    form {
+      display: flex;
+      flex-direction: column;
     }
-    .footer {
-      text-align: center;
-      color: $color-base-5;
+    label {
+      font-size: 30px;
+      color: #b7b5b5;
+    }
+    input,
+    textarea {
+      background-color: #b7b5b5;
+    }
+    button {
+      color: $white;
+      font-size: 1.5rem;
+      margin: 1rem 0 0;
+      background-image: linear-gradient(
+        -84deg,
+        #32c5ff 0%,
+        #b620e0 51%,
+        #f7b500 100%
+      );
+      /* Sketch doesnt export gradient borders at this point */
+      box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
+        inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
+      border-radius: 38px;
+    }
+
+    .connect {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      height: 500px;
+      margin: auto;
+      .connect-image {
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: auto;
+      }
+      img {
+        max-width: 70px;
+      }
+      .connect-icons-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        max-width: 300px;
+        margin: 20px 0 auto;
+        .connect-icon {
+          max-width: 5rem;
+          width: 100%;
+          justify-self: center;
+        }
+        a {
+          color: $white;
+        }
+        .linkedin {
+          align-self: flex-start;
+        }
+        .github {
+          align-self: center;
+        }
+        .email {
+          align-self: flex-end;
+        }
+      }
+      button {
+        color: $white;
+        font-size: 1.5rem;
+        margin: 1rem 0 0;
+        padding: 0.75rem 3rem;
+        background-image: linear-gradient(
+          -84deg,
+          #32c5ff 0%,
+          #b620e0 51%,
+          #f7b500 100%
+        );
+        /* Sketch doesnt export gradient borders at this point */
+        box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
+          inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
+        border-radius: 38px;
+      }
     }
   }
 
-  // Logos
-  .production-logos {
-    #disney-logo {
-      width: 100%;
+  .footer {
+    text-align: center;
+    color: $white;
+    width: 100%;
+    padding: 3rem;
+    @include respond-to($breakpoint-small) {
+      text-align: left;
     }
-
-    #warner-logo {
-      width: 70px;
-      margin-bottom: 10px;
+    a {
+      color: $white;
+      text-decoration: underline;
     }
-
-    #adult-swim-logo {
-      width: 80px;
-      margin-bottom: 15px;
+    p,
+    a,
+    b,
+    i,
+    code {
+      font-size: 1.25rem;
+      line-height: 2rem;
+      margin: 0;
     }
-
-    #king-logo {
-      width: 95px;
-      margin-bottom: 20px;
+    aside {
+      padding: 2rem;
+      font-size: 1rem;
+      text-align: center;
     }
+    .apple-container {
+      display: flex;
+      width: fit-content;
+      margin: 0.75rem auto 0;
 
-    #zynga-logo {
-      width: 70px;
-      margin-bottom: 10px;
-    }
-
-    #kixeye-logo {
-      width: 80px;
-      margin-bottom: 15px;
-    }
-
-    #chartboost-logo {
-      width: 90px;
-      margin-bottom: 25px;
-    }
-
-    #big-fish-logo {
-      width: 80px;
-      margin-bottom: 15px;
+      .apple {
+        width: 25px;
+        max-width: 25px;
+        margin: 0 auto;
+      }
+      p {
+        flex-grow: 1;
+        text-align: left;
+        padding-left: 0.5rem;
+        font-size: 1rem;
+      }
     }
   }
 }

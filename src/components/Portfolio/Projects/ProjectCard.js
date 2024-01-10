@@ -1,26 +1,30 @@
 import React from 'react';
+import { TechnologiesContainer } from '../../Common/Technology/index';
 
-const ProjectCard = ({
-  image,
-  imageAlt,
-  imageUrl,
-  projectNumber,
-  children,
-}) => {
+const ProjectCard = ({ data }) => {
   return (
-    <a
-      className={`project project-${projectNumber}`}
-      href={imageUrl}
-      target='_blank'
-      rel='noreferrer'
+    <div
+      className={`project project-${data.projectNumber} glass-background border-radius`}
     >
-      <div className='project-image-container'>
-        <img className='project-image' src={image} alt={imageAlt} />
-      </div>
-      <span className='project-description'>
-        <span className='caption-content'>{children}</span>
-      </span>
-    </a>
+      <a
+        className='project-image-container'
+        href={data.imageUrl}
+        target='_blank'
+        rel='noreferrer'
+      >
+        <img className='project-image' src={data.image} alt={data.imageAlt} />
+      </a>
+      <a
+        className='project-title'
+        href={data.imageUrl}
+        target='_blank'
+        rel='noreferrer'
+      >
+        <h3>{data.title}</h3>
+      </a>
+      <p className='project-description'>{data.description}</p>
+      <TechnologiesContainer data={data.technologies} />
+    </div>
   );
 };
 

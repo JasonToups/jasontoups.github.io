@@ -1,0 +1,11 @@
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "overrides": [
+    {
+      "test": "./node_modules/@splinetool/react-spline/dist/react-spline.js",
+      "plugins": [
+        // Add any necessary plugins or configurations specific to react-spline.js
+      ]
+    }
+  ]
+}

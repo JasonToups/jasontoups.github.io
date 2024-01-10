@@ -1,9 +1,9 @@
 import About from './About/About';
-import ContactList from './ContactList/ContactList';
+import Contact from './Contact/Contact';
+import Footer from './Footer/Footer';
 import Experience from './Experience/Experience';
-import Header from './Header/Header';
+import Hero from './Hero/Hero';
 import Map from './Map/Map';
 import Projects from './Projects/Projects';
-import TechStack from './TechStack/TechStack';
 
-export { About, ContactList, Experience, Header, Map, Projects, TechStack };
+export { About, Contact, Experience, Footer, Hero, Map, Projects };
