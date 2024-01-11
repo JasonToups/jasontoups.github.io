@@ -394,13 +394,13 @@
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.125;
     background-image: url('../img/svg/groups/spotch-pattern.svg');
     background-repeat: repeat;
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
-    box-shadow: inset 0 0 2rem 4rem rgba(0, 0, 0, 1);
+    box-shadow: inset 0 0 5rem 7rem rgba(0, 0, 0, 1);
   }
   .experience {
     position: relative;
@@ -527,9 +527,9 @@
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
+    opacity: 0.25;
     background-image: url('../img/svg/groups/3d-splash.png');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
@@ -546,6 +546,7 @@
       grid-template-columns: 1fr;
       grid-gap: 4rem;
       margin: auto;
+      padding-bottom: 7rem;
 
       @include respond-to($breakpoint-small) {
         grid-template-columns: 1fr;
@@ -686,7 +687,7 @@
       align-items: center;
       width: 100%;
       height: 100%;
-      margin: 7rem auto 0 auto;
+      margin: 0 auto;
       .connect-image {
         max-width: 25rem;
         width: 100%;
