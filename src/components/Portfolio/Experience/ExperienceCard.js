@@ -28,7 +28,7 @@ const ExperienceCard = ({ data }) => {
           />
         </a>
       </section>
-      <section className='title glass-foreground'>
+      <section className='title glass-background'>
         <h4>{job.title}</h4>
         <aside>{job.duration}</aside>
       </section>
