@@ -43,13 +43,13 @@ const Contact = ({ data }) => {
         <div className='connect-icons-container'>
           {data.connect.icons.map((contact, index) => (
             <a
+              key={index}
               href={contact.url}
               target='_blank'
               rel='noreferrer'
               className={contact.class}
             >
               <img
-                key={index}
                 className='connect-icon'
                 src={contact.source}
                 alt={contact.alt}
