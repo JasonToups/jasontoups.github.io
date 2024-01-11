@@ -10,9 +10,9 @@ const About = ({
         <div className='description'>
           <h2>{header}</h2>
           <p>{introduction}</p>
-          <span className=''>
-            <p className='text-gradient'>{summary}</p>
-          </span>
+
+          <p className='text-gradient'>{summary}</p>
+
           {closer.map((paragraph, index) => (
             <p key={index}>{paragraph}</p>
           ))}

@@ -220,11 +220,15 @@
     -webkit-background-clip: text;
     background-clip: text;
     width: fit-content;
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1.25;
   }
 
   .glass-background {
     background-image: $glass-background-image;
     box-shadow: $glass-box-shadow;
+    backdrop-filter: blur(15px);
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
   }
@@ -234,6 +238,7 @@
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
     box-shadow: $glass-foreground-box-shadow;
+    backdrop-filter: blur(15px);
   }
 
   .debossed {
@@ -381,8 +386,27 @@
       }
     }
   }
-
+  .experience:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('../img/svg/groups/spotch-pattern.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2rem 4rem rgba(0, 0, 0, 1);
+  }
   .experience {
+    position: relative;
+    .experience-content {
+      position: relative;
+    }
     .experience-cards--container {
       display: grid;
       grid-template-columns: 1fr;
@@ -618,7 +642,7 @@
     }
     button {
       color: $white;
-      font-size: 1.5rem;
+      font-size: 3rem;
       margin: 1rem 0 0;
       background-image: linear-gradient(
         -84deg,
@@ -630,6 +654,7 @@
       box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
         inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
       border-radius: 38px;
+      border: $white;
     }
 
     .connect {
@@ -683,9 +708,11 @@
       }
       button {
         color: $white;
-        font-size: 1.5rem;
+        font-size: 2rem;
+        line-height: 1;
+        font-weight: 800;
         margin: 1rem 0 3rem;
-        padding: 0.75rem 3rem;
+        padding: 0.75rem 2rem 1rem;
         background-image: linear-gradient(
           -84deg,
           #32c5ff 0%,
@@ -696,6 +723,7 @@
         box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
           inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
         border-radius: 38px;
+        border: $white;
       }
     }
   }
