@@ -429,6 +429,7 @@
 
         .company {
           grid-area: company;
+          width: 100%;
           text-align: $experience-card-company-text-align;
         }
         .description {
@@ -454,6 +455,7 @@
         }
         .title {
           grid-area: title;
+          width: 100%;
 
           h4 {
             text-align: left;

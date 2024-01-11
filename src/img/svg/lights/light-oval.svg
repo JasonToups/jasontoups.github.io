@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="893.858317px" height="620.882759px" viewBox="0 0 893.858317 620.882759" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>light-oval</title>
+    <defs>
+        <filter x="-16.8%" y="-24.2%" width="133.7%" height="148.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="50" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="light-oval" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="0.27">
+        <path d="M449.79462,620.882759 C696.626778,620.882759 893.858317,565.08788 893.858317,318.228874 C893.858317,71.3698674 693.761317,0 446.929158,0 C200.097,0 0,71.3698674 0,318.228874 C0,565.08788 202.962461,620.882759 449.79462,620.882759 Z" stroke="#979797" fill="#49539C" filter="url(#filter-1)"></path>
+    </g>
+</svg>
