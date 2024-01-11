@@ -12,7 +12,7 @@ const Contact = ({ data }) => {
     <section className='footer'>
       <footer>
         <p>
-          <b>All assets</b> lovingly <i>crafted by hand</i>, by yours truly.
+          <b>All assets</b> lovingly <i>crafted by hand</i>.
         </p>
         <p>
           <i>No AI assistance</i> was used in designing this site.
@@ -22,11 +22,12 @@ const Contact = ({ data }) => {
           <a href='https://github.com/JasonToups/jasontoups.github.io'>
             <code>source code</code>
           </a>
-          , or my{' '}
+          ,
+          <br /> or my{' '}
           <a href='https://github.com/users/JasonToups/projects/2'>
             <code>github project</code>
           </a>
-          .<br /> Where I planned the <b>design</b>, <b>development</b> &{' '}
+          .<br /> Where I planned the <b>design</b>,<br /> <b>development</b> &{' '}
           <b>deployment</b>.
         </p>
         <div className='apple-container'>
