@@ -49,8 +49,6 @@ $border-light: 1px solid $color-base-1;
 $border-dark: 2px solid $color-base-3;
 $border-grey: 2px solid $color-base-4;
 
-$border-radius: 10px;
-
 $primary-color: $white;
 $secondary-color: $golden-yellow;
 $tertiary-color: $light-purple;
@@ -58,3 +56,20 @@ $alert-color: $light-yellow;
 $error-color: $electric-red;
 $success-color: $bright-green;
 $accent-color: $react-blue;
+
+$background-image-primary-gradient: linear-gradient(
+  -43deg,
+  rgba(50, 197, 255, 0.6) 0%,
+  rgba(182, 32, 224, 0.6) 51%,
+  rgba(247, 181, 0, 0.6) 100%
+);
+
+$hero-background-color: $black;
+$about-background-color: $black;
+
+// Border & Component Styles
+$border-radius: 10px;
+
+$about-img-width: 30vw;
+$about-img-margin: 0 0 20px 25px;
+$about-img-border-radius-portrait: 100px 100px 20px 20px;
