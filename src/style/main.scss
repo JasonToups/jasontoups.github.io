@@ -396,7 +396,7 @@
     height: 100%;
     opacity: 0.1;
     background-image: url('../img/svg/groups/spotch-pattern.svg');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: 50% 0;
     background-size: cover;
     background-attachment: fixed;
@@ -519,7 +519,28 @@
     }
   }
 
+  .projects:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.1;
+    background-image: url('../img/svg/groups/3d-splash.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: inset 0 0 2rem 4rem rgba(0, 0, 0, 1);
+  }
+
   .projects {
+    position: relative;
+    .projects-content {
+      position: relative;
+    }
     .projects-container {
       display: grid;
       grid-template-columns: 1fr;
@@ -732,9 +753,6 @@
     text-align: center;
     color: $white;
     width: 100%;
-    footer {
-      // padding: 3rem;
-    }
 
     a {
       color: $white;
@@ -745,14 +763,11 @@
     b,
     i,
     code {
-      // font-size: 1.25rem;
-      // line-height: 2rem;
       margin: 0;
     }
     aside {
       padding: 2rem;
       text-align: center;
-      // height: 300px;
     }
     .apple-container {
       display: flex;
@@ -769,7 +784,6 @@
         flex-grow: 1;
         text-align: left;
         padding-left: 0.5rem;
-        // font-size: 1rem;
       }
     }
   }

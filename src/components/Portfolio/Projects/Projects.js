@@ -6,14 +6,19 @@ const Projects = ({ data }) => {
 
   return (
     <section className='projects' id='projects'>
-      <header className='header'>
-        <h2>{header}</h2>
-      </header>
-      <section className='projects-container'>
-        {projects.map((project) => (
-          <ProjectCard key={project.projectNumber} data={project}></ProjectCard>
-        ))}
-      </section>
+      <div className='projects-content'>
+        <header className='header'>
+          <h2>{header}</h2>
+        </header>
+        <section className='projects-container'>
+          {projects.map((project) => (
+            <ProjectCard
+              key={project.projectNumber}
+              data={project}
+            ></ProjectCard>
+          ))}
+        </section>
+      </div>
     </section>
   );
 };
