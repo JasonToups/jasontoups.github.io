@@ -15,7 +15,10 @@ const Contact = ({ data }) => {
           <b>All assets</b> lovingly <i>crafted by hand</i>.
         </p>
         <p>
-          <i>No AI assistance</i> was used in designing this site.
+          <i>
+            No <b>AI</b>
+          </i>{' '}
+          was used in designing this site.
         </p>
         <p>
           Checkout my{' '}
