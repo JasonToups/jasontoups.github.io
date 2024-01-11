@@ -1,22 +1,32 @@
 $font-primary: system-ui, sans-serif;
 $font-secondary: monospace;
 
+$text-margin-primary: 1em 0 0.25em;
+$text-margin-tablet: 1em 0 0.25em;
+$text-margin-mobile: 1em 0 0.25em;
+$text-margin-primary-bottom: 0 0 0.25em;
+$text-margin-tablet-bottom: 0 0 0.25em;
+$text-margin-mobile-bottom: 0 0 0.25em;
+$text-padding-primary: 0;
+$text-padding-tablet: 0;
+$text-padding-mobile: 0;
+
 $h1-color: $primary-color;
-$h1-font-size: 81px;
+$h1-font-size: 5rem;
 $h1-font-weight: 600;
 $h1-line-height: 1;
 $h1-letter-spacing: -0.01em;
 $h1-margin: 0 0.5em 0.5em;
 $h1-padding: 0.5em 0.5em 0.5em 0;
 
-$h1-font-size-tablet: 81px;
+$h1-font-size-tablet: 4rem;
 $h1-font-weight-tablet: 600;
 $h1-line-height-tablet: 1;
 $h1-letter-spacing-tablet: -0.01em;
 $h1-margin-tablet: 0 0.5em 0.5em;
 $h1-padding-tablet: 0.5em 0.5em 0.5em 0;
 
-$h1-font-size-mobile: 81px;
+$h1-font-size-mobile: 5rem;
 $h1-font-weight-mobile: 600;
 $h1-line-height-mobile: 1;
 $h1-letter-spacing-mobile: -0.01em;
@@ -24,111 +34,121 @@ $h1-margin-mobile: 0 0.5em 0.5em;
 $h1-padding-mobile: 0.5em 0.5em 0.5em 0;
 
 $h2-color: $primary-color;
-$h2-font-size: 122px;
+$h2-font-size: 4.5rem;
 $h2-font-weight: 600;
 $h2-line-height: 1;
 $h2-letter-spacing: -0.01em;
-$h2-margin: 0 0.5em 0.5em;
-$h2-padding: 0.5em 0.5em 0.5em 0;
+$h2-margin: $text-margin-primary;
+$h2-padding: 0;
 
-$h2-font-size-tablet: 122px;
+$h2-font-size-tablet: 4rem;
 $h2-font-weight-tablet: 600;
 $h2-line-height-tablet: 1;
 $h2-letter-spacing-tablet: -0.01em;
-$h2-margin-tablet: 0 0.5em 0.5em;
-$h2-padding-tablet: 0.5em 0.5em 0.5em 0;
+$h2-margin-tablet: $text-margin-tablet;
+$h2-padding-tablet: 0;
 
-$h2-font-size-mobile: 122px;
+$h2-font-size-mobile: 6rem;
 $h2-font-weight-mobile: 600;
 $h2-line-height-mobile: 1;
 $h2-letter-spacing-mobile: -0.01em;
-$h2-margin-mobile: 0 0.5em 0.5em;
-$h2-padding-mobile: 0.5em 0.5em 0.5em 0;
+$h2-margin-mobile: $text-margin-mobile;
+$h2-padding-mobile: 0;
 
 $h3-color: $primary-color;
-$h3-font-size: 40px;
+$h3-font-size: 3rem;
 $h3-font-weight: 600;
 $h3-line-height: 1;
 $h3-letter-spacing: -0.01em;
-$h3-margin: 0 0.5em 0.5em;
-$h3-padding: 0.5em 0.5em 0.5em 0;
+$h3-margin: $text-margin-primary-bottom;
+$h3-padding: 0;
 
-$h3-font-size-tablet: 40px;
+$h3-font-size-tablet: 3rem;
 $h3-font-weight-tablet: 600;
 $h3-line-height-tablet: 1;
 $h3-letter-spacing-tablet: -0.01em;
-$h3-margin-tablet: 0 0.5em 0.5em;
-$h3-padding-tablet: 0.5em 0.5em 0.5em 0;
+$h3-margin-tablet: $text-margin-tablet-bottom;
+$h3-padding-tablet: 0;
 
-$h3-font-size-mobile: 40px;
+$h3-font-size-mobile: 4rem;
 $h3-font-weight-mobile: 600;
 $h3-line-height-mobile: 1;
 $h3-letter-spacing-mobile: -0.01em;
-$h3-margin-mobile: 0 0.5em 0.5em;
-$h3-padding-mobile: 0.5em 0.5em 0.5em 0;
+$h3-margin-mobile: $text-margin-mobile-bottom;
+$h3-padding-mobile: 0;
 
 $h4-color: $primary-color;
-$h4-font-size: 35px;
-$h4-font-weight: 600;
+$h4-font-size: 3rem;
+$h4-font-weight: 400;
 $h4-line-height: 1;
 $h4-letter-spacing: -0.01em;
-$h4-margin: 0 0.5em 0.5em;
-$h4-padding: 0.5em 0.5em 0.5em 0;
+$h4-margin: $text-margin-primary-bottom;
+$h4-padding: 0;
 
-$h4-font-size-tablet: 35px;
-$h4-font-weight-tablet: 600;
+$h4-font-size-tablet: 3rem;
+$h4-font-weight-tablet: 400;
 $h4-line-height-tablet: 1;
 $h4-letter-spacing-tablet: -0.01em;
-$h4-margin-tablet: 0 0.5em 0.5em;
-$h4-padding-tablet: 0.5em 0.5em 0.5em 0;
+$h4-margin-tablet: $text-margin-tablet-bottom;
+$h4-padding-tablet: 0;
 
-$h4-font-size-mobile: 35px;
-$h4-font-weight-mobile: 600;
+$h4-font-size-mobile: 3rem;
+$h4-font-weight-mobile: 400;
 $h4-line-height-mobile: 1;
 $h4-letter-spacing-mobile: -0.01em;
-$h4-margin-mobile: 0 0.5em 0.5em;
-$h4-padding-mobile: 0.5em 0.5em 0.5em 0;
+$h4-margin-mobile: $text-margin-mobile-bottom;
+$h4-padding-mobile: 0;
 
 $p-color: $primary-color;
-$p-font-size: 32px;
+$p-font-size: 1.75rem;
 $p-font-weight: 400;
-$p-line-height: 1.5;
+$p-line-height: 1.75;
 $p-letter-spacing: 0em;
-$p-margin: 0 0.5em 0.5em;
-$p-padding: 0.5em 0.5em 0.5em 0;
+$p-margin: $text-margin-primary;
+$p-padding: 0;
 
-$p-font-size-tablet: 32px;
+$p-font-size-tablet: 2rem;
 $p-font-weight-tablet: 400;
-$p-line-height-tablet: 1.5;
+$p-line-height-tablet: 1.75;
 $p-letter-spacing-tablet: 0em;
-$p-margin-tablet: 0 0.5em 0.5em;
-$p-padding-tablet: 0.5em 0.5em 0.5em 0;
+$p-margin-tablet: $text-margin-tablet;
+$p-padding-tablet: 0;
 
-$p-font-size-mobile: 32px;
+$p-font-size-mobile: 2.5rem;
 $p-font-weight-mobile: 400;
-$p-line-height-mobile: 1.5;
+$p-line-height-mobile: 2;
 $p-letter-spacing-mobile: 0em;
-$p-margin-mobile: 0 0.5em 0.5em;
-$p-padding-mobile: 0.5em 0.5em 0.5em 0;
+$p-margin-mobile: $text-margin-mobile;
+$p-padding-mobile: 0;
 
-$b-font-color: $secondary-color;
+$b-color: $secondary-color;
 $b-font-weight: 600;
 
-$i-font-color: $tertiary-color;
+$i-color: $tertiary-color;
 $i-font-weight: 400;
 
-$u-font-color: $alert-color;
+$u-color: $alert-color;
 $u-font-weight: 400;
 
-$aside-font-color: $primary-color;
+$aside-color: $primary-color;
 $aside-font-weight: 400;
+$aside-font-size-primary: 1.5rem;
+$aside-font-size-tablet: 2.15rem;
+$aside-font-size-mobile: 2.5rem;
 
-$code-font-color: $primary-color;
+$footer-font-size: 1.75rem;
+$footer-font-size-tablet: 2rem;
+$footer-font-size-mobile: 2.5rem;
+
+$code-color: $primary-color;
 $code-font-weight: 400;
 $code-font-family: $font-secondary;
 
-$blockquote-font-color: $primary-color;
+$blockquote-color: $primary-color;
 $blockquote-font-weight: 400;
 
-$footer-font-color: $primary-color;
+$footer-color: $primary-color;
 $footer-font-weight: 400;
+
+// Components
+$experience-card-company-h3-font-size: $h3-font-size;

@@ -63,7 +63,7 @@ const Contact = ({ data }) => {
             className='email'
           >
             <FontAwesomeIcon
-              className='connect-icon fa-4x'
+              className='connect-icon fa-7x'
               icon={faEnvelope}
               alt='email jason toups'
             />

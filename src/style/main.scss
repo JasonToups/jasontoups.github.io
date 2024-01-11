@@ -129,23 +129,43 @@
     font-weight: $p-font-weight;
     line-height: $p-line-height;
     letter-spacing: $p-letter-spacing;
-    margin: $p-margin;
-    padding: $p-padding;
+    margin: $text-margin-primary;
+    padding: $text-padding-primary;
     @include respond-to($breakpoint-medium) {
       font-size: $p-font-size-tablet;
       font-weight: $p-font-weight-tablet;
       line-height: $p-line-height-tablet;
       letter-spacing: $p-letter-spacing-tablet;
-      margin: $p-margin-tablet;
-      padding: $p-padding-tablet;
+      margin: $text-margin-tablet;
+      padding: $text-padding-tablet;
     }
     @include respond-to($breakpoint-small) {
       font-size: $p-font-size-mobile;
       font-weight: $p-font-weight-mobile;
       line-height: $p-line-height-mobile;
       letter-spacing: $p-letter-spacing-mobile;
-      margin: $p-margin-mobile;
-      padding: $p-padding-mobile;
+      margin: $text-margin-mobile;
+      padding: $text-padding-mobile;
+    }
+  }
+
+  p,
+  a,
+  b,
+  i,
+  code {
+    font-size: $p-font-size;
+    line-height: $p-line-height;
+    letter-spacing: $p-letter-spacing;
+    @include respond-to($breakpoint-medium) {
+      font-size: $p-font-size-tablet;
+      line-height: $p-line-height-tablet;
+      letter-spacing: $p-letter-spacing-tablet;
+    }
+    @include respond-to($breakpoint-small) {
+      font-size: $p-font-size-mobile;
+      line-height: $p-line-height-mobile;
+      letter-spacing: $p-letter-spacing-mobile;
     }
   }
 
@@ -154,23 +174,48 @@
     font-size: inherit;
   }
 
+  aside {
+    color: $aside-color;
+    font-size: $aside-font-size-primary;
+    font-weight: $aside-font-weight;
+    @include respond-to($breakpoint-medium) {
+      font-size: $aside-font-size-tablet;
+    }
+    @include respond-to($breakpoint-small) {
+      font-size: $aside-font-size-mobile;
+    }
+  }
+
   section {
     padding: 2rem 2.5rem;
+    max-width: 80rem;
+    margin: auto;
+
     @include respond-to($breakpoint-medium) {
       padding: 1.5rem 2rem;
     }
     @include respond-to($breakpoint-x-small) {
-      padding: 1rem;
+      padding: 2rem 4rem 0 4rem;
     }
   }
 
+  footer {
+    font-size: $footer-font-size;
+    @include respond-to($breakpoint-medium) {
+      font-size: $footer-font-size-tablet;
+    }
+    @include respond-to($breakpoint-small) {
+      font-size: $footer-font-size-mobile;
+    }
+  }
+
+  img,
+  svg {
+    aspect-ratio: auto;
+  }
+
   .text-gradient {
-    background-image: linear-gradient(
-      265deg,
-      #32c5ff 0%,
-      #b620e0 51%,
-      #f7b500 100%
-    );
+    background-image: $primary-gradient;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
@@ -178,53 +223,51 @@
   }
 
   .glass-background {
-    background-image: linear-gradient(
-      121deg,
-      rgba(238, 238, 238, 0.4) 0%,
-      rgba(216, 216, 216, 0.1) 78%
-    );
-    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    background-image: $glass-background-image;
+    box-shadow: $glass-box-shadow;
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
   }
 
   .glass-foreground {
-    background-image: linear-gradient(
-      122deg,
-      rgba(238, 238, 238, 0.6) 0%,
-      rgba(216, 216, 216, 0.25) 78%
-    );
+    background-image: $glass-foreground-image;
     /* TODO: Add the transparent gradient borders to this */
     /* TODO: Add the noise fill to this */
-    box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: $glass-foreground-box-shadow;
   }
 
   .debossed {
-    background: #d8d8d8;
+    background: $debossed-background;
     /* TODO: Add the transparent gradient borders to this */
-    box-shadow: inset 11px 13px 31px 5px rgba(0, 0, 0, 0.5);
-    color: $black;
+    box-shadow: $debossed-box-shadow;
+    color: $debossed-color;
+    p {
+      color: $black;
+    }
   }
 
   .glass-foreground,
   .glass-background,
   .debossed {
-    border-radius: 2.25rem;
+    border-radius: $border-radius-primary;
     @include respond-to($breakpoint-large) {
-      border-radius: 1.5rem;
+      border-radius: $border-radius-large;
     }
     @include respond-to($breakpoint-medium) {
-      border-radius: 1rem;
+      border-radius: $border-radius-tablet;
     }
   }
 
   .border-radius {
-    border-radius: 2.25rem;
+    border-radius: $border-radius-primary;
     @include respond-to($breakpoint-large) {
-      border-radius: 1.5rem;
+      border-radius: $border-radius-large;
     }
     @include respond-to($breakpoint-medium) {
-      border-radius: 1rem;
+      border-radius: $border-radius-tablet;
+    }
+    @include respond-to($breakpoint-small) {
+      border-radius: $border-radius-mobile;
     }
   }
 
@@ -311,8 +354,8 @@
         margin: 0 0 20px 25px;
         float: right;
         border-radius: $about-img-border-radius-portrait;
-        background-image: $background-image-primary-gradient;
-        box-shadow: 30px 5px 60px 0 rgba(255, 255, 255, 0.3);
+        background-image: $primary-gradient;
+        box-shadow: $box-shadow-primary;
 
         @include respond-to($breakpoint-medium) {
           width: 50%;
@@ -335,15 +378,15 @@
             text-align: center;
           }
         }
-        p {
-          margin: 0 1rem 2rem;
-        }
       }
     }
   }
 
   .experience {
     .experience-cards--container {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: $gap-primary;
       width: 100%;
 
       .experience-card {
@@ -353,8 +396,8 @@
           'description image technologies'
           'description title technologies'
           'description title technologies';
-        grid-gap: 2rem;
-        margin-bottom: 80px;
+        gap: $gap-secondary;
+        margin: $experience-card-margin;
         @include respond-to($breakpoint-large) {
           grid-template-areas:
             'company image'
@@ -362,7 +405,7 @@
             'description title'
             'description title'
             'technologies technologies';
-          grid-gap: 1.5rem;
+          gap: $gap-secondary-large;
         }
         @include respond-to($breakpoint-medium) {
           grid-template-areas:
@@ -371,57 +414,51 @@
             'title title'
             'description description'
             'technologies technologies';
-          grid-gap: 1rem;
+          gap: $gap-secondary-tablet;
+        }
+        @include respond-to($breakpoint-small) {
+          gap: $gap-secondary-mobile;
         }
         section {
-          padding: 1.5rem 2.25rem;
-          display: flex;
-          justify-content: space-evenly;
-          align-content: center;
-          flex-direction: column;
+          padding: $experience-card-section-padding;
+          display: $experience-card-section-display;
+          justify-content: $experience-card-section-justify-content;
+          align-content: $experience-card-section-align-content;
+          flex-direction: $experience-card-section-flex-direction;
         }
 
         .company {
           grid-area: company;
-          text-align: left;
-
-          h3 {
-            font-size: 2.5rem;
-            margin-bottom: 1rem;
-          }
-          aside {
-            font-size: 1.5rem;
-          }
+          text-align: $experience-card-company-text-align;
         }
         .description {
           grid-area: description;
-          text-align: left;
+          text-align: $experience-card-description-text-align;
           flex-direction: column;
-
-          p {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-          }
         }
         .image {
           grid-area: image;
+          flex-direction: row;
+          height: 100%;
+          .experience-card-image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
           img {
             width: 100%;
             max-width: 600px;
-            height: 100%;
-            border-radius: 0.5rem;
+            border-radius: $border-radius-small;
           }
         }
         .title {
           grid-area: title;
 
           h4 {
-            font-size: 2rem;
             text-align: left;
-            margin-bottom: 1.5rem;
           }
           aside {
-            font-size: 1.5rem;
             text-align: right;
           }
         }
@@ -444,41 +481,12 @@
           }
         }
 
-        .experience-card--image-container {
-          // float: left;
-          // width: 45%;
-          // margin: 0 20px 20px 0;
-
-          @include respond-to($breakpoint-medium) {
-            // width: 60%;
-          }
-          @include respond-to($breakpoint-x-small) {
-            // width: 100%;
-            // margin: 0 0 20px 0;
-          }
-
-          .experience-card--image {
-            // width: 100%;
-            // border-radius: $border-radius;
-            // box-shadow: $box-shadow-light;
-          }
-        }
-
         .experience-card--description {
           text-align: left;
           margin: 0;
 
           @include respond-to($breakpoint-medium) {
             width: 100%;
-          }
-
-          h3 {
-            color: $color-base-5;
-            font-weight: 400;
-            margin: 0 0 15px 0;
-          }
-          p {
-            margin: 0 0 20px 0;
           }
         }
       }
@@ -503,6 +511,9 @@
           'image title'
           'technologies description';
         max-width: 800px;
+        @include respond-to($breakpoint-medium) {
+          max-width: 100%;
+        }
         height: 100%;
         align-items: center;
         align-self: center;
@@ -536,16 +547,13 @@
         }
         h3 {
           grid-area: title;
-          font-size: 3rem;
-          text-align: center;
-          margin: 1rem;
+          text-align: left;
+          padding: 0 2rem;
         }
         p {
           grid-area: description;
-          margin: 0 1.5rem 1.5rem;
           text-align: left;
-          font-size: 1.5rem;
-          line-height: 2.25rem;
+          padding: 0 2rem 2rem;
         }
         .project-title {
           color: $white;
@@ -629,12 +637,18 @@
       justify-content: space-evenly;
       align-items: center;
       width: 100%;
-      height: 500px;
-      margin: auto;
+      height: 100%;
+      margin: 7rem auto 0 auto;
       .connect-image {
-        max-width: 300px;
+        max-width: 25rem;
         width: 100%;
         margin-bottom: auto;
+        @include respond-to($breakpoint-medium) {
+          max-width: 20rem;
+        }
+        @include respond-to($breakpoint-small) {
+          max-width: 35rem;
+        }
       }
       img {
         max-width: 70px;
@@ -644,12 +658,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         justify-content: space-evenly;
         align-items: center;
-        width: 100%;
-        height: 50%;
-        max-width: 300px;
-        margin: 20px 0 auto;
+        height: 25rem;
+        margin: 3rem auto auto;
+        gap: 10rem;
         .connect-icon {
-          max-width: 5rem;
+          max-width: 6rem;
           width: 100%;
           justify-self: center;
         }
@@ -663,13 +676,13 @@
           align-self: center;
         }
         .email {
-          align-self: flex-end;
+          align-self: flex-start;
         }
       }
       button {
         color: $white;
         font-size: 1.5rem;
-        margin: 1rem 0 0;
+        margin: 1rem 0 3rem;
         padding: 0.75rem 3rem;
         background-image: linear-gradient(
           -84deg,
@@ -689,10 +702,10 @@
     text-align: center;
     color: $white;
     width: 100%;
-    padding: 3rem;
-    @include respond-to($breakpoint-small) {
-      text-align: left;
+    footer {
+      // padding: 3rem;
     }
+
     a {
       color: $white;
       text-decoration: underline;
@@ -702,30 +715,31 @@
     b,
     i,
     code {
-      font-size: 1.25rem;
-      line-height: 2rem;
+      // font-size: 1.25rem;
+      // line-height: 2rem;
       margin: 0;
     }
     aside {
       padding: 2rem;
-      font-size: 1rem;
       text-align: center;
+      // height: 300px;
     }
     .apple-container {
       display: flex;
       width: fit-content;
-      margin: 0.75rem auto 0;
+      align-items: center;
+      margin: 8rem auto 0;
 
       .apple {
-        width: 25px;
-        max-width: 25px;
+        width: 50px;
+        max-width: 50px;
         margin: 0 auto;
       }
       p {
         flex-grow: 1;
         text-align: left;
         padding-left: 0.5rem;
-        font-size: 1rem;
+        // font-size: 1rem;
       }
     }
   }
