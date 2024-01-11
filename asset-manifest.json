@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.63c2da31.css",
-    "main.js": "/static/js/main.4a376966.js",
+    "main.css": "/static/css/main.db1b0f63.css",
+    "main.js": "/static/js/main.2f9c5ef0.js",
     "static/js/872.2438273f.chunk.js": "/static/js/872.2438273f.chunk.js",
     "static/js/227.ca785bdd.chunk.js": "/static/js/227.ca785bdd.chunk.js",
     "static/js/526.70355d1d.chunk.js": "/static/js/526.70355d1d.chunk.js",
@@ -14,12 +14,12 @@
     "static/media/williams-sonoma.jpg": "/static/media/williams-sonoma.71ef1ad7b756e22e7a66.jpg",
     "static/media/rickAndMorty.svg": "/static/media/rickAndMorty.eb355d2a3a89ab72b8db3092a4ec0718.svg",
     "static/media/bill.png": "/static/media/bill.445cb6042f5da53f4f87.png",
-    "static/media/3d-splash.png": "/static/media/3d-splash.97f4a6e003f2899ba6f5.png",
     "static/media/connect.png": "/static/media/connect.074bc7c9f957965abcb8.png",
     "static/media/spotch-pattern.svg": "/static/media/spotch-pattern.c2f133559ebc51c96a5e.svg",
     "static/media/huoa.jpg": "/static/media/huoa.cccc966a7635ff9260c1.jpg",
     "static/media/profile-pic-jason-toups-masked.png": "/static/media/profile-pic-jason-toups-masked.41148ff768b6ff74c3c3.png",
     "static/media/newlywords.jpg": "/static/media/newlywords.61b9eb60273ed0fa4045.jpg",
+    "static/media/programming-pattern.svg": "/static/media/programming-pattern.711e718d09075f3685ab.svg",
     "static/media/hero-logo.svg": "/static/media/hero-logo.57f70aaf8c0085f296346cdc6a28a7ac.svg",
     "static/media/apple-2001.png": "/static/media/apple-2001.8718d203bf911b8c21b5.png",
     "static/media/crushIt.svg": "/static/media/crushIt.9fae3c39bfb57e64bc481da1932418ed.svg",
@@ -46,8 +46,8 @@
     "static/media/adobe-animate.svg": "/static/media/adobe-animate.9a8a273df2ece952c0f168483e5d9900.svg",
     "static/media/twitter.svg": "/static/media/twitter.805610f7b3d99a9d66284c2abbf58107.svg",
     "static/media/vue.svg": "/static/media/vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
-    "main.63c2da31.css.map": "/static/css/main.63c2da31.css.map",
-    "main.4a376966.js.map": "/static/js/main.4a376966.js.map",
+    "main.db1b0f63.css.map": "/static/css/main.db1b0f63.css.map",
+    "main.2f9c5ef0.js.map": "/static/js/main.2f9c5ef0.js.map",
     "872.2438273f.chunk.js.map": "/static/js/872.2438273f.chunk.js.map",
     "227.ca785bdd.chunk.js.map": "/static/js/227.ca785bdd.chunk.js.map",
     "526.70355d1d.chunk.js.map": "/static/js/526.70355d1d.chunk.js.map",
@@ -57,7 +57,7 @@
     "787.43653c34.chunk.js.map": "/static/js/787.43653c34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.63c2da31.css",
-    "static/js/main.4a376966.js"
+    "static/css/main.db1b0f63.css",
+    "static/js/main.2f9c5ef0.js"
   ]
 }
