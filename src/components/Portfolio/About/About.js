@@ -6,7 +6,7 @@ const About = ({
   return (
     <section className='about'>
       <div className='content-container'>
-        <img src={profilePic} alt='jason toups profile pic' />
+        <img src={profilePic.source} alt={profilePic.alt} />
         <div className='description'>
           <h2>{header}</h2>
           <p>{introduction}</p>

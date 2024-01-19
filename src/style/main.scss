@@ -707,23 +707,32 @@
           max-width: 35rem;
         }
       }
-      img {
-        max-width: 70px;
-      }
       .connect-card-background {
         display: flex;
-        align-items: end;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         min-height: 800px;
         max-width: 400px;
         // background-image: $glass-background-image;
+        img.profile-pic {
+          width: 100%;
+          max-width: 200px;
+          background-color: gray;
+          border-radius: 100%;
+          border: #fae9cd solid 1rem;
+          position: relative;
+          top: 100px;
+          margin: auto;
+        }
         .connect-card-foreground {
           height: 100%;
-          min-height: 650px;
+          min-height: 600px;
           background-color: #fae9cd;
           border-radius: 9rem 9rem $border-radius-primary $border-radius-primary;
           .connect-card {
             height: 100%;
-            min-height: 650px;
+            min-height: 600px;
             display: flex;
             flex-direction: column;
             align-items: center;
