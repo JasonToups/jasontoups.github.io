@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="392px" height="657px" viewBox="0 0 392 657" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>connect-card-foreground</title>
+    <g id="New-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large---Contact" transform="translate(-599, -370)" fill="#FAE9CD">
+            <g id="Connect" transform="translate(491, 223)">
+                <g id="Card" transform="translate(108, 0)">
+                    <path d="M391.900765,197.454401 L391.900765,764.008749 C391.900765,785.79342 374.216686,803.478931 352.434896,803.478931 L39.4658686,803.478931 C17.6840791,803.478931 0,785.79342 0,764.008749 L0,197.454401 C98.5607812,129.165928 300.037793,132.357974 391.900765,197.454401 Z" id="connect-card-foreground"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

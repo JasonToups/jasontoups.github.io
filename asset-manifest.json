@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.795151e7.css",
-    "main.js": "/static/js/main.44efe86f.js",
+    "main.css": "/static/css/main.1c09c25a.css",
+    "main.js": "/static/js/main.27758aba.js",
     "static/js/872.2438273f.chunk.js": "/static/js/872.2438273f.chunk.js",
     "static/js/227.ca785bdd.chunk.js": "/static/js/227.ca785bdd.chunk.js",
     "static/js/526.70355d1d.chunk.js": "/static/js/526.70355d1d.chunk.js",
@@ -27,27 +27,29 @@
     "static/media/ruby.svg": "/static/media/ruby.320ed4681bc48df897b0ed0ff4b00559.svg",
     "static/media/markdownResume.svg": "/static/media/markdownResume.8960ba5f00d83e278dec0a603660673c.svg",
     "static/media/reactTube.svg": "/static/media/reactTube.9618c2db31b7520ddf4b2886053644d2.svg",
-    "static/media/github.svg": "/static/media/github.305f22ca7909eb4e9a5a03a0e8fed8f1.svg",
     "static/media/jquery.svg": "/static/media/jquery.fcc480227fd31fecc887db807010bf1d.svg",
     "static/media/rxjs.svg": "/static/media/rxjs.45a8ffbc5ba1aae3b820b729b4748b14.svg",
     "static/media/sass.svg": "/static/media/sass.8aa78a8393470431c8036541f0708bd7.svg",
+    "static/media/github.svg": "/static/media/github.dde01c70c54171327bba0f8ba731c2ec.svg",
     "static/media/react.svg": "/static/media/react.e68b35f4774979ae220b1d5d7b345b00.svg",
     "static/media/adobe-experience-manager.svg": "/static/media/adobe-experience-manager.9de3a47161c4efa38ace0e59c792cd13.svg",
     "index.html": "/index.html",
     "static/media/markdown.svg": "/static/media/markdown.3680b71be9faf1c5f749196b5acb5ee5.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.e20a91cb19f9affc97f07584e6e10de1.svg",
     "static/media/sketch.svg": "/static/media/sketch.795112d9324eda2216c5bc2db04a3077.svg",
     "static/media/typescript.svg": "/static/media/typescript.22b4f22ec3ee32c08fb2c0a25682bb5b.svg",
     "static/media/metamarkets.svg": "/static/media/metamarkets.f25ed70573758274e88ee7ab76143013.svg",
     "static/media/javascript.svg": "/static/media/javascript.00f3e5cf8bcf4ae623b3835ca5791b15.svg",
+    "static/media/connect-card-background.svg": "/static/media/connect-card-background.4b33dd7498b4460385fd35ca3304ce8c.svg",
     "static/media/wordpress.svg": "/static/media/wordpress.203c28dfdb6b9849eef82ad98ba47662.svg",
+    "static/media/connect-circle.svg": "/static/media/connect-circle.8167febf6663a9007b0b2d6772bcd42a.svg",
     "static/media/angular.svg": "/static/media/angular.3f781d9105b3bef395676155dd37e208.svg",
-    "static/media/linkedin.svg": "/static/media/linkedin.ea7c4644fe3e34033bd1f6b18ee2a638.svg",
     "static/media/css.svg": "/static/media/css.4e47c3122b8d2476a02f97dcfcb28640.svg",
     "static/media/adobe-animate.svg": "/static/media/adobe-animate.9a8a273df2ece952c0f168483e5d9900.svg",
     "static/media/twitter.svg": "/static/media/twitter.805610f7b3d99a9d66284c2abbf58107.svg",
     "static/media/vue.svg": "/static/media/vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
-    "main.795151e7.css.map": "/static/css/main.795151e7.css.map",
-    "main.44efe86f.js.map": "/static/js/main.44efe86f.js.map",
+    "main.1c09c25a.css.map": "/static/css/main.1c09c25a.css.map",
+    "main.27758aba.js.map": "/static/js/main.27758aba.js.map",
     "872.2438273f.chunk.js.map": "/static/js/872.2438273f.chunk.js.map",
     "227.ca785bdd.chunk.js.map": "/static/js/227.ca785bdd.chunk.js.map",
     "526.70355d1d.chunk.js.map": "/static/js/526.70355d1d.chunk.js.map",
@@ -57,7 +59,7 @@
     "787.43653c34.chunk.js.map": "/static/js/787.43653c34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.795151e7.css",
-    "static/js/main.44efe86f.js"
+    "static/css/main.1c09c25a.css",
+    "static/js/main.27758aba.js"
   ]
 }
