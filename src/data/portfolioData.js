@@ -39,7 +39,7 @@ import {
   MarkdownResume,
 } from '../img/portfolio/projects/index.js';
 // Imports for the Contact Section
-import Connect from '../img/portfolio/contact/connect.png';
+import Connect from '../img/portfolio/connect/connect.png';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { GitHub, LinkedIn } from '../img/portfolio/social/index.js';
 
@@ -50,7 +50,10 @@ export const headerData = {
 };
 
 export const aboutData = {
-  profilePic: ProfilePic,
+  profilePic: {
+    source: ProfilePic,
+    alt: 'Jason Toups Profile Pic',
+  },
   header: 'About Me',
   introduction:
     "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
@@ -308,6 +311,12 @@ export const contactData = {
     header: {
       source: Connect,
       alt: 'Connect',
+    },
+    subheader: 'Reach out',
+    aside: 'let me help you',
+    profilePic: {
+      source: ProfilePic,
+      alt: 'Jason Toups Profile Pic',
     },
     icons: [
       {

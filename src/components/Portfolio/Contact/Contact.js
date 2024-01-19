@@ -41,6 +41,11 @@ const Contact = ({ data }) => {
           alt={data.connect.header.alt}
         />
         <div className='connect-card-background glass-background'>
+          <img
+            className='profile-pic'
+            src={data.connect.profilePic.source}
+            alt={data.connect.profilePic.alt}
+          />
           <div className='connect-card-foreground'>
             <div className='connect-card'>
               <div className='connect-icons-container'>
