@@ -796,7 +796,7 @@
       justify-content: center;
       align-items: center;
       img {
-        overflow-x: clip;
+        overflow-x: hidden;
         width: 800px;
       }
     }
