@@ -654,7 +654,7 @@
   }
 
   .connect {
-    margin-bottom: 10rem;
+    margin-bottom: 9rem;
     .connect-header {
       display: flex;
       justify-content: center;
@@ -663,7 +663,8 @@
         // max-width: 30rem;
         width: 100%;
         // margin: auto;
-        margin-bottom: 2rem;
+        margin-bottom: 4rem;
+        z-index: 10;
         @include respond-to($breakpoint-medium) {
           max-width: 20rem;
         }
@@ -691,13 +692,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 800px;
-        max-width: 400px;
+        min-height: 900px;
+        max-width: 500px;
         width: 100%;
         // background-image: $glass-background-image;
         img.profile-pic {
           width: 100%;
-          max-width: 200px;
+          max-width: 250px;
           background-color: gray;
           border-radius: 100%;
           border: #fae9cd solid 1rem;
@@ -707,15 +708,15 @@
         }
       }
       .connect-card-foreground {
+        width: 100%;
         height: 100%;
-        min-height: 600px;
+        min-height: 650px;
         // background-color: #fae9cd;
         border-radius: 0 0 $border-radius-primary $border-radius-primary;
         background-image: url('../img/portfolio/connect/connect-card-background.svg');
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
-        width: 100%;
         .connect-card {
           width: 100%;
           height: 100%;
@@ -725,7 +726,7 @@
           align-items: center;
           h3 {
             color: $black;
-            margin-top: 100px;
+            margin-top: 115px;
           }
           aside {
             color: $black;
@@ -734,13 +735,13 @@
             display: flex;
             justify-content: space-evenly;
             align-items: center;
-            height: 17rem;
-            margin: 0 auto auto;
-            padding: 0 1rem;
             width: 100%;
+            height: 17rem;
+            padding: 0 1rem;
+            margin: 0 auto auto;
             .connect-icon {
-              max-width: 5rem;
               width: 100%;
+              max-width: 5rem;
               justify-self: center;
               align-items: center;
               color: $black;
@@ -763,7 +764,7 @@
             }
           }
           button {
-            max-width: 315px;
+            width: 75%;
             color: $white;
             font-size: 2rem;
             line-height: 1;
@@ -796,6 +797,7 @@
       align-items: center;
       img {
         overflow-x: clip;
+        width: 800px;
       }
     }
   }
