@@ -795,8 +795,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      overflow: clip;
       img {
-        overflow-x: hidden;
+        overflow: clip;
         width: 800px;
       }
     }
