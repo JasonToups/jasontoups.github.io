@@ -654,6 +654,7 @@
   }
 
   .connect {
+    margin-bottom: 10rem;
     .connect-header {
       display: flex;
       justify-content: center;
@@ -692,6 +693,7 @@
         justify-content: center;
         min-height: 800px;
         max-width: 400px;
+        width: 100%;
         // background-image: $glass-background-image;
         img.profile-pic {
           width: 100%;
@@ -703,67 +705,76 @@
           top: 100px;
           margin: auto;
         }
-        .connect-card-foreground {
+      }
+      .connect-card-foreground {
+        height: 100%;
+        min-height: 600px;
+        // background-color: #fae9cd;
+        border-radius: 0 0 $border-radius-primary $border-radius-primary;
+        background-image: url('../img/portfolio/connect/connect-card-background.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        width: 100%;
+        .connect-card {
+          width: 100%;
           height: 100%;
           min-height: 600px;
-          // background-color: #fae9cd;
-          border-radius: 0 0 $border-radius-primary $border-radius-primary;
-          background-image: url('../img/portfolio/connect/connect-card-background.svg');
-          background-repeat: no-repeat;
-          background-position: top;
-          background-size: cover;
-          .connect-card {
-            height: 100%;
-            min-height: 600px;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          h3 {
+            color: $black;
+            margin-top: 100px;
+          }
+          aside {
+            color: $black;
+          }
+          .connect-icons-container {
             display: flex;
-            flex-direction: column;
+            justify-content: space-evenly;
             align-items: center;
-            .connect-icons-container {
-              display: grid;
-              grid-template-columns: 1fr 1fr 1fr;
-              justify-content: space-evenly;
+            height: 17rem;
+            margin: 0 auto auto;
+            width: 100%;
+            .connect-icon {
+              max-width: 5rem;
+              width: 100%;
+              justify-self: center;
               align-items: center;
-              height: 25rem;
-              margin: 3rem auto auto;
-              gap: 10rem;
-              .connect-icon {
-                max-width: 6rem;
-                width: 100%;
-                justify-self: center;
-              }
-              a {
-                color: $white;
-              }
-              .linkedin {
-                align-self: flex-start;
-              }
-              .github {
-                align-self: center;
-              }
-              .email {
-                align-self: flex-start;
-              }
             }
-            button {
-              max-width: 315px;
+            a {
               color: $white;
-              font-size: 2rem;
-              line-height: 1;
-              font-weight: 800;
-              margin: 1rem 0 2rem;
-              padding: 0.75rem 2rem 1rem;
-              background-image: linear-gradient(
-                -84deg,
-                #32c5ff 0%,
-                #b620e0 51%,
-                #f7b500 100%
-              );
-              /* Sketch doesnt export gradient borders at this point */
-              box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
-                inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
-              border-radius: 38px;
-              border: $white;
             }
+            .linkedin {
+              // align-self: center;
+            }
+            .github {
+              // align-self: center;
+            }
+            .email {
+              // align-self: center;
+            }
+          }
+          button {
+            max-width: 315px;
+            color: $white;
+            font-size: 2rem;
+            line-height: 1;
+            font-weight: 800;
+            margin: 1rem 0 2rem;
+            padding: 0.75rem 2rem 1rem;
+            background-image: linear-gradient(
+              -84deg,
+              #32c5ff 0%,
+              #b620e0 51%,
+              #f7b500 100%
+            );
+            /* Sketch doesnt export gradient borders at this point */
+            box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
+              inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
+            border-radius: 38px;
+            border: $white;
           }
         }
       }
