@@ -15,7 +15,7 @@ const Connect = ({ data }) => {
   };
 
   return (
-    <section className='connect'>
+    <section id='connect' className='connect'>
       <div className='connect-header'>
         <img
           className='connect-image'
@@ -29,7 +29,7 @@ const Connect = ({ data }) => {
             src={data.background.circle.source}
             alt={data.background.circle.alt}
             animate={{ rotate: [0, 360] }}
-            transition={{ duration: 7, repeat: Infinity }}
+            transition={{ duration: 5, repeat: Infinity }}
           />
         </div>
         <div className='connect-content'>
@@ -41,8 +41,8 @@ const Connect = ({ data }) => {
             />
             <div className='connect-card-foreground'>
               <div className='connect-card'>
-                <h3>Hire Me</h3>
-                <aside>let me help you</aside>
+                <h3>{data.subheader}</h3>
+                <aside>{data.aside}</aside>
                 <div className='connect-icons-container'>
                   {data.icons.map((contact, index) => (
                     <a
