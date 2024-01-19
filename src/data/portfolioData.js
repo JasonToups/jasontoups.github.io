@@ -61,7 +61,7 @@ export const aboutData = {
   },
   header: 'About Me',
   introduction:
-    "Thanks for stopping by. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
+    "Thanks for visiting. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
   summary: 'I can engineer, design, & test new applications.',
   closer: [
     'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
@@ -103,7 +103,7 @@ export const experienceData = {
         name: 'Williams Sonoma, Inc.',
         description:
           '6 eCommerce sites, including Williams Sonoma, West Elm, & Pottery Barn',
-        url: 'http://www.williams-sonomainc.com/',
+        url: 'https://www.williams-sonoma.com/products/staub-deep-oven/',
         image: {
           source: WilliamsSonoma,
           alt: 'Williams Sonoma Incorporated',

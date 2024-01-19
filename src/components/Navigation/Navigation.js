@@ -1,8 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useNavigation } from '../../contexts/NavigationContext';
-import { faBriefcase, faUserTie } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Briefcase, User } from '../../img/portfolio/navigation/index';
 
 const Navigation = () => {
   const navigate = useNavigate();
@@ -20,12 +19,12 @@ const Navigation = () => {
 
   return (
     <div className='navigation'>
-      <FontAwesomeIcon
-        size='3x'
-        icon={currentPath === '/' ? faBriefcase : faUserTie}
+      <img
+        src={currentPath === '/' ? Briefcase : User}
         alt='nav icon'
         onClick={toggleRoutes}
-      ></FontAwesomeIcon>
+        className='nav-icon'
+      ></img>
     </div>
   );
 };
