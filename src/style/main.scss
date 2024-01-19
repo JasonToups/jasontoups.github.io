@@ -697,8 +697,12 @@
       .connect-card-foreground {
         height: 100%;
         min-height: 600px;
-        background-color: #fae9cd;
-        border-radius: 9rem 9rem $border-radius-primary $border-radius-primary;
+        // background-color: #fae9cd;
+        border-radius: 0 0 $border-radius-primary $border-radius-primary;
+        background-image: url('../img/portfolio/connect/connect-card-background.svg');
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
         .connect-card {
           height: 100%;
           min-height: 600px;
