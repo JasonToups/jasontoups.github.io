@@ -22,8 +22,8 @@ const Connect = ({ data }) => {
           alt={data.header.alt}
         />
       </div>
-      <div className='connect-container'>
-        <div className='connect-background'>
+      <div className='section-container'>
+        <div className='connect-background section-background'>
           <motion.img
             src={data.background.circle.source}
             alt={data.background.circle.alt}
@@ -31,7 +31,7 @@ const Connect = ({ data }) => {
             transition={{ duration: 5, repeat: Infinity }}
           />
         </div>
-        <div className='connect-content'>
+        <div className='connect-content section-foreground'>
           <div className='connect-card-background glass-background'>
             <img
               className='profile-pic'

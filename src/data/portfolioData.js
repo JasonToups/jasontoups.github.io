@@ -11,6 +11,7 @@ import {
   NewlyWords,
   WilliamsSonoma,
 } from '../img/portfolio/experience/index.js';
+import { LightCircle, LightOval } from '../img/svg/lights/index.js';
 // Technologies Imports
 import {
   AEM,
@@ -229,6 +230,20 @@ export const experienceData = {
       },
     },
   ],
+  background: {
+    images: [
+      {
+        className: 'experience-background-svg',
+        source: LightCircle,
+        alt: 'Light Circle',
+      },
+      {
+        className: 'experience-background-svg',
+        source: LightOval,
+        alt: 'Light Oval',
+      },
+    ],
+  },
 };
 
 export const projectsData = {
