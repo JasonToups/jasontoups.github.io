@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>connect-circle</title>
+    <defs>
+        <linearGradient x1="100%" y1="0%" x2="0%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#32C5FF" offset="0%"></stop>
+            <stop stop-color="#B620E0" offset="51.2583893%"></stop>
+            <stop stop-color="#F7B500" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="New-Site" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Large---Contact" transform="translate(-491, -306)" fill="url(#linearGradient-1)">
+            <g id="Connect" transform="translate(491, 223)">
+                <circle id="connect-circle" cx="300" cy="383" r="300"></circle>
+            </g>
+        </g>
+    </g>
+</svg>
