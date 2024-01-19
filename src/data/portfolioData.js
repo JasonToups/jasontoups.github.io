@@ -43,9 +43,10 @@ import {
   ConnectGraphic,
   ConnectCircle,
   ConnectCardBackground,
+  LinkedIn,
+  GitHub,
+  Email,
 } from '../img/portfolio/connect/index.js';
-// import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { GitHub, LinkedIn } from '../img/portfolio/social/index.js';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -322,6 +323,12 @@ export const connectData = {
       class: 'github',
       alt: 'git hub',
       url: 'https://github.com/JasonToups',
+    },
+    {
+      source: Email,
+      class: 'email',
+      alt: 'envelope for email',
+      url: 'mailto:me@jasontoups.com',
     },
   ],
   button: {

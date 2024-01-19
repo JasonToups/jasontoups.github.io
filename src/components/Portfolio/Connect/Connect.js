@@ -1,9 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { useNavigation } from '../../../contexts/NavigationContext';
+import ConnectIcon from './ConnectIcon';
 
 const Connect = ({ data }) => {
   const navigate = useNavigate();
@@ -44,33 +43,9 @@ const Connect = ({ data }) => {
                 <h3>{data.subheader}</h3>
                 <aside>{data.aside}</aside>
                 <div className='connect-icons-container'>
-                  {data.icons.map((contact, index) => (
-                    <a
-                      key={index}
-                      href={contact.url}
-                      target='_blank'
-                      rel='noreferrer'
-                      className={contact.class}
-                    >
-                      <img
-                        className='connect-icon'
-                        src={contact.source}
-                        alt={contact.alt}
-                      />
-                    </a>
+                  {data.icons.map((icon, index) => (
+                    <ConnectIcon key={index} data={icon} />
                   ))}
-                  <a
-                    href='mailto:me@jasontoups.com'
-                    target='_blank'
-                    rel='noreferrer'
-                    className='email'
-                  >
-                    <FontAwesomeIcon
-                      className='connect-icon fa-7x'
-                      icon={faEnvelope}
-                      alt='email jason toups'
-                    />
-                  </a>
                 </div>
                 <button type={data.button.type} onClick={handleResumeClick}>
                   {data.button.text}

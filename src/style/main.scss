@@ -753,14 +753,11 @@
               align-items: center;
               justify-content: center;
             }
-            .linkedin {
-              // align-self: center;
-            }
-            .github {
-              // align-self: center;
-            }
-            .email {
-              // align-self: center;
+            .contact-item {
+              max-width: 5rem;
+              .contact-image {
+                width: 100%;
+              }
             }
           }
           button {
