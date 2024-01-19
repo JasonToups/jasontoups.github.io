@@ -41,6 +41,8 @@ const Connect = ({ data }) => {
             />
             <div className='connect-card-foreground'>
               <div className='connect-card'>
+                <h3>Hire Me</h3>
+                <aside>let me help you</aside>
                 <div className='connect-icons-container'>
                   {data.icons.map((contact, index) => (
                     <a
