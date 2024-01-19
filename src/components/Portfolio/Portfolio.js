@@ -1,12 +1,12 @@
 import React from 'react';
 import '../../style/app.scss';
-import { About, Contact, Experience, Footer, Hero, Projects } from './index.js';
+import { About, Connect, Experience, Footer, Hero, Projects } from './index.js';
 import {
   headerData,
   aboutData,
   experienceData,
   projectsData,
-  contactData,
+  connectData,
 } from '../../data/portfolioData.js';
 
 const Portfolio = () => {
@@ -18,7 +18,7 @@ const Portfolio = () => {
       <About data={aboutData} />
       <Experience data={experienceData} />
       <Projects data={projectsData} />
-      <Contact data={contactData} />
+      <Connect data={connectData} />
       <Footer />
     </div>
   );

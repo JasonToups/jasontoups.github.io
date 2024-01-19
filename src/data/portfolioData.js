@@ -38,8 +38,12 @@ import {
   ReactTube,
   MarkdownResume,
 } from '../img/portfolio/projects/index.js';
-// Imports for the Contact Section
-import Connect from '../img/portfolio/connect/connect.png';
+// Imports for the Connect Section
+import {
+  ConnectGraphic,
+  ConnectCircle,
+  ConnectCardBackground,
+} from '../img/portfolio/connect/index.js';
 // import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { GitHub, LinkedIn } from '../img/portfolio/social/index.js';
 
@@ -285,58 +289,45 @@ export const projectsData = {
   ],
 };
 
-export const contactData = {
-  form: {
-    name: {
-      field: 'name',
-      type: 'text',
-      label: 'your name',
+export const connectData = {
+  background: {
+    circle: {
+      source: ConnectCircle,
+      alt: 'Connect Circle Graphic',
     },
-    email: {
-      field: 'email',
-      type: 'email',
-      label: 'your email',
-    },
-    message: {
-      field: 'message',
-      type: 'textarea',
-      label: 'your message',
-    },
-    button: {
-      text: 'submit',
-      type: 'submit',
+    card: {
+      source: ConnectCardBackground,
+      alt: 'Connect Card Graphic',
     },
   },
-  connect: {
-    header: {
-      source: Connect,
-      alt: 'Connect',
+  header: {
+    source: ConnectGraphic,
+    alt: 'Connect',
+  },
+  subheader: 'Reach out',
+  aside: 'let me help you',
+  profilePic: {
+    source: ProfilePic,
+    alt: 'Jason Toups Profile Pic',
+  },
+  icons: [
+    {
+      source: LinkedIn,
+      class: 'linkedin',
+      alt: 'linked in',
+      url: 'https://www.linkedin.com/in/jasontoups/',
     },
-    subheader: 'Reach out',
-    aside: 'let me help you',
-    profilePic: {
-      source: ProfilePic,
-      alt: 'Jason Toups Profile Pic',
+    {
+      source: GitHub,
+      class: 'github',
+      alt: 'git hub',
+      url: 'https://github.com/JasonToups',
     },
-    icons: [
-      {
-        source: LinkedIn,
-        class: 'linkedin',
-        alt: 'linked in',
-        url: 'https://www.linkedin.com/in/jasontoups/',
-      },
-      {
-        source: GitHub,
-        class: 'github',
-        alt: 'git hub',
-        url: 'https://github.com/JasonToups',
-      },
-    ],
-    button: {
-      text: 'view resume',
-      type: 'button',
-      onClick: 'handleResumeClick',
-    },
+  ],
+  button: {
+    text: 'view resume',
+    type: 'button',
+    onClick: 'handleResumeClick',
   },
 };
 
@@ -345,7 +336,7 @@ const portfolioData = {
   aboutData,
   experienceData,
   projectsData,
-  contactData,
+  connectData,
 };
 
 export default portfolioData;
