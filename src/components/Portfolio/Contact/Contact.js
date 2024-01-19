@@ -40,38 +40,47 @@ const Contact = ({ data }) => {
           src={data.connect.header.source}
           alt={data.connect.header.alt}
         />
-        <div className='connect-icons-container'>
-          {data.connect.icons.map((contact, index) => (
-            <a
-              key={index}
-              href={contact.url}
-              target='_blank'
-              rel='noreferrer'
-              className={contact.class}
-            >
-              <img
-                className='connect-icon'
-                src={contact.source}
-                alt={contact.alt}
-              />
-            </a>
-          ))}
-          <a
-            href='mailto:me@jasontoups.com'
-            target='_blank'
-            rel='noreferrer'
-            className='email'
-          >
-            <FontAwesomeIcon
-              className='connect-icon fa-7x'
-              icon={faEnvelope}
-              alt='email jason toups'
-            />
-          </a>
+        <div className='connect-card-background glass-background'>
+          <div className='connect-card-foreground'>
+            <div className='connect-card'>
+              <div className='connect-icons-container'>
+                {data.connect.icons.map((contact, index) => (
+                  <a
+                    key={index}
+                    href={contact.url}
+                    target='_blank'
+                    rel='noreferrer'
+                    className={contact.class}
+                  >
+                    <img
+                      className='connect-icon'
+                      src={contact.source}
+                      alt={contact.alt}
+                    />
+                  </a>
+                ))}
+                <a
+                  href='mailto:me@jasontoups.com'
+                  target='_blank'
+                  rel='noreferrer'
+                  className='email'
+                >
+                  <FontAwesomeIcon
+                    className='connect-icon fa-7x'
+                    icon={faEnvelope}
+                    alt='email jason toups'
+                  />
+                </a>
+              </div>
+              <button
+                type={data.connect.button.type}
+                onClick={handleResumeClick}
+              >
+                {data.connect.button.text}
+              </button>
+            </div>
+          </div>
         </div>
-        <button type={data.connect.button.type} onClick={handleResumeClick}>
-          {data.connect.button.text}
-        </button>
       </div>
     </section>
   );
