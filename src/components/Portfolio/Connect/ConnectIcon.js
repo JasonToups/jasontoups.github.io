@@ -1,10 +1,14 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
-const ConnectIcon = ({ icon, link }) => {
+const ConnectIcon = ({ data }) => {
   return (
-    <a className='contact-item' href={link} target='_blank' rel='noreferrer'>
-      <FontAwesomeIcon icon={icon} />
+    <a
+      className='contact-item'
+      href={data.url}
+      target='_blank'
+      rel='noreferrer'
+    >
+      <img className='contact-image' src={data.source} alt={data.alt} />
     </a>
   );
 };
