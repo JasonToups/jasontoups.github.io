@@ -1,8 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { useNavigation } from '../../../contexts/NavigationContext';
+import { motion } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { useNavigation } from '../../../contexts/NavigationContext';
 
 const Connect = ({ data }) => {
   const navigate = useNavigate();
@@ -24,9 +25,11 @@ const Connect = ({ data }) => {
       </div>
       <div className='connect-container'>
         <div className='connect-background'>
-          <img
+          <motion.img
             src={data.background.circle.source}
             alt={data.background.circle.alt}
+            animate={{ rotate: [0, 360] }}
+            transition={{ duration: 7, repeat: Infinity }}
           />
         </div>
         <div className='connect-content'>
