@@ -736,15 +736,21 @@
             align-items: center;
             height: 17rem;
             margin: 0 auto auto;
+            padding: 0 1rem;
             width: 100%;
             .connect-icon {
               max-width: 5rem;
               width: 100%;
               justify-self: center;
               align-items: center;
+              color: $black;
             }
             a {
               color: $white;
+              width: 100%;
+              display: flex;
+              align-items: center;
+              justify-content: center;
             }
             .linkedin {
               // align-self: center;
