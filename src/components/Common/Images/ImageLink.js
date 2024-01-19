@@ -5,17 +5,13 @@ const ImageLink = ({ data, index }) => {
 
   return (
     <a
+      key={index}
       className={data.className.link}
       href={data.url}
       target='_blank'
       rel='noreferrer'
     >
-      <img
-        key={index}
-        className={data.className.image}
-        src={data.source}
-        alt={data.alt}
-      />
+      <img className={data.className.image} src={data.source} alt={data.alt} />
     </a>
   );
 };
