@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c5e869b0.css",
-    "main.js": "/static/js/main.9174f9ac.js",
+    "main.css": "/static/css/main.048d950b.css",
+    "main.js": "/static/js/main.fc92aaec.js",
     "static/js/872.2438273f.chunk.js": "/static/js/872.2438273f.chunk.js",
     "static/js/227.ca785bdd.chunk.js": "/static/js/227.ca785bdd.chunk.js",
     "static/js/526.70355d1d.chunk.js": "/static/js/526.70355d1d.chunk.js",
@@ -19,7 +19,7 @@
     "static/media/huoa.jpg": "/static/media/huoa.cccc966a7635ff9260c1.jpg",
     "static/media/profile-pic-jason-toups-masked.png": "/static/media/profile-pic-jason-toups-masked.41148ff768b6ff74c3c3.png",
     "static/media/newlywords.jpg": "/static/media/newlywords.61b9eb60273ed0fa4045.jpg",
-    "static/media/programming-pattern.svg": "/static/media/programming-pattern.711e718d09075f3685ab.svg",
+    "static/media/programming-pattern.svg": "/static/media/programming-pattern.75970ce5b1e607809849.svg",
     "static/media/hero-logo.svg": "/static/media/hero-logo.57f70aaf8c0085f296346cdc6a28a7ac.svg",
     "static/media/apple-2001.png": "/static/media/apple-2001.8718d203bf911b8c21b5.png",
     "static/media/crushIt.svg": "/static/media/crushIt.9fae3c39bfb57e64bc481da1932418ed.svg",
@@ -52,8 +52,8 @@
     "static/media/adobe-animate.svg": "/static/media/adobe-animate.9a8a273df2ece952c0f168483e5d9900.svg",
     "static/media/email.svg": "/static/media/email.555fc28d9cd079e05c5e1eb878f7ccef.svg",
     "static/media/vue.svg": "/static/media/vue.f04dfe30a8ad8eb5c4e01aaf1163cb53.svg",
-    "main.c5e869b0.css.map": "/static/css/main.c5e869b0.css.map",
-    "main.9174f9ac.js.map": "/static/js/main.9174f9ac.js.map",
+    "main.048d950b.css.map": "/static/css/main.048d950b.css.map",
+    "main.fc92aaec.js.map": "/static/js/main.fc92aaec.js.map",
     "872.2438273f.chunk.js.map": "/static/js/872.2438273f.chunk.js.map",
     "227.ca785bdd.chunk.js.map": "/static/js/227.ca785bdd.chunk.js.map",
     "526.70355d1d.chunk.js.map": "/static/js/526.70355d1d.chunk.js.map",
@@ -63,7 +63,7 @@
     "787.43653c34.chunk.js.map": "/static/js/787.43653c34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5e869b0.css",
-    "static/js/main.9174f9ac.js"
+    "static/css/main.048d950b.css",
+    "static/js/main.fc92aaec.js"
   ]
 }
