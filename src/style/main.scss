@@ -188,13 +188,6 @@
 
   section {
     margin: auto;
-
-    @include respond-to($breakpoint-medium) {
-      padding: 1.5rem 2rem;
-    }
-    @include respond-to($breakpoint-x-small) {
-      padding: 2rem 4rem 0 4rem;
-    }
   }
   .section-container {
     position: relative;
@@ -205,6 +198,12 @@
     max-width: 80rem;
     position: relative;
     z-index: 20;
+    @include respond-to($breakpoint-medium) {
+      padding: 1.5rem 2rem;
+    }
+    @include respond-to($breakpoint-x-small) {
+      padding: 2rem 5rem 0 5rem;
+    }
   }
 
   .section-background {
