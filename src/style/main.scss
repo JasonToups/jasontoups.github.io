@@ -382,6 +382,14 @@
         align-items: center;
       }
 
+      h2 {
+        @include respond-to($breakpoint-medium) {
+          text-align: center;
+          margin: 0;
+          padding: 0;
+        }
+      }
+
       img {
         width: 30vw;
         max-width: 26rem;
@@ -405,12 +413,6 @@
 
         @include respond-to($breakpoint-medium) {
           width: 100%;
-        }
-
-        h2 {
-          @include respond-to($breakpoint-medium) {
-            text-align: center;
-          }
         }
       }
     }
