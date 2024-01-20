@@ -1,19 +1,12 @@
 import React from 'react';
-// import Technology from './Technology';
+import Image from '../../Common/Images/Image';
 
 const TechnologiesContainer = ({ data }) => {
-  // console.log(data);
-
   return (
     <div className='technologies-container'>
       <div className='technologies-list glass-foreground'>
         {data.map((data, index) => (
-          <img
-            key={index}
-            className='technology'
-            src={data.source}
-            alt={data.alt}
-          />
+          <Image data={data} index={index} />
         ))}
       </div>
     </div>
