@@ -12,15 +12,13 @@ const About = ({
         <div className='section-foreground'>
           <img src={profilePic.source} alt={profilePic.alt} />
           <div className='description'>
-            <div className='section-foreground'>
-              <p>{introduction}</p>
+            <p>{introduction}</p>
 
-              <p className='text-gradient'>{summary}</p>
+            <p className='text-gradient'>{summary}</p>
 
-              {closer.map((paragraph, index) => (
-                <p key={index}>{paragraph}</p>
-              ))}
-            </div>
+            {closer.map((paragraph, index) => (
+              <p key={index}>{paragraph}</p>
+            ))}
           </div>
         </div>
       </div>

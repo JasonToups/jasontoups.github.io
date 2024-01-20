@@ -208,7 +208,7 @@
     margin: auto;
     z-index: 20;
     @include respond-to($breakpoint-medium) {
-      padding: 1.5rem 2rem;
+      padding: 1.5rem 4rem;
     }
     @include respond-to($breakpoint-x-small) {
       padding: 2rem 5rem 0 5rem;
