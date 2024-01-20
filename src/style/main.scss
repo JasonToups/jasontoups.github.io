@@ -350,7 +350,7 @@
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: center;
       flex-direction: column;
 
       .loading {
@@ -358,6 +358,8 @@
         color: #6b6a7c;
         display: flex;
         align-items: center;
+        font-size: 5rem;
+        font-weight: 800;
         @include respond-to($breakpoint-medium) {
           min-height: 500px;
         }

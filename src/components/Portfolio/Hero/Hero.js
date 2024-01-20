@@ -8,7 +8,7 @@ const Hero = ({ data }) => {
   return (
     <div className='hero flex-container .flex-direction-column'>
       <div className='content-container'>
-        {isLoading && <h2 className='loading'>Loading...</h2>}
+        {isLoading && <p className='loading'>Loading...</p>}
         <Spline
           onLoad={() => setIsLoading(false)}
           className='spline-canvas'
