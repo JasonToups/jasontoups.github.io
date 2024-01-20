@@ -1,3 +1,5 @@
+// Imports for the Technologies
+import technologies from './technologiesData.js';
 // Imports for the Hero Section
 import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
@@ -59,6 +61,7 @@ export const aboutData = {
   profilePic: {
     source: ProfilePic,
     alt: 'Jason Toups Profile Pic',
+    className: 'profile-pic',
   },
   header: 'About Me',
   introduction:
@@ -257,10 +260,7 @@ export const projectsData = {
       title: 'Markdown Resume',
       description:
         'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
-      technologies: [
-        { source: Markdown, alt: 'markdown' },
-        { source: Css, alt: 'css' },
-      ],
+      technologies: [technologies.markdown, technologies.css],
     },
     {
       image: CrushIt,

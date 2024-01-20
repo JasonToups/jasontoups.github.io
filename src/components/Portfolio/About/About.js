@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from '../../Common/Images/Image';
 
 const About = ({
   data: { profilePic, introduction, summary, closer, paragraphs },
@@ -7,7 +8,7 @@ const About = ({
     <section className='about'>
       <div className='content-container'>
         <div className='section-foreground'>
-          <img src={profilePic.source} alt={profilePic.alt} />
+          <Image data={profilePic} index={0} />
           <div className='description'>
             <p>{introduction}</p>
 

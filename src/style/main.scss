@@ -360,6 +360,7 @@
         align-items: center;
         font-size: 5rem;
         font-weight: 800;
+
         @include respond-to($breakpoint-medium) {
           min-height: 500px;
         }
