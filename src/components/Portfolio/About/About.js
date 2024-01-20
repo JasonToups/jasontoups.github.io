@@ -6,17 +6,21 @@ const About = ({
   return (
     <section className='about'>
       <div className='content-container'>
-        <img src={profilePic.source} alt={profilePic.alt} />
-        <div className='description'>
+        <header className='header'>
           <h2>{header}</h2>
-          <div className='section-foreground'>
-            <p>{introduction}</p>
+        </header>
+        <div className='section-foreground'>
+          <img src={profilePic.source} alt={profilePic.alt} />
+          <div className='description'>
+            <div className='section-foreground'>
+              <p>{introduction}</p>
 
-            <p className='text-gradient'>{summary}</p>
+              <p className='text-gradient'>{summary}</p>
 
-            {closer.map((paragraph, index) => (
-              <p key={index}>{paragraph}</p>
-            ))}
+              {closer.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
+            </div>
           </div>
         </div>
       </div>

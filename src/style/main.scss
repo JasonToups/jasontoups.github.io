@@ -52,6 +52,8 @@
     letter-spacing: $h2-letter-spacing;
     margin: $h2-margin;
     padding: $h2-padding;
+    max-width: calc($xx-large + 100px);
+    width: 100%;
     @include respond-to($breakpoint-medium) {
       font-size: $h2-font-size-tablet;
       font-weight: $h2-font-weight-tablet;
@@ -186,6 +188,12 @@
     }
   }
 
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   section {
     margin: auto;
   }
@@ -197,6 +205,7 @@
     padding: 2rem 4rem;
     max-width: 80rem;
     position: relative;
+    margin: auto;
     z-index: 20;
     @include respond-to($breakpoint-medium) {
       padding: 1.5rem 2rem;
@@ -536,7 +545,7 @@
       background-repeat: repeat;
       background-position: center;
       background-size: cover;
-      opacity: 0.2;
+      opacity: 0.175;
       box-shadow: $box-shadow-background;
     }
     .projects-content {
