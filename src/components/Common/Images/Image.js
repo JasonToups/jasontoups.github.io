@@ -1,16 +1,9 @@
 import React from 'react';
 
-const Image = ({ data, index }) => {
+const Image = ({ data }) => {
   // console.log(data);
 
-  return (
-    <img
-      key={index}
-      className={data.className}
-      src={data.source}
-      alt={data.alt}
-    />
-  );
+  return <img className={data.className} src={data.source} alt={data.alt} />;
 };
 
 export default Image;

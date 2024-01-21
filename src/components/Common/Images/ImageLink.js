@@ -1,11 +1,10 @@
 import React from 'react';
 
-const ImageLink = ({ data, index }) => {
+const ImageLink = ({ data }) => {
   // console.log(data);
 
   return (
     <a
-      key={index}
       className={data.className.container}
       href={data.url}
       target='_blank'
