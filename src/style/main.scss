@@ -207,11 +207,15 @@
     position: relative;
     margin: auto;
     z-index: 20;
+  }
+
+  .technologies-list {
+    padding: 1.5rem;
     @include respond-to($breakpoint-medium) {
-      padding: 1.5rem 4rem;
+      padding: 1rem;
     }
     @include respond-to($breakpoint-x-small) {
-      padding: 2rem 5rem 0 5rem;
+      padding: 1rem;
     }
   }
 
@@ -514,6 +518,14 @@
         }
         .technologies {
           grid-area: technologies;
+          height: 100%;
+          width: 100%;
+        }
+        .technologies-container {
+          height: 100%;
+          width: 100%;
+        }
+        .technologies-list {
           height: 100%;
           width: 100%;
           display: flex;

@@ -1,5 +1,3 @@
-// Imports for the Technologies
-import technologies from './technologiesData.js';
 // Imports for the Hero Section
 import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
@@ -94,7 +92,10 @@ export const experienceData = {
           'Worked with Angular & RxJS on the revenue-generating International Payments Team.',
           'We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
         ],
-        tech: [Angular, TypeScript, RxJS, Sass, Jest],
+        tech: {
+          className: `glass-background`,
+          images: [Angular, TypeScript, RxJS, Sass, Jest],
+        },
       },
     },
     {
@@ -115,7 +116,10 @@ export const experienceData = {
           'Worked with the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project.',
           'Updated Vue Components including; Product Information pages for the Purchasing Component & Product Flags, Shop & Content pages.',
         ],
-        tech: [Vue, Javascript, AEM, Sass, Jest],
+        tech: {
+          className: `glass-background`,
+          images: [Vue, Javascript, AEM, Sass, Jest],
+        },
       },
     },
     {
@@ -137,7 +141,10 @@ export const experienceData = {
           'Developed a design guide.',
           'Mentored a junior ui/ux designer.',
         ],
-        tech: [React, Javascript, Ruby, Sass],
+        tech: {
+          className: `glass-background`,
+          images: [React, Javascript, Ruby, Sass],
+        },
       },
     },
     {
@@ -158,7 +165,10 @@ export const experienceData = {
           'Built reusable components that were used across the site.',
           'Engineered custom Hooks to handle State between multiple components.',
         ],
-        tech: [React, Javascript, Wordpress, Sass],
+        tech: {
+          className: `glass-background`,
+          images: [React, Javascript, Wordpress, Sass],
+        },
       },
     },
     {
@@ -179,7 +189,10 @@ export const experienceData = {
           'Built HTML playable ads in Javascript, with Adobe Animate for clients.',
           'Designed UI/UX storyboards for playable ads in Sketch.',
         ],
-        tech: [An, Javascript, Sketch, Css],
+        tech: {
+          className: `glass-background`,
+          images: [An, Javascript, Sketch, Css],
+        },
       },
     },
     {
@@ -200,7 +213,10 @@ export const experienceData = {
           'Scaled the production of playables 170% in the first 2 months.',
           'Iterated existing ads with A/B testing, and reported results from Metamarkets data to all stakeholders.',
         ],
-        tech: [Sketch, Metamarkets],
+        tech: {
+          className: `glass-background`,
+          images: [Sketch, Metamarkets],
+        },
       },
     },
   ],
@@ -231,7 +247,10 @@ export const projectsData = {
       title: 'Markdown Resume',
       description:
         'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
-      technologies: [Markdown, Css],
+      technologies: {
+        className: `glass-foreground`,
+        images: [Markdown, Css],
+      },
     },
     {
       image: CrushIt,
@@ -241,7 +260,10 @@ export const projectsData = {
       title: 'Crush It!!!',
       description:
         'Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets.',
-      technologies: [Javascript, JQuery, Css],
+      technologies: {
+        className: `glass-foreground`,
+        images: [Javascript, JQuery, Css],
+      },
     },
     {
       image: RickAndMorty,
@@ -251,7 +273,10 @@ export const projectsData = {
       title: 'Rick & Morty',
       description:
         'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
-      technologies: [React, Css],
+      technologies: {
+        className: `glass-foreground`,
+        images: [React, Css],
+      },
     },
     {
       image: ReactTube,
@@ -261,7 +286,10 @@ export const projectsData = {
       title: 'ReactTube',
       description:
         'Using the YouTube API to return a short list of 5 videos, utilizing Primitive & Custom Hooks to fetch data.',
-      technologies: [React, Css],
+      technologies: {
+        className: `glass-foreground`,
+        images: [React, Css],
+      },
     },
   ],
 };
