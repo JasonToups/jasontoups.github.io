@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageLink from '../../Common/Images/ImageLink';
 
 const ExperienceCard = ({ data }) => {
   const { company, job } = data;
@@ -34,12 +35,7 @@ const ExperienceCard = ({ data }) => {
       </section>
       <section className='technologies glass-background'>
         {job.tech.map((item, index) => (
-          <img
-            key={index}
-            className='experience-card--technology'
-            src={item.source}
-            alt={item.alt}
-          />
+          <ImageLink data={item} index={index} />
         ))}
       </section>
     </main>

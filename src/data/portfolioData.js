@@ -84,6 +84,7 @@ export const experienceData = {
         image: {
           source: Bill,
           alt: 'Bill.com',
+          url: 'http://www.bill.com/',
         },
       },
       job: {
