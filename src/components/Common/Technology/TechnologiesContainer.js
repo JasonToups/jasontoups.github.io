@@ -6,7 +6,7 @@ const TechnologiesContainer = ({ data }) => {
     <div className='technologies-container'>
       <div className='technologies-list glass-foreground'>
         {data.map((data, index) => (
-          <Image data={data} index={index} />
+          <Image data={data} key={index} />
         ))}
       </div>
     </div>

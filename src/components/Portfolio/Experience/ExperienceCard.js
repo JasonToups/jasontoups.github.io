@@ -35,7 +35,7 @@ const ExperienceCard = ({ data }) => {
       </section>
       <section className='technologies glass-background'>
         {job.tech.map((item, index) => (
-          <ImageLink data={item} index={index} />
+          <ImageLink data={item} key={index} />
         ))}
       </section>
     </main>
