@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageLink from '../../Common/Images/ImageLink';
+import { TechnologiesContainer } from '../../Common/Technology/index';
 
 const ExperienceCard = ({ data }) => {
   const { company, job } = data;
@@ -33,11 +33,9 @@ const ExperienceCard = ({ data }) => {
         <h4>{job.title}</h4>
         <aside>{job.duration}</aside>
       </section>
-      <section className='technologies glass-background'>
-        {job.tech.map((item, index) => (
-          <ImageLink data={item} key={index} />
-        ))}
-      </section>
+      <div className='technologies'>
+        <TechnologiesContainer data={job.tech} />
+      </div>
     </main>
   );
 };
