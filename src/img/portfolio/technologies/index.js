@@ -19,8 +19,8 @@ import WordpressSvg from './wordpress.svg';
 export {
   AEMSvg,
   AnSvg,
-  CssSvg,
   AngularSvg,
+  CssSvg,
   JavascriptSvg,
   JestSvg,
   JQuerySvg,

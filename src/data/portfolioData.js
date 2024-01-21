@@ -33,7 +33,7 @@ import {
   TypeScript,
   Vue,
   Wordpress,
-} from '../img/portfolio/technologies/index.js';
+} from './technologiesData.js';
 // Imports for the Projects Section
 import {
   RickAndMorty,
@@ -93,13 +93,7 @@ export const experienceData = {
           'Worked with Angular & RxJS on the revenue-generating International Payments Team.',
           'We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
         ],
-        tech: [
-          { source: Angular, alt: 'angular' },
-          { source: TypeScript, alt: 'typescript' },
-          { source: RxJS, alt: 'rxjs' },
-          { source: Sass, alt: 'sass' },
-          { source: Jest, alt: 'jest' },
-        ],
+        tech: [Angular, TypeScript, RxJS, Sass, Jest],
       },
     },
     {
@@ -120,13 +114,7 @@ export const experienceData = {
           'Worked with the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project.',
           'Updated Vue Components including; Product Information pages for the Purchasing Component & Product Flags, Shop & Content pages.',
         ],
-        tech: [
-          { source: Vue, alt: 'vue' },
-          { source: Javascript, alt: 'javascript' },
-          { source: AEM, alt: 'adobe experience manager' },
-          { source: Sass, alt: 'sass' },
-          { source: Jest, alt: 'jest' },
-        ],
+        tech: [Vue, Javascript, AEM, Sass, Jest],
       },
     },
     {
@@ -148,12 +136,7 @@ export const experienceData = {
           'Developed a design guide.',
           'Mentored a junior ui/ux designer.',
         ],
-        tech: [
-          { source: React, alt: 'react' },
-          { source: Javascript, alt: 'javascript' },
-          { source: Ruby, alt: 'ruby' },
-          { source: Sass, alt: 'sass' },
-        ],
+        tech: [React, Javascript, Ruby, Sass],
       },
     },
     {
@@ -174,12 +157,7 @@ export const experienceData = {
           'Built reusable components that were used across the site.',
           'Engineered custom Hooks to handle State between multiple components.',
         ],
-        tech: [
-          { source: React, alt: 'react' },
-          { source: Javascript, alt: 'javascript' },
-          { source: Wordpress, alt: 'wordpress' },
-          { source: Sass, alt: 'sass' },
-        ],
+        tech: [React, Javascript, Wordpress, Sass],
       },
     },
     {
@@ -200,12 +178,7 @@ export const experienceData = {
           'Built HTML playable ads in Javascript, with Adobe Animate for clients.',
           'Designed UI/UX storyboards for playable ads in Sketch.',
         ],
-        tech: [
-          { source: An, alt: 'adobe animate' },
-          { source: Javascript, alt: 'javascript' },
-          { source: Sketch, alt: 'sketch' },
-          { source: Css, alt: 'cascading style sheets' },
-        ],
+        tech: [An, Javascript, Sketch, Css],
       },
     },
     {
@@ -226,10 +199,7 @@ export const experienceData = {
           'Scaled the production of playables 170% in the first 2 months.',
           'Iterated existing ads with A/B testing, and reported results from Metamarkets data to all stakeholders.',
         ],
-        tech: [
-          { source: Sketch, alt: 'sketch' },
-          { source: Metamarkets, alt: 'meta markets' },
-        ],
+        tech: [Sketch, Metamarkets],
       },
     },
   ],
@@ -260,7 +230,7 @@ export const projectsData = {
       title: 'Markdown Resume',
       description:
         'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
-      technologies: [technologies.markdown, technologies.css],
+      technologies: [Markdown, Css],
     },
     {
       image: CrushIt,
@@ -270,11 +240,7 @@ export const projectsData = {
       title: 'Crush It!!!',
       description:
         'Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets.',
-      technologies: [
-        { source: Javascript, alt: 'javascript' },
-        { source: JQuery, alt: 'jquery' },
-        { source: Css, alt: 'css' },
-      ],
+      technologies: [Javascript, JQuery, Css],
     },
     {
       image: RickAndMorty,
@@ -284,10 +250,7 @@ export const projectsData = {
       title: 'Rick & Morty',
       description:
         'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
-      technologies: [
-        { source: React, alt: 'react' },
-        { source: Css, alt: 'css' },
-      ],
+      technologies: [React, Css],
     },
     {
       image: ReactTube,
@@ -297,10 +260,7 @@ export const projectsData = {
       title: 'ReactTube',
       description:
         'Using the YouTube API to return a short list of 5 videos, utilizing Primitive & Custom Hooks to fetch data.',
-      technologies: [
-        { source: React, alt: 'react' },
-        { source: Css, alt: 'css' },
-      ],
+      technologies: [React, Css],
     },
   ],
 };

@@ -32,18 +32,18 @@ export const An = {
   url: 'https://www.adobe.com/products/animate.html',
 };
 
-export const Css = {
-  source: CssSvg,
-  alt: 'CSS',
-  className: 'technology',
-  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-};
-
 export const Angular = {
   source: AngularSvg,
   alt: 'Angular',
   className: 'technology',
   url: 'https://angular.io/',
+};
+
+export const Css = {
+  source: CssSvg,
+  alt: 'CSS',
+  className: 'technology',
+  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
 };
 
 export const Javascript = {
@@ -136,3 +136,25 @@ export const Wordpress = {
   className: 'technology',
   url: 'https://wordpress.com/',
 };
+
+const technologiesData = [
+  AEM,
+  An,
+  Angular,
+  Css,
+  Javascript,
+  Jest,
+  JQuery,
+  Markdown,
+  Metamarkets,
+  RxJS,
+  React,
+  Ruby,
+  Sass,
+  Sketch,
+  TypeScript,
+  Vue,
+  Wordpress,
+];
+
+export default technologiesData;
