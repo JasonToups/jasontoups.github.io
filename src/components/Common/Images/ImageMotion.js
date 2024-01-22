@@ -2,12 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const ImageMotion = ({ data, index }) => {
-  // console.log(data);
-
   return (
     <motion.img
-      key={index}
-      className={data.className}
+      className={`${data.className ? data.className : 'img'}`}
       src={data.source}
       alt={data.alt}
       animate={data.animate}
