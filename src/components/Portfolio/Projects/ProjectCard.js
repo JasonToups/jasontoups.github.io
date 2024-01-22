@@ -1,4 +1,5 @@
 import React from 'react';
+import ImageLink from '../../Common/Images/ImageLink';
 import { TechnologiesContainer } from '../../Common/Technology/index';
 
 const ProjectCard = ({ data }) => {
@@ -6,14 +7,7 @@ const ProjectCard = ({ data }) => {
     <div
       className={`project project-${data.projectNumber} glass-background border-radius`}
     >
-      <a
-        className='project-image-container'
-        href={data.imageUrl}
-        target='_blank'
-        rel='noreferrer'
-      >
-        <img className='project-image' src={data.image} alt={data.imageAlt} />
-      </a>
+      <ImageLink data={data.image} />
       <a
         className='project-title'
         href={data.imageUrl}

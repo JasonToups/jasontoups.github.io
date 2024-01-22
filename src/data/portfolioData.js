@@ -38,7 +38,7 @@ import {
   CrushIt,
   ReactTube,
   MarkdownResume,
-} from '../img/portfolio/projects/index.js';
+} from './projectsData.js';
 // Imports for the Connect Section
 import {
   ConnectGraphic,
@@ -107,6 +107,7 @@ export const experienceData = {
         image: {
           source: WilliamsSonoma,
           alt: 'Williams Sonoma Incorporated',
+          url: 'https://www.williams-sonoma.com/products/staub-deep-oven/',
         },
       },
       job: {
@@ -130,6 +131,7 @@ export const experienceData = {
         image: {
           source: NewlyWords,
           alt: 'Newly Words',
+          url: 'https://www.newlywords.com/',
         },
       },
       job: {
@@ -151,10 +153,11 @@ export const experienceData = {
       company: {
         name: 'Hawaii United Okinawa Association',
         description: 'Cultural exchange between Hawaii & Japan',
-        url: 'https://github.com/Hawaian-United-Okinawa-Association/huoa-react',
+        url: 'https://huoa.org/',
         image: {
           source: Huoa,
           alt: 'Hawaii United Okinawa Association',
+          url: 'https://huoa.org/',
         },
       },
       job: {
@@ -179,6 +182,7 @@ export const experienceData = {
         image: {
           source: LifeStreet,
           alt: 'life street',
+          url: 'https://lifestreet.com/',
         },
       },
       job: {
@@ -203,6 +207,7 @@ export const experienceData = {
         image: {
           source: Chartboost,
           alt: 'chart boost',
+          url: 'https://www.chartboost.com/',
         },
       },
       job: {
@@ -241,8 +246,6 @@ export const projectsData = {
   projects: [
     {
       image: MarkdownResume,
-      imageAlt: 'Markdown Resume App',
-      imageUrl: 'https://github.com/JasonToups/markdown-resume',
       projectNumber: '1',
       title: 'Markdown Resume',
       description:
@@ -254,8 +257,6 @@ export const projectsData = {
     },
     {
       image: CrushIt,
-      imageAlt: 'crush it javascript game',
-      imageUrl: 'https://jasontoups.github.io/CrushIt',
       projectNumber: '2',
       title: 'Crush It!!!',
       description:
@@ -267,8 +268,6 @@ export const projectsData = {
     },
     {
       image: RickAndMorty,
-      imageAlt: 'rick and morty react character database',
-      imageUrl: 'https://jasontoups.github.io/rick-and-morty/',
       projectNumber: '3',
       title: 'Rick & Morty',
       description:
@@ -280,8 +279,6 @@ export const projectsData = {
     },
     {
       image: ReactTube,
-      imageAlt: 'React Tube App',
-      imageUrl: 'https://jasontoups.github.io/YouTube-React-Hooks/',
       projectNumber: '4',
       title: 'ReactTube',
       description:
