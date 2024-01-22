@@ -78,7 +78,6 @@ export const experienceData = {
       company: {
         name: 'Bill',
         description: 'Financial Operations Platform',
-        url: 'http://www.bill.com/',
         image: {
           source: Bill,
           alt: 'Bill.com',
@@ -103,7 +102,6 @@ export const experienceData = {
         name: 'Williams Sonoma, Inc.',
         description:
           '6 eCommerce sites, including Williams Sonoma, West Elm, & Pottery Barn',
-        url: 'https://www.williams-sonoma.com/products/staub-deep-oven/',
         image: {
           source: WilliamsSonoma,
           alt: 'Williams Sonoma Incorporated',
@@ -127,7 +125,6 @@ export const experienceData = {
       company: {
         name: 'NewlyWords',
         description: 'Collaborative Memory Book creation & publishing',
-        url: 'https://www.newlywords.com/',
         image: {
           source: NewlyWords,
           alt: 'Newly Words',
@@ -153,7 +150,6 @@ export const experienceData = {
       company: {
         name: 'Hawaii United Okinawa Association',
         description: 'Cultural exchange between Hawaii & Japan',
-        url: 'https://huoa.org/',
         image: {
           source: Huoa,
           alt: 'Hawaii United Okinawa Association',
@@ -178,7 +174,6 @@ export const experienceData = {
       company: {
         name: 'LifeStreet',
         description: 'Programmatic Mobile Marketing Platform',
-        url: 'https://lifestreet.com/',
         image: {
           source: LifeStreet,
           alt: 'life street',
@@ -203,7 +198,6 @@ export const experienceData = {
       company: {
         name: 'Chartboost',
         description: 'Programmatic Mobile Advertising Network',
-        url: 'https://www.chartboost.com/',
         image: {
           source: Chartboost,
           alt: 'chart boost',
