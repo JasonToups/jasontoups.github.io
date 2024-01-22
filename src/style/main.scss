@@ -493,7 +493,7 @@
           grid-area: image;
           flex-direction: row;
           height: 100%;
-          .experience-card-image-container {
+          .image-container {
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -522,6 +522,7 @@
           width: 100%;
         }
         .technologies-container {
+          grid-area: technologies;
           height: 100%;
           width: 100%;
         }

@@ -23,6 +23,7 @@ const ProjectCard = ({ data }) => {
         <h3>{data.title}</h3>
       </a>
       <p className='project-description'>{data.description}</p>
+
       <TechnologiesContainer data={data.technologies} />
     </div>
   );

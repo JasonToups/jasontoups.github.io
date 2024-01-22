@@ -1,5 +1,6 @@
 import React from 'react';
 import { TechnologiesContainer } from '../../Common/Technology/index';
+import ImageLink from '../../Common/Images/ImageLink';
 
 const ExperienceCard = ({ data }) => {
   const { company, job } = data;
@@ -16,26 +17,13 @@ const ExperienceCard = ({ data }) => {
         ))}
       </section>
       <section className='image glass-foreground'>
-        <a
-          className='experience-card-image-container'
-          href={company.url}
-          target='_blank'
-          rel='noreferrer'
-        >
-          <img
-            className='experience-card--image'
-            src={company.image.source}
-            alt={company.image.alt}
-          />
-        </a>
+        <ImageLink data={company.image} />
       </section>
       <section className='title glass-background'>
         <h4>{job.title}</h4>
         <aside>{job.duration}</aside>
       </section>
-      <div className='technologies'>
-        <TechnologiesContainer data={job.tech} />
-      </div>
+      <TechnologiesContainer data={job.tech} />
     </main>
   );
 };
