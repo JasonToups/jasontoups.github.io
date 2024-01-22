@@ -711,7 +711,6 @@
         min-height: 900px;
         max-width: 500px;
         width: 100%;
-        // background-image: $glass-background-image;
         img.profile-pic {
           width: 100%;
           max-width: 250px;
@@ -791,10 +790,8 @@
               #f7b500 100%
             );
             /* Sketch doesnt export gradient borders at this point */
-            box-shadow: 0 7px 6px 1px rgba(0, 0, 0, 0.1),
-              inset 0 1px 20px 13px rgba(255, 255, 255, 0.5);
             border-radius: 38px;
-            border: $white;
+            border: $white solid 5px;
           }
         }
       }
