@@ -20,8 +20,6 @@ import {
   Css,
   Javascript,
   Jest,
-  JQuery,
-  Markdown,
   Metamarkets,
   RxJS,
   React,
@@ -33,12 +31,18 @@ import {
   Wordpress,
 } from './technologiesData.js';
 // Imports for the Projects Section
+// import {
+//   RickAndMorty,
+//   CrushIt,
+//   ReactTube,
+//   MarkdownResume,
+// } from './projectsData.js';
 import {
-  RickAndMorty,
   CrushIt,
-  ReactTube,
   MarkdownResume,
-} from './projectsData.js';
+  ReactTube,
+  RickAndMorty,
+} from './projects/projectsData.js';
 // Imports for the Connect Section
 import {
   ConnectGraphic,
@@ -237,52 +241,7 @@ export const experienceData = {
 
 export const projectsData = {
   header: 'Projects',
-  projects: [
-    {
-      image: MarkdownResume,
-      projectNumber: '1',
-      title: 'Markdown Resume',
-      description:
-        'Write your resume in a Markdown file, style it with CSS, then generate an HTML, PDF or Word file.',
-      technologies: {
-        className: `glass-foreground`,
-        images: [Markdown, Css],
-      },
-    },
-    {
-      image: CrushIt,
-      projectNumber: '2',
-      title: 'Crush It!!!',
-      description:
-        'Block Crushing Game built with JS/JQuery/HTML5, with only CSS assets.',
-      technologies: {
-        className: `glass-foreground`,
-        images: [Javascript, JQuery, Css],
-      },
-    },
-    {
-      image: RickAndMorty,
-      projectNumber: '3',
-      title: 'Rick & Morty',
-      description:
-        'This site uses the Rick and Morty API to render a database of characters, locations and episodes.',
-      technologies: {
-        className: `glass-foreground`,
-        images: [React, Css],
-      },
-    },
-    {
-      image: ReactTube,
-      projectNumber: '4',
-      title: 'ReactTube',
-      description:
-        'Using the YouTube API to return a short list of 5 videos, utilizing Primitive & Custom Hooks to fetch data.',
-      technologies: {
-        className: `glass-foreground`,
-        images: [React, Css],
-      },
-    },
-  ],
+  projects: [MarkdownResume, CrushIt, RickAndMorty, ReactTube],
 };
 
 export const connectData = {
