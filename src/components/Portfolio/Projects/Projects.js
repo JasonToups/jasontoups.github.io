@@ -13,11 +13,8 @@ const Projects = ({ data }) => {
         <div className='section-background'></div>
         <div className='section-foreground'>
           <section className='projects-container'>
-            {projects.map((project) => (
-              <ProjectCard
-                key={project.projectNumber}
-                data={project}
-              ></ProjectCard>
+            {projects.map((project, index) => (
+              <ProjectCard data={project} key={index}></ProjectCard>
             ))}
           </section>
         </div>
