@@ -1,11 +1,8 @@
 import React from 'react';
+import ImageLink from '../Images/ImageLink';
 
 const Technology = ({ data, index }) => {
-  // console.log(data);
-
-  return (
-    <img key={index} className='technology' src={data.source} alt={data.alt} />
-  );
+  return <ImageLink data={data} key={index} />;
 };
 
 export default Technology;

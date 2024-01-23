@@ -489,7 +489,7 @@
           text-align: $experience-card-description-text-align;
           flex-direction: column;
         }
-        .image {
+        .image-section {
           grid-area: image;
           flex-direction: row;
           height: 100%;
@@ -501,6 +501,7 @@
           }
           img {
             width: 100%;
+            height: fit-content;
             max-width: 600px;
             border-radius: $border-radius-small;
           }

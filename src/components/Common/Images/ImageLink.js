@@ -11,7 +11,7 @@ const ImageLink = ({ data }) => {
       rel='noreferrer'
     >
       <img
-        className={`${data.className?.img ? data.className.img : 'img'}`}
+        className={`${data.className?.img ? data.className.img : 'image'}`}
         src={data.source}
         alt={data.alt}
       />

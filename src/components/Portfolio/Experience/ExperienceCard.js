@@ -16,7 +16,7 @@ const ExperienceCard = ({ data }) => {
           <p key={index}>{item}</p>
         ))}
       </section>
-      <section className='image glass-foreground'>
+      <section className='image-section glass-foreground'>
         <ImageLink data={company.image} />
       </section>
       <section className='title glass-background'>
