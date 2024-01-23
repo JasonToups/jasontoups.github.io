@@ -3,7 +3,7 @@ import {
   MarkdownResumeSvg,
   ReactTubeSvg,
   RickAndMortySvg,
-} from '../img/portfolio/projects/index.js';
+} from '../../img/portfolio/projects/index';
 
 class ProjectImage {
   constructor(source, alt, url) {
