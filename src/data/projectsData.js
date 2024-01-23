@@ -24,16 +24,19 @@ export const MarkdownResume = new Project(
   'Markdown Resume',
   'https://github.com/JasonToups/markdown-resume'
 );
+
 export const ReactTube = new Project(
   ReactTubeSvg,
   'React Unsplash',
   'https://jasontoups.github.io/ouTube-React-Hooks'
 );
+
 export const RickAndMorty = new Project(
   RickAndMortySvg,
   'rick and morty react character database',
   'https://jasontoups.ithub.io/rick-and-morty'
 );
+
 const projectsData = {
   CrushIt,
   MarkdownResume,
