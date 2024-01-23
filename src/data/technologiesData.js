@@ -18,175 +18,95 @@ import {
   WordpressSvg,
 } from '../img/portfolio/technologies';
 
-export const AEM = {
-  source: AEMSvg,
-  alt: 'Adobe Experience Manager',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.adobe.com/marketing/experience-manager.html',
-};
+class Technology {
+  constructor(source, alt, url) {
+    this.source = source;
+    this.alt = alt;
+    this.url = url;
+  }
+}
 
-export const An = {
-  source: AnSvg,
-  alt: 'Adobe Animate',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.adobe.com/products/animate.html',
-};
+export const AEM = new Technology(
+  AEMSvg,
+  'Adobe Experience Manager',
+  'https://www.adobe.com/marketing/experience-manager.html'
+);
 
-export const Angular = {
-  source: AngularSvg,
-  alt: 'Angular',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://angular.io/',
-};
+export const An = new Technology(
+  AnSvg,
+  'Adobe Animate',
+  'https://www.adobe.com/products/animate.html'
+);
 
-export const Css = {
-  source: CssSvg,
-  alt: 'CSS',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://developer.mozilla.org/en-US/docs/Web/CSS',
-};
+export const Angular = new Technology(
+  AngularSvg,
+  'Angular',
+  'https://angular.io/'
+);
 
-export const Javascript = {
-  source: JavascriptSvg,
-  alt: 'Javascript',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
-};
+export const Css = new Technology(
+  CssSvg,
+  'CSS',
+  'https://developer.mozilla.org/en-US/docs/Web/CSS'
+);
 
-export const Jest = {
-  source: JestSvg,
-  alt: 'Jest',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://jestjs.io/',
-};
+export const Javascript = new Technology(
+  JavascriptSvg,
+  'Javascript',
+  'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
+);
 
-export const JQuery = {
-  source: JQuerySvg,
-  alt: 'jQuery',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://jquery.com/',
-};
+export const Jest = new Technology(JestSvg, 'Jest', 'https://jestjs.io/');
 
-export const Markdown = {
-  source: MarkdownSvg,
-  alt: 'Markdown',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.markdownguide.org/',
-};
+export const JQuery = new Technology(
+  JQuerySvg,
+  'jQuery',
+  'https://jquery.com/'
+);
 
-export const Metamarkets = {
-  source: MetamarketsSvg,
-  alt: 'Metamarkets',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://metamarkets.com/',
-};
+export const Markdown = new Technology(
+  MarkdownSvg,
+  'Markdown',
+  'https://www.markdownguide.org/'
+);
 
-export const RxJS = {
-  source: RxJSSvg,
-  alt: 'RxJS',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://rxjs.dev/',
-};
+export const Metamarkets = new Technology(
+  MetamarketsSvg,
+  'Metamarkets',
+  'https://metamarkets.com/'
+);
 
-export const React = {
-  source: ReactSvg,
-  alt: 'React',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://reactjs.org/',
-};
+export const RxJS = new Technology(RxJSSvg, 'RxJS', 'https://rxjs.dev/');
 
-export const Ruby = {
-  source: RubySvg,
-  alt: 'Ruby',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.ruby-lang.org/en/',
-};
+export const React = new Technology(ReactSvg, 'React', 'https://reactjs.org/');
 
-export const Sass = {
-  source: SassSvg,
-  alt: 'Sass',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://sass-lang.com/',
-};
+export const Ruby = new Technology(
+  RubySvg,
+  'Ruby',
+  'https://www.ruby-lang.org/en/'
+);
 
-export const Sketch = {
-  source: SketchSvg,
-  alt: 'Sketch',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.sketch.com/',
-};
+export const Sass = new Technology(SassSvg, 'Sass', 'https://sass-lang.com/');
 
-export const TypeScript = {
-  source: TypeScriptSvg,
-  alt: 'TypeScript',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://www.typescriptlang.org/',
-};
+export const Sketch = new Technology(
+  SketchSvg,
+  'Sketch',
+  'https://www.sketch.com/'
+);
 
-export const Vue = {
-  source: VueSvg,
-  alt: 'Vue',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://vuejs.org/',
-};
+export const TypeScript = new Technology(
+  TypeScriptSvg,
+  'TypeScript',
+  'https://www.typescriptlang.org/'
+);
 
-export const Wordpress = {
-  source: WordpressSvg,
-  alt: 'Wordpress',
-  className: {
-    container: 'container',
-    img: 'technology',
-  },
-  url: 'https://wordpress.com/',
-};
+export const Vue = new Technology(VueSvg, 'Vue', 'https://vuejs.org/');
+
+export const Wordpress = new Technology(
+  WordpressSvg,
+  'Wordpress',
+  'https://wordpress.com/'
+);
 
 const technologiesData = [
   AEM,

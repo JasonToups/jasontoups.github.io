@@ -1,5 +1,5 @@
 import React from 'react';
-import ImageLink from '../../Common/Images/ImageLink';
+import Technology from './Technology';
 
 const TechnologiesContainer = ({ data }) => {
   return (
@@ -8,7 +8,7 @@ const TechnologiesContainer = ({ data }) => {
         className={`technologies-list ${data.className ? data.className : ''}`}
       >
         {data.images.map((data, index) => (
-          <ImageLink data={data} key={index} />
+          <Technology data={data} key={index} />
         ))}
       </div>
     </div>

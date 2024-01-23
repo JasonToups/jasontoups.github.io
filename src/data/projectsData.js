@@ -5,30 +5,35 @@ import {
   RickAndMortySvg,
 } from '../img/portfolio/projects/index.js';
 
-export const CrushIt = {
-  source: CrushItSvg,
-  alt: 'Crush It',
-  url: 'https://jasontoups.github.io/CrushIt',
-};
+class Project {
+  constructor(source, alt, url) {
+    this.source = source;
+    this.alt = alt;
+    this.url = url;
+  }
+}
 
-export const MarkdownResume = {
-  source: MarkdownResumeSvg,
-  alt: 'Markdown Resume',
-  url: 'https://github.com/JasonToups/markdown-resume',
-};
+export const CrushIt = new Project(
+  CrushItSvg,
+  'Crush It',
+  'https://jasontoups.github.io/CrushIt'
+);
 
-export const ReactTube = {
-  source: ReactTubeSvg,
-  alt: 'React Unsplash',
-  url: 'https://jasontoups.github.io/YouTube-React-Hooks',
-};
-
-export const RickAndMorty = {
-  source: RickAndMortySvg,
-  alt: 'rick and morty react character database',
-  url: 'https://jasontoups.github.io/rick-and-morty',
-};
-
+export const MarkdownResume = new Project(
+  MarkdownResumeSvg,
+  'Markdown Resume',
+  'https://github.com/JasonToups/markdown-resume'
+);
+export const ReactTube = new Project(
+  ReactTubeSvg,
+  'React Unsplash',
+  'https://jasontoups.github.io/ouTube-React-Hooks'
+);
+export const RickAndMorty = new Project(
+  RickAndMortySvg,
+  'rick and morty react character database',
+  'https://jasontoups.ithub.io/rick-and-morty'
+);
 const projectsData = {
   CrushIt,
   MarkdownResume,
