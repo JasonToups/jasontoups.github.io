@@ -1,6 +1,12 @@
 import React from 'react';
 import resumeData from '../../data/resumeData.js';
-import { Education, Header, TechnicalSkills, WorkExperience } from './index';
+import {
+  About,
+  Education,
+  Header,
+  TechnicalSkills,
+  WorkExperience,
+} from './index';
 const Resume = () => {
   const { headerData, technicalSkillsData, workExperienceData, educationData } =
     resumeData;
@@ -11,6 +17,7 @@ const Resume = () => {
       <TechnicalSkills data={technicalSkillsData} />
       <WorkExperience data={workExperienceData} />
       <Education data={educationData} />
+      <About />
     </div>
   );
 };

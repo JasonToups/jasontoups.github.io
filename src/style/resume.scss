@@ -252,7 +252,7 @@
     font-size: $h2-font-size;
     line-height: $h2-font-size;
     padding-bottom: 0;
-    margin-bottom: 10px;
+    margin: 1.5rem 0 0.75rem 0;
     border-bottom: 1px solid #ccc;
     color: #476d96;
     @include respond-to($breakpoint-small) {
@@ -541,7 +541,7 @@
     background-color: #f8f8f8;
     border-radius: 3px;
     font-family: Consolas, 'Liberation Mono', Courier, monospace;
-    font-size: 12px;
+    font-size: 16px;
     color: #333;
   }
 
