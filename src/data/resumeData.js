@@ -86,7 +86,7 @@ export const workExperienceData = [
     description:
       'Worked with Angular & RxJS on the revenue-generating International Payments Team.',
     jobTasks: [
-      'Retrofitted existing Domestic payment flows with International options, to enable users to make International Payments with current exchange rates.',
+      'Retrofitted existing Domestic payment flows with International options, to enable users to make International Payments with current exchange rates, increasing revenue by 15%.',
       'Operated across several teams to enable these features by working with the code owners to develop features and fix bugs.',
       'Wrote package.json scripts to streamline repetitive engineering tasks.',
       'Created training documentation in Markdown, on Confluence to onboard new engineers and standardize processes.',
@@ -120,8 +120,9 @@ export const workExperienceData = [
       'Worked on the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project.',
     jobTasks: [
       'Engineered styling & architectural updates to Vue components to all 6 supported brands, including; the Product Information pages for the Purchasing Component & Product Flags Component, Shop pages, & Content pages.',
-      'Solved Local Environment Stability Issues with a self-directed NodeJS project that automated engineering tasks, including; cloning 11 repos pointing to multiple remotes per brand, running 4-5 server commands, creating multiple feature branches, updating local branches to the latest release code.',
-      'Managed & Migrated pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos.',
+      'Solved Local Environment Stability Issues with a self-directed NodeJS project that automated engineering tasks, including; cloning 11 repos for multiple remotes per brand. This reduced the first-time setup for local development from about 1 week to 1/2 a day.',
+      'Automated feature branch creation for our 4 repos with my script that created multiple feature branches with the JIRA ticket number, and updated local branches to the latest release code.',
+      'Managed & Migrated pull requests from team-specific repos, to Bedrock & Release Management repos, including batch cherry-picked commits from my team to the upstream repos. I was responsible for making sure all of the features for the release were included in the release branches.',
       'Mentored junior engineers on my team with paired programming sessions and sharing my documentation.',
     ],
     technologies: [
@@ -155,7 +156,7 @@ export const workExperienceData = [
     jobTasks: [
       'Engineered the Memory Book Project Dashboard in React with custom Hooks, where project owners view and edit pages submitted from their contributors, and view information about their book.',
       'Built the Questionnaire as a new memory book content type, providing project owners a place to ask their contributors questions to answer for their collaborative memory book content.',
-      'Developed a design guide with classNameNames and partials, from the product design system, to build stylesheets which implemented reusable classNames and styles.',
+      'Developed a design guide with classNameNames and partials, from the product design system, to build stylesheets which implemented reusable classNames and styles, reducing lines of code by 25%.',
       'Mentored a junior UI/UX designer by providing design advice, Figma help, and to think about user experience from our user’s perspective.',
     ],
     technologies: [
@@ -219,7 +220,7 @@ export const workExperienceData = [
       'Engineered & Designed mobile marketing materials for  the programmatic marketing platform.',
     jobTasks: [
       'Engineered HTML playable ads in Javascript, with Adobe Animate for clients.',
-      'Implemented Responsive Design solution that consistently generated lift across all existing playable ads, and became an engineering standard.',
+      'Implemented Responsive Design solution that consistently generated increased ad engagement by 30% across all existing playable ads, and became an engineering standard.',
       'Created Playable Ad Production Workflow, to design mockups and storyboards for ad approval, and CSS for engineers.',
       'Upgraded client assets with self-designed elements, that were approved by advertisers including Disney, Warner Brothers & King, for their Frozen, Harry Potter, and Candy Crush IPs.',
     ],
