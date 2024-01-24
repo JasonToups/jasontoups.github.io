@@ -12,7 +12,7 @@ const About = () => {
       </p>
       <p>
         With a simple <code>script</code>, I can generate a <em>PDF</em>,
-        <em>Word Document</em> and <em>HTML</em> to embed into a website.
+        <em> Word Document</em> and <em>HTML</em> to embed into a website.
       </p>
       <blockquote>
         <p>
