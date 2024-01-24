@@ -1,21 +1,21 @@
 import {
-  AEMSvg,
-  AnSvg,
-  CssSvg,
-  AngularSvg,
-  JavascriptSvg,
-  JestSvg,
-  JQuerySvg,
-  MarkdownSvg,
-  MetamarketsSvg,
-  RxJSSvg,
-  ReactSvg,
-  RubySvg,
-  SassSvg,
-  SketchSvg,
-  TypeScriptSvg,
-  VueSvg,
-  WordpressSvg,
+  AEMSource,
+  AnSource,
+  CssSource,
+  AngularSource,
+  JavascriptSource,
+  JestSource,
+  JQuerySource,
+  MarkdownSource,
+  MetamarketsSource,
+  RxJSSource,
+  ReactSource,
+  RubySource,
+  SassSource,
+  SketchSource,
+  TypeScriptSource,
+  VueSource,
+  WordpressSource,
 } from '../img/portfolio/technologies';
 
 class Technology {
@@ -27,83 +27,91 @@ class Technology {
 }
 
 export const AEM = new Technology(
-  AEMSvg,
+  AEMSource,
   'Adobe Experience Manager',
   'https://www.adobe.com/marketing/experience-manager.html'
 );
 
 export const An = new Technology(
-  AnSvg,
+  AnSource,
   'Adobe Animate',
   'https://www.adobe.com/products/animate.html'
 );
 
 export const Angular = new Technology(
-  AngularSvg,
+  AngularSource,
   'Angular',
   'https://angular.io/'
 );
 
 export const Css = new Technology(
-  CssSvg,
+  CssSource,
   'CSS',
   'https://developer.mozilla.org/en-US/docs/Web/CSS'
 );
 
 export const Javascript = new Technology(
-  JavascriptSvg,
+  JavascriptSource,
   'Javascript',
   'https://developer.mozilla.org/en-US/docs/Web/JavaScript'
 );
 
-export const Jest = new Technology(JestSvg, 'Jest', 'https://jestjs.io/');
+export const Jest = new Technology(JestSource, 'Jest', 'https://jestjs.io/');
 
 export const JQuery = new Technology(
-  JQuerySvg,
+  JQuerySource,
   'jQuery',
   'https://jquery.com/'
 );
 
 export const Markdown = new Technology(
-  MarkdownSvg,
+  MarkdownSource,
   'Markdown',
   'https://www.markdownguide.org/'
 );
 
 export const Metamarkets = new Technology(
-  MetamarketsSvg,
+  MetamarketsSource,
   'Metamarkets',
   'https://metamarkets.com/'
 );
 
-export const RxJS = new Technology(RxJSSvg, 'RxJS', 'https://rxjs.dev/');
+export const RxJS = new Technology(RxJSSource, 'RxJS', 'https://rxjs.dev/');
 
-export const React = new Technology(ReactSvg, 'React', 'https://reactjs.org/');
+export const React = new Technology(
+  ReactSource,
+  'React',
+  'https://reactjs.org/'
+);
 
 export const Ruby = new Technology(
-  RubySvg,
+  RubySource,
   'Ruby',
   'https://www.ruby-lang.org/en/'
 );
 
-export const Sass = new Technology(SassSvg, 'Sass', 'https://sass-lang.com/');
+export const Sass = new Technology(
+  SassSource,
+  'Sass',
+  'https://sass-lang.com/'
+);
 
 export const Sketch = new Technology(
-  SketchSvg,
+  SketchSource,
   'Sketch',
   'https://www.sketch.com/'
 );
 
 export const TypeScript = new Technology(
-  TypeScriptSvg,
+  TypeScriptSource,
   'TypeScript',
   'https://www.typescriptlang.org/'
 );
 
-export const Vue = new Technology(VueSvg, 'Vue', 'https://vuejs.org/');
+export const Vue = new Technology(VueSource, 'Vue', 'https://vuejs.org/');
 
 export const Wordpress = new Technology(
-  WordpressSvg,
+  WordpressSource,
   'Wordpress',
   'https://wordpress.com/'
 );
