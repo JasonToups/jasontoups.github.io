@@ -1,6 +1,11 @@
-import RickAndMortySvg from './rickAndMorty.svg';
-import CrushItSvg from './crushIt.svg';
-import ReactTubeSvg from './reactTube.svg';
-import MarkdownResumeSvg from './markdownResume.svg';
+import RickAndMortySource from './rickAndMorty.svg';
+import CrushItSource from './crushIt.svg';
+import ReactTubeSource from './reactTube.svg';
+import MarkdownResumeSource from './markdownResume.svg';
 
-export { RickAndMortySvg, CrushItSvg, ReactTubeSvg, MarkdownResumeSvg };
+export {
+  RickAndMortySource,
+  CrushItSource,
+  ReactTubeSource,
+  MarkdownResumeSource,
+};
