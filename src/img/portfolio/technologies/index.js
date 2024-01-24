@@ -1,37 +1,37 @@
-import AEMSvg from './adobe-experience-manager.svg';
-import AnSvg from './adobe-animate.svg';
-import AngularSvg from './angular.svg';
-import CssSvg from './css.svg';
-import JavascriptSvg from './javascript.svg';
-import JestSvg from './jest.svg';
-import JQuerySvg from './jquery.svg';
-import MarkdownSvg from './markdown.svg';
-import MetamarketsSvg from './metamarkets.svg';
-import RxJSSvg from './rxjs.svg';
-import ReactSvg from './react.svg';
-import RubySvg from './ruby.svg';
-import SassSvg from './sass.svg';
-import SketchSvg from './sketch.svg';
-import TypeScriptSvg from './typescript.svg';
-import VueSvg from './vue.svg';
-import WordpressSvg from './wordpress.svg';
+import AEMSource from './adobe-experience-manager.svg';
+import AnSource from './adobe-animate.svg';
+import AngularSource from './angular.svg';
+import CssSource from './css.svg';
+import JavascriptSource from './javascript.svg';
+import JestSource from './jest.svg';
+import JQuerySource from './jquery.svg';
+import MarkdownSource from './markdown.svg';
+import MetamarketsSource from './metamarkets.svg';
+import RxJSSource from './rxjs.svg';
+import ReactSource from './react.svg';
+import RubySource from './ruby.svg';
+import SassSource from './sass.svg';
+import SketchSource from './sketch.svg';
+import TypeScriptSource from './typescript.svg';
+import VueSource from './vue.svg';
+import WordpressSource from './wordpress.svg';
 
 export {
-  AEMSvg,
-  AnSvg,
-  AngularSvg,
-  CssSvg,
-  JavascriptSvg,
-  JestSvg,
-  JQuerySvg,
-  MarkdownSvg,
-  MetamarketsSvg,
-  RxJSSvg,
-  ReactSvg,
-  RubySvg,
-  SassSvg,
-  SketchSvg,
-  TypeScriptSvg,
-  VueSvg,
-  WordpressSvg,
+  AEMSource,
+  AnSource,
+  AngularSource,
+  CssSource,
+  JavascriptSource,
+  JestSource,
+  JQuerySource,
+  MarkdownSource,
+  MetamarketsSource,
+  RxJSSource,
+  ReactSource,
+  RubySource,
+  SassSource,
+  SketchSource,
+  TypeScriptSource,
+  VueSource,
+  WordpressSource,
 };
