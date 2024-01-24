@@ -1,7 +1,7 @@
 // Imports for the Hero Section
 import PortfolioLogo from '../img/portfolio/hero/hero-logo.svg';
 // Imports for the About Section
-import ProfilePic from '../img/portfolio/about/profile-pic-jason-toups-masked.png';
+import ProfilePic from './common/profilePicImageData.js';
 // Imports for the Experience Section
 import {
   Bill,
@@ -11,7 +11,6 @@ import {
   NewlyWords,
   WilliamsSonoma,
 } from './experience/experienceData.js';
-import { LightCircle, LightOval } from '../img/svg/lights/index.js';
 // Imports for the Projects Section
 import {
   CrushIt,
@@ -27,7 +26,7 @@ import {
   LinkedIn,
   GitHub,
   Email,
-} from '../img/portfolio/connect/index.js';
+} from './connect/connectImageData.js';
 
 export const headerData = {
   image: PortfolioLogo,
@@ -36,11 +35,7 @@ export const headerData = {
 };
 
 export const aboutData = {
-  profilePic: {
-    source: ProfilePic,
-    alt: 'Jason Toups Profile Pic',
-    className: 'profile-pic',
-  },
+  profilePic: ProfilePic,
   header: 'About Me',
   introduction:
     "Thanks for visiting. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.",
@@ -61,20 +56,6 @@ export const experienceData = {
     LifeStreet,
     Chartboost,
   ],
-  background: {
-    images: [
-      {
-        className: 'experience-background-svg',
-        source: LightCircle,
-        alt: 'Light Circle',
-      },
-      {
-        className: 'experience-background-svg',
-        source: LightOval,
-        alt: 'Light Oval',
-      },
-    ],
-  },
 };
 
 export const projectsData = {
@@ -84,45 +65,14 @@ export const projectsData = {
 
 export const connectData = {
   background: {
-    circle: {
-      source: ConnectCircle,
-      alt: 'Connect Circle Graphic',
-    },
-    card: {
-      source: ConnectCardBackground,
-      alt: 'Connect Card Graphic',
-    },
+    circle: ConnectCircle,
+    card: ConnectCardBackground,
   },
-  header: {
-    source: ConnectGraphic,
-    alt: 'Connect',
-  },
+  header: ConnectGraphic,
   subheader: 'Reach out',
   aside: 'let me help you',
-  profilePic: {
-    source: ProfilePic,
-    alt: 'Jason Toups Profile Pic',
-  },
-  icons: [
-    {
-      source: LinkedIn,
-      class: 'linkedin',
-      alt: 'linked in',
-      url: 'https://www.linkedin.com/in/jasontoups/',
-    },
-    {
-      source: GitHub,
-      class: 'github',
-      alt: 'git hub',
-      url: 'https://github.com/JasonToups',
-    },
-    {
-      source: Email,
-      class: 'email',
-      alt: 'envelope for email',
-      url: 'mailto:me@jasontoups.com',
-    },
-  ],
+  profilePic: ProfilePic,
+  icons: [LinkedIn, GitHub, Email],
   button: {
     text: 'view resume',
     type: 'button',
