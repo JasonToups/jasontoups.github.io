@@ -6,7 +6,6 @@ import {
   NewlyWordaSource,
   WilliamsSonomaSource,
 } from '../../img/portfolio/experience/index';
-import { LightCircle, LightOval } from '../../img/svg/lights/index.js';
 
 class ExperienceImage {
   constructor(source, alt, url) {
