@@ -1,8 +1,8 @@
 import {
-  CrushItSvg,
-  MarkdownResumeSvg,
-  ReactTubeSvg,
-  RickAndMortySvg,
+  CrushItSource,
+  MarkdownResumeSource,
+  ReactTubeSource,
+  RickAndMortySource,
 } from '../../img/portfolio/projects/index';
 
 class ProjectImage {
@@ -14,25 +14,25 @@ class ProjectImage {
 }
 
 export const CrushItImg = new ProjectImage(
-  CrushItSvg,
+  CrushItSource,
   'Crush It',
   'https://jasontoups.github.io/CrushIt'
 );
 
 export const MarkdownResumeImg = new ProjectImage(
-  MarkdownResumeSvg,
+  MarkdownResumeSource,
   'Markdown Resume',
   'https://github.com/JasonToups/markdown-resume'
 );
 
 export const ReactTubeImg = new ProjectImage(
-  ReactTubeSvg,
+  ReactTubeSource,
   'React Unsplash',
   'https://jasontoups.github.io/ouTube-React-Hooks'
 );
 
 export const RickAndMortyImg = new ProjectImage(
-  RickAndMortySvg,
+  RickAndMortySource,
   'rick and morty react character database',
   'https://jasontoups.ithub.io/rick-and-morty'
 );
