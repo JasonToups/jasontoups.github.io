@@ -275,7 +275,7 @@ export const workExperienceData = [
       },
       end: {
         month: 'Jan',
-        year: '2016',
+        year: '2017',
         present: false,
       },
     },
