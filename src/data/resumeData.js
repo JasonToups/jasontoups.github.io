@@ -31,12 +31,11 @@ export const technicalSkillsData = [
   {
     skillType: 'Programming',
     skillList: [
-      'Javascript',
       'Typescript',
+      'Tailwind',
+      'Python',
       'Angular',
       'React',
-      'React-Redux',
-      'React-Hooks',
       'Vue',
       'NodeJS',
       'RxJS',
@@ -44,7 +43,6 @@ export const technicalSkillsData = [
       'Shell',
       'HTML',
       'CSS',
-      'Sass',
       'JQuery',
       'Docker',
     ],
@@ -52,21 +50,62 @@ export const technicalSkillsData = [
   {
     skillType: 'Production',
     skillList: [
-      'Agile Development/Scrum Master',
-      'JIRA',
       'Git',
+      'GitHub Actions',
       'Software Releases',
-      'Affinity Designer',
+      'JIRA',
+      'UI/UX Design',
       'Figma',
+      'Affinity Designer',
       'Adobe Creative Suite',
       'Technical Documentation',
-      'UI/UX Design',
+      'Agile Development/Scrum Master',
       'A/B Testing',
     ],
   },
 ];
 
 export const workExperienceData = [
+  {
+    company: 'Dfinity',
+    title: 'Sr. Front End Engineer',
+    duration: {
+      start: {
+        month: 'Oct',
+        year: '2024',
+      },
+      end: {
+        month: 'Jul',
+        year: '2025',
+        present: false,
+      },
+    },
+    location: 'San Francisco',
+    remote: true,
+    description:
+      'DFINITY Foundation develops the Internet Computer, a decentralized cloud platform. Contributed to the launch of Caffeine AI, an AI-powered application platform enabling users to build applications through natural language workflows. Worked with NextJS, Typescript, and Tailwind on the Caffeine AI Team.',
+    jobTasks: [
+      'Played a key role in the public demo and launch of Caffeine, building production-grade applications from design through deployment.',
+      'Led platform-wide UI/UX Design System standardization across the App Marketplace and Core App, improving consistency and accessibility.',
+      'Engineered scalable React/TypeScript architecture with mobile-first and responsive design principles.',
+      'Developed 130 frontend templates used as structured training data for AI-assisted site generation.',
+      'Built AI workflows in Python using CrewAI and MCP servers to generate technical documentation and structured application templates.',
+      'Engineered a chat interface for interacting with Large Language Models.',
+      'Strengthened authentication flows and improved user experience across core platform surfaces.',
+    ],
+    technologies: [
+      'TypeScript',
+      'NextJS',
+      'React',
+      'Tailwind',
+      'Design Systems',
+      'Python',
+      'CrewAI',
+      'MCP Servers',
+      'Accessibility',
+      'Technical Documentation',
+    ],
+  },
   {
     company: 'Bill',
     title: 'Sr. Front End Engineer',
@@ -159,14 +198,7 @@ export const workExperienceData = [
       'Developed a design guide with classNameNames and partials, from the product design system, to build stylesheets which implemented reusable classNames and styles, reducing lines of code by 25%.',
       'Mentored a junior UI/UX designer by providing design advice, Figma help, and to think about user experience from our user’s perspective.',
     ],
-    technologies: [
-      'Javascript',
-      'React',
-      'React-Hooks',
-      'Ruby',
-      'Shell',
-      'Markdown',
-    ],
+    technologies: ['Javascript', 'React', 'React-Hooks', 'Ruby', 'Shell', 'Markdown'],
   },
   {
     company: 'Hawaii United Okinawa Association',
