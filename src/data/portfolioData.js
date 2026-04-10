@@ -37,7 +37,7 @@ export const aboutData = {
     "Thanks for visiting. I'm an engineer & designer, with over 15 years of software production experience; 7 years in Software Engineering, 12 years in QA and 3 years in UI/UX Design.",
   summary: 'I can engineer, design, & test new applications.',
   closer: [
-    'I’ve been working in Agile software production environments for over a decade. When working in a team environment, my task-tracking, written communication & documentation are unmatched.',
+    'Technology enriches our lives. I love creating new things and refining systems. Software Engineering and Design has enabled me to forge my own path, and build a better future.',
     'If you are looking for a unicorn that can do just about anything in the digital realm, you’ve found your engineer. 🦄👨‍💻✨',
   ],
 };
