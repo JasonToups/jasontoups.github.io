@@ -32,6 +32,25 @@ class Experience {
   }
 }
 
+export const Dfinity = new Experience(
+  {
+    name: 'Dfinity',
+    description: 'Blockchain Platform',
+    image: BillImg,
+  },
+  {
+    title: 'Sr. Frontend Engineer',
+    duration: 'Nov 2024 - July 2025',
+    description: [
+      'Worked with Angular & RxJS on the revenue-generating International Payments Team.',
+      'We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
+    ],
+    tech: {
+      className: `glass-background`,
+      images: [React, TypeScript, Tailwind, NextJS, CrewAI],
+    },
+  }
+);
 export const Bill = new Experience(
   {
     name: 'Bill',
@@ -55,8 +74,7 @@ export const Bill = new Experience(
 export const WilliamsSonoma = new Experience(
   {
     name: 'Williams Sonoma, Inc.',
-    description:
-      '6 eCommerce sites, including Williams Sonoma, West Elm, & Pottery Barn',
+    description: '6 eCommerce sites, including Williams Sonoma, West Elm, & Pottery Barn',
     image: WilliamsSonomaImg,
   },
   {
@@ -158,13 +176,6 @@ export const Chartboost = new Experience(
   }
 );
 
-const experienceData = [
-  Bill,
-  WilliamsSonoma,
-  NewlyWords,
-  Huoa,
-  LifeStreet,
-  Chartboost,
-];
+const experienceData = [Bill, WilliamsSonoma, NewlyWords, Huoa, LifeStreet, Chartboost];
 
 export default experienceData;
