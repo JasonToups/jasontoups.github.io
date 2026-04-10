@@ -15,11 +15,8 @@ class ExperienceImage {
   }
 }
 
-export const BillImg = new ExperienceImage(
-  BillSource,
-  'Bill.com',
-  'http://www.bill.com/'
-);
+export const DfinityImg = new ExperienceImage(BillSource, 'Dfinity.com', 'http://www.dfinity.com/');
+export const BillImg = new ExperienceImage(BillSource, 'Bill.com', 'http://www.bill.com/');
 
 export const ChartboostImg = new ExperienceImage(
   ChartboostSource,
