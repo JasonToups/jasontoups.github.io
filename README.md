@@ -1,6 +1,6 @@
 # Welcome
 
-Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Javascript, 12 years in QA and 3 years in UI/UX Design.
+Thanks for stopping by. I'm a React engineer & designer, with over 15 years of software production experience; 7 years in Software Engineering, 12 years in QA and 3 years in UI/UX Design.
 
 My specialty is working with React Hooks, Redux & Thunk; Designing Vector Graphics & Wireframing
 

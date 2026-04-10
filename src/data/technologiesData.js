@@ -10,6 +10,7 @@ import {
   MarkdownSource,
   MetamarketsSource,
   NextJSSource,
+  PythonSource,
   RxJSSource,
   ReactSource,
   RubySource,
@@ -49,7 +50,7 @@ export const Css = new Technology(
   'https://developer.mozilla.org/en-US/docs/Web/CSS'
 );
 export const CrewAI = new Technology(
-  CssSource,
+  CrewAISource,
   'CrewAI',
   'https://developer.mozilla.org/en-US/docs/Web/CSS'
 );
@@ -76,6 +77,10 @@ export const Metamarkets = new Technology(
   'https://metamarkets.com/'
 );
 
+export const NextJS = new Technology(NextJSSource, 'NextJS', 'https://nextjs.org/');
+
+export const Python = new Technology(PythonSource, 'Python', 'https://www.python.org/');
+
 export const RxJS = new Technology(RxJSSource, 'RxJS', 'https://rxjs.dev/');
 
 export const React = new Technology(ReactSource, 'React', 'https://reactjs.org/');
@@ -85,6 +90,8 @@ export const Ruby = new Technology(RubySource, 'Ruby', 'https://www.ruby-lang.or
 export const Sass = new Technology(SassSource, 'Sass', 'https://sass-lang.com/');
 
 export const Sketch = new Technology(SketchSource, 'Sketch', 'https://www.sketch.com/');
+
+export const Tailwind = new Technology(TailwindSource, 'Tailwind', 'https://tailwindcss.com/');
 
 export const TypeScript = new Technology(
   TypeScriptSource,
@@ -106,6 +113,7 @@ const technologiesData = [
   JQuery,
   Markdown,
   Metamarkets,
+  Python,
   RxJS,
   React,
   Ruby,

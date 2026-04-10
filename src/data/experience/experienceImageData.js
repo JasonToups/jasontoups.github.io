@@ -1,6 +1,7 @@
 import {
   BillSource,
   ChartboostSource,
+  DfinitySource,
   HuoaSource,
   LifeStreetSource,
   NewlyWordaSource,
@@ -15,7 +16,6 @@ class ExperienceImage {
   }
 }
 
-export const DfinityImg = new ExperienceImage(BillSource, 'Dfinity.com', 'http://www.dfinity.com/');
 export const BillImg = new ExperienceImage(BillSource, 'Bill.com', 'http://www.bill.com/');
 
 export const ChartboostImg = new ExperienceImage(
@@ -23,6 +23,8 @@ export const ChartboostImg = new ExperienceImage(
   'Chartboost',
   'https://www.chartboost.com/'
 );
+
+export const DfinityImg = new ExperienceImage(DfinitySource, 'Dfinity', 'https://www.dfinity.com');
 
 export const HuoaImg = new ExperienceImage(
   HuoaSource,
@@ -51,6 +53,7 @@ export const WilliamsSonomaImg = new ExperienceImage(
 const experienceImageData = {
   BillImg,
   ChartboostImg,
+  DfinityImg,
   HuoaImg,
   LifeStreetImg,
   NewlyWordsImg,

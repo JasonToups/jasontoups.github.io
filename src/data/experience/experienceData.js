@@ -1,6 +1,7 @@
 import {
   BillImg,
   ChartboostImg,
+  DfinityImg,
   HuoaImg,
   LifeStreetImg,
   NewlyWordsImg,
@@ -11,15 +12,19 @@ import {
   AEM,
   An,
   Angular,
+  CrewAI,
   Css,
   Javascript,
   Jest,
   Metamarkets,
+  NextJS,
+  Python,
   RxJS,
   React,
   Ruby,
   Sass,
   Sketch,
+  Tailwind,
   TypeScript,
   Vue,
   Wordpress,
@@ -36,18 +41,18 @@ export const Dfinity = new Experience(
   {
     name: 'Dfinity',
     description: 'Blockchain Platform',
-    image: BillImg,
+    image: DfinityImg,
   },
   {
     title: 'Sr. Frontend Engineer',
-    duration: 'Nov 2024 - July 2025',
+    duration: 'Oct 2024 - Jul 2025',
     description: [
-      'Worked with Angular & RxJS on the revenue-generating International Payments Team.',
-      'We retrofitted existing Domestic payment flows, and added International Payment functionality to them.',
+      'I helped demo & launch Caffeine, an AI-powered app platform that enables users to build production-ready applications through a chat interface.',
+      'I led the UI/UX Design System for the App Marketplace and Core App. Built AI-powered workflows (CrewAI, MCP) for structured template generation.',
     ],
     tech: {
       className: `glass-background`,
-      images: [React, TypeScript, Tailwind, NextJS, CrewAI],
+      images: [React, TypeScript, Tailwind, NextJS, Python, CrewAI],
     },
   }
 );
@@ -79,7 +84,7 @@ export const WilliamsSonoma = new Experience(
   },
   {
     title: 'Frontend Engineer',
-    duration: 'Apr 2021 - June 2022',
+    duration: 'Apr 2021 - Jun 2022',
     description: [
       'Worked with the Micro Front End team, transitioning Production pages from 6 brands, into a unified Vue project.',
       'Updated Vue Components including; Product Information pages for the Purchasing Component & Product Flags, Shop & Content pages.',
@@ -176,6 +181,6 @@ export const Chartboost = new Experience(
   }
 );
 
-const experienceData = [Bill, WilliamsSonoma, NewlyWords, Huoa, LifeStreet, Chartboost];
+const experienceData = [Dfinity, Bill, WilliamsSonoma, NewlyWords, Huoa, LifeStreet, Chartboost];
 
 export default experienceData;
