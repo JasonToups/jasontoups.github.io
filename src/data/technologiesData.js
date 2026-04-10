@@ -108,6 +108,7 @@ const technologiesData = [
   An,
   Angular,
   Css,
+  CrewAI,
   Javascript,
   Jest,
   JQuery,
